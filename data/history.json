@@ -1,0 +1,194 @@
+{
+  "_notes": [
+    "Series played before Champions 2026 between teams in the model (or vs. rated external teams).",
+    "Used for (1) Elo form updates and (2) head-to-head adjustments. 'maps' is optional; when present, each map nudges map-specific ratings.",
+    "Map score arrays are [team_a rounds, team_b rounds].",
+    "aggregate_h2h holds series records where individual matches were not itemised.",
+    "Dates marked approximate: Masters Santiago final (2026-03-15) and VCT China Stage 2 final (2026-08-31). They only affect recency weighting."
+  ],
+  "series": [
+    {
+      "date": "2026-03-15",
+      "event": "Masters Santiago - Grand Final",
+      "team_a": "Nongshim RedForce",
+      "team_b": "Paper Rex",
+      "score": [
+        3,
+        0
+      ],
+      "bo": 5
+    },
+    {
+      "date": "2026-06-21",
+      "event": "Masters London - Grand Final",
+      "team_a": "Leviatan",
+      "team_b": "Paper Rex",
+      "score": [
+        3,
+        2
+      ],
+      "bo": 5
+    },
+    {
+      "date": "2026-07-12",
+      "event": "Esports World Cup 2026 - Grand Final",
+      "team_a": "100 Thieves",
+      "team_b": "NRG",
+      "score": [
+        3,
+        1
+      ],
+      "bo": 5,
+      "maps": [
+        {
+          "map": "Breeze",
+          "score": [
+            13,
+            7
+          ]
+        },
+        {
+          "map": "Sunset",
+          "score": [
+            13,
+            6
+          ]
+        },
+        {
+          "map": "Haven",
+          "score": [
+            2,
+            13
+          ]
+        },
+        {
+          "map": "Ascent",
+          "score": [
+            14,
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-08-30",
+      "event": "VCT EMEA Stage 2 - Grand Final",
+      "team_a": "Karmine Corp",
+      "team_b": "Team Liquid",
+      "score": [
+        3,
+        1
+      ],
+      "bo": 5,
+      "maps": [
+        {
+          "map": "Sunset",
+          "score": [
+            13,
+            7
+          ]
+        },
+        {
+          "map": "Ascent",
+          "score": [
+            13,
+            6
+          ]
+        },
+        {
+          "map": "Lotus",
+          "score": [
+            7,
+            13
+          ]
+        },
+        {
+          "map": "Summit",
+          "score": [
+            13,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-08-31",
+      "event": "VCT China Stage 2 - Grand Final",
+      "team_a": "TYLOO",
+      "team_b": "JD Gaming",
+      "score": [
+        3,
+        1
+      ],
+      "bo": 5
+    },
+    {
+      "date": "2026-09-06",
+      "event": "VCT Americas Stage 2 - Grand Final",
+      "team_a": "100 Thieves",
+      "team_b": "LOUD",
+      "score": [
+        3,
+        2
+      ],
+      "bo": 5
+    },
+    {
+      "date": "2026-09-06",
+      "event": "VCT Pacific Stage 2 - Grand Final",
+      "team_a": "Global Esports",
+      "team_b": "Nongshim RedForce",
+      "score": [
+        3,
+        2
+      ],
+      "bo": 5,
+      "maps": [
+        {
+          "map": "Sunset",
+          "score": [
+            11,
+            13
+          ]
+        },
+        {
+          "map": "Split",
+          "score": [
+            2,
+            13
+          ]
+        },
+        {
+          "map": "Abyss",
+          "score": [
+            13,
+            10
+          ]
+        },
+        {
+          "map": "Lotus",
+          "score": [
+            13,
+            5
+          ]
+        },
+        {
+          "map": "Haven",
+          "score": [
+            13,
+            10
+          ]
+        }
+      ]
+    }
+  ],
+  "aggregate_h2h": [
+    {
+      "team_a": "Paper Rex",
+      "team_b": "G2 Esports",
+      "a_wins": 4,
+      "b_wins": 2,
+      "period": "VCT series before Champions 2026"
+    }
+  ]
+}

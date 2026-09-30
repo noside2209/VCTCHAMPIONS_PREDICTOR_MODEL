@@ -1,0 +1,341 @@
+<title>VCT Match Lab</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a single-column analyst console. A tab strip switches between the match lab, bracket, odds and team sheets. */
+:root {
+  --bg: #f2f4f6;
+  --surface: #ffffff;
+  --sunken: #e8ecf0;
+  --fg: #16212c;
+  --muted: #5b6b7a;
+  --line: #d3dae1;
+  --team-a: #d4531c;
+  --team-b: #2f6aa6;
+  --good: #2c8a57;
+  --locked: #7a5cc2;
+  --font-display: "Chakra Petch", "Segoe UI", system-ui, sans-serif;
+  --font-body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --radius: 6px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0e151c; --surface: #16202a; --sunken: #1d2934; --fg: #e4eaf0; --muted: #93a3b3;
+    --line: #2a3845; --team-a: #f07a44; --team-b: #6aa3dc; --good: #4cc083; --locked: #a58ce6;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0e151c; --surface: #16202a; --sunken: #1d2934; --fg: #e4eaf0; --muted: #93a3b3;
+  --line: #2a3845; --team-a: #f07a44; --team-b: #6aa3dc; --good: #4cc083; --locked: #a58ce6;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--fg); font-family: var(--font-body); font-size: 15px; line-height: 1.5; }
+.wrap { max-width: 1080px; margin: 0 auto; padding-inline: 16px; padding-block: 24px 48px; }
+h1, h2, h3 { font-family: var(--font-display); text-wrap: balance; margin: 0; letter-spacing: 0.01em; }
+h1 { font-size: 1.9rem; font-weight: 700; }
+h2 { font-size: 1.3rem; font-weight: 600; }
+h3 { font-size: 1.05rem; font-weight: 600; }
+.eyebrow { font-family: var(--font-mono); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--muted); }
+.mono, .num { font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
+header.top { display: flex; flex-wrap: wrap; gap: 8px 24px; align-items: end; justify-content: space-between; margin-bottom: 20px; }
+header.top p { margin: 4px 0 0; color: var(--muted); max-width: 60ch; }
+nav.tabs { display: flex; gap: 4px; border-bottom: 1px solid var(--line); margin-bottom: 24px; overflow-x: auto; }
+nav.tabs button { font: 600 0.95rem var(--font-display); background: none; border: 0; color: var(--muted); padding: 10px 14px; cursor: pointer; border-bottom: 3px solid transparent; white-space: nowrap; }
+nav.tabs button[aria-selected="true"] { color: var(--fg); border-bottom-color: var(--team-a); }
+button:focus-visible, select:focus-visible, summary:focus-visible { outline: 2px solid var(--team-b); outline-offset: 2px; }
+.controls { display: flex; flex-wrap: wrap; gap: 12px; align-items: end; margin-bottom: 20px; }
+.controls label { display: grid; gap: 4px; font-size: 0.8rem; color: var(--muted); }
+select { font: 500 0.95rem var(--font-body); padding: 8px 10px; border-radius: var(--radius); border: 1px solid var(--line); background: var(--surface); color: var(--fg); min-width: 0; max-width: 100%; }
+.seg { display: inline-flex; border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; }
+.seg button { font: 600 0.9rem var(--font-mono); padding: 8px 14px; border: 0; background: var(--surface); color: var(--muted); cursor: pointer; }
+.seg button[aria-pressed="true"] { background: var(--fg); color: var(--bg); }
+.btn { font: 600 0.9rem var(--font-body); padding: 8px 12px; border-radius: var(--radius); border: 1px solid var(--line); background: var(--surface); color: var(--fg); cursor: pointer; }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px; }
+.verdict { display: grid; gap: 16px; }
+.verdict .headline { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 14px; }
+.verdict .score { font: 700 2.6rem/1 var(--font-display); font-variant-numeric: tabular-nums; }
+.probbar { display: flex; height: 34px; border-radius: 4px; overflow: hidden; font: 600 0.85rem var(--font-mono); }
+.probbar div { display: flex; align-items: center; padding-inline: 10px; color: #fff; min-width: 0; white-space: nowrap; overflow: hidden; }
+.probbar .a { background: var(--team-a); }
+.probbar .b { background: var(--team-b); justify-content: flex-end; }
+.grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; margin-top: 16px; }
+.grid2 > * { min-width: 0; }
+.dist { display: grid; gap: 6px; }
+.dist .row { display: grid; grid-template-columns: 7.5em 1fr 3.8em; gap: 10px; align-items: center; font-size: 0.9rem; }
+.dist .track { height: 12px; background: var(--sunken); border-radius: 3px; overflow: hidden; }
+.dist .fill { height: 100%; }
+.dist .row.pick { font-weight: 600; }
+.veto { display: flex; flex-wrap: wrap; gap: 6px; list-style: none; padding: 0; margin: 0; }
+.veto li { font-size: 0.82rem; padding: 4px 8px; border-radius: 4px; border: 1px solid var(--line); display: flex; gap: 6px; align-items: center; }
+.veto .act { font-family: var(--font-mono); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; }
+.veto li.ban { color: var(--muted); }
+.veto li.ban .m { text-decoration: line-through; }
+.veto li.pick.a { border-color: var(--team-a); }
+.veto li.pick.b { border-color: var(--team-b); }
+.veto li.decider { background: var(--fg); color: var(--bg); border-color: var(--fg); }
+.tablewrap { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 0.9rem; }
+th { text-align: left; font: 500 0.72rem var(--font-mono); text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); padding: 8px 10px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+td { padding: 9px 10px; border-bottom: 1px solid var(--line); vertical-align: middle; }
+td.num, th.num { text-align: right; }
+.split { position: relative; height: 10px; background: var(--team-b); border-radius: 3px; overflow: hidden; min-width: 80px; }
+.split span { position: absolute; inset: 0 auto 0 0; background: var(--team-a); }
+.chip { display: inline-block; font: 600 0.72rem var(--font-mono); letter-spacing: 0.06em; padding: 2px 7px; border-radius: 3px; text-transform: uppercase; }
+.chip.locked { background: color-mix(in srgb, var(--locked) 18%, transparent); color: var(--locked); }
+.chip.pred { background: var(--sunken); color: var(--muted); }
+.tagA { color: var(--team-a); font-weight: 600; }
+.tagB { color: var(--team-b); font-weight: 600; }
+.note { color: var(--muted); font-size: 0.85rem; max-width: 70ch; }
+.stage { margin-top: 28px; display: grid; gap: 10px; }
+details.match { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
+details.match summary { list-style: none; cursor: pointer; display: grid; grid-template-columns: 7.5em 1fr auto; gap: 10px; align-items: center; padding: 10px 14px; }
+details.match summary::-webkit-details-marker { display: none; }
+details.match .body { padding: 0 14px 14px; }
+.teams-line { min-width: 0; overflow-wrap: anywhere; }
+.teams-line .w { font-weight: 600; }
+.teams-line .l { color: var(--muted); }
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; display: grid; gap: 10px; align-content: start; min-width: 0; }
+.card .head { display: flex; justify-content: space-between; gap: 8px; align-items: baseline; }
+.card .elo { font: 700 1.4rem var(--font-display); font-variant-numeric: tabular-nums; }
+.maps7 { display: grid; grid-template-columns: repeat(7, 1fr); gap: 3px; }
+.maps7 div { text-align: center; font-size: 0.68rem; padding: 5px 0; border-radius: 3px; font-family: var(--font-mono); }
+.maps7 b { display: block; font-weight: 500; font-size: 0.62rem; letter-spacing: 0.02em; opacity: 0.85; }
+.roster { display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: 0.88rem; }
+.roster span i { font-style: normal; color: var(--muted); font-family: var(--font-mono); font-size: 0.78rem; }
+.oddsbar { height: 10px; background: var(--sunken); border-radius: 3px; overflow: hidden; min-width: 60px; }
+.oddsbar span { display: block; height: 100%; background: var(--team-a); }
+@media (max-width: 560px) {
+  .verdict .score { font-size: 2rem; }
+  details.match summary { grid-template-columns: 1fr auto; }
+  details.match summary .sid { grid-column: 1 / -1; }
+  .maps7 b { font-size: 0.55rem; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .fill, .oddsbar span, .probbar div { transition: width 0.35s ease; }
+}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div>
+      <div class="eyebrow" id="ev-eyebrow">Model</div>
+      <h1>VCT Match Lab</h1>
+      <p id="ev-sub">Map-by-map predictions, vetoes and exact scores for the 16 Champions 2026 rosters.</p>
+    </div>
+    <div class="eyebrow" id="ev-asof"></div>
+  </header>
+
+  <nav class="tabs" role="tablist">
+    <button role="tab" id="tab-lab" aria-selected="true" data-view="lab">Match lab</button>
+    <button role="tab" id="tab-bracket" aria-selected="false" data-view="bracket">Champions bracket</button>
+    <button role="tab" id="tab-odds" aria-selected="false" data-view="odds">Title odds</button>
+    <button role="tab" id="tab-teams" aria-selected="false" data-view="teams">Teams</button>
+  </nav>
+
+  <section id="view-lab">
+    <div class="controls">
+      <label for="sel-a">Team A (starts veto)<select id="sel-a"></select></label>
+      <button class="btn" id="swap" type="button" aria-label="Swap teams">⇄ Swap</button>
+      <label for="sel-b">Team B<select id="sel-b"></select></label>
+      <div class="seg" role="group" aria-label="Series length" id="bo-seg">
+        <button type="button" data-bo="1" aria-pressed="false">Bo1</button>
+        <button type="button" data-bo="3" aria-pressed="true">Bo3</button>
+        <button type="button" data-bo="5" aria-pressed="false">Bo5</button>
+      </div>
+    </div>
+    <div id="lab-out"></div>
+    <p class="note" style="margin-top:16px">Match lab predictions assume a neutral venue and the current 7-map pool, so they work for any event these teams meet at. For a custom map pool or a home crowd, run <span class="mono">python -m vct_predictor match A B --pool … --home …</span>.</p>
+  </section>
+
+  <section id="view-bracket" hidden>
+    <p class="note">The most likely path through the event. Real results are locked in. Every remaining match shows the favourite with its single most likely exact score. Tap a match for its veto and map-by-map breakdown. Chinese teams get a small home-crowd bonus in Shanghai.</p>
+    <div id="bracket-out"></div>
+  </section>
+
+  <section id="view-odds" hidden>
+    <p class="note" id="odds-note"></p>
+    <div class="tablewrap panel" style="padding:8px 12px"><table id="odds-table"></table></div>
+  </section>
+
+  <section id="view-teams" hidden>
+    <p class="note">Rating = season prior + roster adjustment + form from logged results. Map cells are Elo offsets: orange means a comfort pick, blue means a likely ban. Player numbers are analyst estimates on a VLR-rating-like scale.</p>
+    <div class="cards" id="teams-out"></div>
+  </section>
+</div>
+
+<script>
+const DATA = /*__DATA__*/null;
+const TEAMS = DATA.teams;
+const T = Object.fromEntries(TEAMS.map(t => [t.name, t]));
+const tag = n => (T[n] ? T[n].tag : n);
+const pct = p => (100 * p).toFixed(1) + "%";
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[c]));
+
+function storeGet(k, d) { try { const v = localStorage.getItem(k); return v === null ? d : JSON.parse(v); } catch (e) { return d; } }
+function storeSet(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) { /* storage unavailable */ } }
+
+document.getElementById("ev-eyebrow").textContent = DATA.event.name + " · " + DATA.event.location;
+document.getElementById("ev-asof").textContent = "Data as of " + DATA.event.data_as_of;
+
+function renderSeries(d, opts = {}) {
+  const a = d.a, b = d.b;
+  const favA = d.pA >= 0.5;
+  const fav = favA ? a : b;
+  const ps = favA ? d.pred : [d.pred[1], d.pred[0]];
+  const pFav = favA ? d.pA : 1 - d.pA;
+  const dist = d.dist.map(([x, y, p]) => {
+    const win = x > y ? a : b;
+    const s = x > y ? `${x}-${y}` : `${y}-${x}`;
+    const isPick = x === d.pred[0] && y === d.pred[1];
+    return `<div class="row ${isPick ? "pick" : ""}"><span>${esc(tag(win))} ${s}</span>
+      <div class="track"><div class="fill" style="width:${(p * 100 / Math.max(...d.dist.map(r => r[2]))).toFixed(1)}%;background:var(${x > y ? "--team-a" : "--team-b"})"></div></div>
+      <span class="num" style="text-align:right">${pct(p)}</span></div>`;
+  }).join("");
+  const veto = d.veto.map(([team, act, m]) => {
+    const side = team === a ? "a" : team === b ? "b" : "";
+    if (act === "decider") return `<li class="decider"><span class="act">decider</span><span class="m">${esc(m)}</span></li>`;
+    return `<li class="${act} ${side}"><span class="act ${side === "a" ? "tagA" : "tagB"}">${esc(tag(team))} ${act}</span><span class="m">${esc(m)}</span></li>`;
+  }).join("");
+  const maps = d.maps.map((m, i) => {
+    const favM = m.pA >= 0.5 ? a : b;
+    const fs = m.pA >= 0.5 ? m.fav : [m.fav[1], m.fav[0]];
+    const by = m.by === "decider" ? "Decider" : tag(m.by);
+    return `<tr><td class="num">${i + 1}</td><td><strong>${esc(m.map)}</strong></td><td>${esc(by)}</td>
+      <td><div class="split" title="${esc(tag(a))} ${pct(m.pA)}"><span style="width:${(m.pA * 100).toFixed(1)}%"></span></div></td>
+      <td class="num">${pct(m.pA)}</td>
+      <td><span class="${favM === a ? "tagA" : "tagB"}">${esc(tag(favM))}</span> <span class="num">${fs[0]}-${fs[1]}</span></td>
+      <td class="num">${m.exp[0].toFixed(1)}–${m.exp[1].toFixed(1)}</td>
+      <td class="num">${pct(m.ot)}</td></tr>`;
+  }).join("");
+  const pool = Object.entries(d.pool).sort((x, y) => y[1] - x[1]).map(([m, p]) =>
+    `<tr><td>${esc(m)}</td><td style="width:60%"><div class="split"><span style="width:${(p * 100).toFixed(1)}%"></span></div></td><td class="num">${pct(p)}</td></tr>`).join("");
+  const recs = d.records && d.records.length
+    ? `<ul class="note" style="margin:6px 0 0;padding-left:18px">${d.records.map(r => `<li>${esc(r)}</li>`).join("")}</ul>`
+    : `<p class="note" style="margin:6px 0 0">No logged series between these teams.</p>`;
+  const h2h = Math.round(d.h2h) || 0;
+  return `
+  <div class="panel verdict">
+    ${opts.title ? `<div class="eyebrow">${esc(opts.title)}</div>` : ""}
+    <div class="headline">
+      <span class="score">${esc(fav)} ${ps[0]}-${ps[1]}</span>
+      <span class="note">Series win ${pct(pFav)} · this exact score ${pct(d.predP)} · Bo${d.bo}</span>
+    </div>
+    <div class="probbar" role="img" aria-label="${esc(a)} ${pct(d.pA)}, ${esc(b)} ${pct(1 - d.pA)}">
+      <div class="a" style="width:${(d.pA * 100).toFixed(1)}%">${esc(tag(a))} ${pct(d.pA)}</div>
+      <div class="b" style="width:${((1 - d.pA) * 100).toFixed(1)}%">${pct(1 - d.pA)} ${esc(tag(b))}</div>
+    </div>
+    <div>
+      <div class="eyebrow" style="margin-bottom:6px">Map veto · ${esc(tag(a))} starts</div>
+      <ol class="veto">${veto}</ol>
+    </div>
+    <div class="tablewrap"><table>
+      <thead><tr><th class="num">#</th><th>Map</th><th>Pick</th><th>${esc(tag(a))} vs ${esc(tag(b))}</th><th class="num">${esc(tag(a))} win</th><th>Predicted score</th><th class="num">Avg rounds</th><th class="num">OT</th></tr></thead>
+      <tbody>${maps}</tbody></table></div>
+  </div>
+  <div class="grid2">
+    <div class="panel"><h3>Series score odds</h3><div class="dist" style="margin-top:10px">${dist}</div></div>
+    <div class="panel"><h3>${esc(tag(a))} win chance on every map</h3>
+      <div class="tablewrap"><table style="margin-top:6px"><tbody>${pool}</tbody></table></div></div>
+    <div class="panel"><h3>Head-to-head</h3>
+      <p class="note" style="margin:6px 0 0">Rating edge from H2H: <span class="num">${h2h >= 0 ? "+" : ""}${h2h}</span> Elo for ${esc(a)}. Ratings ${T[a] ? T[a].elo.toFixed(0) : "?"} vs ${T[b] ? T[b].elo.toFixed(0) : "?"}.</p>
+      ${recs}</div>
+  </div>`;
+}
+
+/* ---------- Match lab ---------- */
+const selA = document.getElementById("sel-a"), selB = document.getElementById("sel-b");
+const opts = TEAMS.map(t => `<option value="${esc(t.name)}">${esc(t.name)} (${esc(t.tag)})</option>`).join("");
+selA.innerHTML = opts; selB.innerHTML = opts;
+const saved = storeGet("vct-lab", {a: "Paper Rex", b: "100 Thieves", bo: 5});
+selA.value = T[saved.a] ? saved.a : TEAMS[0].name;
+selB.value = T[saved.b] && saved.b !== selA.value ? saved.b : TEAMS[1].name;
+let bo = [1, 3, 5].includes(saved.bo) ? saved.bo : 3;
+
+function renderLab() {
+  if (selA.value === selB.value) {
+    const alt = TEAMS.find(t => t.name !== selA.value);
+    selB.value = alt.name;
+  }
+  document.querySelectorAll("#bo-seg button").forEach(btn => btn.setAttribute("aria-pressed", String(+btn.dataset.bo === bo)));
+  const d = DATA.matchups[`${selA.value}|${selB.value}|${bo}`];
+  document.getElementById("lab-out").innerHTML = renderSeries(d);
+  storeSet("vct-lab", {a: selA.value, b: selB.value, bo});
+}
+selA.addEventListener("change", renderLab);
+selB.addEventListener("change", renderLab);
+document.getElementById("swap").addEventListener("click", () => { const x = selA.value; selA.value = selB.value; selB.value = x; renderLab(); });
+document.querySelectorAll("#bo-seg button").forEach(btn => btn.addEventListener("click", () => { bo = +btn.dataset.bo; renderLab(); }));
+renderLab();
+
+/* ---------- Bracket ---------- */
+(function renderBracket() {
+  const stages = {};
+  DATA.bracket.forEach(m => {
+    const g = m.id.includes("-") ? "Group " + m.id.split("-")[0] : "Playoffs";
+    (stages[g] = stages[g] || []).push(m);
+  });
+  const champ = Object.entries(DATA.placement).find(([, p]) => p === "1st")[0];
+  let html = `<div class="panel" style="margin-top:12px"><div class="eyebrow">Predicted champion</div><h2 style="margin-top:4px">${esc(champ)}</h2></div>`;
+  for (const [name, list] of Object.entries(stages)) {
+    html += `<div class="stage"><h2>${esc(name)}</h2>`;
+    list.forEach(m => {
+      const aWin = m.winner === m.a;
+      const sc = aWin ? m.score : [m.score[1], m.score[0]];
+      const line = `<span class="${aWin ? "w" : "l"}">${esc(m.a)}</span> <span class="num">${m.score[0]}–${m.score[1]}</span> <span class="${aWin ? "l" : "w"}">${esc(m.b)}</span>`;
+      const chip = m.locked ? `<span class="chip locked">Final</span>` : `<span class="chip pred">Bo${m.bo}</span>`;
+      const body = m.detail ? `<div class="body">${renderSeries(m.detail)}</div>` : `<div class="body note">Real result: ${esc(m.winner)} won ${sc[0]}-${sc[1]}.</div>`;
+      html += `<details class="match"><summary><span class="eyebrow sid">${esc(m.stage.replace(/^Group [A-D] /, ""))}</span><span class="teams-line">${line}</span>${chip}</summary>${body}</details>`;
+    });
+    html += `</div>`;
+  }
+  document.getElementById("bracket-out").innerHTML = html;
+})();
+
+/* ---------- Odds ---------- */
+(function renderOdds() {
+  document.getElementById("odds-note").textContent =
+    `${DATA.sims.toLocaleString()} Monte Carlo runs of the rest of Champions 2026, with completed results locked in.`;
+  const rows = Object.entries(DATA.odds).sort((x, y) => y[1].win - x[1].win || y[1].playoffs - x[1].playoffs);
+  const cell = p => `<td class="num">${pct(p)}</td>`;
+  const bar = p => `<td style="width:22%"><div class="oddsbar"><span style="width:${(p * 100 / rows[0][1].win).toFixed(1)}%"></span></div></td>`;
+  document.getElementById("odds-table").innerHTML =
+    `<thead><tr><th>Team</th><th class="num">Playoffs</th><th class="num">Top 4</th><th class="num">Final</th><th class="num">Title</th><th></th></tr></thead><tbody>` +
+    rows.map(([n, v]) => `<tr><td><strong>${esc(n)}</strong> <span class="note">${esc(T[n].region)}</span></td>${cell(v.playoffs)}${cell(v.top4)}${cell(v.final)}<td class="num"><strong>${pct(v.win)}</strong></td>${bar(v.win)}</tr>`).join("") +
+    `</tbody>`;
+})();
+
+/* ---------- Teams ---------- */
+(function renderTeams() {
+  const pool = DATA.event.map_pool;
+  document.getElementById("teams-out").innerHTML = TEAMS.map((t, i) => {
+    const cells = pool.map(m => {
+      const v = t.maps[m];
+      const alpha = Math.min(Math.abs(v) / 60, 1) * 55;
+      const col = v >= 0 ? "--team-a" : "--team-b";
+      return `<div style="background:color-mix(in srgb, var(${col}) ${alpha.toFixed(0)}%, var(--sunken))"><b>${esc(m.slice(0, 3))}</b>${v > 0 ? "+" : ""}${v.toFixed(0)}</div>`;
+    }).join("");
+    return `<article class="card">
+      <div class="head"><div><div class="eyebrow">#${i + 1} · ${esc(t.seed)}</div><h3>${esc(t.name)}</h3></div><div class="elo">${t.elo.toFixed(0)}</div></div>
+      <div class="note mono">prior ${t.prior.toFixed(0)} · roster ${t.roster >= 0 ? "+" : ""}${t.roster.toFixed(0)} · form ${t.form >= 0 ? "+" : ""}${t.form.toFixed(0)}</div>
+      <div class="roster">${t.players.map(([n, v]) => `<span>${esc(n)} <i>${v.toFixed(2)}</i></span>`).join("")}</div>
+      <div class="maps7">${cells}</div>
+      ${t.resume.length ? `<div class="note">${t.resume.map(esc).join(" · ")}</div>` : ""}
+    </article>`;
+  }).join("");
+})();
+
+/* ---------- Tabs ---------- */
+function show(view) {
+  document.querySelectorAll("nav.tabs button").forEach(b => b.setAttribute("aria-selected", String(b.dataset.view === view)));
+  ["lab", "bracket", "odds", "teams"].forEach(v => { document.getElementById("view-" + v).hidden = v !== view; });
+  storeSet("vct-tab", view);
+}
+document.querySelectorAll("nav.tabs button").forEach(b => b.addEventListener("click", () => show(b.dataset.view)));
+const hash = (location.hash || "").slice(1);
+show(["lab", "bracket", "odds", "teams"].includes(hash) ? hash : storeGet("vct-tab", "lab"));
+</script>

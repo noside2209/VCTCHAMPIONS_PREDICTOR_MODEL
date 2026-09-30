@@ -1,0 +1,189 @@
+{
+  "_notes": [
+    "prior_elo: season-long strength prior built from 2026 results (Kickoff/Masters/Stage 2/EWC placements). The model then applies Elo form updates from data/history.json and data/champions_results.json.",
+    "map_delta: map-specific Elo offsets (Abyss, Ascent, Haven, Lotus, Split, Summit, Sunset), set from known picks/bans and map results. Positive = comfort pick, strongly negative = likely permaban. Map results logged in history also nudge these.",
+    "players[].impact: estimated individual impact on a VLR-rating-like scale (1.00 = average VCT starter). These are ANALYST ESTIMATES, not scraped stats. Edit freely."
+  ],
+  "teams": [
+    {
+      "name": "100 Thieves", "tag": "100T", "region": "Americas", "seed": "Americas #1",
+      "prior_elo": 1850,
+      "players": [
+        {"name": "Asuna", "impact": 1.18}, {"name": "bang", "impact": 1.02},
+        {"name": "Cryocells", "impact": 1.14}, {"name": "vora", "impact": 1.03},
+        {"name": "Timotino", "impact": 1.05}
+      ],
+      "map_delta": {"Abyss": -10, "Ascent": 30, "Haven": -35, "Lotus": 10, "Split": 10, "Summit": 5, "Sunset": 45},
+      "resume_2026": ["Esports World Cup 2026 champion (3-1 vs NRG)", "VCT Americas Stage 2 champion (3-2 vs LOUD)"]
+    },
+    {
+      "name": "LOUD", "tag": "LOUD", "region": "Americas", "seed": "Americas #2",
+      "prior_elo": 1805,
+      "players": [
+        {"name": "Darker", "impact": 1.06}, {"name": "DaviH", "impact": 1.04},
+        {"name": "lukxo", "impact": 1.07}, {"name": "erde", "impact": 1.01},
+        {"name": "tkzin", "impact": 1.03}
+      ],
+      "map_delta": {"Abyss": 0, "Ascent": 20, "Haven": 25, "Lotus": 10, "Split": 15, "Summit": -15, "Sunset": 20},
+      "resume_2026": ["VCT Americas Stage 2 runner-up (2-3 vs 100T)"]
+    },
+    {
+      "name": "NRG", "tag": "NRG", "region": "Americas", "seed": "Americas #3",
+      "prior_elo": 1845,
+      "players": [
+        {"name": "brawk", "impact": 1.07}, {"name": "mada", "impact": 1.12},
+        {"name": "skuba", "impact": 1.05}, {"name": "Ethan", "impact": 1.03},
+        {"name": "keiko", "impact": 1.08}
+      ],
+      "map_delta": {"Abyss": 5, "Ascent": -5, "Haven": 50, "Lotus": 20, "Split": 10, "Summit": 25, "Sunset": 0},
+      "resume_2026": ["Reigning world champions (Champions 2025)", "Esports World Cup 2026 runner-up", "Masters London 9-10th"]
+    },
+    {
+      "name": "G2 Esports", "tag": "G2", "region": "Americas", "seed": "Americas #4",
+      "prior_elo": 1790,
+      "players": [
+        {"name": "BABYBAY", "impact": 1.06}, {"name": "valyn", "impact": 1.00},
+        {"name": "jawgemo", "impact": 1.07}, {"name": "leaf", "impact": 1.08},
+        {"name": "trent", "impact": 1.03}
+      ],
+      "map_delta": {"Abyss": 5, "Ascent": 10, "Haven": -5, "Lotus": 0, "Split": 40, "Summit": 5, "Sunset": 20},
+      "resume_2026": ["Masters London 7-8th"]
+    },
+    {
+      "name": "Karmine Corp", "tag": "KC", "region": "EMEA", "seed": "EMEA #1",
+      "prior_elo": 1810,
+      "players": [
+        {"name": "SUYGETSU", "impact": 1.07}, {"name": "Avez", "impact": 1.04},
+        {"name": "dos9", "impact": 1.03}, {"name": "LewN", "impact": 1.06},
+        {"name": "N4RRATE", "impact": 1.08}
+      ],
+      "map_delta": {"Abyss": -5, "Ascent": 30, "Haven": -10, "Lotus": -30, "Split": 10, "Summit": 30, "Sunset": 40},
+      "resume_2026": ["VCT EMEA Stage 2 champion (3-1 vs Team Liquid) - first VCT trophy in org history"]
+    },
+    {
+      "name": "Team Liquid", "tag": "TL", "region": "EMEA", "seed": "EMEA #2",
+      "prior_elo": 1790,
+      "players": [
+        {"name": "nAts", "impact": 1.03}, {"name": "trexx", "impact": 1.04},
+        {"name": "Kicks", "impact": 1.02}, {"name": "kamo", "impact": 1.07},
+        {"name": "GSR", "impact": 1.03}
+      ],
+      "map_delta": {"Abyss": 10, "Ascent": -10, "Haven": 30, "Lotus": 40, "Split": 15, "Summit": -10, "Sunset": -25},
+      "resume_2026": ["VCT EMEA Stage 2 runner-up (1-3 vs KC)"]
+    },
+    {
+      "name": "FUT Esports", "tag": "FUT", "region": "EMEA", "seed": "EMEA #3",
+      "prior_elo": 1780,
+      "players": [
+        {"name": "sociablEE", "impact": 1.04}, {"name": "yetujey", "impact": 1.03},
+        {"name": "xeus", "impact": 1.06}, {"name": "KROSTALY", "impact": 1.05},
+        {"name": "s0pp", "impact": 1.00}
+      ],
+      "map_delta": {"Abyss": 20, "Ascent": 15, "Haven": 20, "Lotus": 10, "Split": 25, "Summit": -5, "Sunset": 0},
+      "resume_2026": ["Masters London 5-6th"]
+    },
+    {
+      "name": "Team Vitality", "tag": "VIT", "region": "EMEA", "seed": "EMEA #4",
+      "prior_elo": 1795,
+      "players": [
+        {"name": "Chronicle", "impact": 1.04}, {"name": "Derke", "impact": 1.10},
+        {"name": "PROFEK", "impact": 1.05}, {"name": "Jamppi", "impact": 1.04},
+        {"name": "Sayonara", "impact": 1.05}
+      ],
+      "map_delta": {"Abyss": 15, "Ascent": 20, "Haven": 10, "Lotus": 5, "Split": 10, "Summit": 20, "Sunset": -10},
+      "resume_2026": ["Masters London 4th"]
+    },
+    {
+      "name": "Global Esports", "tag": "GE", "region": "Pacific", "seed": "Pacific #1",
+      "prior_elo": 1790,
+      "players": [
+        {"name": "Autumn", "impact": 1.04}, {"name": "UdoTan", "impact": 1.07},
+        {"name": "Kr1stal", "impact": 1.06}, {"name": "xavi8k", "impact": 1.03},
+        {"name": "PatMen", "impact": 1.04}
+      ],
+      "map_delta": {"Abyss": 35, "Ascent": 5, "Haven": 25, "Lotus": 30, "Split": -30, "Summit": 10, "Sunset": -20},
+      "resume_2026": ["VCT Pacific Stage 2 champion (3-2 reverse sweep vs NS)", "Masters London 9-10th"]
+    },
+    {
+      "name": "Nongshim RedForce", "tag": "NS", "region": "Pacific", "seed": "Pacific #2",
+      "prior_elo": 1835,
+      "players": [
+        {"name": "Rb", "impact": 1.06}, {"name": "Dambi", "impact": 1.09},
+        {"name": "Francis", "impact": 1.05}, {"name": "Ivy", "impact": 1.07},
+        {"name": "Xross", "impact": 1.05}
+      ],
+      "map_delta": {"Abyss": -20, "Ascent": 15, "Haven": 10, "Lotus": 10, "Split": 45, "Summit": 0, "Sunset": 35},
+      "resume_2026": ["Masters Santiago champion (3-0 vs PRX)", "VCT Pacific Stage 2 runner-up (2-3 vs GE)"]
+    },
+    {
+      "name": "Paper Rex", "tag": "PRX", "region": "Pacific", "seed": "Pacific #3",
+      "prior_elo": 1860,
+      "players": [
+        {"name": "something", "impact": 1.22}, {"name": "f0rsakeN", "impact": 1.10},
+        {"name": "Jinggg", "impact": 1.08}, {"name": "d4v41", "impact": 1.04},
+        {"name": "invy", "impact": 1.05}
+      ],
+      "map_delta": {"Abyss": 10, "Ascent": 45, "Haven": 25, "Lotus": 40, "Split": -30, "Summit": 0, "Sunset": 10},
+      "resume_2026": ["Masters Santiago runner-up", "Masters London runner-up (2-3 vs Leviatan)", "Top-ranked player at Champions (something)"]
+    },
+    {
+      "name": "T1", "tag": "T1", "region": "Pacific", "seed": "Pacific #4",
+      "prior_elo": 1760,
+      "players": [
+        {"name": "stax", "impact": 0.98}, {"name": "BuZz", "impact": 1.06},
+        {"name": "Munchkin", "impact": 1.01}, {"name": "Meteor", "impact": 1.05},
+        {"name": "iZu", "impact": 1.06}
+      ],
+      "map_delta": {"Abyss": 10, "Ascent": 15, "Haven": 20, "Lotus": -10, "Split": 10, "Summit": -20, "Sunset": 15},
+      "resume_2026": ["Qualified via Championship Points"]
+    },
+    {
+      "name": "TYLOO", "tag": "TYL", "region": "China", "seed": "China #1",
+      "prior_elo": 1760,
+      "players": [
+        {"name": "SiuFatBB", "impact": 1.04}, {"name": "splash", "impact": 1.03},
+        {"name": "Scales", "impact": 1.02}, {"name": "slowly", "impact": 1.05},
+        {"name": "Erv", "impact": 1.03}
+      ],
+      "map_delta": {"Abyss": 15, "Ascent": 10, "Haven": 15, "Lotus": 10, "Split": -20, "Summit": 20, "Sunset": 0},
+      "resume_2026": ["VCT China Stage 2 champion (3-1 vs JDG)"]
+    },
+    {
+      "name": "JD Gaming", "tag": "JDG", "region": "China", "seed": "China #2",
+      "prior_elo": 1750,
+      "players": [
+        {"name": "jkuro", "impact": 1.02}, {"name": "BerLIN", "impact": 1.03},
+        {"name": "Yuicaw", "impact": 1.02}, {"name": "zhe", "impact": 1.05},
+        {"name": "crownfisher", "impact": 1.01}
+      ],
+      "map_delta": {"Abyss": -10, "Ascent": 15, "Haven": 20, "Lotus": 10, "Split": 10, "Summit": 10, "Sunset": -15},
+      "resume_2026": ["VCT China Stage 2 runner-up (1-3 vs TYLOO)"]
+    },
+    {
+      "name": "EDward Gaming", "tag": "EDG", "region": "China", "seed": "China #3",
+      "prior_elo": 1780,
+      "players": [
+        {"name": "ZmjjKK", "impact": 1.10}, {"name": "nobody", "impact": 1.01},
+        {"name": "Smoggy", "impact": 1.03}, {"name": "CHICHOO", "impact": 1.04},
+        {"name": "stew", "impact": 1.02}
+      ],
+      "bench": ["Jieni7"],
+      "map_delta": {"Abyss": 10, "Ascent": 20, "Haven": 25, "Lotus": 20, "Split": 10, "Summit": 25, "Sunset": 5},
+      "resume_2026": ["Masters London 3rd"]
+    },
+    {
+      "name": "Xi Lai Gaming", "tag": "XLG", "region": "China", "seed": "China #4",
+      "prior_elo": 1755,
+      "players": [
+        {"name": "NoMan", "impact": 1.02}, {"name": "Rarga", "impact": 1.03},
+        {"name": "WsLeo", "impact": 1.00}, {"name": "Lysoar", "impact": 1.04},
+        {"name": "happywei", "impact": 1.02}
+      ],
+      "map_delta": {"Abyss": 0, "Ascent": 10, "Haven": 20, "Lotus": 15, "Split": 0, "Summit": 15, "Sunset": -10},
+      "resume_2026": ["Masters London 5-6th"]
+    }
+  ],
+  "external_teams": {
+    "Leviatan": 1850
+  }
+}

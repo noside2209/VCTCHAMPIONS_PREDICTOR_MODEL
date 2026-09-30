@@ -1,0 +1,37 @@
+{
+  "name": "VALORANT Champions 2026",
+  "location": "Shanghai, China",
+  "venue": "Jing'an Sports Centre (groups)",
+  "dates": {
+    "group_stage": "2026-09-24 to 2026-10-04",
+    "playoffs": "2026-10-07 to 2026-10-18"
+  },
+  "data_as_of": "2026-09-30",
+  "map_pool": ["Abyss", "Ascent", "Haven", "Lotus", "Split", "Summit", "Sunset"],
+  "map_pool_notes": {
+    "Abyss": "Returned to the pool right before Champions (replaced Breeze). Low recent practice volume for most teams, so map ratings are shrunk toward 0.",
+    "Summit": "New map released 2026-06-24 (Act 4). Droppable walls on A, B and Mid. Only ~3 months of pro data."
+  },
+  "host_region": "China",
+  "home_advantage_elo": 10,
+  "groups": {
+    "A": ["100 Thieves", "JD Gaming", "FUT Esports", "T1"],
+    "B": ["Global Esports", "LOUD", "EDward Gaming", "Team Vitality"],
+    "C": ["TYLOO", "Team Liquid", "Paper Rex", "G2 Esports"],
+    "D": ["Karmine Corp", "Nongshim RedForce", "NRG", "Xi Lai Gaming"]
+  },
+  "group_openers": {
+    "A": [["100 Thieves", "T1"], ["JD Gaming", "FUT Esports"]],
+    "B": [["Global Esports", "Team Vitality"], ["LOUD", "EDward Gaming"]],
+    "C": [["TYLOO", "G2 Esports"], ["Team Liquid", "Paper Rex"]],
+    "D": [["Karmine Corp", "Xi Lai Gaming"], ["Nongshim RedForce", "NRG"]]
+  },
+  "group_format": "GSL double elimination, all Bo3. Winners match winner = 1st seed, decider winner = 2nd seed.",
+  "playoff_format": "8-team double elimination. All Bo3 except Lower Bracket Final and Grand Final (Bo5).",
+  "playoff_seeding_note": "Exact cross-group quarterfinal pairings were not confirmed at data time. Default assumes group winners face runners-up from a different group (A1-C2, B1-D2, C1-A2, D1-B2). Edit 'playoff_upper_quarterfinals' to change.",
+  "playoff_upper_quarterfinals": [["A1", "C2"], ["B1", "D2"], ["C1", "A2"], ["D1", "B2"]],
+  "veto_format": {
+    "bo3": ["A_ban", "B_ban", "A_pick", "B_pick", "A_ban", "B_ban", "decider"],
+    "bo5": ["A_ban", "B_ban", "A_pick", "B_pick", "A_pick", "B_pick", "decider"]
+  }
+}

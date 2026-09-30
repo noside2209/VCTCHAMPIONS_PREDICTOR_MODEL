@@ -1,0 +1,33 @@
+{
+  "_notes": [
+    "Completed Champions 2026 series. Add results here as they happen; the tournament forecast locks them in and re-simulates everything else.",
+    "'match' ids: <Group>-opener1, <Group>-opener2, <Group>-winners, <Group>-elim, <Group>-decider, or playoff ids (UBQF1..4, UBSF1..2, UBF, LBR1_1..2, LBR2_1..2, LBR3, LBF, GF).",
+    "Map score arrays are [team_a rounds, team_b rounds]. Maps with unknown winners can be omitted."
+  ],
+  "series": [
+    {"match": "A-opener1", "date": "2026-09-24", "team_a": "100 Thieves", "team_b": "T1", "score": [2, 0]},
+    {"match": "A-opener2", "date": "2026-09-24", "team_a": "JD Gaming", "team_b": "FUT Esports", "score": [0, 2]},
+    {"match": "B-opener1", "date": "2026-09-25", "team_a": "Global Esports", "team_b": "Team Vitality", "score": [1, 2]},
+    {"match": "B-opener2", "date": "2026-09-26", "team_a": "LOUD", "team_b": "EDward Gaming", "score": [2, 0]},
+    {"match": "C-opener1", "date": "2026-09-26", "team_a": "TYLOO", "team_b": "G2 Esports", "score": [0, 2]},
+    {"match": "C-opener2", "date": "2026-09-25", "team_a": "Team Liquid", "team_b": "Paper Rex", "score": [1, 2],
+     "maps": [
+       {"map": "Ascent", "score": [4, 13]},
+       {"map": "Haven", "score": [13, 7]}
+     ]},
+    {"match": "D-opener1", "date": "2026-09-27", "team_a": "Karmine Corp", "team_b": "Xi Lai Gaming", "score": [2, 0]},
+    {"match": "D-opener2", "date": "2026-09-27", "team_a": "Nongshim RedForce", "team_b": "NRG", "score": [0, 2]},
+    {"match": "C-winners", "date": "2026-09-29", "team_a": "G2 Esports", "team_b": "Paper Rex", "score": [1, 2],
+     "maps": [
+       {"map": "Split", "score": [13, 9]},
+       {"map": "Haven", "score": [11, 13]},
+       {"map": "Lotus", "score": [9, 13]}
+     ]},
+    {"match": "D-winners", "date": "2026-09-29", "team_a": "Karmine Corp", "team_b": "NRG", "score": [1, 2],
+     "maps": [
+       {"map": "Ascent", "score": [13, 7]},
+       {"map": "Summit", "score": [11, 13]},
+       {"map": "Haven", "score": [9, 13]}
+     ]}
+  ]
+}
