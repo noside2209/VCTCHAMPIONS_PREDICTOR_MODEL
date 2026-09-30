@@ -12,10 +12,12 @@ from __future__ import annotations
 import math
 from functools import lru_cache
 
-ROUND_SD = 0.11  # calibrated so ~25-35% of maps are blowouts (loser <= 5) and ~10% go to OT
+ROUND_SD = 0.10  # calibrated so ~20-30% of maps are blowouts (loser <= 5), ~2-3% are 13-2 or worse, ~10% go to OT
 MAX_OT_PAIRS = 6  # 14-12 ... 19-17; longer OTs are lumped into the last bucket
-# Discretised standard normal (17 nodes on [-3, 3]) used to integrate over r.
-_Z_NODES = [-3.0 + 6.0 * i / 16 for i in range(17)]
+# Map-to-map form swing: standard normal truncated at +/-2.5 sd (no freak 13-0 flips of a whole matchup),
+# discretised on 21 nodes to integrate over r.
+Z_CAP = 2.5
+_Z_NODES = [-Z_CAP + 2 * Z_CAP * i / 20 for i in range(21)]
 _Z_WEIGHTS = [math.exp(-x * x / 2) for x in _Z_NODES]
 _Z_WEIGHTS = [w / sum(_Z_WEIGHTS) for w in _Z_WEIGHTS]
 
@@ -98,7 +100,8 @@ def _dist_for_p(p_rounded: float) -> tuple[tuple[tuple[int, int], float], ...]:
 
 def sample_score(p_map: float, rng) -> tuple[int, int]:
     """Play one map round by round: draw this map's round win rate, then play to 13 (win by 2 in OT)."""
-    r = min(max(r0_for_p(p_map) + ROUND_SD * rng.gauss(0, 1), 0.02), 0.98)
+    z = max(-Z_CAP, min(Z_CAP, rng.gauss(0, 1)))
+    r = min(max(r0_for_p(p_map) + ROUND_SD * z, 0.02), 0.98)
     a = b = 0
     while True:
         if rng.random() < r:

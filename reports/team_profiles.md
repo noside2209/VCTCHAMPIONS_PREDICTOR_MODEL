@@ -4,7 +4,7 @@ Player impact values are analyst estimates on a VLR-rating-like scale (1.00 = av
 
 ## 100 Thieves (100T) — Americas #1
 
-Rating **1882** (prior 1850, roster +18.2, form +13.9)
+Rating **1879** (prior 1850, roster +18.2, form +11.0)
 
 | Player | Role | IGL | Impact | Agent pool | Role info |
 |---|---|---|---|---|---|
@@ -36,7 +36,7 @@ Logged series: 2026-07-12 Esports World Cup 2026 - Grand Final: 100 Thieves 3-1 
 
 ## Paper Rex (PRX) — Pacific #3
 
-Rating **1880** (prior 1860, roster +26.4, form -6.4)
+Rating **1876** (prior 1860, roster +26.4, form -10.2)
 
 | Player | Role | IGL | Impact | Agent pool | Role info |
 |---|---|---|---|---|---|
@@ -62,13 +62,13 @@ Map ratings (Elo offset):
 
 | Abyss | Ascent | Haven | Lotus | Split | Summit | Sunset |
 |---|---|---|---|---|---|---|
-| +6 | +47 | +23 | +43 | -34 | +0 | +10 |
+| +6 | +47 | +22 | +42 | -34 | +0 | +10 |
 
 Logged series: 2026-03-15 Masters Santiago - Grand Final: Nongshim RedForce 3-0 Paper Rex; 2026-06-21 Masters London - Grand Final: Leviatan 3-2 Paper Rex; 2026-09-25 C-opener2: Team Liquid 1-2 Paper Rex; 2026-09-29 C-winners: G2 Esports 1-2 Paper Rex
 
 ## NRG (NRG) — Americas #3
 
-Rating **1865** (prior 1845, roster +8.0, form +12.1)
+Rating **1864** (prior 1845, roster +8.0, form +11.2)
 
 | Player | Role | IGL | Impact | Agent pool | Role info |
 |---|---|---|---|---|---|
@@ -100,7 +100,7 @@ Logged series: 2026-07-12 Esports World Cup 2026 - Grand Final: 100 Thieves 3-1 
 
 ## Karmine Corp (KC) — EMEA #1
 
-Rating **1825** (prior 1810, roster +1.8, form +13.4)
+Rating **1824** (prior 1810, roster +1.8, form +12.4)
 
 | Player | Role | IGL | Impact | Agent pool | Role info |
 |---|---|---|---|---|---|
@@ -126,13 +126,13 @@ Map ratings (Elo offset):
 
 | Abyss | Ascent | Haven | Lotus | Split | Summit | Sunset |
 |---|---|---|---|---|---|---|
-| -3 | +37 | -13 | -33 | +10 | +24 | +42 |
+| -3 | +36 | -13 | -33 | +10 | +24 | +42 |
 
 Logged series: 2026-08-30 VCT EMEA Stage 2 - Grand Final: Karmine Corp 3-1 Team Liquid; 2026-09-27 D-opener1: Karmine Corp 2-0 Xi Lai Gaming; 2026-09-29 D-winners: Karmine Corp 1-2 NRG
 
 ## Nongshim RedForce (NS) — Pacific #2
 
-Rating **1822** (prior 1835, roster +4.2, form -17.5)
+Rating **1821** (prior 1835, roster +4.2, form -18.6)
 
 | Player | Role | IGL | Impact | Agent pool | Role info |
 |---|---|---|---|---|---|
@@ -164,7 +164,7 @@ Logged series: 2026-03-15 Masters Santiago - Grand Final: Nongshim RedForce 3-0 
 
 ## LOUD (LOUD) — Americas #2
 
-Rating **1816** (prior 1805, roster -2.4, form +13.1)
+Rating **1817** (prior 1805, roster -2.4, form +14.0)
 
 | Player | Role | IGL | Impact | Agent pool | Role info |
 |---|---|---|---|---|---|
@@ -196,7 +196,7 @@ Logged series: 2026-09-06 VCT Americas Stage 2 - Grand Final: 100 Thieves 3-2 LO
 
 ## Team Vitality (VIT) — EMEA #4
 
-Rating **1804** (prior 1795, roster +1.8, form +7.2)
+Rating **1804** (prior 1795, roster +1.8, form +7.4)
 
 | Player | Role | IGL | Impact | Agent pool | Role info |
 |---|---|---|---|---|---|
@@ -228,7 +228,7 @@ Logged series: 2026-09-25 B-opener1: Global Esports 1-2 Team Vitality
 
 ## G2 Esports (G2) — Americas #4
 
-Rating **1799** (prior 1790, roster -0.6, form +9.3)
+Rating **1799** (prior 1790, roster -0.6, form +9.9)
 
 | Player | Role | IGL | Impact | Agent pool | Role info |
 |---|---|---|---|---|---|
@@ -254,13 +254,13 @@ Map ratings (Elo offset):
 
 | Abyss | Ascent | Haven | Lotus | Split | Summit | Sunset |
 |---|---|---|---|---|---|---|
-| +3 | +10 | -8 | -3 | +44 | +4 | +20 |
+| +3 | +10 | -8 | -2 | +44 | +4 | +20 |
 
 Logged series: 2026-09-26 C-opener1: TYLOO 0-2 G2 Esports; 2026-09-29 C-winners: G2 Esports 1-2 Paper Rex
 
 ## Global Esports (GE) — Pacific #1
 
-Rating **1792** (prior 1790, roster -0.6, form +2.6)
+Rating **1793** (prior 1790, roster -0.6, form +4.0)
 
 | Player | Role | IGL | Impact | Agent pool | Role info |
 |---|---|---|---|---|---|
@@ -292,7 +292,7 @@ Logged series: 2026-09-06 VCT Pacific Stage 2 - Grand Final: Global Esports 3-2 
 
 ## FUT Esports (FUT) — EMEA #3
 
-Rating **1788** (prior 1780, roster -4.2, form +11.7)
+Rating **1787** (prior 1780, roster -4.2, form +11.2)
 
 | Player | Role | IGL | Impact | Agent pool | Role info |
 |---|---|---|---|---|---|
@@ -324,7 +324,7 @@ Logged series: 2026-09-24 A-opener2: JD Gaming 0-2 FUT Esports
 
 ## Team Liquid (TL) — EMEA #2
 
-Rating **1779** (prior 1790, roster -3.6, form -7.1)
+Rating **1782** (prior 1790, roster -3.6, form -4.0)
 
 | Player | Role | IGL | Impact | Agent pool | Role info |
 |---|---|---|---|---|---|
@@ -350,13 +350,13 @@ Map ratings (Elo offset):
 
 | Abyss | Ascent | Haven | Lotus | Split | Summit | Sunset |
 |---|---|---|---|---|---|---|
-| +6 | -15 | +35 | +43 | +15 | -11 | -27 |
+| +6 | -14 | +35 | +43 | +15 | -11 | -27 |
 
 Logged series: 2026-08-30 VCT EMEA Stage 2 - Grand Final: Karmine Corp 3-1 Team Liquid; 2026-09-25 C-opener2: Team Liquid 1-2 Paper Rex
 
 ## EDward Gaming (EDG) — China #3
 
-Rating **1765** (prior 1780, roster -3.0, form -12.4)
+Rating **1765** (prior 1780, roster -3.0, form -11.9)
 
 | Player | Role | IGL | Impact | Agent pool | Role info |
 |---|---|---|---|---|---|
@@ -422,7 +422,7 @@ Logged series: 2026-08-31 VCT China Stage 2 - Grand Final: TYLOO 3-1 JD Gaming; 
 
 ## T1 (T1) — Pacific #4
 
-Rating **1746** (prior 1760, roster -5.4, form -8.9)
+Rating **1747** (prior 1760, roster -5.4, form -7.7)
 
 | Player | Role | IGL | Impact | Agent pool | Role info |
 |---|---|---|---|---|---|
@@ -454,7 +454,7 @@ Logged series: 2026-09-24 A-opener1: 100 Thieves 2-0 T1
 
 ## Xi Lai Gaming (XLG) — China #4
 
-Rating **1736** (prior 1755, roster -8.4, form -10.7)
+Rating **1737** (prior 1755, roster -8.4, form -9.8)
 
 | Player | Role | IGL | Impact | Agent pool | Role info |
 |---|---|---|---|---|---|
@@ -486,7 +486,7 @@ Logged series: 2026-09-27 D-opener1: Karmine Corp 2-0 Xi Lai Gaming
 
 ## JD Gaming (JDG) — China #2
 
-Rating **1724** (prior 1750, roster -7.2, form -19.0)
+Rating **1725** (prior 1750, roster -7.2, form -18.0)
 
 | Player | Role | IGL | Impact | Agent pool | Role info |
 |---|---|---|---|---|---|

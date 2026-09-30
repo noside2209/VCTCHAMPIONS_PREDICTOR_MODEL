@@ -16,7 +16,7 @@ from typing import Callable
 
 # In simulations a team does not always make the "optimal" call: choices are sampled with
 # weight exp(value / VETO_TEMPERATURE), so near-equal maps swap often and clear calls rarely change.
-VETO_TEMPERATURE = 0.03
+VETO_TEMPERATURE = 0.012  # teams keep their permaban/comfort pick most of the time
 
 
 @dataclass

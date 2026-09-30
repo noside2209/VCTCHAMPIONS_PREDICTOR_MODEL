@@ -392,7 +392,8 @@ const POOL = DATA.event.map_pool;
 function gauss() { let u = 0, v = 0; while (!u) u = Math.random(); while (!v) v = Math.random(); return Math.sqrt(-2 * Math.log(u)) * Math.cos(2 * Math.PI * v); }
 function r0For(p) { const x = Math.min(Math.max(p, 0), 1) * 100, i = Math.min(Math.floor(x), 99), f = x - i; return SIM.r0[i] * (1 - f) + SIM.r0[i + 1] * f; }
 function sampleScore(p) {
-  const r = Math.min(Math.max(r0For(p) + SIM.sd * gauss(), 0.02), 0.98);
+  const z = Math.max(-SIM.zcap, Math.min(SIM.zcap, gauss()));
+  const r = Math.min(Math.max(r0For(p) + SIM.sd * z, 0.02), 0.98);
   let a = 0, b = 0;
   while (true) { if (Math.random() < r) a++; else b++; if (Math.max(a, b) >= 13 && Math.abs(a - b) >= 2) return [a, b]; }
 }
@@ -418,10 +419,10 @@ function derived(kpr, dpr, apr, fkpr, fdpr, share) {
   const adr = 30 + 155 * kpr, acs = 30 + 250 * kpr + 40 * fkpr;
   const kast = Math.min(0.92, Math.max(0.5, 0.55 + 0.25 * kpr + 0.22 * apr - 0.10 * dpr + 0.08 * (share - 0.5)));
   const rating = 1.0 + 1.1 * (kpr - 0.68) - 0.9 * (dpr - 0.68) + 0.4 * (kast - 0.72) + 0.8 * (fkpr - fdpr);
-  return [acs, adr, kast, rating];
+  return [acs, adr, kast, Math.min(2.6, Math.max(0.2, rating))];
 }
-function splitTotal(total, weights, cap = Infinity) {
-  const noisy = weights.map(w => w * Math.exp(0.3 * gauss())), s = noisy.reduce((x, y) => x + y, 0);
+function splitTotal(total, weights, cap = Infinity, spread = 0.3) {
+  const noisy = weights.map(w => w * Math.exp(spread * gauss())), s = noisy.reduce((x, y) => x + y, 0);
   const raw = noisy.map(n => total * n / s), out = raw.map(Math.floor);
   const order = raw.map((x, i) => i).sort((i, j) => (raw[j] - out[j]) - (raw[i] - out[i]));
   const rem = total - out.reduce((x, y) => x + y, 0);
@@ -444,8 +445,9 @@ function sampleBox(a, b, map, sa, sb) {
   const fkA = Math.min(R, Math.max(0, Math.round(R * teamRates(shareA)[3] + 0.5 * Math.sqrt(R) * gauss()))), fkB = R - fkA;
   const side = (team, k, d, as, fk, fd, rf) => {
     const W = SIM.weights[team][map];
-    const ks = splitTotal(k, W.map(w => w[3]), 2 * R), ds = splitTotal(d, W.map(w => w[4]), R), ass = splitTotal(as, W.map(w => w[5]), 2 * R);
-    const fks = splitTotal(fk, W.map(w => w[6]), R), fds = splitTotal(fd, W.map(w => w[7]), R);
+    const ks = splitTotal(k, W.map(w => w[3]), Math.round(1.5 * R), 0.25), ds = splitTotal(d, W.map(w => w[4]), R, 0.15);
+    const ass = splitTotal(as, W.map(w => w[5]), Math.round(0.75 * R), 0.3);
+    const fks = splitTotal(fk, W.map(w => w[6]), Math.round(0.5 * R), 0.3), fds = splitTotal(fd, W.map(w => w[7]), Math.round(0.5 * R), 0.3);
     return W.map((w, i) => {
       let [acs, adr, kast, rating] = derived(ks[i] / R, ds[i] / R, ass[i] / R, fks[i] / R, fds[i] / R, rf / R);
       adr *= 1 + 0.05 * gauss(); kast = Math.min(0.95, Math.max(0.4, kast + 0.03 * gauss()));

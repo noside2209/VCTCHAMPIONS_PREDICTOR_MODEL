@@ -190,11 +190,12 @@ class PlayerModel:
         side = []
         for team, w, k, d, a, fk, fd, rf in ((team_a, wa, kills_a, kills_b, assists_a, fk_a, fk_b, ra),
                                                (team_b, wb, kills_b, kills_a, assists_b, fk_b, fk_a, rb)):
-            ks = split_total(k, [x["kpr"] for x in w], rng, 2 * rounds)
-            ds = split_total(d, [x["dpr"] for x in w], rng, rounds)
-            as_ = split_total(a, [x["apr"] for x in w], rng, 2 * rounds)
-            fks = split_total(fk, [x["fkpr"] for x in w], rng, rounds)
-            fds = split_total(fd, [x["fdpr"] for x in w], rng, rounds)
+            # Deaths spread more evenly than kills; caps keep single lines inside what pro maps produce.
+            ks = split_total(k, [x["kpr"] for x in w], rng, round(1.5 * rounds), spread=0.25)
+            ds = split_total(d, [x["dpr"] for x in w], rng, rounds, spread=0.15)
+            as_ = split_total(a, [x["apr"] for x in w], rng, round(0.75 * rounds), spread=0.3)
+            fks = split_total(fk, [x["fkpr"] for x in w], rng, round(0.5 * rounds), spread=0.3)
+            fds = split_total(fd, [x["fdpr"] for x in w], rng, round(0.5 * rounds), spread=0.3)
             share = rf / rounds
             lines = []
             for i, x in enumerate(w):
@@ -260,7 +261,7 @@ def derived_stats(kpr: float, dpr: float, apr: float, fkpr: float, fdpr: float, 
     acs = 30 + 250 * kpr + 40 * fkpr
     kast = min(0.92, max(0.5, 0.55 + 0.25 * kpr + 0.22 * apr - 0.10 * dpr + 0.08 * (share - 0.5)))
     rating = 1.0 + 1.1 * (kpr - 0.68) - 0.9 * (dpr - 0.68) + 0.4 * (kast - 0.72) + 0.8 * (fkpr - fdpr)
-    return acs, adr, kast, rating
+    return acs, adr, kast, min(2.6, max(0.2, rating))
 
 
 def split_total(total: int, weights: list[float], rng, cap: int | None = None, spread: float = 0.3) -> list[int]:

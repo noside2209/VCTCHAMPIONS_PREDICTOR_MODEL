@@ -66,6 +66,19 @@ maps turn up about as often as the model thinks they should.
 The dashboard has the same engine behind the **Simulate match** / **Run 100** buttons (match lab) and
 **Simulate tournament** / **Run 100** (bracket tab). Tallies show how the runs compare to the model's odds.
 
+### Realism checks
+
+`tests/test_realism.py` simulates ~3,000 maps across all matchups and fails if the output drifts outside pro-play ranges:
+
+| Check | Simulator | Pro VALORANT (approx.) |
+|---|---|---|
+| Blowout maps (loser ≤ 5 rounds) | ~23% | ~20–30% |
+| Overtime maps | ~11% | ~10% |
+| Rounds per map | ~21 | ~21–22 |
+| Player rating per map, 5th–95th percentile | 0.53–1.54 | ~0.5–1.6 |
+| Extremes | rating 0.2–2.6, ACS ≤ ~430, deaths ≤ rounds | same |
+| Big upset: China #4 sweeps Americas #1 | ~6% of Bo3s | rare but happens |
+
 ## Generated reports (`reports/`)
 
 | File | What's in it |
@@ -90,12 +103,12 @@ The dashboard has the same engine behind the **Simulate match** / **Run 100** bu
    Abyss (just returned to the pool) and Summit (released June 2026) are shrunk toward 0 because there is little pro data on them.
 3. **Head-to-head.** Recency-weighted net series wins between the two teams, worth ±10 Elo each and capped at ±25.
 4. **Home crowd.** Optional +10 Elo for teams from the host region (China at Champions Shanghai).
-5. **Map win probability** = logistic on the rating gap (400-point scale).
+5. **Map win probability** = logistic on the rating gap (300-point scale, so tier gaps matter: an Americas #1 beats a China #4 about 85% of the time in a Bo3).
 6. **Veto.** Official VCT formats (Bo3: ban-ban-pick-pick-ban-ban-decider; Bo5: ban-ban-pick-pick-pick-pick-decider;
    Bo1: six bans). Each team bans its worst remaining map and picks its best.
 7. **Exact map scores.** A round-level model: first to 13, win-by-two overtime. The per-round win rate is solved so the model
-   reproduces the map win probability. It swings from map to map (sd 0.11, for momentum, economy and form), which gives
-   realistic frequencies: roughly 25–35% of maps are blowouts (loser on 5 or fewer rounds) and ~10% go to overtime.
+   reproduces the map win probability. It swings from map to map (sd 0.10, capped at ±2.5 sd, for momentum, economy and form),
+   which gives realistic frequencies: roughly 20–30% of maps are blowouts (loser on 5 or fewer rounds) and ~10% go to overtime.
 8. **Series score.** Exact distribution from the map probabilities in veto order.
 9. **Players.** `data/players.json` holds each player's role, IGL flag and agent pool, plus a standard composition for every map.
    Agents are assigned per map by matching the comp to each player's pool (flex players take the role of the agent they are on).

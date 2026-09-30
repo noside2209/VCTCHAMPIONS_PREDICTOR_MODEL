@@ -332,11 +332,11 @@ def dashboard_data(ds: Dataset, model: RatingModel, tour: Tournament, sims: dict
         if not rec.locked:
             entry["detail"] = series_json(tour.prediction(rec.team_a, rec.team_b, rec.bo), players)
         bracket.append(entry)
-    from .scores import ROUND_SD, r0_for_p
+    from .scores import ROUND_SD, Z_CAP, r0_for_p
     from .veto import VETO_TEMPERATURE, veto_sequence
     pool = model.pool
     sim = {
-        "sd": ROUND_SD, "temp": VETO_TEMPERATURE,
+        "sd": ROUND_SD, "zcap": Z_CAP, "temp": VETO_TEMPERATURE,
         "r0": [round(r0_for_p(i / 100), 5) for i in range(0, 101)],
         "veto": {bo: veto_sequence(bo, len(pool)) for bo in (1, 3, 5)},
         "weights": {t: {m: [[w["name"], w["agent"], w["role"]] + [round(w[k], 4) for k in ("kpr", "dpr", "apr", "fkpr", "fdpr")]

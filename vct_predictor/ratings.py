@@ -15,7 +15,7 @@ from datetime import date
 
 from .data import Dataset, Team
 
-ELO_SCALE = 400.0
+ELO_SCALE = 300.0  # tuned so e.g. an Americas #1 beats a China #4 ~85% of the time in a Bo3
 
 # Roster adjustment: how much the (estimated) player impact shifts team Elo.
 ROSTER_MEAN_BASE = 1.05
