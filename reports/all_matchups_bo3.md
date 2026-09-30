@@ -146,6 +146,23 @@
 
 Map-by-map win chance for 100 Thieves: Split 56.6%, Sunset 55.6%, Summit 50.9%, Abyss 48.6%, Ascent 48.1%, Lotus 45.6%, Haven 41.7%
 
+**Series projection** (expected totals over 2.50 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Asuna | 100T | Flex | 46.0 | 37.0 | 14.6 | 1.24 | 245 | 160 | 75% | 8.2 | 6.5 | 1.21 |
+| Cryocells | 100T | Sentinel | 38.2 | 31.6 | 12.9 | 1.21 | 206 | 138 | 72% | 3.5 | 3.5 | 1.11 |
+| Timotino | 100T | Duelist | 39.3 | 42.7 | 9.7 | 0.92 | 216 | 141 | 69% | 9.8 | 9.6 | 0.94 |
+| vora | 100T | Initiator | 31.2 | 36.9 | 23.3 | 0.85 | 174 | 118 | 72% | 3.5 | 4.4 | 0.87 |
+| bang | 100T | Controller | 29.6 | 36.0 | 19.3 | 0.82 | 167 | 114 | 70% | 2.6 | 3.5 | 0.84 |
+| something | PRX | Duelist | 51.3 | 38.9 | 9.7 | 1.32 | 272 | 175 | 75% | 11.6 | 8.5 | 1.31 |
+| f0rsakeN | PRX | Controller | 33.4 | 34.6 | 19.3 | 0.96 | 184 | 124 | 72% | 2.7 | 3.3 | 0.95 |
+| Jinggg | PRX | Flex | 37.4 | 39.8 | 14.6 | 0.94 | 205 | 135 | 71% | 6.9 | 7.2 | 0.95 |
+| d4v41 | PRX | Sentinel | 30.8 | 34.1 | 12.9 | 0.90 | 172 | 117 | 68% | 2.9 | 4.0 | 0.89 |
+| invy | PRX | Initiator | 31.4 | 36.9 | 23.3 | 0.85 | 175 | 118 | 72% | 3.4 | 4.4 | 0.87 |
+
+Projected MVP: **something** (PRX, 1.31 rating). Projected top fragger: **something** (51.3 kills).
+
 ### 100 Thieves vs NRG (Bo3)
 
 **Prediction: 100 Thieves wins 2-0** (series win 55.9%; this exact score 29.9%) — neutral venue
@@ -164,6 +181,23 @@ Map-by-map win chance for 100 Thieves: Split 56.6%, Sunset 55.6%, Summit 50.9%, 
 
 Map-by-map win chance for 100 Thieves: Sunset 60.3%, Ascent 59.4%, Split 53.3%, Abyss 52.1%, Lotus 51.9%, Summit 50.3%, Haven 40.2%
 
+**Series projection** (expected totals over 2.50 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Asuna | 100T | Flex | 43.5 | 34.8 | 18.9 | 1.25 | 233 | 153 | 76% | 6.1 | 4.9 | 1.20 |
+| Cryocells | 100T | Sentinel | 39.0 | 31.7 | 12.0 | 1.23 | 211 | 140 | 72% | 4.0 | 3.7 | 1.13 |
+| Timotino | 100T | Duelist | 40.1 | 42.9 | 9.0 | 0.93 | 221 | 143 | 69% | 11.0 | 10.1 | 0.97 |
+| vora | 100T | Initiator | 31.9 | 37.1 | 21.8 | 0.86 | 178 | 120 | 72% | 3.9 | 4.6 | 0.88 |
+| bang | 100T | Controller | 30.3 | 36.2 | 18.1 | 0.84 | 170 | 116 | 70% | 2.9 | 3.7 | 0.86 |
+| mada | NRG | Duelist | 46.2 | 41.3 | 9.0 | 1.12 | 249 | 161 | 72% | 11.7 | 9.8 | 1.14 |
+| keiko | NRG | Flex | 36.9 | 37.3 | 18.7 | 0.99 | 202 | 134 | 72% | 5.2 | 5.5 | 0.99 |
+| skuba | NRG | Sentinel | 33.5 | 33.8 | 11.9 | 0.99 | 185 | 125 | 69% | 3.4 | 4.2 | 0.96 |
+| brawk | NRG | Controller | 33.7 | 35.2 | 17.9 | 0.96 | 186 | 125 | 71% | 3.0 | 3.6 | 0.95 |
+| Ethan | NRG | Initiator | 32.3 | 37.3 | 21.6 | 0.87 | 180 | 121 | 72% | 3.8 | 4.7 | 0.88 |
+
+Projected MVP: **Asuna** (100T, 1.20 rating). Projected top fragger: **mada** (46.2 kills).
+
 ### 100 Thieves vs Karmine Corp (Bo3)
 
 **Prediction: 100 Thieves wins 2-0** (series win 60.8%; this exact score 32.5%) — neutral venue
@@ -181,6 +215,23 @@ Map-by-map win chance for 100 Thieves: Sunset 60.3%, Ascent 59.4%, Split 53.3%, 
 
 Map-by-map win chance for 100 Thieves: Lotus 64.0%, Sunset 58.8%, Split 58.1%, Abyss 57.7%, Ascent 57.5%, Summit 55.3%, Haven 54.7%
 
+**Series projection** (expected totals over 2.49 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Asuna | 100T | Flex | 43.5 | 34.6 | 18.9 | 1.26 | 233 | 153 | 76% | 6.1 | 4.8 | 1.21 |
+| Cryocells | 100T | Sentinel | 39.0 | 31.5 | 12.0 | 1.24 | 212 | 141 | 72% | 4.0 | 3.7 | 1.14 |
+| Timotino | 100T | Duelist | 40.1 | 42.6 | 9.0 | 0.94 | 222 | 144 | 69% | 11.1 | 10.0 | 0.97 |
+| vora | 100T | Initiator | 31.9 | 36.8 | 21.8 | 0.87 | 179 | 120 | 72% | 3.9 | 4.5 | 0.89 |
+| bang | 100T | Controller | 30.3 | 35.9 | 18.0 | 0.84 | 171 | 116 | 70% | 2.9 | 3.6 | 0.86 |
+| SUYGETSU | KC | Sentinel | 35.6 | 33.0 | 11.9 | 1.08 | 196 | 131 | 70% | 3.6 | 4.0 | 1.02 |
+| LewN | KC | Duelist | 42.3 | 42.4 | 8.9 | 1.00 | 232 | 150 | 70% | 11.0 | 10.2 | 1.02 |
+| N4RRATE | KC | Flex | 37.7 | 36.9 | 18.7 | 1.02 | 207 | 137 | 73% | 5.3 | 5.4 | 1.02 |
+| Avez | KC | Initiator | 33.6 | 36.6 | 21.5 | 0.92 | 187 | 125 | 72% | 3.9 | 4.6 | 0.93 |
+| dos9 | KC | Controller | 32.0 | 35.8 | 17.8 | 0.89 | 178 | 121 | 70% | 2.9 | 3.7 | 0.90 |
+
+Projected MVP: **Asuna** (100T, 1.21 rating). Projected top fragger: **Asuna** (43.5 kills).
+
 ### 100 Thieves vs Nongshim RedForce (Bo3)
 
 **Prediction: 100 Thieves wins 2-0** (series win 61.2%; this exact score 32.0%) — neutral venue
@@ -197,6 +248,23 @@ Map-by-map win chance for 100 Thieves: Lotus 64.0%, Sunset 58.8%, Split 58.1%, A
 | 3 | Summit | decider | 59.2% | 100T 13-10 | 100T 13-10 NS (7.7%) | 13.5% |
 
 Map-by-map win chance for 100 Thieves: Ascent 61.0%, Abyss 60.0%, Sunset 59.9%, Summit 59.2%, Lotus 59.1%, Split 53.3%, Haven 52.5%
+
+**Series projection** (expected totals over 2.49 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Asuna | 100T | Flex | 47.5 | 37.4 | 12.4 | 1.27 | 254 | 165 | 75% | 9.4 | 7.0 | 1.25 |
+| Cryocells | 100T | Sentinel | 38.0 | 30.9 | 13.3 | 1.23 | 206 | 138 | 72% | 3.4 | 3.3 | 1.12 |
+| Timotino | 100T | Duelist | 39.0 | 41.8 | 10.0 | 0.93 | 215 | 141 | 69% | 9.4 | 9.0 | 0.96 |
+| vora | 100T | Initiator | 31.0 | 36.1 | 24.1 | 0.86 | 174 | 118 | 72% | 3.3 | 4.1 | 0.88 |
+| bang | 100T | Controller | 29.4 | 35.2 | 20.0 | 0.84 | 166 | 113 | 70% | 2.5 | 3.3 | 0.86 |
+| Dambi | NS | Duelist | 43.0 | 41.0 | 9.8 | 1.05 | 234 | 152 | 71% | 9.8 | 8.9 | 1.06 |
+| Ivy | NS | Flex | 40.0 | 40.3 | 12.2 | 0.99 | 219 | 143 | 71% | 8.1 | 7.9 | 1.00 |
+| Xross | NS | Sentinel | 33.0 | 33.0 | 13.1 | 1.00 | 183 | 123 | 69% | 2.9 | 3.7 | 0.96 |
+| Rb | NS | Initiator | 33.6 | 35.7 | 23.8 | 0.94 | 186 | 125 | 73% | 3.4 | 4.1 | 0.95 |
+| Francis | NS | Controller | 31.9 | 34.8 | 19.7 | 0.92 | 178 | 121 | 71% | 2.5 | 3.3 | 0.92 |
+
+Projected MVP: **Asuna** (100T, 1.25 rating). Projected top fragger: **Asuna** (47.5 kills).
 
 ### 100 Thieves vs LOUD (Bo3)
 
@@ -216,6 +284,23 @@ Map-by-map win chance for 100 Thieves: Ascent 61.0%, Abyss 60.0%, Sunset 59.9%, 
 
 Map-by-map win chance for 100 Thieves: Sunset 64.3%, Summit 63.0%, Ascent 62.3%, Lotus 60.7%, Split 60.0%, Abyss 59.8%, Haven 51.9%
 
+**Series projection** (expected totals over 2.47 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Asuna | 100T | Flex | 45.9 | 35.8 | 14.5 | 1.28 | 248 | 161 | 76% | 8.3 | 6.1 | 1.25 |
+| Cryocells | 100T | Sentinel | 38.1 | 30.6 | 12.8 | 1.25 | 209 | 139 | 72% | 3.6 | 3.4 | 1.14 |
+| Timotino | 100T | Duelist | 39.2 | 41.4 | 9.6 | 0.95 | 218 | 142 | 70% | 10.0 | 9.1 | 0.97 |
+| vora | 100T | Initiator | 31.1 | 35.8 | 23.2 | 0.87 | 176 | 119 | 72% | 3.5 | 4.1 | 0.89 |
+| bang | 100T | Controller | 29.6 | 34.9 | 19.2 | 0.85 | 169 | 115 | 70% | 2.6 | 3.3 | 0.87 |
+| lukxo | LOUD | Sentinel | 35.6 | 32.1 | 12.5 | 1.11 | 197 | 132 | 70% | 3.3 | 3.7 | 1.04 |
+| Darker | LOUD | Controller | 33.8 | 34.1 | 18.8 | 0.99 | 188 | 127 | 72% | 2.8 | 3.3 | 0.98 |
+| tkzin | LOUD | Duelist | 39.9 | 42.1 | 9.4 | 0.95 | 222 | 144 | 69% | 9.7 | 9.6 | 0.97 |
+| DaviH | LOUD | Initiator | 33.6 | 35.6 | 22.7 | 0.94 | 188 | 126 | 73% | 3.6 | 4.2 | 0.95 |
+| erde | LOUD | Flex | 35.6 | 40.1 | 14.2 | 0.89 | 200 | 132 | 70% | 6.7 | 7.3 | 0.90 |
+
+Projected MVP: **Asuna** (100T, 1.25 rating). Projected top fragger: **Asuna** (45.9 kills).
+
 ### 100 Thieves vs Team Vitality (Bo3)
 
 **Prediction: 100 Thieves wins 2-0** (series win 66.1%; this exact score 37.0%) — neutral venue
@@ -232,6 +317,23 @@ Map-by-map win chance for 100 Thieves: Sunset 64.3%, Summit 63.0%, Ascent 62.3%,
 | 3 | Split | decider | 61.1% | 100T 13-9 | 100T 13-9 VIT (7.8%) | 13.4% |
 
 Map-by-map win chance for 100 Thieves: Sunset 68.5%, Ascent 62.7%, Lotus 61.7%, Split 61.1%, Summit 59.3%, Abyss 59.0%, Haven 54.4%
+
+**Series projection** (expected totals over 2.48 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Asuna | 100T | Flex | 45.9 | 35.9 | 14.6 | 1.28 | 248 | 161 | 76% | 8.3 | 6.1 | 1.25 |
+| Cryocells | 100T | Sentinel | 38.2 | 30.7 | 12.8 | 1.25 | 209 | 139 | 72% | 3.6 | 3.4 | 1.13 |
+| Timotino | 100T | Duelist | 39.2 | 41.5 | 9.6 | 0.94 | 218 | 142 | 70% | 10.0 | 9.1 | 0.97 |
+| vora | 100T | Initiator | 31.2 | 35.8 | 23.2 | 0.87 | 176 | 119 | 72% | 3.5 | 4.1 | 0.89 |
+| bang | 100T | Controller | 29.6 | 35.0 | 19.2 | 0.85 | 169 | 115 | 70% | 2.6 | 3.3 | 0.87 |
+| Derke | VIT | Duelist | 44.2 | 40.8 | 9.6 | 1.09 | 242 | 157 | 72% | 10.4 | 9.3 | 1.10 |
+| Sayonara | VIT | Flex | 37.4 | 39.6 | 14.5 | 0.95 | 208 | 137 | 71% | 6.9 | 7.3 | 0.95 |
+| Jamppi | VIT | Sentinel | 32.7 | 33.2 | 12.9 | 0.98 | 183 | 123 | 69% | 3.0 | 3.9 | 0.95 |
+| PROFEK | VIT | Controller | 32.3 | 34.8 | 19.3 | 0.93 | 181 | 122 | 71% | 2.6 | 3.4 | 0.93 |
+| Chronicle | VIT | Flex | 32.3 | 35.7 | 21.5 | 0.90 | 181 | 122 | 72% | 3.1 | 4.0 | 0.91 |
+
+Projected MVP: **Asuna** (100T, 1.25 rating). Projected top fragger: **Asuna** (45.9 kills).
 
 ### 100 Thieves vs G2 Esports (Bo3)
 
@@ -250,6 +352,23 @@ Map-by-map win chance for 100 Thieves: Sunset 68.5%, Ascent 62.7%, Lotus 61.7%, 
 
 Map-by-map win chance for 100 Thieves: Sunset 65.4%, Ascent 64.7%, Lotus 63.5%, Summit 61.8%, Abyss 60.6%, Haven 57.8%, Split 57.1%
 
+**Series projection** (expected totals over 2.48 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Asuna | 100T | Flex | 42.0 | 33.2 | 20.9 | 1.27 | 228 | 150 | 77% | 5.1 | 4.0 | 1.20 |
+| Cryocells | 100T | Sentinel | 39.2 | 31.2 | 11.5 | 1.26 | 214 | 142 | 72% | 4.2 | 3.7 | 1.15 |
+| Timotino | 100T | Duelist | 40.3 | 42.2 | 8.7 | 0.95 | 225 | 145 | 70% | 11.7 | 10.1 | 0.99 |
+| vora | 100T | Initiator | 32.0 | 36.5 | 20.9 | 0.88 | 181 | 122 | 72% | 4.1 | 4.6 | 0.90 |
+| bang | 100T | Controller | 30.4 | 35.6 | 17.3 | 0.85 | 173 | 117 | 70% | 3.0 | 3.7 | 0.87 |
+| jawgemo | G2 | Duelist | 43.4 | 42.0 | 8.5 | 1.03 | 239 | 154 | 70% | 11.5 | 10.4 | 1.06 |
+| leaf | G2 | Sentinel | 36.5 | 32.7 | 11.3 | 1.12 | 201 | 135 | 70% | 3.7 | 4.1 | 1.05 |
+| BABYBAY | G2 | Flex | 35.2 | 36.1 | 20.5 | 0.98 | 196 | 131 | 73% | 4.1 | 4.7 | 0.97 |
+| trent | G2 | Initiator | 33.2 | 36.8 | 20.5 | 0.90 | 186 | 125 | 72% | 3.9 | 4.8 | 0.91 |
+| valyn | G2 | Controller | 30.3 | 36.4 | 16.9 | 0.83 | 172 | 117 | 69% | 2.8 | 4.0 | 0.85 |
+
+Projected MVP: **Asuna** (100T, 1.20 rating). Projected top fragger: **jawgemo** (43.4 kills).
+
 ### 100 Thieves vs Global Esports (Bo3)
 
 **Prediction: 100 Thieves wins 2-0** (series win 69.0%; this exact score 39.8%) — neutral venue
@@ -266,6 +385,23 @@ Map-by-map win chance for 100 Thieves: Sunset 65.4%, Ascent 64.7%, Lotus 63.5%, 
 | 3 | Summit | decider | 62.1% | 100T 13-9 | 100T 13-9 GE (7.9%) | 13.3% |
 
 Map-by-map win chance for 100 Thieves: Sunset 71.5%, Split 68.2%, Ascent 66.3%, Summit 62.1%, Lotus 59.4%, Abyss 58.4%, Haven 53.5%
+
+**Series projection** (expected totals over 2.47 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Asuna | 100T | Flex | 47.2 | 36.5 | 12.2 | 1.29 | 256 | 166 | 75% | 9.5 | 6.8 | 1.27 |
+| Cryocells | 100T | Sentinel | 37.7 | 30.2 | 13.2 | 1.25 | 207 | 138 | 73% | 3.4 | 3.2 | 1.13 |
+| Timotino | 100T | Duelist | 38.7 | 40.8 | 9.9 | 0.95 | 217 | 141 | 70% | 9.4 | 8.7 | 0.97 |
+| vora | 100T | Initiator | 30.7 | 35.3 | 23.9 | 0.87 | 175 | 119 | 73% | 3.3 | 3.9 | 0.90 |
+| bang | 100T | Controller | 29.2 | 34.4 | 19.8 | 0.85 | 167 | 114 | 71% | 2.5 | 3.2 | 0.87 |
+| UdoTan | GE | Duelist | 41.7 | 41.0 | 9.9 | 1.02 | 231 | 150 | 71% | 9.4 | 9.0 | 1.03 |
+| Kr1stal | GE | Flex | 39.5 | 39.5 | 10.5 | 1.00 | 219 | 144 | 70% | 7.8 | 7.9 | 1.00 |
+| xavi8k | GE | Sentinel | 31.9 | 32.9 | 13.2 | 0.97 | 180 | 122 | 69% | 2.8 | 3.8 | 0.94 |
+| PatMen | GE | Initiator | 32.5 | 35.6 | 23.8 | 0.91 | 184 | 124 | 73% | 3.3 | 4.1 | 0.92 |
+| Autumn | GE | Controller | 31.5 | 34.5 | 19.7 | 0.91 | 178 | 121 | 71% | 2.5 | 3.3 | 0.91 |
+
+Projected MVP: **Asuna** (100T, 1.27 rating). Projected top fragger: **Asuna** (47.2 kills).
 
 ### 100 Thieves vs FUT Esports (Bo3)
 
@@ -284,6 +420,23 @@ Map-by-map win chance for 100 Thieves: Sunset 71.5%, Split 68.2%, Ascent 66.3%, 
 
 Map-by-map win chance for 100 Thieves: Sunset 69.3%, Ascent 65.5%, Summit 64.4%, Lotus 63.3%, Split 61.3%, Abyss 60.8%, Haven 55.4%
 
+**Series projection** (expected totals over 2.47 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Asuna | 100T | Flex | 45.7 | 35.6 | 14.5 | 1.29 | 249 | 162 | 76% | 8.3 | 6.0 | 1.25 |
+| Cryocells | 100T | Sentinel | 38.0 | 30.3 | 12.7 | 1.25 | 209 | 140 | 73% | 3.6 | 3.3 | 1.14 |
+| Timotino | 100T | Duelist | 39.0 | 41.1 | 9.6 | 0.95 | 219 | 143 | 70% | 10.0 | 9.0 | 0.98 |
+| vora | 100T | Initiator | 31.0 | 35.5 | 23.1 | 0.87 | 177 | 119 | 73% | 3.5 | 4.1 | 0.90 |
+| bang | 100T | Controller | 29.5 | 34.6 | 19.1 | 0.85 | 169 | 115 | 70% | 2.6 | 3.3 | 0.87 |
+| xeus | FUT | Duelist | 41.7 | 40.4 | 9.9 | 1.03 | 230 | 150 | 71% | 9.0 | 8.6 | 1.04 |
+| KROSTALY | FUT | Sentinel | 33.8 | 31.8 | 13.3 | 1.06 | 189 | 127 | 70% | 2.8 | 3.5 | 1.00 |
+| sociablEE | FUT | Initiator | 33.1 | 34.9 | 24.0 | 0.95 | 186 | 125 | 73% | 3.2 | 3.9 | 0.95 |
+| yetujey | FUT | Controller | 31.5 | 34.1 | 19.9 | 0.92 | 178 | 121 | 71% | 2.4 | 3.1 | 0.92 |
+| s0pp | FUT | Duelist | 37.1 | 42.1 | 9.9 | 0.88 | 208 | 137 | 68% | 8.3 | 9.1 | 0.89 |
+
+Projected MVP: **Asuna** (100T, 1.25 rating). Projected top fragger: **Asuna** (45.7 kills).
+
 ### 100 Thieves vs Team Liquid (Bo3)
 
 **Prediction: 100 Thieves wins 2-0** (series win 71.4%; this exact score 42.1%) — neutral venue
@@ -300,6 +453,23 @@ Map-by-map win chance for 100 Thieves: Sunset 69.3%, Ascent 65.5%, Summit 64.4%,
 | 3 | Split | decider | 63.7% | 100T 13-9 | 100T 13-9 TL (8.0%) | 13.1% |
 
 Map-by-map win chance for 100 Thieves: Sunset 73.5%, Ascent 70.3%, Summit 66.4%, Split 63.7%, Abyss 62.8%, Lotus 59.9%, Haven 54.4%
+
+**Series projection** (expected totals over 2.46 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Asuna | 100T | Flex | 45.6 | 35.3 | 14.4 | 1.29 | 249 | 162 | 76% | 8.3 | 6.0 | 1.26 |
+| Cryocells | 100T | Sentinel | 37.9 | 30.1 | 12.7 | 1.26 | 210 | 140 | 73% | 3.6 | 3.3 | 1.14 |
+| Timotino | 100T | Duelist | 38.9 | 40.7 | 9.5 | 0.96 | 219 | 143 | 70% | 10.0 | 8.9 | 0.99 |
+| vora | 100T | Initiator | 30.9 | 35.2 | 23.0 | 0.88 | 177 | 120 | 73% | 3.5 | 4.0 | 0.90 |
+| bang | 100T | Controller | 29.4 | 34.3 | 19.0 | 0.86 | 169 | 115 | 70% | 2.6 | 3.2 | 0.87 |
+| kamo | TL | Duelist | 42.5 | 40.7 | 9.3 | 1.04 | 236 | 153 | 71% | 9.9 | 9.3 | 1.06 |
+| trexx | TL | Flex | 37.3 | 39.0 | 14.0 | 0.96 | 209 | 138 | 71% | 6.7 | 7.1 | 0.96 |
+| nAts | TL | Sentinel | 32.5 | 32.7 | 12.3 | 0.99 | 184 | 124 | 69% | 3.0 | 3.9 | 0.96 |
+| GSR | TL | Controller | 31.5 | 34.5 | 18.5 | 0.91 | 179 | 121 | 71% | 2.5 | 3.4 | 0.91 |
+| Kicks | TL | Initiator | 31.9 | 35.9 | 22.4 | 0.89 | 182 | 122 | 72% | 3.3 | 4.3 | 0.90 |
+
+Projected MVP: **Asuna** (100T, 1.26 rating). Projected top fragger: **Asuna** (45.6 kills).
 
 ### 100 Thieves vs EDward Gaming (Bo3)
 
@@ -318,6 +488,23 @@ Map-by-map win chance for 100 Thieves: Sunset 73.5%, Ascent 70.3%, Summit 66.4%,
 
 Map-by-map win chance for 100 Thieves: Sunset 71.5%, Ascent 67.8%, Split 66.3%, Lotus 65.0%, Abyss 64.7%, Summit 64.1%, Haven 57.9%
 
+**Series projection** (expected totals over 2.45 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Asuna | 100T | Flex | 42.8 | 33.2 | 18.7 | 1.29 | 235 | 155 | 77% | 6.1 | 4.5 | 1.23 |
+| Cryocells | 100T | Sentinel | 38.5 | 30.3 | 11.8 | 1.27 | 214 | 142 | 73% | 4.0 | 3.5 | 1.16 |
+| Timotino | 100T | Duelist | 39.5 | 41.1 | 8.8 | 0.96 | 224 | 145 | 70% | 11.1 | 9.5 | 1.00 |
+| vora | 100T | Initiator | 31.4 | 35.5 | 21.4 | 0.89 | 181 | 121 | 72% | 3.9 | 4.3 | 0.91 |
+| bang | 100T | Controller | 29.9 | 34.6 | 17.7 | 0.86 | 172 | 117 | 70% | 2.9 | 3.5 | 0.88 |
+| ZmjjKK | EDG | Duelist | 45.1 | 40.4 | 8.6 | 1.12 | 250 | 161 | 72% | 11.1 | 9.8 | 1.13 |
+| stew | EDG | Sentinel | 32.0 | 33.3 | 11.4 | 0.96 | 183 | 123 | 68% | 3.2 | 4.2 | 0.93 |
+| CHICHOO | EDG | Controller | 32.3 | 34.7 | 17.2 | 0.93 | 183 | 124 | 70% | 2.8 | 3.7 | 0.92 |
+| Smoggy | EDG | Flex | 33.9 | 37.2 | 18.2 | 0.91 | 193 | 129 | 71% | 4.6 | 5.6 | 0.92 |
+| nobody | EDG | Initiator | 31.4 | 36.5 | 20.7 | 0.86 | 180 | 121 | 71% | 3.6 | 4.8 | 0.87 |
+
+Projected MVP: **Asuna** (100T, 1.23 rating). Projected top fragger: **ZmjjKK** (45.1 kills).
+
 ### 100 Thieves vs TYLOO (Bo3)
 
 **Prediction: 100 Thieves wins 2-0** (series win 76.8%; this exact score 47.5%) — neutral venue
@@ -334,6 +521,23 @@ Map-by-map win chance for 100 Thieves: Sunset 71.5%, Ascent 67.8%, Split 66.3%, 
 | 3 | Lotus | decider | 68.1% | 100T 13-9 | 100T 13-9 TYL (8.4%) | 12.5% |
 
 Map-by-map win chance for 100 Thieves: Sunset 73.7%, Split 71.8%, Ascent 70.8%, Lotus 68.1%, Summit 66.5%, Abyss 66.2%, Haven 61.3%
+
+**Series projection** (expected totals over 2.43 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Asuna | 100T | Flex | 47.6 | 36.2 | 10.0 | 1.32 | 265 | 170 | 75% | 10.5 | 7.1 | 1.31 |
+| Cryocells | 100T | Sentinel | 36.7 | 29.0 | 13.3 | 1.26 | 207 | 138 | 73% | 3.2 | 2.9 | 1.14 |
+| Timotino | 100T | Duelist | 37.7 | 39.3 | 10.0 | 0.96 | 216 | 141 | 70% | 8.8 | 8.0 | 0.99 |
+| vora | 100T | Initiator | 30.0 | 33.9 | 24.2 | 0.88 | 175 | 118 | 73% | 3.1 | 3.6 | 0.91 |
+| bang | 100T | Controller | 28.5 | 33.1 | 20.0 | 0.86 | 167 | 114 | 71% | 2.3 | 2.9 | 0.88 |
+| SiuFatBB | TYL | Flex | 39.0 | 40.3 | 9.7 | 0.97 | 222 | 145 | 69% | 8.4 | 8.7 | 0.98 |
+| Erv | TYL | Sentinel | 31.6 | 31.7 | 12.9 | 0.99 | 182 | 123 | 69% | 2.6 | 3.5 | 0.96 |
+| splash | TYL | Duelist | 38.2 | 40.6 | 9.7 | 0.94 | 218 | 143 | 69% | 8.3 | 8.8 | 0.95 |
+| slowly | TYL | Controller | 31.8 | 33.1 | 19.3 | 0.96 | 183 | 124 | 71% | 2.3 | 3.0 | 0.95 |
+| Scales | TYL | Initiator | 31.0 | 34.8 | 23.3 | 0.89 | 180 | 121 | 72% | 3.0 | 3.9 | 0.90 |
+
+Projected MVP: **Asuna** (100T, 1.31 rating). Projected top fragger: **Asuna** (47.6 kills).
 
 ### 100 Thieves vs T1 (Bo3)
 
@@ -353,6 +557,23 @@ Map-by-map win chance for 100 Thieves: Sunset 73.7%, Split 71.8%, Ascent 70.8%, 
 
 Map-by-map win chance for 100 Thieves: Sunset 73.6%, Summit 72.4%, Lotus 72.2%, Ascent 71.9%, Split 69.9%, Abyss 68.4%, Haven 62.5%
 
+**Series projection** (expected totals over 2.42 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Asuna | 100T | Flex | 43.6 | 33.3 | 16.0 | 1.31 | 245 | 160 | 77% | 7.3 | 5.1 | 1.26 |
+| Cryocells | 100T | Sentinel | 37.5 | 29.3 | 12.1 | 1.28 | 213 | 142 | 73% | 3.8 | 3.2 | 1.16 |
+| Timotino | 100T | Duelist | 38.6 | 39.6 | 9.0 | 0.97 | 223 | 145 | 70% | 10.4 | 8.8 | 1.01 |
+| vora | 100T | Initiator | 30.7 | 34.2 | 21.9 | 0.90 | 180 | 121 | 73% | 3.7 | 4.0 | 0.92 |
+| bang | 100T | Controller | 29.1 | 33.4 | 18.1 | 0.87 | 172 | 117 | 71% | 2.7 | 3.2 | 0.89 |
+| BuZz | T1 | Duelist | 41.0 | 40.3 | 8.7 | 1.02 | 234 | 152 | 70% | 9.7 | 9.6 | 1.03 |
+| iZu | T1 | Flex | 36.8 | 36.8 | 15.4 | 1.00 | 211 | 139 | 72% | 5.8 | 6.2 | 1.00 |
+| Meteor | T1 | Sentinel | 33.2 | 31.7 | 11.6 | 1.05 | 192 | 129 | 69% | 3.1 | 3.9 | 0.99 |
+| Munchkin | T1 | Initiator | 30.7 | 35.5 | 21.0 | 0.87 | 180 | 121 | 71% | 3.3 | 4.5 | 0.88 |
+| stax | T1 | Controller | 28.0 | 35.2 | 17.4 | 0.80 | 166 | 113 | 69% | 2.4 | 3.7 | 0.81 |
+
+Projected MVP: **Asuna** (100T, 1.26 rating). Projected top fragger: **Asuna** (43.6 kills).
+
 ### 100 Thieves vs Xi Lai Gaming (Bo3)
 
 **Prediction: 100 Thieves wins 2-0** (series win 78.7%; this exact score 49.9%) — neutral venue
@@ -369,6 +590,23 @@ Map-by-map win chance for 100 Thieves: Sunset 73.6%, Summit 72.4%, Lotus 72.2%, 
 | 3 | Lotus | decider | 69.3% | 100T 13-9 | 100T 13-9 XLG (8.4%) | 12.4% |
 
 Map-by-map win chance for 100 Thieves: Sunset 76.3%, Ascent 72.5%, Split 71.1%, Lotus 69.3%, Abyss 69.2%, Summit 68.8%, Haven 62.6%
+
+**Series projection** (expected totals over 2.42 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Asuna | 100T | Flex | 42.1 | 32.2 | 18.5 | 1.30 | 236 | 155 | 77% | 6.0 | 4.3 | 1.24 |
+| Cryocells | 100T | Sentinel | 37.9 | 29.5 | 11.6 | 1.29 | 215 | 143 | 73% | 4.0 | 3.4 | 1.17 |
+| Timotino | 100T | Duelist | 39.0 | 39.9 | 8.7 | 0.98 | 225 | 146 | 70% | 11.1 | 9.1 | 1.02 |
+| vora | 100T | Initiator | 31.0 | 34.5 | 21.0 | 0.90 | 182 | 122 | 73% | 3.9 | 4.1 | 0.92 |
+| bang | 100T | Controller | 29.4 | 33.6 | 17.3 | 0.87 | 173 | 118 | 70% | 2.9 | 3.3 | 0.89 |
+| Lysoar | XLG | Flex | 34.9 | 35.8 | 17.8 | 0.97 | 201 | 134 | 72% | 4.7 | 5.3 | 0.97 |
+| NoMan | XLG | Duelist | 39.2 | 41.4 | 8.3 | 0.95 | 226 | 147 | 69% | 10.0 | 10.2 | 0.96 |
+| Rarga | XLG | Initiator | 33.1 | 35.0 | 20.1 | 0.94 | 191 | 128 | 72% | 3.7 | 4.5 | 0.94 |
+| WsLeo | XLG | Sentinel | 31.2 | 32.9 | 11.1 | 0.95 | 182 | 123 | 68% | 3.1 | 4.2 | 0.92 |
+| happywei | XLG | Controller | 31.4 | 34.2 | 16.7 | 0.92 | 183 | 123 | 70% | 2.7 | 3.6 | 0.91 |
+
+Projected MVP: **Asuna** (100T, 1.24 rating). Projected top fragger: **Asuna** (42.1 kills).
 
 ### 100 Thieves vs JD Gaming (Bo3)
 
@@ -387,6 +625,23 @@ Map-by-map win chance for 100 Thieves: Sunset 76.3%, Ascent 72.5%, Split 71.1%, 
 
 Map-by-map win chance for 100 Thieves: Sunset 78.0%, Ascent 73.3%, Abyss 71.3%, Lotus 71.3%, Split 71.3%, Summit 70.8%, Haven 64.2%
 
+**Series projection** (expected totals over 2.40 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Asuna | 100T | Flex | 41.8 | 31.9 | 18.5 | 1.31 | 237 | 155 | 77% | 5.9 | 4.2 | 1.25 |
+| Cryocells | 100T | Sentinel | 37.7 | 29.2 | 11.5 | 1.29 | 216 | 143 | 73% | 4.0 | 3.3 | 1.17 |
+| Timotino | 100T | Duelist | 38.7 | 39.5 | 8.6 | 0.98 | 226 | 146 | 70% | 11.1 | 9.0 | 1.03 |
+| vora | 100T | Initiator | 30.8 | 34.1 | 20.8 | 0.90 | 182 | 122 | 73% | 3.9 | 4.1 | 0.93 |
+| bang | 100T | Controller | 29.2 | 33.3 | 17.2 | 0.88 | 174 | 118 | 71% | 2.9 | 3.3 | 0.89 |
+| zhe | JDG | Duelist | 40.8 | 40.5 | 8.2 | 1.01 | 235 | 152 | 70% | 10.2 | 10.0 | 1.02 |
+| jkuro | JDG | Sentinel | 31.8 | 32.3 | 11.0 | 0.98 | 186 | 125 | 68% | 3.1 | 4.1 | 0.95 |
+| BerLIN | JDG | Initiator | 32.4 | 35.0 | 19.9 | 0.93 | 190 | 127 | 72% | 3.6 | 4.5 | 0.93 |
+| Yuicaw | JDG | Controller | 30.8 | 34.1 | 16.5 | 0.90 | 181 | 122 | 70% | 2.7 | 3.6 | 0.90 |
+| crownfisher | JDG | Flex | 32.2 | 36.4 | 17.7 | 0.88 | 189 | 127 | 71% | 4.3 | 5.5 | 0.89 |
+
+Projected MVP: **Asuna** (100T, 1.25 rating). Projected top fragger: **Asuna** (41.8 kills).
+
 ### Paper Rex vs NRG (Bo3)
 
 **Prediction: Paper Rex wins 2-1** (series win 52.8%; this exact score 26.4%) — neutral venue
@@ -404,6 +659,23 @@ Map-by-map win chance for 100 Thieves: Sunset 78.0%, Ascent 73.3%, Abyss 71.3%, 
 
 Map-by-map win chance for Paper Rex: Ascent 60.4%, Lotus 55.4%, Sunset 53.9%, Abyss 52.6%, Summit 48.5%, Haven 47.5%, Split 45.8%
 
+**Series projection** (expected totals over 2.50 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| something | PRX | Duelist | 51.4 | 38.8 | 9.7 | 1.32 | 272 | 175 | 75% | 11.7 | 8.5 | 1.32 |
+| f0rsakeN | PRX | Controller | 33.4 | 34.5 | 19.3 | 0.97 | 184 | 124 | 72% | 2.7 | 3.3 | 0.96 |
+| Jinggg | PRX | Flex | 37.4 | 39.7 | 14.6 | 0.94 | 205 | 136 | 71% | 6.9 | 7.2 | 0.95 |
+| d4v41 | PRX | Sentinel | 30.9 | 34.0 | 12.9 | 0.91 | 172 | 117 | 68% | 2.9 | 4.0 | 0.89 |
+| invy | PRX | Initiator | 31.5 | 36.8 | 23.4 | 0.86 | 175 | 119 | 72% | 3.4 | 4.4 | 0.88 |
+| mada | NRG | Duelist | 45.7 | 40.7 | 9.6 | 1.12 | 246 | 159 | 72% | 10.8 | 9.0 | 1.14 |
+| keiko | NRG | Flex | 39.5 | 39.2 | 14.6 | 1.01 | 215 | 141 | 72% | 7.2 | 7.1 | 1.01 |
+| skuba | NRG | Sentinel | 33.2 | 33.3 | 12.8 | 1.00 | 183 | 124 | 69% | 3.1 | 3.8 | 0.96 |
+| brawk | NRG | Controller | 33.4 | 34.7 | 19.3 | 0.96 | 184 | 124 | 72% | 2.8 | 3.3 | 0.95 |
+| Ethan | NRG | Initiator | 32.0 | 36.7 | 23.3 | 0.87 | 178 | 120 | 72% | 3.5 | 4.4 | 0.89 |
+
+Projected MVP: **something** (PRX, 1.32 rating). Projected top fragger: **something** (51.4 kills).
+
 ### Paper Rex vs Karmine Corp (Bo3)
 
 **Prediction: Paper Rex wins 2-0** (series win 62.5%; this exact score 33.4%) — neutral venue
@@ -420,6 +692,23 @@ Map-by-map win chance for Paper Rex: Ascent 60.4%, Lotus 55.4%, Sunset 53.9%, Ab
 | 3 | Abyss | decider | 59.1% | PRX 13-10 | PRX 13-10 KC (7.7%) | 13.5% |
 
 Map-by-map win chance for Paper Rex: Lotus 68.0%, Haven 62.8%, Ascent 59.3%, Abyss 59.1%, Summit 54.4%, Sunset 53.2%, Split 51.6%
+
+**Series projection** (expected totals over 2.49 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| something | PRX | Duelist | 52.3 | 38.7 | 9.0 | 1.35 | 279 | 178 | 76% | 12.9 | 8.9 | 1.35 |
+| f0rsakeN | PRX | Controller | 34.0 | 34.4 | 18.0 | 0.99 | 188 | 127 | 72% | 3.0 | 3.5 | 0.97 |
+| Jinggg | PRX | Flex | 35.2 | 37.1 | 18.9 | 0.95 | 195 | 130 | 72% | 5.0 | 5.4 | 0.96 |
+| d4v41 | PRX | Sentinel | 31.4 | 33.9 | 12.0 | 0.93 | 176 | 119 | 68% | 3.2 | 4.2 | 0.91 |
+| invy | PRX | Initiator | 32.0 | 36.7 | 21.8 | 0.87 | 179 | 121 | 72% | 3.8 | 4.6 | 0.89 |
+| SUYGETSU | KC | Sentinel | 35.5 | 33.0 | 11.8 | 1.08 | 195 | 131 | 70% | 3.5 | 4.0 | 1.02 |
+| LewN | KC | Duelist | 42.2 | 42.4 | 8.9 | 0.99 | 231 | 150 | 70% | 11.0 | 10.2 | 1.02 |
+| N4RRATE | KC | Flex | 37.7 | 36.9 | 18.6 | 1.02 | 206 | 137 | 73% | 5.3 | 5.4 | 1.02 |
+| Avez | KC | Initiator | 33.6 | 36.7 | 21.4 | 0.92 | 187 | 125 | 72% | 3.9 | 4.6 | 0.93 |
+| dos9 | KC | Controller | 31.9 | 35.8 | 17.7 | 0.89 | 178 | 121 | 70% | 2.9 | 3.7 | 0.90 |
+
+Projected MVP: **something** (PRX, 1.35 rating). Projected top fragger: **something** (52.3 kills).
 
 ### Paper Rex vs Nongshim RedForce (Bo3)
 
@@ -439,6 +728,23 @@ Map-by-map win chance for Paper Rex: Lotus 68.0%, Haven 62.8%, Ascent 59.3%, Aby
 
 Map-by-map win chance for Paper Rex: Lotus 62.9%, Ascent 62.3%, Abyss 60.9%, Haven 60.2%, Summit 57.9%, Sunset 54.0%, Split 46.3%
 
+**Series projection** (expected totals over 2.49 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| something | PRX | Duelist | 52.6 | 38.9 | 8.7 | 1.35 | 281 | 180 | 76% | 13.5 | 9.2 | 1.36 |
+| f0rsakeN | PRX | Controller | 34.2 | 34.6 | 17.4 | 0.99 | 189 | 127 | 72% | 3.2 | 3.6 | 0.97 |
+| Jinggg | PRX | Flex | 34.1 | 36.1 | 21.0 | 0.94 | 189 | 127 | 73% | 4.1 | 4.6 | 0.95 |
+| d4v41 | PRX | Sentinel | 31.6 | 34.1 | 11.6 | 0.93 | 177 | 120 | 68% | 3.4 | 4.3 | 0.91 |
+| invy | PRX | Initiator | 32.2 | 36.9 | 21.0 | 0.87 | 181 | 122 | 72% | 3.9 | 4.8 | 0.89 |
+| Dambi | NS | Duelist | 44.2 | 42.1 | 8.6 | 1.05 | 241 | 156 | 71% | 11.7 | 10.4 | 1.07 |
+| Ivy | NS | Flex | 35.2 | 36.4 | 20.7 | 0.97 | 194 | 130 | 73% | 4.1 | 4.7 | 0.97 |
+| Xross | NS | Sentinel | 33.9 | 33.9 | 11.4 | 1.00 | 188 | 126 | 69% | 3.5 | 4.3 | 0.96 |
+| Rb | NS | Initiator | 34.5 | 36.6 | 20.7 | 0.94 | 191 | 128 | 72% | 4.1 | 4.8 | 0.95 |
+| Francis | NS | Controller | 32.8 | 35.7 | 17.1 | 0.92 | 183 | 123 | 70% | 3.0 | 3.8 | 0.92 |
+
+Projected MVP: **something** (PRX, 1.36 rating). Projected top fragger: **something** (52.6 kills).
+
 ### Paper Rex vs LOUD (Bo3)
 
 **Prediction: Paper Rex wins 2-0** (series win 65.1%; this exact score 36.3%) — neutral venue
@@ -456,6 +762,23 @@ Map-by-map win chance for Paper Rex: Lotus 62.9%, Ascent 62.3%, Abyss 60.9%, Hav
 
 Map-by-map win chance for Paper Rex: Lotus 63.6%, Ascent 62.9%, Summit 60.9%, Abyss 60.0%, Haven 58.9%, Sunset 57.8%, Split 52.2%
 
+**Series projection** (expected totals over 2.48 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| something | PRX | Duelist | 52.1 | 38.4 | 9.0 | 1.36 | 280 | 179 | 76% | 13.0 | 8.8 | 1.36 |
+| f0rsakeN | PRX | Controller | 33.9 | 34.1 | 17.9 | 0.99 | 188 | 127 | 72% | 3.0 | 3.4 | 0.98 |
+| Jinggg | PRX | Flex | 35.1 | 36.8 | 18.9 | 0.95 | 195 | 130 | 72% | 5.0 | 5.3 | 0.96 |
+| d4v41 | PRX | Sentinel | 31.3 | 33.6 | 12.0 | 0.93 | 177 | 119 | 68% | 3.2 | 4.1 | 0.91 |
+| invy | PRX | Initiator | 31.9 | 36.4 | 21.7 | 0.88 | 180 | 121 | 72% | 3.8 | 4.5 | 0.90 |
+| lukxo | LOUD | Sentinel | 36.3 | 32.6 | 11.7 | 1.11 | 200 | 134 | 70% | 3.6 | 4.0 | 1.05 |
+| Darker | LOUD | Controller | 34.5 | 34.6 | 17.6 | 1.00 | 191 | 128 | 71% | 3.1 | 3.5 | 0.98 |
+| tkzin | LOUD | Duelist | 40.7 | 42.7 | 8.8 | 0.95 | 225 | 146 | 69% | 10.7 | 10.3 | 0.98 |
+| DaviH | LOUD | Initiator | 34.3 | 36.2 | 21.3 | 0.95 | 191 | 128 | 73% | 4.0 | 4.6 | 0.95 |
+| erde | LOUD | Flex | 33.6 | 38.1 | 18.5 | 0.88 | 188 | 126 | 71% | 4.8 | 5.6 | 0.90 |
+
+Projected MVP: **something** (PRX, 1.36 rating). Projected top fragger: **something** (52.1 kills).
+
 ### Paper Rex vs Team Vitality (Bo3)
 
 **Prediction: Paper Rex wins 2-0** (series win 67.4%; this exact score 37.6%) — neutral venue
@@ -472,6 +795,23 @@ Map-by-map win chance for Paper Rex: Lotus 63.6%, Ascent 62.9%, Summit 60.9%, Ab
 | 3 | Haven | decider | 62.5% | PRX 13-9 | PRX 13-9 VIT (7.9%) | 13.3% |
 
 Map-by-map win chance for Paper Rex: Lotus 65.8%, Ascent 64.4%, Sunset 63.5%, Haven 62.5%, Abyss 60.4%, Summit 58.4%, Split 54.6%
+
+**Series projection** (expected totals over 2.48 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| something | PRX | Duelist | 52.4 | 38.5 | 8.6 | 1.36 | 282 | 180 | 76% | 13.5 | 9.0 | 1.37 |
+| f0rsakeN | PRX | Controller | 34.1 | 34.2 | 17.3 | 1.00 | 190 | 128 | 72% | 3.2 | 3.5 | 0.98 |
+| Jinggg | PRX | Flex | 33.9 | 35.7 | 20.9 | 0.95 | 190 | 127 | 73% | 4.1 | 4.5 | 0.96 |
+| d4v41 | PRX | Sentinel | 31.5 | 33.7 | 11.5 | 0.93 | 178 | 120 | 68% | 3.4 | 4.2 | 0.92 |
+| invy | PRX | Initiator | 32.1 | 36.4 | 20.9 | 0.88 | 181 | 122 | 72% | 3.9 | 4.7 | 0.90 |
+| Derke | VIT | Duelist | 45.1 | 41.5 | 8.5 | 1.09 | 247 | 159 | 71% | 11.7 | 10.3 | 1.11 |
+| Jamppi | VIT | Sentinel | 33.3 | 33.8 | 11.3 | 0.99 | 186 | 125 | 68% | 3.4 | 4.4 | 0.95 |
+| Sayonara | VIT | Flex | 33.9 | 36.5 | 20.4 | 0.93 | 190 | 127 | 72% | 4.0 | 4.8 | 0.93 |
+| PROFEK | VIT | Controller | 32.9 | 35.4 | 16.9 | 0.93 | 184 | 124 | 70% | 3.0 | 3.8 | 0.92 |
+| Chronicle | VIT | Flex | 33.3 | 36.8 | 20.4 | 0.91 | 187 | 125 | 72% | 3.9 | 4.8 | 0.91 |
+
+Projected MVP: **something** (PRX, 1.37 rating). Projected top fragger: **something** (52.4 kills).
 
 ### Paper Rex vs G2 Esports (Bo3)
 
@@ -491,6 +831,23 @@ Map-by-map win chance for Paper Rex: Lotus 65.8%, Ascent 64.4%, Sunset 63.5%, Ha
 
 Map-by-map win chance for Paper Rex: Lotus 70.0%, Ascent 68.9%, Haven 68.2%, Abyss 64.6%, Summit 63.6%, Sunset 62.8%, Split 53.3%
 
+**Series projection** (expected totals over 2.45 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| something | PRX | Duelist | 51.6 | 37.5 | 8.8 | 1.38 | 282 | 180 | 76% | 13.0 | 8.5 | 1.38 |
+| f0rsakeN | PRX | Controller | 33.5 | 33.3 | 17.7 | 1.01 | 190 | 128 | 72% | 3.0 | 3.3 | 0.99 |
+| Jinggg | PRX | Flex | 34.6 | 35.8 | 18.7 | 0.97 | 196 | 131 | 73% | 5.0 | 5.1 | 0.97 |
+| d4v41 | PRX | Sentinel | 31.0 | 32.8 | 11.8 | 0.94 | 178 | 120 | 69% | 3.3 | 4.0 | 0.92 |
+| invy | PRX | Initiator | 31.5 | 35.5 | 21.4 | 0.89 | 181 | 122 | 72% | 3.8 | 4.4 | 0.91 |
+| jawgemo | G2 | Duelist | 42.5 | 41.7 | 8.4 | 1.02 | 238 | 154 | 70% | 11.2 | 10.5 | 1.04 |
+| leaf | G2 | Sentinel | 35.8 | 32.4 | 11.2 | 1.10 | 201 | 134 | 70% | 3.6 | 4.2 | 1.04 |
+| BABYBAY | G2 | Flex | 34.3 | 35.6 | 19.6 | 0.96 | 194 | 130 | 72% | 3.8 | 4.5 | 0.96 |
+| trent | G2 | Initiator | 32.5 | 36.5 | 20.2 | 0.89 | 186 | 125 | 71% | 3.8 | 4.9 | 0.90 |
+| valyn | G2 | Controller | 29.7 | 36.1 | 16.8 | 0.82 | 171 | 116 | 69% | 2.8 | 4.0 | 0.84 |
+
+Projected MVP: **something** (PRX, 1.38 rating). Projected top fragger: **something** (51.6 kills).
+
 ### Paper Rex vs Global Esports (Bo3)
 
 **Prediction: Paper Rex wins 2-0** (series win 69.6%; this exact score 40.8%) — neutral venue
@@ -508,6 +865,23 @@ Map-by-map win chance for Paper Rex: Lotus 70.0%, Ascent 68.9%, Haven 68.2%, Aby
 
 Map-by-map win chance for Paper Rex: Ascent 67.9%, Sunset 66.7%, Lotus 63.6%, Split 62.1%, Haven 61.6%, Summit 61.2%, Abyss 59.8%
 
+**Series projection** (expected totals over 2.46 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| something | PRX | Duelist | 51.8 | 37.8 | 8.9 | 1.37 | 281 | 180 | 76% | 13.0 | 8.6 | 1.37 |
+| f0rsakeN | PRX | Controller | 33.7 | 33.6 | 17.8 | 1.00 | 189 | 127 | 72% | 3.0 | 3.4 | 0.99 |
+| Jinggg | PRX | Flex | 34.8 | 36.2 | 18.8 | 0.96 | 196 | 131 | 72% | 5.0 | 5.2 | 0.97 |
+| d4v41 | PRX | Sentinel | 31.1 | 33.1 | 11.9 | 0.94 | 177 | 120 | 68% | 3.3 | 4.0 | 0.92 |
+| invy | PRX | Initiator | 31.7 | 35.8 | 21.5 | 0.88 | 180 | 121 | 72% | 3.8 | 4.4 | 0.90 |
+| UdoTan | GE | Duelist | 42.6 | 41.9 | 9.1 | 1.02 | 237 | 153 | 70% | 10.9 | 10.2 | 1.04 |
+| Kr1stal | GE | Flex | 35.9 | 35.8 | 15.2 | 1.00 | 201 | 134 | 71% | 4.8 | 5.3 | 0.99 |
+| xavi8k | GE | Sentinel | 32.6 | 33.7 | 12.2 | 0.97 | 184 | 124 | 69% | 3.3 | 4.2 | 0.94 |
+| PatMen | GE | Initiator | 33.3 | 36.4 | 22.1 | 0.91 | 188 | 126 | 72% | 3.8 | 4.7 | 0.92 |
+| Autumn | GE | Controller | 32.2 | 35.3 | 18.3 | 0.91 | 182 | 123 | 71% | 2.9 | 3.7 | 0.91 |
+
+Projected MVP: **something** (PRX, 1.37 rating). Projected top fragger: **something** (51.8 kills).
+
 ### Paper Rex vs FUT Esports (Bo3)
 
 **Prediction: Paper Rex wins 2-0** (series win 70.9%; this exact score 41.8%) — neutral venue
@@ -524,6 +898,23 @@ Map-by-map win chance for Paper Rex: Ascent 67.9%, Sunset 66.7%, Lotus 63.6%, Sp
 | 3 | Summit | decider | 63.6% | PRX 13-9 | PRX 13-9 FUT (8.0%) | 13.1% |
 
 Map-by-map win chance for Paper Rex: Lotus 67.3%, Ascent 67.2%, Sunset 64.3%, Summit 63.6%, Haven 63.4%, Abyss 62.2%, Split 54.8%
+
+**Series projection** (expected totals over 2.46 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| something | PRX | Duelist | 51.3 | 37.4 | 9.2 | 1.37 | 279 | 178 | 76% | 12.4 | 8.2 | 1.37 |
+| f0rsakeN | PRX | Controller | 33.3 | 33.2 | 18.4 | 1.00 | 188 | 127 | 72% | 2.9 | 3.2 | 0.99 |
+| Jinggg | PRX | Flex | 36.0 | 37.1 | 16.4 | 0.97 | 203 | 134 | 72% | 6.1 | 6.0 | 0.98 |
+| d4v41 | PRX | Sentinel | 30.8 | 32.7 | 12.3 | 0.94 | 176 | 119 | 69% | 3.1 | 3.8 | 0.92 |
+| invy | PRX | Initiator | 31.4 | 35.4 | 22.3 | 0.89 | 179 | 121 | 73% | 3.6 | 4.2 | 0.91 |
+| xeus | FUT | Duelist | 41.4 | 40.3 | 9.9 | 1.03 | 230 | 150 | 71% | 9.0 | 8.5 | 1.04 |
+| KROSTALY | FUT | Sentinel | 33.5 | 31.7 | 13.2 | 1.06 | 189 | 127 | 70% | 2.8 | 3.5 | 1.00 |
+| sociablEE | FUT | Initiator | 32.9 | 34.8 | 23.9 | 0.95 | 186 | 125 | 73% | 3.2 | 3.9 | 0.95 |
+| yetujey | FUT | Controller | 31.3 | 34.0 | 19.8 | 0.92 | 178 | 120 | 71% | 2.3 | 3.1 | 0.92 |
+| s0pp | FUT | Duelist | 36.8 | 42.0 | 9.9 | 0.88 | 208 | 137 | 68% | 8.2 | 9.1 | 0.89 |
+
+Projected MVP: **something** (PRX, 1.37 rating). Projected top fragger: **something** (51.3 kills).
 
 ### Paper Rex vs Team Liquid (Bo3)
 
@@ -543,6 +934,23 @@ Map-by-map win chance for Paper Rex: Lotus 67.3%, Ascent 67.2%, Sunset 64.3%, Su
 
 Map-by-map win chance for Paper Rex: Ascent 73.0%, Sunset 70.1%, Summit 66.8%, Abyss 65.4%, Lotus 65.3%, Haven 63.8%, Split 58.8%
 
+**Series projection** (expected totals over 2.44 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| something | PRX | Duelist | 51.4 | 37.2 | 8.8 | 1.38 | 282 | 180 | 76% | 13.0 | 8.4 | 1.38 |
+| f0rsakeN | PRX | Controller | 33.4 | 33.1 | 17.6 | 1.01 | 190 | 128 | 72% | 3.0 | 3.3 | 0.99 |
+| Jinggg | PRX | Flex | 34.5 | 35.6 | 18.7 | 0.97 | 196 | 131 | 73% | 5.0 | 5.0 | 0.98 |
+| d4v41 | PRX | Sentinel | 30.9 | 32.6 | 11.7 | 0.95 | 178 | 120 | 69% | 3.3 | 3.9 | 0.93 |
+| invy | PRX | Initiator | 31.5 | 35.3 | 21.3 | 0.89 | 181 | 122 | 72% | 3.8 | 4.3 | 0.91 |
+| kamo | TL | Duelist | 42.7 | 41.0 | 8.5 | 1.04 | 239 | 155 | 71% | 10.7 | 10.0 | 1.06 |
+| nAts | TL | Sentinel | 32.7 | 33.0 | 11.4 | 0.99 | 187 | 126 | 69% | 3.2 | 4.2 | 0.95 |
+| trexx | TL | Flex | 34.6 | 36.8 | 18.1 | 0.94 | 197 | 131 | 72% | 4.7 | 5.5 | 0.94 |
+| GSR | TL | Controller | 31.7 | 34.8 | 17.1 | 0.91 | 181 | 123 | 70% | 2.8 | 3.7 | 0.91 |
+| Kicks | TL | Initiator | 32.1 | 36.1 | 20.6 | 0.89 | 184 | 124 | 71% | 3.6 | 4.7 | 0.90 |
+
+Projected MVP: **something** (PRX, 1.38 rating). Projected top fragger: **something** (51.4 kills).
+
 ### Paper Rex vs EDward Gaming (Bo3)
 
 **Prediction: Paper Rex wins 2-0** (series win 73.3%; this exact score 43.6%) — neutral venue
@@ -559,6 +967,23 @@ Map-by-map win chance for Paper Rex: Ascent 73.0%, Sunset 70.1%, Summit 66.8%, A
 | 3 | Abyss | decider | 66.0% | PRX 13-9 | PRX 13-9 EDG (8.2%) | 12.8% |
 
 Map-by-map win chance for Paper Rex: Ascent 69.5%, Lotus 68.9%, Sunset 66.7%, Abyss 66.0%, Haven 65.8%, Summit 63.2%, Split 60.1%
+
+**Series projection** (expected totals over 2.45 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| something | PRX | Duelist | 50.7 | 36.9 | 9.5 | 1.38 | 277 | 178 | 76% | 11.9 | 7.8 | 1.37 |
+| Jinggg | PRX | Flex | 36.9 | 37.7 | 14.4 | 0.98 | 208 | 137 | 72% | 7.0 | 6.6 | 0.99 |
+| f0rsakeN | PRX | Controller | 33.0 | 32.8 | 18.9 | 1.01 | 187 | 126 | 73% | 2.8 | 3.1 | 0.99 |
+| d4v41 | PRX | Sentinel | 30.5 | 32.3 | 12.6 | 0.94 | 175 | 119 | 69% | 3.0 | 3.7 | 0.92 |
+| invy | PRX | Initiator | 31.0 | 34.9 | 22.9 | 0.89 | 178 | 120 | 73% | 3.4 | 4.0 | 0.91 |
+| ZmjjKK | EDG | Duelist | 44.4 | 39.8 | 9.2 | 1.11 | 246 | 159 | 72% | 10.1 | 9.1 | 1.12 |
+| stew | EDG | Sentinel | 31.5 | 32.9 | 12.2 | 0.96 | 180 | 122 | 68% | 2.9 | 3.9 | 0.93 |
+| Smoggy | EDG | Flex | 36.0 | 39.1 | 14.0 | 0.92 | 204 | 135 | 70% | 6.4 | 7.3 | 0.93 |
+| CHICHOO | EDG | Controller | 31.7 | 34.2 | 18.4 | 0.93 | 181 | 122 | 71% | 2.5 | 3.4 | 0.92 |
+| nobody | EDG | Initiator | 30.9 | 36.0 | 22.2 | 0.86 | 178 | 120 | 72% | 3.2 | 4.4 | 0.87 |
+
+Projected MVP: **something** (PRX, 1.37 rating). Projected top fragger: **something** (50.7 kills).
 
 ### Paper Rex vs TYLOO (Bo3)
 
@@ -577,6 +1002,23 @@ Map-by-map win chance for Paper Rex: Ascent 69.5%, Lotus 68.9%, Sunset 66.7%, Ab
 
 Map-by-map win chance for Paper Rex: Ascent 72.4%, Lotus 71.8%, Sunset 69.1%, Haven 68.9%, Abyss 67.5%, Split 66.1%, Summit 65.7%
 
+**Series projection** (expected totals over 2.43 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| something | PRX | Duelist | 49.8 | 36.0 | 9.7 | 1.39 | 276 | 177 | 76% | 11.2 | 7.3 | 1.37 |
+| Jinggg | PRX | Flex | 37.8 | 38.1 | 11.9 | 0.99 | 216 | 142 | 71% | 8.1 | 7.3 | 1.01 |
+| f0rsakeN | PRX | Controller | 32.4 | 31.9 | 19.5 | 1.01 | 186 | 126 | 73% | 2.6 | 2.9 | 1.00 |
+| d4v41 | PRX | Sentinel | 29.9 | 31.5 | 13.0 | 0.95 | 175 | 118 | 69% | 2.8 | 3.4 | 0.93 |
+| invy | PRX | Initiator | 30.5 | 34.0 | 23.5 | 0.90 | 178 | 120 | 73% | 3.3 | 3.8 | 0.92 |
+| SiuFatBB | TYL | Flex | 38.0 | 39.5 | 11.4 | 0.96 | 217 | 142 | 70% | 7.6 | 8.0 | 0.97 |
+| Erv | TYL | Sentinel | 31.8 | 31.9 | 12.5 | 1.00 | 183 | 124 | 69% | 2.8 | 3.6 | 0.96 |
+| splash | TYL | Duelist | 38.5 | 40.8 | 9.4 | 0.94 | 220 | 144 | 69% | 8.7 | 9.1 | 0.95 |
+| slowly | TYL | Controller | 32.0 | 33.3 | 18.8 | 0.96 | 184 | 124 | 71% | 2.4 | 3.2 | 0.95 |
+| Scales | TYL | Initiator | 31.2 | 35.0 | 22.7 | 0.89 | 181 | 122 | 72% | 3.1 | 4.1 | 0.90 |
+
+Projected MVP: **something** (PRX, 1.37 rating). Projected top fragger: **something** (49.8 kills).
+
 ### Paper Rex vs T1 (Bo3)
 
 **Prediction: Paper Rex wins 2-0** (series win 78.0%; this exact score 49.0%) — neutral venue
@@ -593,6 +1035,23 @@ Map-by-map win chance for Paper Rex: Ascent 72.4%, Lotus 71.8%, Sunset 69.1%, Ha
 | 3 | Haven | decider | 68.8% | PRX 13-9 | PRX 13-9 T1 (8.4%) | 12.4% |
 
 Map-by-map win chance for Paper Rex: Lotus 74.6%, Ascent 72.3%, Summit 70.5%, Haven 68.8%, Abyss 68.4%, Sunset 67.8%, Split 62.7%
+
+**Series projection** (expected totals over 2.42 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| something | PRX | Duelist | 51.2 | 36.7 | 8.4 | 1.39 | 285 | 182 | 76% | 13.4 | 8.5 | 1.40 |
+| f0rsakeN | PRX | Controller | 33.3 | 32.6 | 16.9 | 1.02 | 192 | 129 | 72% | 3.1 | 3.3 | 1.00 |
+| Jinggg | PRX | Flex | 33.2 | 34.1 | 20.4 | 0.97 | 192 | 128 | 73% | 4.1 | 4.3 | 0.98 |
+| d4v41 | PRX | Sentinel | 30.7 | 32.2 | 11.2 | 0.96 | 180 | 121 | 69% | 3.4 | 4.0 | 0.94 |
+| invy | PRX | Initiator | 31.3 | 34.8 | 20.4 | 0.90 | 183 | 123 | 72% | 3.9 | 4.4 | 0.92 |
+| BuZz | T1 | Duelist | 41.9 | 40.9 | 8.1 | 1.02 | 239 | 154 | 70% | 10.8 | 10.3 | 1.04 |
+| Meteor | T1 | Sentinel | 33.9 | 32.2 | 10.8 | 1.05 | 195 | 131 | 69% | 3.4 | 4.2 | 1.00 |
+| iZu | T1 | Flex | 34.6 | 34.9 | 19.6 | 0.99 | 198 | 133 | 73% | 3.9 | 4.6 | 0.98 |
+| Munchkin | T1 | Initiator | 31.4 | 36.1 | 19.6 | 0.87 | 183 | 123 | 71% | 3.7 | 4.8 | 0.88 |
+| stax | T1 | Controller | 28.6 | 35.7 | 16.2 | 0.80 | 169 | 115 | 68% | 2.6 | 4.0 | 0.82 |
+
+Projected MVP: **something** (PRX, 1.40 rating). Projected top fragger: **something** (51.2 kills).
 
 ### Paper Rex vs Xi Lai Gaming (Bo3)
 
@@ -611,6 +1070,23 @@ Map-by-map win chance for Paper Rex: Lotus 74.6%, Ascent 72.3%, Summit 70.5%, Ha
 
 Map-by-map win chance for Paper Rex: Ascent 74.0%, Lotus 72.9%, Sunset 72.0%, Abyss 70.4%, Haven 70.0%, Summit 68.1%, Split 65.3%
 
+**Series projection** (expected totals over 2.42 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| something | PRX | Duelist | 50.0 | 35.9 | 9.3 | 1.39 | 279 | 179 | 76% | 11.8 | 7.5 | 1.38 |
+| Jinggg | PRX | Flex | 36.3 | 36.6 | 14.3 | 0.99 | 209 | 138 | 72% | 6.9 | 6.3 | 1.01 |
+| f0rsakeN | PRX | Controller | 32.5 | 31.9 | 18.6 | 1.02 | 188 | 127 | 73% | 2.8 | 3.0 | 1.00 |
+| d4v41 | PRX | Sentinel | 30.0 | 31.4 | 12.4 | 0.96 | 176 | 119 | 69% | 3.0 | 3.5 | 0.93 |
+| invy | PRX | Initiator | 30.6 | 34.0 | 22.5 | 0.90 | 179 | 121 | 73% | 3.4 | 3.9 | 0.92 |
+| Lysoar | XLG | Flex | 37.1 | 37.8 | 13.7 | 0.98 | 213 | 140 | 71% | 6.5 | 7.0 | 0.98 |
+| NoMan | XLG | Duelist | 38.6 | 40.9 | 8.9 | 0.94 | 222 | 145 | 69% | 9.1 | 9.5 | 0.95 |
+| Rarga | XLG | Initiator | 32.5 | 34.6 | 21.6 | 0.94 | 189 | 127 | 73% | 3.4 | 4.2 | 0.94 |
+| WsLeo | XLG | Sentinel | 30.6 | 32.4 | 11.9 | 0.94 | 179 | 121 | 68% | 2.8 | 3.9 | 0.92 |
+| happywei | XLG | Controller | 30.9 | 33.8 | 17.9 | 0.91 | 180 | 122 | 70% | 2.5 | 3.4 | 0.91 |
+
+Projected MVP: **something** (PRX, 1.38 rating). Projected top fragger: **something** (50.0 kills).
+
 ### Paper Rex vs JD Gaming (Bo3)
 
 **Prediction: Paper Rex wins 2-0** (series win 81.4%; this exact score 52.4%) — neutral venue
@@ -627,6 +1103,23 @@ Map-by-map win chance for Paper Rex: Ascent 74.0%, Lotus 72.9%, Sunset 72.0%, Ab
 | 3 | Abyss | decider | 72.5% | PRX 13-8 | PRX 13-8 JDG (8.8%) | 11.8% |
 
 Map-by-map win chance for Paper Rex: Lotus 74.8%, Ascent 74.7%, Sunset 73.9%, Abyss 72.5%, Haven 71.4%, Summit 70.1%, Split 65.6%
+
+**Series projection** (expected totals over 2.40 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| something | PRX | Duelist | 50.4 | 35.9 | 8.6 | 1.40 | 284 | 182 | 77% | 12.9 | 8.0 | 1.41 |
+| f0rsakeN | PRX | Controller | 32.8 | 31.9 | 17.2 | 1.03 | 191 | 129 | 73% | 3.0 | 3.1 | 1.01 |
+| Jinggg | PRX | Flex | 33.7 | 34.3 | 18.4 | 0.99 | 197 | 131 | 73% | 4.9 | 4.7 | 0.99 |
+| d4v41 | PRX | Sentinel | 30.3 | 31.4 | 11.5 | 0.96 | 179 | 121 | 69% | 3.2 | 3.8 | 0.94 |
+| invy | PRX | Initiator | 30.8 | 34.0 | 20.8 | 0.91 | 182 | 123 | 73% | 3.7 | 4.1 | 0.93 |
+| zhe | JDG | Duelist | 40.6 | 40.4 | 8.2 | 1.01 | 235 | 152 | 70% | 10.2 | 10.0 | 1.02 |
+| jkuro | JDG | Sentinel | 31.7 | 32.3 | 11.0 | 0.98 | 186 | 125 | 68% | 3.1 | 4.1 | 0.95 |
+| BerLIN | JDG | Initiator | 32.3 | 34.9 | 19.9 | 0.93 | 189 | 127 | 72% | 3.6 | 4.5 | 0.93 |
+| Yuicaw | JDG | Controller | 30.7 | 34.1 | 16.4 | 0.90 | 181 | 122 | 70% | 2.7 | 3.6 | 0.90 |
+| crownfisher | JDG | Flex | 32.1 | 36.4 | 17.6 | 0.88 | 189 | 127 | 71% | 4.3 | 5.5 | 0.89 |
+
+Projected MVP: **something** (PRX, 1.41 rating). Projected top fragger: **something** (50.4 kills).
 
 ### NRG vs Karmine Corp (Bo3)
 
@@ -646,6 +1139,23 @@ Map-by-map win chance for Paper Rex: Lotus 74.8%, Ascent 74.7%, Sunset 73.9%, Ab
 
 Map-by-map win chance for NRG: Haven 66.4%, Lotus 64.4%, Abyss 58.0%, Summit 57.3%, Split 57.1%, Sunset 50.8%, Ascent 50.3%
 
+**Series projection** (expected totals over 2.50 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| mada | NRG | Duelist | 46.4 | 40.2 | 9.3 | 1.15 | 251 | 162 | 73% | 11.6 | 9.1 | 1.18 |
+| keiko | NRG | Flex | 38.6 | 37.5 | 16.7 | 1.03 | 211 | 139 | 73% | 6.4 | 6.0 | 1.03 |
+| skuba | NRG | Sentinel | 33.7 | 32.9 | 12.5 | 1.02 | 186 | 126 | 70% | 3.3 | 3.9 | 0.98 |
+| brawk | NRG | Controller | 33.9 | 34.3 | 18.7 | 0.99 | 187 | 126 | 72% | 2.9 | 3.4 | 0.97 |
+| Ethan | NRG | Initiator | 32.4 | 36.4 | 22.6 | 0.89 | 181 | 122 | 72% | 3.7 | 4.4 | 0.91 |
+| N4RRATE | KC | Flex | 38.9 | 37.9 | 16.6 | 1.03 | 213 | 140 | 72% | 6.2 | 6.2 | 1.02 |
+| SUYGETSU | KC | Sentinel | 35.3 | 32.8 | 12.3 | 1.08 | 194 | 130 | 70% | 3.4 | 3.9 | 1.02 |
+| LewN | KC | Duelist | 42.0 | 42.2 | 9.2 | 0.99 | 230 | 149 | 70% | 10.5 | 9.8 | 1.02 |
+| Avez | KC | Initiator | 33.4 | 36.5 | 22.3 | 0.92 | 185 | 125 | 72% | 3.7 | 4.5 | 0.93 |
+| dos9 | KC | Controller | 31.7 | 35.6 | 18.4 | 0.89 | 177 | 120 | 70% | 2.8 | 3.6 | 0.90 |
+
+Projected MVP: **mada** (NRG, 1.18 rating). Projected top fragger: **mada** (46.4 kills).
+
 ### NRG vs Nongshim RedForce (Bo3)
 
 **Prediction: NRG wins 2-0** (series win 61.4%; this exact score 32.0%) — neutral venue
@@ -664,6 +1174,23 @@ Map-by-map win chance for NRG: Haven 66.4%, Lotus 64.4%, Abyss 58.0%, Summit 57.
 
 Map-by-map win chance for NRG: Haven 64.3%, Summit 61.1%, Abyss 60.2%, Lotus 59.5%, Ascent 53.9%, Split 52.3%, Sunset 52.0%
 
+**Series projection** (expected totals over 2.49 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| mada | NRG | Duelist | 46.0 | 40.0 | 9.7 | 1.15 | 248 | 160 | 73% | 11.1 | 8.7 | 1.17 |
+| keiko | NRG | Flex | 39.7 | 38.5 | 14.6 | 1.03 | 217 | 143 | 72% | 7.4 | 6.8 | 1.04 |
+| skuba | NRG | Sentinel | 33.4 | 32.7 | 12.9 | 1.02 | 185 | 125 | 70% | 3.2 | 3.7 | 0.98 |
+| brawk | NRG | Controller | 33.6 | 34.1 | 19.3 | 0.99 | 186 | 125 | 72% | 2.8 | 3.2 | 0.97 |
+| Ethan | NRG | Initiator | 32.1 | 36.1 | 23.3 | 0.89 | 180 | 121 | 73% | 3.5 | 4.2 | 0.91 |
+| Dambi | NS | Duelist | 43.3 | 41.3 | 9.5 | 1.05 | 236 | 153 | 71% | 10.3 | 9.3 | 1.07 |
+| Ivy | NS | Flex | 38.8 | 39.3 | 14.4 | 0.99 | 213 | 140 | 71% | 7.1 | 7.1 | 0.99 |
+| Xross | NS | Sentinel | 33.2 | 33.2 | 12.7 | 1.00 | 184 | 124 | 69% | 3.1 | 3.9 | 0.96 |
+| Rb | NS | Initiator | 33.9 | 35.9 | 23.0 | 0.94 | 187 | 126 | 73% | 3.6 | 4.3 | 0.95 |
+| Francis | NS | Controller | 32.2 | 35.1 | 19.1 | 0.92 | 179 | 121 | 71% | 2.6 | 3.4 | 0.92 |
+
+Projected MVP: **mada** (NRG, 1.17 rating). Projected top fragger: **mada** (46.0 kills).
+
 ### NRG vs LOUD (Bo3)
 
 **Prediction: NRG wins 2-0** (series win 61.3%; this exact score 33.0%) — neutral venue
@@ -680,6 +1207,23 @@ Map-by-map win chance for NRG: Haven 64.3%, Summit 61.1%, Abyss 60.2%, Lotus 59.
 | 3 | Abyss | decider | 57.5% | NRG 13-10 | NRG 13-10 LOUD (7.6%) | 13.7% |
 
 Map-by-map win chance for NRG: Summit 62.3%, Haven 61.3%, Lotus 58.5%, Abyss 57.5%, Split 56.4%, Sunset 53.9%, Ascent 52.7%
+
+**Series projection** (expected totals over 2.49 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| mada | NRG | Duelist | 46.7 | 40.4 | 9.0 | 1.16 | 253 | 163 | 73% | 12.1 | 9.4 | 1.18 |
+| keiko | NRG | Flex | 37.3 | 36.5 | 18.9 | 1.02 | 205 | 136 | 73% | 5.4 | 5.2 | 1.02 |
+| skuba | NRG | Sentinel | 33.9 | 33.1 | 12.0 | 1.02 | 188 | 126 | 69% | 3.5 | 4.0 | 0.98 |
+| brawk | NRG | Controller | 34.1 | 34.5 | 18.0 | 0.99 | 188 | 127 | 72% | 3.1 | 3.5 | 0.98 |
+| Ethan | NRG | Initiator | 32.6 | 36.5 | 21.8 | 0.89 | 182 | 123 | 72% | 3.9 | 4.5 | 0.91 |
+| lukxo | LOUD | Sentinel | 36.6 | 32.6 | 11.8 | 1.12 | 200 | 134 | 70% | 3.7 | 4.0 | 1.05 |
+| Darker | LOUD | Controller | 34.8 | 34.7 | 17.8 | 1.00 | 192 | 129 | 72% | 3.1 | 3.5 | 0.99 |
+| tkzin | LOUD | Duelist | 41.1 | 42.8 | 8.9 | 0.96 | 226 | 147 | 69% | 10.9 | 10.3 | 0.98 |
+| DaviH | LOUD | Initiator | 34.6 | 36.3 | 21.5 | 0.95 | 191 | 128 | 73% | 4.0 | 4.5 | 0.96 |
+| erde | LOUD | Flex | 34.0 | 38.2 | 18.6 | 0.89 | 189 | 126 | 71% | 4.9 | 5.6 | 0.90 |
+
+Projected MVP: **mada** (NRG, 1.18 rating). Projected top fragger: **mada** (46.7 kills).
 
 ### NRG vs Team Vitality (Bo3)
 
@@ -698,6 +1242,23 @@ Map-by-map win chance for NRG: Summit 62.3%, Haven 61.3%, Lotus 58.5%, Abyss 57.
 
 Map-by-map win chance for NRG: Haven 64.8%, Lotus 60.8%, Summit 59.8%, Sunset 59.8%, Split 58.7%, Abyss 57.9%, Ascent 54.3%
 
+**Series projection** (expected totals over 2.48 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| mada | NRG | Duelist | 45.5 | 39.4 | 10.0 | 1.16 | 247 | 160 | 73% | 10.5 | 8.3 | 1.17 |
+| keiko | NRG | Flex | 40.8 | 39.2 | 12.3 | 1.04 | 224 | 146 | 72% | 8.5 | 7.5 | 1.05 |
+| skuba | NRG | Sentinel | 33.0 | 32.2 | 13.3 | 1.03 | 184 | 124 | 70% | 3.0 | 3.5 | 0.98 |
+| brawk | NRG | Controller | 33.2 | 33.6 | 19.9 | 0.99 | 185 | 125 | 72% | 2.7 | 3.1 | 0.98 |
+| Ethan | NRG | Initiator | 31.8 | 35.6 | 24.1 | 0.89 | 179 | 121 | 73% | 3.4 | 4.0 | 0.91 |
+| Derke | VIT | Duelist | 44.1 | 40.6 | 10.0 | 1.09 | 240 | 156 | 72% | 10.0 | 8.9 | 1.10 |
+| Sayonara | VIT | Flex | 38.8 | 40.7 | 12.4 | 0.95 | 214 | 141 | 70% | 7.9 | 8.2 | 0.97 |
+| Jamppi | VIT | Sentinel | 32.6 | 33.0 | 13.3 | 0.99 | 182 | 123 | 69% | 2.9 | 3.8 | 0.95 |
+| PROFEK | VIT | Controller | 32.2 | 34.6 | 20.0 | 0.93 | 180 | 122 | 71% | 2.5 | 3.3 | 0.93 |
+| Chronicle | VIT | Flex | 32.2 | 35.5 | 22.4 | 0.91 | 180 | 122 | 72% | 3.0 | 3.9 | 0.92 |
+
+Projected MVP: **mada** (NRG, 1.17 rating). Projected top fragger: **mada** (45.5 kills).
+
 ### NRG vs G2 Esports (Bo3)
 
 **Prediction: NRG wins 2-0** (series win 64.0%; this exact score 35.3%) — neutral venue
@@ -714,6 +1275,23 @@ Map-by-map win chance for NRG: Haven 64.8%, Lotus 60.8%, Summit 59.8%, Sunset 59
 | 3 | Abyss | decider | 59.4% | NRG 13-10 | NRG 13-10 G2 (7.7%) | 13.5% |
 
 Map-by-map win chance for NRG: Haven 67.8%, Lotus 62.6%, Summit 62.3%, Abyss 59.4%, Ascent 56.5%, Sunset 56.4%, Split 54.7%
+
+**Series projection** (expected totals over 2.48 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| mada | NRG | Duelist | 45.9 | 39.6 | 9.6 | 1.16 | 249 | 161 | 73% | 11.1 | 8.6 | 1.18 |
+| keiko | NRG | Flex | 39.6 | 38.2 | 14.6 | 1.04 | 218 | 143 | 72% | 7.4 | 6.7 | 1.05 |
+| skuba | NRG | Sentinel | 33.3 | 32.5 | 12.8 | 1.03 | 186 | 125 | 70% | 3.2 | 3.7 | 0.98 |
+| brawk | NRG | Controller | 33.5 | 33.8 | 19.3 | 0.99 | 186 | 126 | 72% | 2.8 | 3.2 | 0.98 |
+| Ethan | NRG | Initiator | 32.1 | 35.8 | 23.3 | 0.90 | 180 | 121 | 73% | 3.5 | 4.2 | 0.91 |
+| jawgemo | G2 | Duelist | 43.1 | 41.6 | 9.2 | 1.03 | 236 | 153 | 71% | 10.7 | 9.8 | 1.05 |
+| leaf | G2 | Sentinel | 36.2 | 32.4 | 12.3 | 1.12 | 199 | 133 | 70% | 3.5 | 3.9 | 1.05 |
+| BABYBAY | G2 | Flex | 37.6 | 37.9 | 15.9 | 0.99 | 207 | 137 | 71% | 5.9 | 6.2 | 0.99 |
+| trent | G2 | Initiator | 33.0 | 36.4 | 22.3 | 0.90 | 184 | 124 | 72% | 3.7 | 4.5 | 0.92 |
+| valyn | G2 | Controller | 30.1 | 36.1 | 18.5 | 0.83 | 170 | 116 | 69% | 2.6 | 3.7 | 0.85 |
+
+Projected MVP: **mada** (NRG, 1.18 rating). Projected top fragger: **mada** (45.9 kills).
 
 ### NRG vs Global Esports (Bo3)
 
@@ -732,6 +1310,23 @@ Map-by-map win chance for NRG: Haven 67.8%, Lotus 62.6%, Summit 62.3%, Abyss 59.
 
 Map-by-map win chance for NRG: Split 66.0%, Haven 63.9%, Sunset 63.1%, Summit 62.6%, Lotus 58.4%, Ascent 58.1%, Abyss 57.3%
 
+**Series projection** (expected totals over 2.48 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| mada | NRG | Duelist | 46.9 | 40.2 | 8.7 | 1.17 | 256 | 164 | 73% | 12.7 | 9.5 | 1.20 |
+| keiko | NRG | Flex | 36.0 | 35.1 | 20.9 | 1.03 | 200 | 133 | 74% | 4.4 | 4.4 | 1.02 |
+| skuba | NRG | Sentinel | 34.1 | 32.9 | 11.5 | 1.04 | 190 | 128 | 70% | 3.7 | 4.1 | 0.99 |
+| brawk | NRG | Controller | 34.3 | 34.3 | 17.3 | 1.00 | 191 | 128 | 72% | 3.2 | 3.5 | 0.99 |
+| Ethan | NRG | Initiator | 32.8 | 36.3 | 20.9 | 0.90 | 184 | 124 | 72% | 4.1 | 4.6 | 0.92 |
+| UdoTan | GE | Duelist | 43.4 | 42.5 | 9.1 | 1.02 | 239 | 154 | 71% | 11.6 | 10.6 | 1.05 |
+| Kr1stal | GE | Flex | 35.2 | 34.7 | 15.9 | 1.02 | 196 | 131 | 71% | 3.9 | 4.5 | 0.99 |
+| xavi8k | GE | Sentinel | 33.3 | 34.2 | 12.2 | 0.97 | 186 | 125 | 69% | 3.5 | 4.4 | 0.95 |
+| PatMen | GE | Initiator | 33.9 | 36.9 | 22.1 | 0.92 | 190 | 127 | 73% | 4.1 | 4.8 | 0.93 |
+| Autumn | GE | Controller | 32.8 | 35.8 | 18.3 | 0.92 | 184 | 124 | 71% | 3.0 | 3.8 | 0.92 |
+
+Projected MVP: **mada** (NRG, 1.20 rating). Projected top fragger: **mada** (46.9 kills).
+
 ### NRG vs FUT Esports (Bo3)
 
 **Prediction: NRG wins 2-0** (series win 67.0%; this exact score 38.2%) — neutral venue
@@ -748,6 +1343,23 @@ Map-by-map win chance for NRG: Split 66.0%, Haven 63.9%, Sunset 63.1%, Summit 62
 | 3 | Sunset | decider | 60.7% | NRG 13-10 | NRG 13-10 FUT (7.8%) | 13.4% |
 
 Map-by-map win chance for NRG: Haven 65.7%, Summit 64.9%, Lotus 62.3%, Sunset 60.7%, Abyss 59.7%, Split 58.9%, Ascent 57.4%
+
+**Series projection** (expected totals over 2.47 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| mada | NRG | Duelist | 46.1 | 39.5 | 9.3 | 1.17 | 252 | 162 | 73% | 11.6 | 8.8 | 1.19 |
+| keiko | NRG | Flex | 38.3 | 36.9 | 16.6 | 1.04 | 212 | 140 | 73% | 6.4 | 5.9 | 1.04 |
+| skuba | NRG | Sentinel | 33.5 | 32.4 | 12.4 | 1.03 | 187 | 126 | 70% | 3.4 | 3.8 | 0.99 |
+| brawk | NRG | Controller | 33.7 | 33.7 | 18.6 | 1.00 | 188 | 127 | 72% | 3.0 | 3.3 | 0.98 |
+| Ethan | NRG | Initiator | 32.2 | 35.7 | 22.4 | 0.90 | 182 | 122 | 73% | 3.7 | 4.3 | 0.92 |
+| xeus | FUT | Duelist | 41.9 | 40.5 | 10.0 | 1.03 | 231 | 150 | 71% | 9.1 | 8.5 | 1.05 |
+| KROSTALY | FUT | Sentinel | 34.0 | 31.9 | 13.3 | 1.06 | 189 | 127 | 70% | 2.9 | 3.5 | 1.01 |
+| sociablEE | FUT | Initiator | 33.3 | 35.0 | 24.2 | 0.95 | 187 | 126 | 74% | 3.2 | 3.9 | 0.96 |
+| yetujey | FUT | Controller | 31.7 | 34.1 | 20.0 | 0.93 | 178 | 121 | 71% | 2.4 | 3.1 | 0.93 |
+| s0pp | FUT | Duelist | 37.3 | 42.2 | 10.0 | 0.88 | 209 | 137 | 68% | 8.4 | 9.1 | 0.90 |
+
+Projected MVP: **mada** (NRG, 1.19 rating). Projected top fragger: **mada** (46.1 kills).
 
 ### NRG vs Team Liquid (Bo3)
 
@@ -766,6 +1378,23 @@ Map-by-map win chance for NRG: Haven 65.7%, Summit 64.9%, Lotus 62.3%, Sunset 60
 
 Map-by-map win chance for NRG: Summit 66.9%, Sunset 65.5%, Haven 64.8%, Ascent 62.6%, Abyss 61.7%, Split 61.4%, Lotus 58.9%
 
+**Series projection** (expected totals over 2.46 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| mada | NRG | Duelist | 46.0 | 39.2 | 9.2 | 1.17 | 252 | 163 | 73% | 11.6 | 8.7 | 1.20 |
+| keiko | NRG | Flex | 38.2 | 36.7 | 16.5 | 1.04 | 213 | 140 | 73% | 6.4 | 5.8 | 1.05 |
+| skuba | NRG | Sentinel | 33.4 | 32.1 | 12.3 | 1.04 | 188 | 126 | 70% | 3.4 | 3.7 | 1.00 |
+| brawk | NRG | Controller | 33.6 | 33.5 | 18.5 | 1.00 | 188 | 127 | 72% | 3.0 | 3.2 | 0.99 |
+| Ethan | NRG | Initiator | 32.1 | 35.4 | 22.4 | 0.91 | 182 | 123 | 73% | 3.7 | 4.2 | 0.92 |
+| kamo | TL | Duelist | 43.1 | 41.1 | 9.0 | 1.05 | 238 | 154 | 71% | 10.4 | 9.6 | 1.07 |
+| nAts | TL | Sentinel | 33.0 | 33.0 | 12.0 | 1.00 | 186 | 125 | 69% | 3.1 | 4.0 | 0.96 |
+| trexx | TL | Flex | 36.5 | 38.2 | 16.1 | 0.96 | 204 | 135 | 71% | 5.9 | 6.4 | 0.96 |
+| GSR | TL | Controller | 32.0 | 34.8 | 18.0 | 0.92 | 181 | 122 | 70% | 2.7 | 3.5 | 0.92 |
+| Kicks | TL | Initiator | 32.4 | 36.2 | 21.8 | 0.89 | 183 | 123 | 72% | 3.5 | 4.5 | 0.91 |
+
+Projected MVP: **mada** (NRG, 1.20 rating). Projected top fragger: **mada** (46.0 kills).
+
 ### NRG vs EDward Gaming (Bo3)
 
 **Prediction: NRG wins 2-0** (series win 70.4%; this exact score 40.8%) — neutral venue
@@ -782,6 +1411,23 @@ Map-by-map win chance for NRG: Summit 66.9%, Sunset 65.5%, Haven 64.8%, Ascent 6
 | 3 | Split | decider | 64.1% | NRG 13-9 | NRG 13-9 EDG (8.1%) | 13.1% |
 
 Map-by-map win chance for NRG: Haven 68.0%, Summit 64.6%, Lotus 64.1%, Split 64.1%, Abyss 63.7%, Sunset 63.1%, Ascent 59.9%
+
+**Series projection** (expected totals over 2.46 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| mada | NRG | Duelist | 46.3 | 39.4 | 8.9 | 1.17 | 255 | 164 | 73% | 12.2 | 9.0 | 1.20 |
+| keiko | NRG | Flex | 36.9 | 35.5 | 18.8 | 1.04 | 206 | 137 | 74% | 5.3 | 5.0 | 1.04 |
+| skuba | NRG | Sentinel | 33.6 | 32.3 | 11.9 | 1.04 | 189 | 127 | 70% | 3.5 | 3.9 | 1.00 |
+| brawk | NRG | Controller | 33.8 | 33.6 | 17.8 | 1.01 | 190 | 128 | 72% | 3.1 | 3.3 | 0.99 |
+| Ethan | NRG | Initiator | 32.4 | 35.6 | 21.5 | 0.91 | 184 | 123 | 73% | 3.9 | 4.4 | 0.93 |
+| ZmjjKK | EDG | Duelist | 45.6 | 40.6 | 8.7 | 1.12 | 251 | 162 | 72% | 11.3 | 9.8 | 1.14 |
+| stew | EDG | Sentinel | 32.4 | 33.5 | 11.6 | 0.97 | 183 | 123 | 68% | 3.2 | 4.2 | 0.94 |
+| CHICHOO | EDG | Controller | 32.6 | 34.9 | 17.3 | 0.93 | 184 | 124 | 70% | 2.8 | 3.7 | 0.93 |
+| Smoggy | EDG | Flex | 34.3 | 37.4 | 18.3 | 0.92 | 193 | 129 | 71% | 4.7 | 5.6 | 0.92 |
+| nobody | EDG | Initiator | 31.7 | 36.7 | 20.9 | 0.86 | 180 | 122 | 71% | 3.6 | 4.8 | 0.88 |
+
+Projected MVP: **mada** (NRG, 1.20 rating). Projected top fragger: **mada** (46.3 kills).
 
 ### NRG vs TYLOO (Bo3)
 
@@ -800,6 +1446,23 @@ Map-by-map win chance for NRG: Haven 68.0%, Summit 64.6%, Lotus 64.1%, Split 64.
 
 Map-by-map win chance for NRG: Haven 71.0%, Split 69.7%, Lotus 67.3%, Summit 67.0%, Sunset 65.7%, Abyss 65.2%, Ascent 63.2%
 
+**Series projection** (expected totals over 2.44 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| mada | NRG | Duelist | 44.7 | 37.9 | 9.8 | 1.18 | 249 | 161 | 73% | 10.4 | 7.8 | 1.20 |
+| keiko | NRG | Flex | 40.2 | 37.8 | 12.0 | 1.07 | 227 | 148 | 72% | 8.5 | 7.1 | 1.08 |
+| skuba | NRG | Sentinel | 32.5 | 31.0 | 13.0 | 1.05 | 186 | 125 | 70% | 3.0 | 3.3 | 1.00 |
+| brawk | NRG | Controller | 32.7 | 32.3 | 19.6 | 1.01 | 186 | 126 | 73% | 2.7 | 2.9 | 0.99 |
+| Ethan | NRG | Initiator | 31.3 | 34.2 | 23.6 | 0.91 | 180 | 122 | 74% | 3.4 | 3.8 | 0.93 |
+| SiuFatBB | TYL | Flex | 38.3 | 39.6 | 11.6 | 0.97 | 217 | 142 | 70% | 7.7 | 8.0 | 0.97 |
+| Erv | TYL | Sentinel | 32.1 | 32.1 | 12.6 | 1.00 | 184 | 124 | 69% | 2.8 | 3.6 | 0.96 |
+| splash | TYL | Duelist | 38.9 | 41.0 | 9.5 | 0.95 | 220 | 144 | 69% | 8.8 | 9.1 | 0.96 |
+| slowly | TYL | Controller | 32.3 | 33.4 | 18.9 | 0.97 | 185 | 125 | 71% | 2.5 | 3.2 | 0.95 |
+| Scales | TYL | Initiator | 31.5 | 35.2 | 22.9 | 0.89 | 181 | 122 | 72% | 3.2 | 4.1 | 0.91 |
+
+Projected MVP: **mada** (NRG, 1.20 rating). Projected top fragger: **mada** (44.7 kills).
+
 ### NRG vs T1 (Bo3)
 
 **Prediction: NRG wins 2-0** (series win 74.9%; this exact score 45.6%) — neutral venue
@@ -816,6 +1479,23 @@ Map-by-map win chance for NRG: Haven 71.0%, Split 69.7%, Lotus 67.3%, Summit 67.
 | 3 | Split | decider | 66.5% | NRG 13-9 | NRG 13-9 T1 (8.3%) | 12.8% |
 
 Map-by-map win chance for NRG: Summit 71.7%, Haven 70.9%, Lotus 70.3%, Split 66.5%, Abyss 66.2%, Sunset 64.3%, Ascent 63.1%
+
+**Series projection** (expected totals over 2.44 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| mada | NRG | Duelist | 45.9 | 38.7 | 8.8 | 1.19 | 256 | 164 | 73% | 12.2 | 8.8 | 1.22 |
+| keiko | NRG | Flex | 36.5 | 34.8 | 18.7 | 1.05 | 207 | 137 | 74% | 5.3 | 4.8 | 1.05 |
+| skuba | NRG | Sentinel | 33.3 | 31.7 | 11.7 | 1.05 | 190 | 128 | 70% | 3.5 | 3.8 | 1.01 |
+| brawk | NRG | Controller | 33.5 | 33.0 | 17.6 | 1.02 | 191 | 128 | 72% | 3.1 | 3.3 | 1.00 |
+| Ethan | NRG | Initiator | 32.1 | 34.9 | 21.2 | 0.92 | 184 | 124 | 73% | 3.9 | 4.3 | 0.93 |
+| BuZz | T1 | Duelist | 42.2 | 41.0 | 8.5 | 1.03 | 237 | 154 | 70% | 10.6 | 10.1 | 1.05 |
+| Meteor | T1 | Sentinel | 34.2 | 32.3 | 11.3 | 1.06 | 194 | 130 | 69% | 3.3 | 4.1 | 1.00 |
+| iZu | T1 | Flex | 36.2 | 36.0 | 18.0 | 1.00 | 205 | 136 | 72% | 4.8 | 5.3 | 1.00 |
+| Munchkin | T1 | Initiator | 31.7 | 36.2 | 20.5 | 0.88 | 182 | 123 | 71% | 3.6 | 4.7 | 0.89 |
+| stax | T1 | Controller | 28.9 | 35.8 | 17.0 | 0.81 | 168 | 115 | 69% | 2.6 | 3.8 | 0.82 |
+
+Projected MVP: **mada** (NRG, 1.22 rating). Projected top fragger: **mada** (45.9 kills).
 
 ### NRG vs Xi Lai Gaming (Bo3)
 
@@ -834,6 +1514,23 @@ Map-by-map win chance for NRG: Summit 71.7%, Haven 70.9%, Lotus 70.3%, Split 66.
 
 Map-by-map win chance for NRG: Haven 72.0%, Summit 69.3%, Split 69.0%, Sunset 68.8%, Lotus 68.4%, Abyss 68.2%, Ascent 65.1%
 
+**Series projection** (expected totals over 2.43 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| mada | NRG | Duelist | 45.3 | 38.1 | 9.1 | 1.19 | 254 | 163 | 74% | 11.5 | 8.3 | 1.21 |
+| keiko | NRG | Flex | 37.7 | 35.6 | 16.2 | 1.06 | 214 | 141 | 73% | 6.4 | 5.6 | 1.06 |
+| skuba | NRG | Sentinel | 32.9 | 31.2 | 12.1 | 1.05 | 189 | 127 | 70% | 3.3 | 3.6 | 1.01 |
+| brawk | NRG | Controller | 33.1 | 32.5 | 18.2 | 1.02 | 189 | 127 | 73% | 2.9 | 3.1 | 1.00 |
+| Ethan | NRG | Initiator | 31.6 | 34.4 | 22.0 | 0.92 | 183 | 123 | 73% | 3.7 | 4.0 | 0.94 |
+| Lysoar | XLG | Flex | 36.6 | 37.2 | 15.6 | 0.98 | 209 | 138 | 71% | 5.8 | 6.3 | 0.98 |
+| NoMan | XLG | Duelist | 39.3 | 41.4 | 8.8 | 0.95 | 224 | 146 | 69% | 9.6 | 9.8 | 0.96 |
+| Rarga | XLG | Initiator | 33.1 | 35.0 | 21.2 | 0.95 | 190 | 128 | 73% | 3.6 | 4.3 | 0.95 |
+| WsLeo | XLG | Sentinel | 31.2 | 32.8 | 11.7 | 0.95 | 181 | 122 | 68% | 3.0 | 4.0 | 0.92 |
+| happywei | XLG | Controller | 31.5 | 34.2 | 17.6 | 0.92 | 182 | 123 | 70% | 2.6 | 3.5 | 0.92 |
+
+Projected MVP: **mada** (NRG, 1.21 rating). Projected top fragger: **mada** (45.3 kills).
+
 ### NRG vs JD Gaming (Bo3)
 
 **Prediction: NRG wins 2-0** (series win 78.8%; this exact score 49.4%) — neutral venue
@@ -850,6 +1547,23 @@ Map-by-map win chance for NRG: Haven 72.0%, Summit 69.3%, Split 69.0%, Sunset 68
 | 3 | Lotus | decider | 70.5% | NRG 13-8 | NRG 13-8 JDG (8.6%) | 12.2% |
 
 Map-by-map win chance for NRG: Haven 73.4%, Summit 71.3%, Sunset 70.8%, Lotus 70.5%, Abyss 70.4%, Split 69.3%, Ascent 66.0%
+
+**Series projection** (expected totals over 2.42 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| mada | NRG | Duelist | 44.7 | 37.5 | 9.3 | 1.19 | 253 | 163 | 74% | 11.0 | 8.0 | 1.21 |
+| keiko | NRG | Flex | 38.5 | 36.0 | 14.2 | 1.07 | 220 | 144 | 73% | 7.3 | 6.2 | 1.08 |
+| skuba | NRG | Sentinel | 32.5 | 30.7 | 12.4 | 1.06 | 188 | 126 | 70% | 3.2 | 3.4 | 1.01 |
+| brawk | NRG | Controller | 32.6 | 32.0 | 18.6 | 1.02 | 189 | 127 | 73% | 2.8 | 2.9 | 1.00 |
+| Ethan | NRG | Initiator | 31.2 | 33.9 | 22.5 | 0.92 | 182 | 123 | 73% | 3.5 | 3.8 | 0.94 |
+| zhe | JDG | Duelist | 40.6 | 40.2 | 9.0 | 1.01 | 232 | 151 | 70% | 9.4 | 9.3 | 1.02 |
+| jkuro | JDG | Sentinel | 31.6 | 32.1 | 11.9 | 0.99 | 184 | 124 | 69% | 2.9 | 3.8 | 0.95 |
+| BerLIN | JDG | Initiator | 32.3 | 34.7 | 21.6 | 0.93 | 187 | 126 | 72% | 3.3 | 4.2 | 0.93 |
+| crownfisher | JDG | Flex | 34.8 | 38.7 | 13.7 | 0.90 | 202 | 133 | 70% | 6.2 | 7.2 | 0.91 |
+| Yuicaw | JDG | Controller | 30.6 | 33.9 | 17.9 | 0.90 | 179 | 121 | 70% | 2.5 | 3.4 | 0.90 |
+
+Projected MVP: **mada** (NRG, 1.21 rating). Projected top fragger: **mada** (44.7 kills).
 
 ### Karmine Corp vs Nongshim RedForce (Bo3)
 
@@ -868,6 +1582,23 @@ Map-by-map win chance for NRG: Haven 73.4%, Summit 71.3%, Sunset 70.8%, Lotus 70
 
 Map-by-map win chance for Karmine Corp: Summit 54.0%, Ascent 53.6%, Abyss 52.3%, Sunset 51.2%, Haven 47.7%, Split 45.2%, Lotus 44.9%
 
+**Series projection** (expected totals over 2.50 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| N4RRATE | KC | Flex | 39.5 | 37.8 | 16.8 | 1.05 | 214 | 141 | 73% | 6.4 | 6.1 | 1.04 |
+| LewN | KC | Duelist | 42.6 | 42.0 | 9.3 | 1.01 | 232 | 150 | 70% | 10.9 | 9.7 | 1.04 |
+| SUYGETSU | KC | Sentinel | 35.9 | 32.7 | 12.4 | 1.10 | 196 | 131 | 70% | 3.5 | 3.8 | 1.04 |
+| Avez | KC | Initiator | 33.9 | 36.3 | 22.5 | 0.93 | 187 | 126 | 73% | 3.8 | 4.4 | 0.94 |
+| dos9 | KC | Controller | 32.2 | 35.4 | 18.7 | 0.91 | 178 | 121 | 71% | 2.8 | 3.5 | 0.91 |
+| Dambi | NS | Duelist | 44.4 | 41.5 | 9.3 | 1.07 | 240 | 155 | 71% | 11.1 | 9.5 | 1.09 |
+| Ivy | NS | Flex | 38.2 | 38.2 | 16.7 | 1.00 | 208 | 138 | 72% | 6.3 | 6.2 | 1.01 |
+| Xross | NS | Sentinel | 34.0 | 33.3 | 12.5 | 1.02 | 187 | 126 | 69% | 3.3 | 3.9 | 0.98 |
+| Rb | NS | Initiator | 34.7 | 36.0 | 22.6 | 0.96 | 190 | 128 | 73% | 3.9 | 4.4 | 0.97 |
+| Francis | NS | Controller | 32.9 | 35.2 | 18.7 | 0.94 | 182 | 123 | 71% | 2.9 | 3.5 | 0.93 |
+
+Projected MVP: **Dambi** (NS, 1.09 rating). Projected top fragger: **Dambi** (44.4 kills).
+
 ### Karmine Corp vs LOUD (Bo3)
 
 **Prediction: Karmine Corp wins 2-1** (series win 50.7%; this exact score 25.7%) — neutral venue
@@ -884,6 +1615,23 @@ Map-by-map win chance for Karmine Corp: Summit 54.0%, Ascent 53.6%, Abyss 52.3%,
 | 3 | Abyss | decider | 50.9% | KC 13-11 | KC 13-11 LOUD (7.1%) | 13.9% |
 
 Map-by-map win chance for Karmine Corp: Summit 56.7%, Sunset 54.6%, Ascent 53.7%, Abyss 50.9%, Split 50.7%, Haven 45.9%, Lotus 45.2%
+
+**Series projection** (expected totals over 2.50 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| LewN | KC | Duelist | 43.0 | 42.3 | 9.0 | 1.02 | 234 | 151 | 70% | 11.4 | 10.0 | 1.05 |
+| SUYGETSU | KC | Sentinel | 36.2 | 32.9 | 12.0 | 1.10 | 197 | 132 | 70% | 3.7 | 4.0 | 1.04 |
+| N4RRATE | KC | Flex | 38.4 | 36.8 | 18.9 | 1.04 | 209 | 138 | 73% | 5.5 | 5.3 | 1.04 |
+| Avez | KC | Initiator | 34.2 | 36.5 | 21.8 | 0.94 | 188 | 126 | 73% | 4.0 | 4.5 | 0.95 |
+| dos9 | KC | Controller | 32.5 | 35.7 | 18.0 | 0.91 | 180 | 122 | 71% | 3.0 | 3.6 | 0.91 |
+| lukxo | LOUD | Sentinel | 37.2 | 32.6 | 12.0 | 1.14 | 202 | 135 | 71% | 3.8 | 3.9 | 1.07 |
+| tkzin | LOUD | Duelist | 41.8 | 42.8 | 9.0 | 0.98 | 228 | 148 | 70% | 11.2 | 10.1 | 1.01 |
+| Darker | LOUD | Controller | 35.4 | 34.6 | 18.0 | 1.02 | 193 | 130 | 72% | 3.2 | 3.5 | 1.00 |
+| DaviH | LOUD | Initiator | 35.2 | 36.2 | 21.8 | 0.97 | 193 | 129 | 73% | 4.1 | 4.5 | 0.98 |
+| erde | LOUD | Flex | 34.5 | 38.2 | 18.9 | 0.90 | 191 | 127 | 71% | 5.1 | 5.6 | 0.92 |
+
+Projected MVP: **LewN** (KC, 1.05 rating). Projected top fragger: **LewN** (43.0 kills).
 
 ### Karmine Corp vs Team Vitality (Bo3)
 
@@ -902,6 +1650,23 @@ Map-by-map win chance for Karmine Corp: Summit 56.7%, Sunset 54.6%, Ascent 53.7%
 
 Map-by-map win chance for Karmine Corp: Sunset 60.4%, Ascent 55.4%, Summit 54.1%, Split 53.0%, Abyss 51.3%, Haven 49.7%, Lotus 47.6%
 
+**Series projection** (expected totals over 2.50 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| LewN | KC | Duelist | 43.1 | 42.1 | 9.0 | 1.02 | 234 | 152 | 71% | 11.5 | 9.9 | 1.05 |
+| SUYGETSU | KC | Sentinel | 36.3 | 32.7 | 12.0 | 1.11 | 198 | 132 | 70% | 3.7 | 3.9 | 1.04 |
+| N4RRATE | KC | Flex | 38.5 | 36.6 | 18.9 | 1.05 | 209 | 139 | 73% | 5.5 | 5.3 | 1.04 |
+| Avez | KC | Initiator | 34.3 | 36.4 | 21.8 | 0.94 | 189 | 127 | 73% | 4.0 | 4.5 | 0.95 |
+| dos9 | KC | Controller | 32.5 | 35.5 | 18.1 | 0.92 | 180 | 122 | 71% | 3.0 | 3.6 | 0.92 |
+| Derke | VIT | Duelist | 46.0 | 41.4 | 9.0 | 1.11 | 248 | 160 | 72% | 11.7 | 9.8 | 1.14 |
+| Jamppi | VIT | Sentinel | 33.9 | 33.7 | 12.0 | 1.01 | 187 | 126 | 69% | 3.4 | 4.1 | 0.97 |
+| Sayonara | VIT | Flex | 36.0 | 37.6 | 18.8 | 0.96 | 198 | 132 | 72% | 5.1 | 5.5 | 0.96 |
+| PROFEK | VIT | Controller | 33.5 | 35.3 | 18.0 | 0.95 | 185 | 125 | 71% | 3.0 | 3.6 | 0.94 |
+| Chronicle | VIT | Flex | 33.9 | 36.7 | 21.7 | 0.93 | 187 | 126 | 72% | 3.9 | 4.6 | 0.93 |
+
+Projected MVP: **LewN** (KC, 1.05 rating). Projected top fragger: **Derke** (46.0 kills).
+
 ### Karmine Corp vs G2 Esports (Bo3)
 
 **Prediction: Karmine Corp wins 2-0** (series win 54.8%; this exact score 28.2%) — neutral venue
@@ -918,6 +1683,23 @@ Map-by-map win chance for Karmine Corp: Sunset 60.4%, Ascent 55.4%, Summit 54.1%
 | 3 | Haven | decider | 53.1% | KC 13-10 | KC 13-10 G2 (7.3%) | 13.8% |
 
 Map-by-map win chance for Karmine Corp: Ascent 57.6%, Sunset 57.0%, Summit 56.7%, Haven 53.1%, Abyss 52.9%, Lotus 49.5%, Split 48.9%
+
+**Series projection** (expected totals over 2.50 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| N4RRATE | KC | Flex | 39.7 | 37.6 | 16.8 | 1.06 | 215 | 142 | 73% | 6.5 | 6.0 | 1.05 |
+| LewN | KC | Duelist | 42.8 | 41.8 | 9.3 | 1.02 | 233 | 151 | 71% | 11.0 | 9.5 | 1.05 |
+| SUYGETSU | KC | Sentinel | 36.0 | 32.5 | 12.5 | 1.11 | 196 | 132 | 71% | 3.5 | 3.8 | 1.04 |
+| Avez | KC | Initiator | 34.0 | 36.1 | 22.6 | 0.94 | 188 | 126 | 73% | 3.9 | 4.3 | 0.95 |
+| dos9 | KC | Controller | 32.3 | 35.2 | 18.7 | 0.92 | 179 | 121 | 71% | 2.9 | 3.5 | 0.92 |
+| jawgemo | G2 | Duelist | 43.8 | 41.7 | 9.3 | 1.05 | 237 | 154 | 71% | 10.9 | 9.6 | 1.07 |
+| leaf | G2 | Sentinel | 36.9 | 32.4 | 12.4 | 1.14 | 200 | 134 | 71% | 3.5 | 3.8 | 1.06 |
+| BABYBAY | G2 | Flex | 38.4 | 38.2 | 16.6 | 1.01 | 210 | 138 | 72% | 6.3 | 6.2 | 1.01 |
+| trent | G2 | Initiator | 33.5 | 36.5 | 22.5 | 0.92 | 185 | 125 | 73% | 3.7 | 4.5 | 0.93 |
+| valyn | G2 | Controller | 30.6 | 36.1 | 18.6 | 0.85 | 171 | 116 | 70% | 2.7 | 3.6 | 0.86 |
+
+Projected MVP: **N4RRATE** (KC, 1.05 rating). Projected top fragger: **jawgemo** (43.8 kills).
 
 ### Karmine Corp vs Global Esports (Bo3)
 
@@ -936,6 +1718,23 @@ Map-by-map win chance for Karmine Corp: Ascent 57.6%, Sunset 57.0%, Summit 56.7%
 
 Map-by-map win chance for Karmine Corp: Sunset 63.7%, Split 60.7%, Ascent 59.2%, Summit 57.0%, Abyss 50.8%, Haven 48.8%, Lotus 45.1%
 
+**Series projection** (expected totals over 2.50 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| N4RRATE | KC | Flex | 39.8 | 37.4 | 16.8 | 1.06 | 216 | 142 | 73% | 6.6 | 5.9 | 1.06 |
+| LewN | KC | Duelist | 42.8 | 41.7 | 9.4 | 1.03 | 233 | 151 | 71% | 11.0 | 9.5 | 1.06 |
+| SUYGETSU | KC | Sentinel | 36.1 | 32.4 | 12.5 | 1.11 | 197 | 132 | 71% | 3.5 | 3.8 | 1.05 |
+| Avez | KC | Initiator | 34.1 | 36.0 | 22.6 | 0.95 | 188 | 126 | 73% | 3.9 | 4.3 | 0.95 |
+| dos9 | KC | Controller | 32.4 | 35.1 | 18.7 | 0.92 | 180 | 121 | 71% | 2.9 | 3.5 | 0.92 |
+| UdoTan | GE | Duelist | 43.7 | 42.2 | 10.0 | 1.04 | 237 | 153 | 71% | 11.0 | 9.8 | 1.06 |
+| Kr1stal | GE | Flex | 38.3 | 36.8 | 11.9 | 1.04 | 209 | 138 | 70% | 5.9 | 6.1 | 1.02 |
+| xavi8k | GE | Sentinel | 33.5 | 33.9 | 13.3 | 0.99 | 185 | 124 | 69% | 3.3 | 4.1 | 0.96 |
+| PatMen | GE | Initiator | 34.1 | 36.7 | 24.1 | 0.93 | 188 | 126 | 73% | 3.8 | 4.5 | 0.94 |
+| Autumn | GE | Controller | 33.0 | 35.5 | 19.9 | 0.93 | 183 | 123 | 71% | 2.9 | 3.6 | 0.93 |
+
+Projected MVP: **N4RRATE** (KC, 1.06 rating). Projected top fragger: **UdoTan** (43.7 kills).
+
 ### Karmine Corp vs FUT Esports (Bo3)
 
 **Prediction: Karmine Corp wins 2-0** (series win 56.7%; this exact score 30.1%) — neutral venue
@@ -952,6 +1751,23 @@ Map-by-map win chance for Karmine Corp: Sunset 63.7%, Split 60.7%, Ascent 59.2%,
 | 3 | Split | decider | 53.3% | KC 13-10 | KC 13-10 FUT (7.3%) | 13.8% |
 
 Map-by-map win chance for Karmine Corp: Sunset 61.3%, Summit 59.4%, Ascent 58.4%, Abyss 53.3%, Split 53.3%, Haven 50.7%, Lotus 49.2%
+
+**Series projection** (expected totals over 2.50 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| LewN | KC | Duelist | 43.1 | 41.9 | 9.0 | 1.03 | 235 | 152 | 71% | 11.5 | 9.8 | 1.06 |
+| SUYGETSU | KC | Sentinel | 36.3 | 32.6 | 12.0 | 1.11 | 198 | 133 | 71% | 3.7 | 3.9 | 1.05 |
+| N4RRATE | KC | Flex | 38.5 | 36.5 | 18.9 | 1.06 | 210 | 139 | 74% | 5.5 | 5.2 | 1.05 |
+| Avez | KC | Initiator | 34.3 | 36.2 | 21.8 | 0.95 | 189 | 127 | 73% | 4.1 | 4.5 | 0.96 |
+| dos9 | KC | Controller | 32.6 | 35.3 | 18.1 | 0.92 | 181 | 122 | 71% | 3.0 | 3.6 | 0.92 |
+| xeus | FUT | Duelist | 42.9 | 40.7 | 10.2 | 1.05 | 233 | 151 | 71% | 9.5 | 8.5 | 1.07 |
+| KROSTALY | FUT | Sentinel | 34.8 | 32.1 | 13.6 | 1.08 | 191 | 128 | 70% | 3.0 | 3.4 | 1.02 |
+| sociablEE | FUT | Initiator | 34.2 | 35.2 | 24.7 | 0.97 | 188 | 127 | 74% | 3.4 | 3.8 | 0.97 |
+| yetujey | FUT | Controller | 32.4 | 34.3 | 20.4 | 0.94 | 180 | 122 | 72% | 2.5 | 3.1 | 0.94 |
+| s0pp | FUT | Duelist | 38.2 | 42.4 | 10.2 | 0.90 | 211 | 138 | 69% | 8.7 | 9.0 | 0.92 |
+
+Projected MVP: **LewN** (KC, 1.06 rating). Projected top fragger: **LewN** (43.1 kills).
 
 ### Karmine Corp vs Team Liquid (Bo3)
 
@@ -971,6 +1787,23 @@ Map-by-map win chance for Karmine Corp: Sunset 61.3%, Summit 59.4%, Ascent 58.4%
 
 Map-by-map win chance for Karmine Corp: Sunset 67.2%, Ascent 64.8%, Summit 62.6%, Split 57.0%, Abyss 56.5%, Haven 50.9%, Lotus 46.9%
 
+**Series projection** (expected totals over 2.50 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| LewN | KC | Duelist | 43.2 | 41.6 | 9.0 | 1.04 | 236 | 152 | 71% | 11.6 | 9.7 | 1.07 |
+| N4RRATE | KC | Flex | 38.5 | 36.2 | 18.9 | 1.06 | 210 | 139 | 74% | 5.6 | 5.1 | 1.06 |
+| SUYGETSU | KC | Sentinel | 36.3 | 32.4 | 12.0 | 1.12 | 199 | 133 | 71% | 3.7 | 3.8 | 1.06 |
+| Avez | KC | Initiator | 34.3 | 36.0 | 21.8 | 0.95 | 190 | 127 | 73% | 4.1 | 4.4 | 0.96 |
+| dos9 | KC | Controller | 32.6 | 35.1 | 18.1 | 0.93 | 181 | 122 | 71% | 3.0 | 3.5 | 0.93 |
+| kamo | TL | Duelist | 44.5 | 41.7 | 8.9 | 1.07 | 242 | 156 | 71% | 11.4 | 10.0 | 1.09 |
+| nAts | TL | Sentinel | 34.1 | 33.5 | 11.9 | 1.02 | 188 | 127 | 69% | 3.4 | 4.2 | 0.98 |
+| trexx | TL | Flex | 36.2 | 37.5 | 18.6 | 0.96 | 199 | 133 | 72% | 5.1 | 5.5 | 0.97 |
+| GSR | TL | Controller | 33.0 | 35.4 | 17.8 | 0.93 | 183 | 124 | 71% | 2.9 | 3.7 | 0.93 |
+| Kicks | TL | Initiator | 33.4 | 36.8 | 21.5 | 0.91 | 186 | 125 | 72% | 3.8 | 4.7 | 0.92 |
+
+Projected MVP: **LewN** (KC, 1.07 rating). Projected top fragger: **kamo** (44.5 kills).
+
 ### Karmine Corp vs EDward Gaming (Bo3)
 
 **Prediction: Karmine Corp wins 2-0** (series win 61.3%; this exact score 32.4%) — neutral venue
@@ -987,6 +1820,23 @@ Map-by-map win chance for Karmine Corp: Sunset 67.2%, Ascent 64.8%, Summit 62.6%
 | 3 | Split | decider | 58.6% | KC 13-10 | KC 13-10 EDG (7.7%) | 13.6% |
 
 Map-by-map win chance for Karmine Corp: Sunset 63.7%, Ascent 60.9%, Summit 59.1%, Split 58.6%, Abyss 57.4%, Haven 53.2%, Lotus 51.1%
+
+**Series projection** (expected totals over 2.49 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| LewN | KC | Duelist | 43.1 | 41.6 | 9.0 | 1.04 | 236 | 152 | 71% | 11.6 | 9.7 | 1.07 |
+| N4RRATE | KC | Flex | 38.5 | 36.2 | 18.9 | 1.06 | 210 | 139 | 74% | 5.6 | 5.1 | 1.06 |
+| SUYGETSU | KC | Sentinel | 36.3 | 32.4 | 12.0 | 1.12 | 199 | 133 | 71% | 3.7 | 3.9 | 1.05 |
+| Avez | KC | Initiator | 34.3 | 36.0 | 21.8 | 0.95 | 190 | 127 | 73% | 4.1 | 4.4 | 0.96 |
+| dos9 | KC | Controller | 32.6 | 35.1 | 18.0 | 0.93 | 181 | 122 | 71% | 3.0 | 3.5 | 0.93 |
+| ZmjjKK | EDG | Duelist | 46.8 | 41.0 | 8.9 | 1.14 | 253 | 163 | 72% | 11.7 | 9.8 | 1.16 |
+| stew | EDG | Sentinel | 33.2 | 33.8 | 11.9 | 0.98 | 184 | 124 | 69% | 3.3 | 4.2 | 0.95 |
+| CHICHOO | EDG | Controller | 33.5 | 35.2 | 17.8 | 0.95 | 185 | 125 | 71% | 2.9 | 3.7 | 0.94 |
+| Smoggy | EDG | Flex | 35.2 | 37.8 | 18.7 | 0.93 | 195 | 130 | 72% | 5.0 | 5.6 | 0.94 |
+| nobody | EDG | Initiator | 32.6 | 37.1 | 21.5 | 0.88 | 182 | 122 | 72% | 3.7 | 4.7 | 0.89 |
+
+Projected MVP: **LewN** (KC, 1.07 rating). Projected top fragger: **ZmjjKK** (46.8 kills).
 
 ### Karmine Corp vs TYLOO (Bo3)
 
@@ -1005,6 +1855,23 @@ Map-by-map win chance for Karmine Corp: Sunset 63.7%, Ascent 60.9%, Summit 59.1%
 
 Map-by-map win chance for Karmine Corp: Sunset 66.3%, Split 64.7%, Ascent 64.2%, Summit 61.6%, Abyss 59.0%, Haven 56.7%, Lotus 54.6%
 
+**Series projection** (expected totals over 2.48 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| N4RRATE | KC | Flex | 39.6 | 36.7 | 16.6 | 1.08 | 217 | 143 | 73% | 6.7 | 5.8 | 1.08 |
+| LewN | KC | Duelist | 42.6 | 40.9 | 9.3 | 1.04 | 235 | 152 | 71% | 11.1 | 9.2 | 1.07 |
+| SUYGETSU | KC | Sentinel | 35.9 | 31.8 | 12.4 | 1.13 | 198 | 133 | 71% | 3.6 | 3.6 | 1.06 |
+| Avez | KC | Initiator | 33.9 | 35.3 | 22.5 | 0.96 | 189 | 127 | 73% | 3.9 | 4.2 | 0.97 |
+| dos9 | KC | Controller | 32.2 | 34.4 | 18.6 | 0.94 | 181 | 122 | 71% | 2.9 | 3.3 | 0.94 |
+| splash | TYL | Duelist | 40.9 | 42.2 | 9.1 | 0.97 | 226 | 147 | 70% | 10.3 | 9.9 | 0.99 |
+| SiuFatBB | TYL | Flex | 37.3 | 38.2 | 16.3 | 0.98 | 206 | 137 | 72% | 6.0 | 6.3 | 0.98 |
+| Erv | TYL | Sentinel | 33.8 | 33.1 | 12.1 | 1.02 | 188 | 127 | 69% | 3.3 | 4.0 | 0.98 |
+| slowly | TYL | Controller | 34.0 | 34.4 | 18.2 | 0.99 | 189 | 127 | 71% | 2.9 | 3.4 | 0.97 |
+| Scales | TYL | Initiator | 33.1 | 36.2 | 22.0 | 0.91 | 185 | 125 | 72% | 3.7 | 4.4 | 0.92 |
+
+Projected MVP: **N4RRATE** (KC, 1.08 rating). Projected top fragger: **LewN** (42.6 kills).
+
 ### Karmine Corp vs T1 (Bo3)
 
 **Prediction: Karmine Corp wins 2-0** (series win 66.8%; this exact score 37.7%) — neutral venue
@@ -1021,6 +1888,23 @@ Map-by-map win chance for Karmine Corp: Sunset 66.3%, Split 64.7%, Ascent 64.2%,
 | 3 | Split | decider | 61.2% | KC 13-9 | KC 13-9 T1 (7.8%) | 13.4% |
 
 Map-by-map win chance for Karmine Corp: Summit 66.7%, Sunset 64.9%, Ascent 64.1%, Split 61.2%, Abyss 60.0%, Lotus 58.0%, Haven 56.7%
+
+**Series projection** (expected totals over 2.48 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| N4RRATE | KC | Flex | 40.7 | 37.5 | 14.5 | 1.08 | 224 | 147 | 73% | 7.6 | 6.5 | 1.09 |
+| LewN | KC | Duelist | 42.2 | 40.5 | 9.6 | 1.04 | 233 | 151 | 71% | 10.6 | 8.8 | 1.07 |
+| SUYGETSU | KC | Sentinel | 35.5 | 31.5 | 12.8 | 1.13 | 197 | 132 | 71% | 3.4 | 3.5 | 1.06 |
+| Avez | KC | Initiator | 33.6 | 34.9 | 23.2 | 0.96 | 188 | 126 | 74% | 3.7 | 4.0 | 0.97 |
+| dos9 | KC | Controller | 31.9 | 34.1 | 19.2 | 0.94 | 179 | 121 | 71% | 2.8 | 3.2 | 0.94 |
+| BuZz | T1 | Duelist | 42.8 | 41.0 | 9.4 | 1.04 | 235 | 153 | 71% | 10.0 | 9.3 | 1.06 |
+| iZu | T1 | Flex | 39.7 | 38.5 | 14.2 | 1.03 | 219 | 144 | 72% | 7.1 | 7.0 | 1.03 |
+| Meteor | T1 | Sentinel | 34.7 | 32.3 | 12.5 | 1.07 | 193 | 129 | 70% | 3.1 | 3.8 | 1.01 |
+| Munchkin | T1 | Initiator | 32.1 | 36.2 | 22.7 | 0.89 | 181 | 122 | 72% | 3.4 | 4.4 | 0.90 |
+| stax | T1 | Controller | 29.3 | 35.8 | 18.8 | 0.82 | 167 | 114 | 69% | 2.4 | 3.6 | 0.83 |
+
+Projected MVP: **N4RRATE** (KC, 1.09 rating). Projected top fragger: **BuZz** (42.8 kills).
 
 ### Karmine Corp vs Xi Lai Gaming (Bo3)
 
@@ -1040,6 +1924,23 @@ Map-by-map win chance for Karmine Corp: Summit 66.7%, Sunset 64.9%, Ascent 64.1%
 
 Map-by-map win chance for Karmine Corp: Sunset 70.5%, Ascent 67.3%, Summit 65.4%, Split 65.2%, Abyss 63.5%, Haven 59.4%, Lotus 57.3%
 
+**Series projection** (expected totals over 2.47 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| LewN | KC | Duelist | 42.8 | 40.6 | 8.9 | 1.05 | 238 | 153 | 71% | 11.6 | 9.4 | 1.09 |
+| N4RRATE | KC | Flex | 38.1 | 35.3 | 18.8 | 1.08 | 211 | 140 | 74% | 5.5 | 4.9 | 1.07 |
+| SUYGETSU | KC | Sentinel | 36.0 | 31.6 | 11.9 | 1.14 | 200 | 134 | 71% | 3.8 | 3.7 | 1.07 |
+| Avez | KC | Initiator | 34.0 | 35.1 | 21.5 | 0.97 | 191 | 128 | 73% | 4.1 | 4.3 | 0.98 |
+| dos9 | KC | Controller | 32.3 | 34.3 | 17.8 | 0.94 | 183 | 123 | 71% | 3.0 | 3.4 | 0.94 |
+| Lysoar | XLG | Flex | 36.4 | 36.7 | 18.3 | 0.99 | 203 | 135 | 72% | 5.0 | 5.4 | 0.99 |
+| NoMan | XLG | Duelist | 40.9 | 42.3 | 8.7 | 0.97 | 228 | 148 | 69% | 10.6 | 10.3 | 0.99 |
+| Rarga | XLG | Initiator | 34.4 | 35.8 | 21.0 | 0.96 | 193 | 129 | 73% | 3.9 | 4.5 | 0.96 |
+| WsLeo | XLG | Sentinel | 32.4 | 33.6 | 11.6 | 0.97 | 183 | 124 | 68% | 3.3 | 4.2 | 0.94 |
+| happywei | XLG | Controller | 32.7 | 35.0 | 17.4 | 0.94 | 184 | 124 | 71% | 2.9 | 3.6 | 0.93 |
+
+Projected MVP: **LewN** (KC, 1.09 rating). Projected top fragger: **LewN** (42.8 kills).
+
 ### Karmine Corp vs JD Gaming (Bo3)
 
 **Prediction: Karmine Corp wins 2-0** (series win 70.2%; this exact score 40.0%) — neutral venue
@@ -1056,6 +1957,23 @@ Map-by-map win chance for Karmine Corp: Sunset 70.5%, Ascent 67.3%, Summit 65.4%
 | 3 | Abyss | decider | 64.6% | KC 13-9 | KC 13-9 JDG (8.1%) | 13.0% |
 
 Map-by-map win chance for Karmine Corp: Sunset 71.4%, Ascent 67.0%, Summit 66.2%, Abyss 64.6%, Split 64.2%, Haven 59.7%, Lotus 58.3%
+
+**Series projection** (expected totals over 2.47 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| LewN | KC | Duelist | 42.8 | 40.6 | 8.9 | 1.05 | 238 | 153 | 71% | 11.6 | 9.4 | 1.09 |
+| N4RRATE | KC | Flex | 38.1 | 35.3 | 18.8 | 1.08 | 211 | 140 | 74% | 5.5 | 4.9 | 1.07 |
+| SUYGETSU | KC | Sentinel | 36.0 | 31.6 | 11.9 | 1.14 | 200 | 134 | 71% | 3.8 | 3.7 | 1.07 |
+| Avez | KC | Initiator | 34.0 | 35.1 | 21.5 | 0.97 | 191 | 128 | 73% | 4.1 | 4.3 | 0.98 |
+| dos9 | KC | Controller | 32.3 | 34.3 | 17.8 | 0.94 | 183 | 123 | 71% | 3.0 | 3.4 | 0.94 |
+| zhe | JDG | Duelist | 42.9 | 41.6 | 8.7 | 1.03 | 238 | 154 | 70% | 10.9 | 10.1 | 1.05 |
+| jkuro | JDG | Sentinel | 33.4 | 33.2 | 11.6 | 1.01 | 188 | 126 | 69% | 3.3 | 4.2 | 0.97 |
+| BerLIN | JDG | Initiator | 34.1 | 35.9 | 21.0 | 0.95 | 191 | 128 | 72% | 3.9 | 4.6 | 0.95 |
+| Yuicaw | JDG | Controller | 32.4 | 35.1 | 17.4 | 0.92 | 183 | 123 | 70% | 2.8 | 3.7 | 0.92 |
+| crownfisher | JDG | Flex | 34.1 | 37.6 | 18.3 | 0.91 | 192 | 128 | 71% | 4.8 | 5.6 | 0.92 |
+
+Projected MVP: **LewN** (KC, 1.09 rating). Projected top fragger: **zhe** (42.9 kills).
 
 ### Nongshim RedForce vs LOUD (Bo3)
 
@@ -1074,6 +1992,23 @@ Map-by-map win chance for Karmine Corp: Sunset 71.4%, Ascent 67.0%, Summit 66.2%
 
 Map-by-map win chance for Nongshim RedForce: Split 55.5%, Sunset 53.4%, Summit 52.7%, Lotus 50.3%, Ascent 50.2%, Abyss 48.6%, Haven 48.2%
 
+**Series projection** (expected totals over 2.50 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Dambi | NS | Duelist | 44.0 | 41.1 | 9.7 | 1.07 | 238 | 154 | 71% | 10.6 | 9.1 | 1.09 |
+| Ivy | NS | Flex | 39.4 | 39.2 | 14.6 | 1.01 | 215 | 141 | 72% | 7.3 | 7.0 | 1.01 |
+| Xross | NS | Sentinel | 33.8 | 33.0 | 12.9 | 1.02 | 186 | 125 | 70% | 3.2 | 3.8 | 0.98 |
+| Rb | NS | Initiator | 34.4 | 35.7 | 23.3 | 0.96 | 189 | 127 | 74% | 3.7 | 4.2 | 0.97 |
+| Francis | NS | Controller | 32.7 | 34.9 | 19.3 | 0.94 | 181 | 122 | 71% | 2.7 | 3.3 | 0.94 |
+| lukxo | LOUD | Sentinel | 36.6 | 32.1 | 12.9 | 1.14 | 199 | 133 | 71% | 3.4 | 3.6 | 1.06 |
+| tkzin | LOUD | Duelist | 41.1 | 42.2 | 9.6 | 0.97 | 224 | 146 | 70% | 10.2 | 9.4 | 1.00 |
+| Darker | LOUD | Controller | 34.8 | 34.1 | 19.3 | 1.02 | 191 | 128 | 72% | 2.9 | 3.2 | 1.00 |
+| DaviH | LOUD | Initiator | 34.6 | 35.7 | 23.3 | 0.97 | 190 | 128 | 74% | 3.8 | 4.1 | 0.97 |
+| erde | LOUD | Flex | 36.7 | 40.2 | 14.5 | 0.91 | 202 | 134 | 70% | 7.1 | 7.2 | 0.93 |
+
+Projected MVP: **Dambi** (NS, 1.09 rating). Projected top fragger: **Dambi** (44.0 kills).
+
 ### Nongshim RedForce vs Team Vitality (Bo3)
 
 **Prediction: Nongshim RedForce wins 2-0** (series win 55.0%; this exact score 29.0%) — neutral venue
@@ -1091,6 +2026,23 @@ Map-by-map win chance for Nongshim RedForce: Split 55.5%, Sunset 53.4%, Summit 5
 
 Map-by-map win chance for Nongshim RedForce: Sunset 59.3%, Split 57.8%, Lotus 52.7%, Haven 52.0%, Ascent 51.8%, Summit 50.1%, Abyss 49.0%
 
+**Series projection** (expected totals over 2.50 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Dambi | NS | Duelist | 44.5 | 41.2 | 9.3 | 1.08 | 241 | 156 | 72% | 11.2 | 9.4 | 1.10 |
+| Ivy | NS | Flex | 38.3 | 38.0 | 16.7 | 1.01 | 209 | 138 | 72% | 6.4 | 6.1 | 1.02 |
+| Xross | NS | Sentinel | 34.1 | 33.1 | 12.5 | 1.03 | 188 | 126 | 70% | 3.4 | 3.9 | 0.99 |
+| Rb | NS | Initiator | 34.8 | 35.8 | 22.6 | 0.97 | 191 | 128 | 73% | 3.9 | 4.3 | 0.97 |
+| Francis | NS | Controller | 33.0 | 34.9 | 18.7 | 0.95 | 183 | 123 | 71% | 2.9 | 3.4 | 0.94 |
+| Derke | VIT | Duelist | 45.5 | 41.1 | 9.3 | 1.11 | 246 | 159 | 72% | 11.2 | 9.4 | 1.13 |
+| Jamppi | VIT | Sentinel | 33.6 | 33.5 | 12.4 | 1.00 | 186 | 125 | 69% | 3.3 | 4.0 | 0.97 |
+| Sayonara | VIT | Flex | 37.1 | 38.7 | 16.7 | 0.96 | 203 | 135 | 71% | 6.1 | 6.4 | 0.97 |
+| PROFEK | VIT | Controller | 33.2 | 35.1 | 18.6 | 0.95 | 183 | 124 | 71% | 2.8 | 3.5 | 0.94 |
+| Chronicle | VIT | Flex | 33.6 | 36.4 | 22.4 | 0.92 | 186 | 125 | 73% | 3.7 | 4.4 | 0.93 |
+
+Projected MVP: **Dambi** (NS, 1.10 rating). Projected top fragger: **Derke** (45.5 kills).
+
 ### Nongshim RedForce vs G2 Esports (Bo3)
 
 **Prediction: Nongshim RedForce wins 2-0** (series win 56.0%; this exact score 29.2%) — neutral venue
@@ -1107,6 +2059,23 @@ Map-by-map win chance for Nongshim RedForce: Sunset 59.3%, Split 57.8%, Lotus 52
 | 3 | Ascent | decider | 54.0% | NS 13-10 | NS 13-10 G2 (7.3%) | 13.8% |
 
 Map-by-map win chance for Nongshim RedForce: Sunset 55.8%, Haven 55.3%, Lotus 54.6%, Ascent 54.0%, Split 53.8%, Summit 52.7%, Abyss 50.6%
+
+**Series projection** (expected totals over 2.50 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Dambi | NS | Duelist | 45.2 | 41.7 | 8.7 | 1.08 | 245 | 158 | 72% | 12.3 | 10.0 | 1.12 |
+| Ivy | NS | Flex | 36.0 | 36.0 | 21.0 | 1.00 | 197 | 132 | 73% | 4.3 | 4.6 | 1.00 |
+| Xross | NS | Sentinel | 34.6 | 33.5 | 11.6 | 1.03 | 191 | 128 | 69% | 3.7 | 4.2 | 0.99 |
+| Rb | NS | Initiator | 35.3 | 36.2 | 21.0 | 0.97 | 194 | 130 | 73% | 4.3 | 4.6 | 0.98 |
+| Francis | NS | Controller | 33.6 | 35.4 | 17.4 | 0.95 | 185 | 125 | 71% | 3.2 | 3.7 | 0.94 |
+| jawgemo | G2 | Duelist | 44.4 | 42.2 | 8.6 | 1.05 | 241 | 155 | 71% | 11.9 | 10.3 | 1.08 |
+| leaf | G2 | Sentinel | 37.4 | 32.8 | 11.5 | 1.14 | 203 | 136 | 71% | 3.8 | 4.1 | 1.07 |
+| BABYBAY | G2 | Flex | 36.0 | 36.2 | 20.9 | 0.99 | 197 | 132 | 73% | 4.3 | 4.6 | 0.99 |
+| trent | G2 | Initiator | 34.0 | 36.9 | 20.9 | 0.92 | 188 | 126 | 72% | 4.1 | 4.8 | 0.93 |
+| valyn | G2 | Controller | 31.0 | 36.5 | 17.3 | 0.85 | 174 | 118 | 69% | 2.9 | 3.9 | 0.86 |
+
+Projected MVP: **Dambi** (NS, 1.12 rating). Projected top fragger: **Dambi** (45.2 kills).
 
 ### Nongshim RedForce vs Global Esports (Bo3)
 
@@ -1126,6 +2095,23 @@ Map-by-map win chance for Nongshim RedForce: Sunset 55.8%, Haven 55.3%, Lotus 54
 
 Map-by-map win chance for Nongshim RedForce: Split 64.0%, Sunset 61.4%, Ascent 54.4%, Summit 51.8%, Haven 49.8%, Lotus 49.0%, Abyss 47.2%
 
+**Series projection** (expected totals over 2.50 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Dambi | NS | Duelist | 44.5 | 41.1 | 9.4 | 1.08 | 241 | 156 | 72% | 11.3 | 9.3 | 1.11 |
+| Ivy | NS | Flex | 38.4 | 37.9 | 16.8 | 1.01 | 209 | 138 | 72% | 6.3 | 6.1 | 1.01 |
+| Xross | NS | Sentinel | 34.1 | 33.0 | 12.5 | 1.03 | 188 | 126 | 70% | 3.4 | 3.9 | 0.99 |
+| Rb | NS | Initiator | 34.8 | 35.7 | 22.6 | 0.97 | 191 | 128 | 73% | 3.9 | 4.3 | 0.98 |
+| Francis | NS | Controller | 33.1 | 34.9 | 18.7 | 0.95 | 183 | 123 | 71% | 2.9 | 3.4 | 0.94 |
+| UdoTan | GE | Duelist | 43.7 | 41.9 | 9.5 | 1.04 | 237 | 154 | 71% | 10.9 | 9.7 | 1.07 |
+| Kr1stal | GE | Flex | 38.4 | 37.7 | 15.0 | 1.02 | 209 | 138 | 72% | 6.2 | 6.2 | 1.01 |
+| xavi8k | GE | Sentinel | 33.5 | 33.6 | 12.7 | 0.99 | 185 | 125 | 69% | 3.3 | 4.0 | 0.96 |
+| PatMen | GE | Initiator | 34.1 | 36.4 | 23.0 | 0.94 | 188 | 126 | 73% | 3.8 | 4.4 | 0.95 |
+| Autumn | GE | Controller | 33.0 | 35.3 | 19.0 | 0.94 | 183 | 123 | 71% | 2.9 | 3.5 | 0.93 |
+
+Projected MVP: **Dambi** (NS, 1.11 rating). Projected top fragger: **Dambi** (44.5 kills).
+
 ### Nongshim RedForce vs FUT Esports (Bo3)
 
 **Prediction: Nongshim RedForce wins 2-0** (series win 57.9%; this exact score 30.7%) — neutral venue
@@ -1142,6 +2128,23 @@ Map-by-map win chance for Nongshim RedForce: Split 64.0%, Sunset 61.4%, Ascent 5
 | 3 | Ascent | decider | 54.9% | NS 13-10 | NS 13-10 FUT (7.4%) | 13.8% |
 
 Map-by-map win chance for Nongshim RedForce: Sunset 60.2%, Split 58.0%, Summit 55.5%, Ascent 54.9%, Lotus 54.3%, Haven 52.9%, Abyss 50.9%
+
+**Series projection** (expected totals over 2.50 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Dambi | NS | Duelist | 44.5 | 41.0 | 9.3 | 1.08 | 241 | 156 | 72% | 11.3 | 9.3 | 1.11 |
+| Ivy | NS | Flex | 38.3 | 37.8 | 16.7 | 1.01 | 210 | 139 | 72% | 6.4 | 6.1 | 1.02 |
+| Xross | NS | Sentinel | 34.1 | 33.0 | 12.5 | 1.04 | 188 | 127 | 70% | 3.4 | 3.9 | 0.99 |
+| Rb | NS | Initiator | 34.8 | 35.6 | 22.6 | 0.98 | 192 | 128 | 74% | 3.9 | 4.3 | 0.98 |
+| Francis | NS | Controller | 33.0 | 34.8 | 18.7 | 0.95 | 183 | 123 | 71% | 2.9 | 3.4 | 0.95 |
+| xeus | FUT | Duelist | 42.9 | 40.7 | 10.2 | 1.05 | 233 | 151 | 71% | 9.5 | 8.5 | 1.07 |
+| KROSTALY | FUT | Sentinel | 34.7 | 32.1 | 13.6 | 1.08 | 191 | 128 | 70% | 3.0 | 3.4 | 1.02 |
+| sociablEE | FUT | Initiator | 34.1 | 35.2 | 24.6 | 0.97 | 188 | 126 | 74% | 3.3 | 3.9 | 0.97 |
+| yetujey | FUT | Controller | 32.4 | 34.3 | 20.4 | 0.94 | 180 | 122 | 72% | 2.5 | 3.1 | 0.94 |
+| s0pp | FUT | Duelist | 38.1 | 42.4 | 10.2 | 0.90 | 210 | 138 | 69% | 8.7 | 9.0 | 0.91 |
+
+Projected MVP: **Dambi** (NS, 1.11 rating). Projected top fragger: **Dambi** (44.5 kills).
 
 ### Nongshim RedForce vs Team Liquid (Bo3)
 
@@ -1160,6 +2163,23 @@ Map-by-map win chance for Nongshim RedForce: Sunset 60.2%, Split 58.0%, Summit 5
 
 Map-by-map win chance for Nongshim RedForce: Sunset 65.0%, Split 60.6%, Ascent 60.3%, Summit 57.7%, Abyss 53.0%, Haven 52.0%, Lotus 50.8%
 
+**Series projection** (expected totals over 2.50 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Dambi | NS | Duelist | 44.5 | 40.9 | 9.3 | 1.09 | 242 | 156 | 72% | 11.3 | 9.3 | 1.11 |
+| Ivy | NS | Flex | 38.4 | 37.7 | 16.7 | 1.02 | 210 | 139 | 73% | 6.4 | 6.0 | 1.02 |
+| Xross | NS | Sentinel | 34.1 | 32.9 | 12.5 | 1.04 | 188 | 127 | 70% | 3.4 | 3.8 | 0.99 |
+| Rb | NS | Initiator | 34.8 | 35.6 | 22.6 | 0.98 | 192 | 129 | 74% | 3.9 | 4.2 | 0.98 |
+| Francis | NS | Controller | 33.1 | 34.7 | 18.7 | 0.95 | 183 | 124 | 71% | 2.9 | 3.4 | 0.95 |
+| kamo | TL | Duelist | 44.3 | 41.4 | 9.2 | 1.07 | 240 | 156 | 71% | 10.9 | 9.6 | 1.09 |
+| trexx | TL | Flex | 37.4 | 38.5 | 16.6 | 0.97 | 205 | 136 | 72% | 6.1 | 6.4 | 0.98 |
+| nAts | TL | Sentinel | 33.9 | 33.3 | 12.3 | 1.02 | 187 | 126 | 69% | 3.3 | 4.0 | 0.98 |
+| GSR | TL | Controller | 32.8 | 35.2 | 18.5 | 0.93 | 182 | 123 | 71% | 2.8 | 3.5 | 0.93 |
+| Kicks | TL | Initiator | 33.3 | 36.5 | 22.3 | 0.91 | 185 | 124 | 72% | 3.7 | 4.5 | 0.92 |
+
+Projected MVP: **Dambi** (NS, 1.11 rating). Projected top fragger: **Dambi** (44.5 kills).
+
 ### Nongshim RedForce vs EDward Gaming (Bo3)
 
 **Prediction: Nongshim RedForce wins 2-0** (series win 61.9%; this exact score 34.5%) — neutral venue
@@ -1176,6 +2196,23 @@ Map-by-map win chance for Nongshim RedForce: Sunset 65.0%, Split 60.6%, Ascent 6
 | 3 | Lotus | decider | 56.2% | NS 13-10 | NS 13-10 EDG (7.5%) | 13.7% |
 
 Map-by-map win chance for Nongshim RedForce: Split 63.2%, Sunset 62.6%, Ascent 57.4%, Lotus 56.2%, Haven 55.5%, Summit 55.1%, Abyss 55.1%
+
+**Series projection** (expected totals over 2.49 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Dambi | NS | Duelist | 44.8 | 40.9 | 9.0 | 1.09 | 244 | 157 | 72% | 11.9 | 9.5 | 1.13 |
+| Ivy | NS | Flex | 37.1 | 36.5 | 18.9 | 1.02 | 204 | 136 | 73% | 5.4 | 5.2 | 1.02 |
+| Xross | NS | Sentinel | 34.3 | 32.9 | 12.0 | 1.04 | 190 | 128 | 70% | 3.6 | 3.9 | 1.00 |
+| Rb | NS | Initiator | 35.0 | 35.6 | 21.7 | 0.98 | 194 | 130 | 73% | 4.1 | 4.3 | 0.99 |
+| Francis | NS | Controller | 33.3 | 34.7 | 18.0 | 0.96 | 185 | 125 | 71% | 3.1 | 3.5 | 0.95 |
+| ZmjjKK | EDG | Duelist | 46.6 | 40.9 | 8.9 | 1.14 | 252 | 163 | 72% | 11.6 | 9.8 | 1.16 |
+| stew | EDG | Sentinel | 33.1 | 33.7 | 11.8 | 0.98 | 184 | 124 | 69% | 3.3 | 4.2 | 0.95 |
+| CHICHOO | EDG | Controller | 33.3 | 35.1 | 17.7 | 0.95 | 185 | 125 | 71% | 2.9 | 3.7 | 0.94 |
+| Smoggy | EDG | Flex | 35.1 | 37.7 | 18.6 | 0.93 | 195 | 130 | 72% | 4.9 | 5.6 | 0.94 |
+| nobody | EDG | Initiator | 32.4 | 37.0 | 21.4 | 0.88 | 182 | 122 | 72% | 3.7 | 4.7 | 0.89 |
+
+Projected MVP: **Dambi** (NS, 1.13 rating). Projected top fragger: **ZmjjKK** (46.6 kills).
 
 ### Nongshim RedForce vs TYLOO (Bo3)
 
@@ -1194,6 +2231,23 @@ Map-by-map win chance for Nongshim RedForce: Split 63.2%, Sunset 62.6%, Ascent 5
 
 Map-by-map win chance for Nongshim RedForce: Split 69.0%, Sunset 65.2%, Ascent 60.9%, Lotus 59.6%, Haven 58.9%, Summit 57.8%, Abyss 56.7%
 
+**Series projection** (expected totals over 2.48 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Dambi | NS | Duelist | 44.7 | 40.5 | 9.0 | 1.10 | 245 | 158 | 72% | 11.9 | 9.4 | 1.14 |
+| Ivy | NS | Flex | 37.0 | 36.1 | 18.9 | 1.02 | 205 | 136 | 73% | 5.4 | 5.1 | 1.02 |
+| Xross | NS | Sentinel | 34.2 | 32.5 | 11.9 | 1.05 | 191 | 128 | 70% | 3.6 | 3.9 | 1.01 |
+| Rb | NS | Initiator | 34.9 | 35.2 | 21.6 | 0.99 | 194 | 130 | 74% | 4.1 | 4.3 | 0.99 |
+| Francis | NS | Controller | 33.2 | 34.3 | 17.9 | 0.97 | 185 | 125 | 72% | 3.1 | 3.4 | 0.96 |
+| splash | TYL | Duelist | 41.1 | 42.5 | 8.8 | 0.97 | 228 | 148 | 69% | 10.7 | 10.3 | 0.99 |
+| Erv | TYL | Sentinel | 34.0 | 33.2 | 11.7 | 1.02 | 190 | 127 | 69% | 3.4 | 4.1 | 0.98 |
+| SiuFatBB | TYL | Flex | 36.0 | 37.1 | 18.5 | 0.97 | 200 | 133 | 72% | 5.1 | 5.5 | 0.97 |
+| slowly | TYL | Controller | 34.2 | 34.6 | 17.5 | 0.99 | 190 | 128 | 71% | 3.0 | 3.6 | 0.97 |
+| Scales | TYL | Initiator | 33.3 | 36.4 | 21.2 | 0.91 | 187 | 125 | 72% | 3.8 | 4.6 | 0.92 |
+
+Projected MVP: **Dambi** (NS, 1.14 rating). Projected top fragger: **Dambi** (44.7 kills).
+
 ### Nongshim RedForce vs T1 (Bo3)
 
 **Prediction: Nongshim RedForce wins 2-0** (series win 67.5%; this exact score 37.6%) — neutral venue
@@ -1210,6 +2264,23 @@ Map-by-map win chance for Nongshim RedForce: Split 69.0%, Sunset 65.2%, Ascent 6
 | 3 | Lotus | decider | 63.0% | NS 13-9 | NS 13-9 T1 (8.0%) | 13.2% |
 
 Map-by-map win chance for Nongshim RedForce: Split 65.7%, Sunset 63.8%, Summit 63.1%, Lotus 63.0%, Ascent 60.8%, Haven 58.9%, Abyss 57.7%
+
+**Series projection** (expected totals over 2.48 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Dambi | NS | Duelist | 44.7 | 40.4 | 9.0 | 1.10 | 245 | 158 | 72% | 11.9 | 9.3 | 1.14 |
+| Ivy | NS | Flex | 37.0 | 36.0 | 18.9 | 1.03 | 205 | 136 | 73% | 5.4 | 5.1 | 1.03 |
+| Xross | NS | Sentinel | 34.2 | 32.5 | 11.9 | 1.05 | 191 | 128 | 70% | 3.6 | 3.9 | 1.01 |
+| Rb | NS | Initiator | 34.9 | 35.1 | 21.6 | 0.99 | 194 | 130 | 74% | 4.2 | 4.3 | 0.99 |
+| Francis | NS | Controller | 33.2 | 34.3 | 17.9 | 0.97 | 186 | 125 | 72% | 3.1 | 3.4 | 0.96 |
+| BuZz | T1 | Duelist | 43.5 | 41.6 | 8.8 | 1.05 | 239 | 155 | 71% | 11.0 | 10.1 | 1.07 |
+| Meteor | T1 | Sentinel | 35.2 | 32.8 | 11.7 | 1.08 | 195 | 131 | 70% | 3.5 | 4.1 | 1.02 |
+| iZu | T1 | Flex | 37.3 | 36.6 | 18.4 | 1.02 | 206 | 137 | 73% | 5.1 | 5.4 | 1.01 |
+| Munchkin | T1 | Initiator | 32.6 | 36.7 | 21.2 | 0.89 | 184 | 123 | 72% | 3.7 | 4.7 | 0.90 |
+| stax | T1 | Controller | 29.7 | 36.3 | 17.5 | 0.82 | 169 | 115 | 69% | 2.7 | 3.8 | 0.83 |
+
+Projected MVP: **Dambi** (NS, 1.14 rating). Projected top fragger: **Dambi** (44.7 kills).
 
 ### Nongshim RedForce vs Xi Lai Gaming (Bo3)
 
@@ -1228,6 +2299,23 @@ Map-by-map win chance for Nongshim RedForce: Split 65.7%, Sunset 63.8%, Summit 6
 
 Map-by-map win chance for Nongshim RedForce: Sunset 68.3%, Split 68.3%, Ascent 62.8%, Lotus 60.9%, Summit 60.4%, Haven 60.2%, Abyss 59.9%
 
+**Series projection** (expected totals over 2.46 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Dambi | NS | Duelist | 43.7 | 39.5 | 9.5 | 1.11 | 242 | 156 | 72% | 10.8 | 8.5 | 1.13 |
+| Ivy | NS | Flex | 39.1 | 37.5 | 14.5 | 1.04 | 218 | 143 | 72% | 7.4 | 6.5 | 1.05 |
+| Xross | NS | Sentinel | 33.5 | 31.7 | 12.7 | 1.06 | 189 | 127 | 70% | 3.3 | 3.5 | 1.01 |
+| Rb | NS | Initiator | 34.2 | 34.3 | 23.0 | 1.00 | 192 | 129 | 74% | 3.8 | 3.9 | 1.00 |
+| Francis | NS | Controller | 32.5 | 33.5 | 19.1 | 0.97 | 183 | 124 | 72% | 2.8 | 3.1 | 0.96 |
+| Lysoar | XLG | Flex | 38.7 | 38.6 | 14.1 | 1.00 | 215 | 142 | 71% | 6.9 | 7.0 | 1.00 |
+| NoMan | XLG | Duelist | 40.1 | 41.7 | 9.3 | 0.96 | 224 | 146 | 69% | 9.6 | 9.5 | 0.98 |
+| Rarga | XLG | Initiator | 33.8 | 35.3 | 22.4 | 0.96 | 190 | 128 | 73% | 3.5 | 4.2 | 0.96 |
+| WsLeo | XLG | Sentinel | 31.9 | 33.1 | 12.4 | 0.96 | 181 | 122 | 68% | 3.0 | 3.9 | 0.93 |
+| happywei | XLG | Controller | 32.1 | 34.4 | 18.6 | 0.93 | 181 | 123 | 71% | 2.6 | 3.4 | 0.93 |
+
+Projected MVP: **Dambi** (NS, 1.13 rating). Projected top fragger: **Dambi** (43.7 kills).
+
 ### Nongshim RedForce vs JD Gaming (Bo3)
 
 **Prediction: Nongshim RedForce wins 2-0** (series win 71.5%; this exact score 42.8%) — neutral venue
@@ -1244,6 +2332,23 @@ Map-by-map win chance for Nongshim RedForce: Sunset 68.3%, Split 68.3%, Ascent 6
 | 3 | Lotus | decider | 63.2% | NS 13-9 | NS 13-9 JDG (8.0%) | 13.2% |
 
 Map-by-map win chance for Nongshim RedForce: Sunset 70.4%, Split 68.5%, Ascent 63.7%, Lotus 63.2%, Summit 62.6%, Abyss 62.4%, Haven 61.9%
+
+**Series projection** (expected totals over 2.45 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Dambi | NS | Duelist | 42.9 | 38.7 | 10.1 | 1.11 | 238 | 154 | 72% | 9.7 | 7.8 | 1.13 |
+| Ivy | NS | Flex | 41.3 | 39.2 | 10.1 | 1.05 | 231 | 150 | 72% | 9.5 | 7.9 | 1.08 |
+| Xross | NS | Sentinel | 32.9 | 31.1 | 13.5 | 1.06 | 186 | 125 | 70% | 2.9 | 3.2 | 1.01 |
+| Rb | NS | Initiator | 33.5 | 33.6 | 24.5 | 1.00 | 189 | 127 | 75% | 3.4 | 3.6 | 1.00 |
+| Francis | NS | Controller | 31.8 | 32.8 | 20.3 | 0.97 | 181 | 122 | 72% | 2.5 | 2.9 | 0.96 |
+| zhe | JDG | Duelist | 41.2 | 40.2 | 9.8 | 1.02 | 230 | 150 | 70% | 8.9 | 8.6 | 1.03 |
+| jkuro | JDG | Sentinel | 32.1 | 32.1 | 13.1 | 1.00 | 182 | 123 | 69% | 2.7 | 3.5 | 0.96 |
+| BerLIN | JDG | Initiator | 32.8 | 34.8 | 23.8 | 0.94 | 186 | 125 | 73% | 3.1 | 3.9 | 0.95 |
+| crownfisher | JDG | Flex | 38.1 | 41.4 | 9.8 | 0.92 | 215 | 141 | 69% | 8.4 | 8.9 | 0.93 |
+| Yuicaw | JDG | Controller | 31.1 | 33.9 | 19.7 | 0.92 | 177 | 120 | 71% | 2.3 | 3.1 | 0.92 |
+
+Projected MVP: **Dambi** (NS, 1.13 rating). Projected top fragger: **Dambi** (42.9 kills).
 
 ### LOUD vs Team Vitality (Bo3)
 
@@ -1262,6 +2367,23 @@ Map-by-map win chance for Nongshim RedForce: Sunset 70.4%, Split 68.5%, Ascent 6
 
 Map-by-map win chance for LOUD: Sunset 56.0%, Haven 53.8%, Lotus 52.4%, Split 52.4%, Ascent 51.7%, Abyss 50.4%, Summit 47.4%
 
+**Series projection** (expected totals over 2.50 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| lukxo | LOUD | Sentinel | 36.8 | 32.0 | 12.9 | 1.15 | 200 | 134 | 71% | 3.5 | 3.6 | 1.07 |
+| tkzin | LOUD | Duelist | 41.2 | 42.0 | 9.7 | 0.98 | 225 | 146 | 70% | 10.3 | 9.3 | 1.01 |
+| Darker | LOUD | Controller | 34.9 | 34.0 | 19.3 | 1.03 | 191 | 129 | 73% | 2.9 | 3.2 | 1.01 |
+| DaviH | LOUD | Initiator | 34.7 | 35.5 | 23.3 | 0.98 | 191 | 128 | 74% | 3.8 | 4.1 | 0.98 |
+| erde | LOUD | Flex | 36.8 | 40.0 | 14.6 | 0.92 | 203 | 134 | 70% | 7.1 | 7.1 | 0.94 |
+| Derke | VIT | Duelist | 45.4 | 40.9 | 9.9 | 1.11 | 244 | 158 | 72% | 10.8 | 9.2 | 1.13 |
+| Sayonara | VIT | Flex | 38.4 | 39.7 | 14.8 | 0.97 | 210 | 138 | 71% | 7.2 | 7.2 | 0.98 |
+| Jamppi | VIT | Sentinel | 33.5 | 33.3 | 13.1 | 1.01 | 185 | 125 | 69% | 3.2 | 3.9 | 0.97 |
+| PROFEK | VIT | Controller | 33.1 | 34.9 | 19.7 | 0.95 | 183 | 123 | 72% | 2.8 | 3.4 | 0.94 |
+| Chronicle | VIT | Flex | 33.1 | 35.8 | 22.0 | 0.92 | 183 | 123 | 72% | 3.3 | 4.0 | 0.93 |
+
+Projected MVP: **lukxo** (LOUD, 1.07 rating). Projected top fragger: **Derke** (45.4 kills).
+
 ### LOUD vs G2 Esports (Bo3)
 
 **Prediction: LOUD wins 2-0** (series win 53.4%; this exact score 27.1%) — neutral venue
@@ -1278,6 +2400,23 @@ Map-by-map win chance for LOUD: Sunset 56.0%, Haven 53.8%, Lotus 52.4%, Split 52
 | 3 | Sunset | decider | 52.4% | LOUD 13-11 | LOUD 13-11 G2 (7.2%) | 13.9% |
 
 Map-by-map win chance for LOUD: Haven 57.2%, Lotus 54.3%, Ascent 53.9%, Sunset 52.4%, Abyss 52.0%, Summit 50.0%, Split 48.3%
+
+**Series projection** (expected totals over 2.50 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| lukxo | LOUD | Sentinel | 37.0 | 32.2 | 12.5 | 1.15 | 201 | 135 | 71% | 3.6 | 3.7 | 1.07 |
+| tkzin | LOUD | Duelist | 41.6 | 42.3 | 9.3 | 0.98 | 227 | 147 | 70% | 10.8 | 9.7 | 1.01 |
+| Darker | LOUD | Controller | 35.2 | 34.2 | 18.7 | 1.03 | 192 | 129 | 72% | 3.1 | 3.3 | 1.01 |
+| DaviH | LOUD | Initiator | 35.0 | 35.8 | 22.6 | 0.98 | 192 | 129 | 74% | 4.0 | 4.3 | 0.98 |
+| erde | LOUD | Flex | 35.7 | 39.0 | 16.7 | 0.92 | 197 | 131 | 71% | 6.1 | 6.3 | 0.93 |
+| jawgemo | G2 | Duelist | 43.9 | 41.6 | 9.3 | 1.05 | 238 | 154 | 71% | 11.0 | 9.6 | 1.08 |
+| leaf | G2 | Sentinel | 36.9 | 32.4 | 12.4 | 1.14 | 201 | 134 | 71% | 3.5 | 3.8 | 1.06 |
+| BABYBAY | G2 | Flex | 38.5 | 38.1 | 16.7 | 1.01 | 210 | 139 | 72% | 6.3 | 6.2 | 1.01 |
+| trent | G2 | Initiator | 33.6 | 36.4 | 22.5 | 0.92 | 186 | 125 | 73% | 3.8 | 4.4 | 0.93 |
+| valyn | G2 | Controller | 30.7 | 36.0 | 18.6 | 0.85 | 171 | 116 | 70% | 2.7 | 3.6 | 0.87 |
+
+Projected MVP: **lukxo** (LOUD, 1.07 rating). Projected top fragger: **jawgemo** (43.9 kills).
 
 ### LOUD vs Global Esports (Bo3)
 
@@ -1296,6 +2435,23 @@ Map-by-map win chance for LOUD: Haven 57.2%, Lotus 54.3%, Ascent 53.9%, Sunset 5
 
 Map-by-map win chance for LOUD: Split 60.0%, Sunset 59.4%, Ascent 55.5%, Haven 52.8%, Summit 50.3%, Lotus 50.0%, Abyss 49.8%
 
+**Series projection** (expected totals over 2.50 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| lukxo | LOUD | Sentinel | 37.1 | 32.1 | 12.5 | 1.16 | 202 | 135 | 71% | 3.7 | 3.7 | 1.08 |
+| tkzin | LOUD | Duelist | 41.6 | 42.1 | 9.3 | 0.99 | 228 | 148 | 70% | 10.9 | 9.6 | 1.02 |
+| Darker | LOUD | Controller | 35.3 | 34.1 | 18.7 | 1.03 | 193 | 130 | 72% | 3.1 | 3.3 | 1.01 |
+| DaviH | LOUD | Initiator | 35.1 | 35.6 | 22.6 | 0.98 | 193 | 129 | 74% | 4.0 | 4.2 | 0.99 |
+| erde | LOUD | Flex | 35.8 | 38.9 | 16.8 | 0.92 | 197 | 131 | 71% | 6.1 | 6.3 | 0.94 |
+| UdoTan | GE | Duelist | 43.7 | 41.8 | 9.5 | 1.05 | 237 | 154 | 71% | 10.9 | 9.7 | 1.07 |
+| Kr1stal | GE | Flex | 38.4 | 37.7 | 15.0 | 1.02 | 209 | 138 | 72% | 6.2 | 6.2 | 1.01 |
+| xavi8k | GE | Sentinel | 33.5 | 33.6 | 12.7 | 1.00 | 185 | 125 | 69% | 3.3 | 4.0 | 0.96 |
+| PatMen | GE | Initiator | 34.1 | 36.4 | 23.0 | 0.94 | 188 | 126 | 73% | 3.8 | 4.4 | 0.95 |
+| Autumn | GE | Controller | 33.1 | 35.3 | 19.0 | 0.94 | 183 | 123 | 71% | 2.9 | 3.5 | 0.94 |
+
+Projected MVP: **lukxo** (LOUD, 1.08 rating). Projected top fragger: **UdoTan** (43.7 kills).
+
 ### LOUD vs FUT Esports (Bo3)
 
 **Prediction: LOUD wins 2-0** (series win 55.7%; this exact score 28.8%) — neutral venue
@@ -1313,6 +2469,23 @@ Map-by-map win chance for LOUD: Split 60.0%, Sunset 59.4%, Ascent 55.5%, Haven 5
 
 Map-by-map win chance for LOUD: Sunset 56.9%, Ascent 54.8%, Haven 54.8%, Lotus 54.0%, Summit 52.8%, Split 52.6%, Abyss 52.3%
 
+**Series projection** (expected totals over 2.50 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| lukxo | LOUD | Sentinel | 36.8 | 31.9 | 12.9 | 1.15 | 200 | 134 | 71% | 3.5 | 3.6 | 1.07 |
+| tkzin | LOUD | Duelist | 41.3 | 41.8 | 9.7 | 0.99 | 226 | 147 | 70% | 10.4 | 9.2 | 1.01 |
+| Darker | LOUD | Controller | 35.0 | 33.9 | 19.3 | 1.03 | 192 | 129 | 73% | 3.0 | 3.2 | 1.01 |
+| DaviH | LOUD | Initiator | 34.8 | 35.4 | 23.4 | 0.98 | 191 | 128 | 74% | 3.8 | 4.1 | 0.98 |
+| erde | LOUD | Flex | 36.9 | 39.9 | 14.6 | 0.92 | 203 | 134 | 70% | 7.1 | 7.1 | 0.94 |
+| xeus | FUT | Duelist | 43.0 | 40.7 | 10.2 | 1.06 | 233 | 152 | 71% | 9.5 | 8.5 | 1.07 |
+| KROSTALY | FUT | Sentinel | 34.9 | 32.1 | 13.6 | 1.09 | 191 | 129 | 70% | 3.0 | 3.4 | 1.02 |
+| sociablEE | FUT | Initiator | 34.2 | 35.2 | 24.7 | 0.97 | 188 | 127 | 74% | 3.4 | 3.8 | 0.97 |
+| yetujey | FUT | Controller | 32.5 | 34.3 | 20.5 | 0.95 | 180 | 122 | 72% | 2.5 | 3.1 | 0.94 |
+| s0pp | FUT | Duelist | 38.3 | 42.4 | 10.2 | 0.90 | 211 | 138 | 69% | 8.7 | 9.0 | 0.92 |
+
+Projected MVP: **lukxo** (LOUD, 1.07 rating). Projected top fragger: **xeus** (43.0 kills).
+
 ### LOUD vs Team Liquid (Bo3)
 
 **Prediction: LOUD wins 2-0** (series win 59.4%; this exact score 32.3%) — neutral venue
@@ -1329,6 +2502,23 @@ Map-by-map win chance for LOUD: Sunset 56.9%, Ascent 54.8%, Haven 54.8%, Lotus 5
 | 3 | Summit | decider | 55.0% | LOUD 13-10 | LOUD 13-10 TL (7.4%) | 13.8% |
 
 Map-by-map win chance for LOUD: Sunset 61.8%, Ascent 60.1%, Split 55.2%, Summit 55.0%, Abyss 54.4%, Haven 53.8%, Lotus 50.5%
+
+**Series projection** (expected totals over 2.49 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| lukxo | LOUD | Sentinel | 37.6 | 32.3 | 11.6 | 1.16 | 205 | 137 | 71% | 4.0 | 3.9 | 1.09 |
+| tkzin | LOUD | Duelist | 42.2 | 42.4 | 8.7 | 1.00 | 232 | 150 | 70% | 11.9 | 10.2 | 1.03 |
+| Darker | LOUD | Controller | 35.8 | 34.3 | 17.4 | 1.04 | 196 | 131 | 72% | 3.4 | 3.5 | 1.02 |
+| DaviH | LOUD | Initiator | 35.5 | 35.9 | 21.0 | 0.99 | 196 | 131 | 73% | 4.4 | 4.5 | 0.99 |
+| erde | LOUD | Flex | 33.5 | 36.6 | 21.0 | 0.92 | 186 | 125 | 72% | 4.2 | 4.6 | 0.93 |
+| kamo | TL | Duelist | 45.0 | 41.9 | 8.6 | 1.07 | 244 | 157 | 71% | 11.9 | 10.3 | 1.10 |
+| nAts | TL | Sentinel | 34.4 | 33.7 | 11.5 | 1.02 | 190 | 128 | 69% | 3.6 | 4.3 | 0.98 |
+| trexx | TL | Flex | 35.1 | 36.5 | 20.8 | 0.96 | 194 | 130 | 73% | 4.2 | 4.7 | 0.96 |
+| GSR | TL | Controller | 33.3 | 35.6 | 17.2 | 0.94 | 185 | 125 | 71% | 3.1 | 3.8 | 0.93 |
+| Kicks | TL | Initiator | 33.8 | 37.0 | 20.8 | 0.91 | 187 | 126 | 72% | 4.0 | 4.8 | 0.92 |
+
+Projected MVP: **lukxo** (LOUD, 1.09 rating). Projected top fragger: **kamo** (45.0 kills).
 
 ### LOUD vs EDward Gaming (Bo3)
 
@@ -1348,6 +2538,23 @@ Map-by-map win chance for LOUD: Sunset 61.8%, Ascent 60.1%, Split 55.2%, Summit 
 
 Map-by-map win chance for LOUD: Sunset 60.7%, Split 59.4%, Ascent 58.7%, Haven 58.7%, Abyss 57.8%, Lotus 57.3%, Summit 53.9%
 
+**Series projection** (expected totals over 2.49 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| lukxo | LOUD | Sentinel | 36.5 | 31.3 | 13.3 | 1.17 | 200 | 134 | 72% | 3.3 | 3.3 | 1.08 |
+| tkzin | LOUD | Duelist | 40.9 | 41.0 | 10.0 | 1.00 | 225 | 146 | 70% | 9.9 | 8.7 | 1.03 |
+| Darker | LOUD | Controller | 34.7 | 33.2 | 19.9 | 1.04 | 191 | 129 | 73% | 2.8 | 3.0 | 1.02 |
+| DaviH | LOUD | Initiator | 34.5 | 34.7 | 24.1 | 0.99 | 191 | 128 | 74% | 3.7 | 3.8 | 0.99 |
+| erde | LOUD | Flex | 38.0 | 40.3 | 12.4 | 0.94 | 210 | 138 | 70% | 8.2 | 7.7 | 0.96 |
+| ZmjjKK | EDG | Duelist | 45.5 | 40.1 | 9.8 | 1.14 | 246 | 159 | 72% | 10.1 | 8.7 | 1.14 |
+| Smoggy | EDG | Flex | 38.5 | 40.7 | 12.2 | 0.95 | 212 | 140 | 70% | 7.8 | 8.1 | 0.96 |
+| stew | EDG | Sentinel | 32.3 | 33.1 | 13.1 | 0.98 | 180 | 122 | 69% | 2.9 | 3.7 | 0.94 |
+| CHICHOO | EDG | Controller | 32.5 | 34.4 | 19.6 | 0.95 | 181 | 123 | 71% | 2.5 | 3.2 | 0.94 |
+| nobody | EDG | Initiator | 31.7 | 36.3 | 23.7 | 0.87 | 178 | 120 | 72% | 3.2 | 4.2 | 0.89 |
+
+Projected MVP: **lukxo** (LOUD, 1.08 rating). Projected top fragger: **ZmjjKK** (45.5 kills).
+
 ### LOUD vs TYLOO (Bo3)
 
 **Prediction: LOUD wins 2-0** (series win 65.2%; this exact score 36.0%) — neutral venue
@@ -1364,6 +2571,23 @@ Map-by-map win chance for LOUD: Sunset 60.7%, Split 59.4%, Ascent 58.7%, Haven 5
 | 3 | Haven | decider | 60.7% | LOUD 13-10 | LOUD 13-10 TYL (7.8%) | 13.4% |
 
 Map-by-map win chance for LOUD: Split 64.1%, Sunset 62.1%, Ascent 60.7%, Haven 60.7%, Lotus 59.3%, Abyss 58.1%, Summit 55.1%
+
+**Series projection** (expected totals over 2.48 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| lukxo | LOUD | Sentinel | 37.0 | 31.5 | 12.4 | 1.17 | 203 | 136 | 71% | 3.7 | 3.6 | 1.09 |
+| tkzin | LOUD | Duelist | 41.5 | 41.3 | 9.3 | 1.00 | 229 | 148 | 70% | 11.0 | 9.3 | 1.04 |
+| Darker | LOUD | Controller | 35.1 | 33.5 | 18.6 | 1.05 | 194 | 130 | 73% | 3.1 | 3.2 | 1.02 |
+| DaviH | LOUD | Initiator | 34.9 | 35.0 | 22.5 | 1.00 | 194 | 130 | 74% | 4.0 | 4.1 | 1.00 |
+| erde | LOUD | Flex | 35.7 | 38.2 | 16.6 | 0.94 | 199 | 132 | 71% | 6.2 | 6.1 | 0.95 |
+| splash | TYL | Duelist | 41.0 | 42.3 | 9.1 | 0.97 | 226 | 147 | 70% | 10.3 | 9.9 | 0.99 |
+| SiuFatBB | TYL | Flex | 37.4 | 38.2 | 16.3 | 0.98 | 207 | 137 | 72% | 6.1 | 6.3 | 0.98 |
+| Erv | TYL | Sentinel | 33.8 | 33.1 | 12.2 | 1.02 | 188 | 127 | 69% | 3.3 | 4.0 | 0.98 |
+| slowly | TYL | Controller | 34.1 | 34.4 | 18.3 | 0.99 | 189 | 127 | 72% | 2.9 | 3.4 | 0.97 |
+| Scales | TYL | Initiator | 33.2 | 36.3 | 22.1 | 0.92 | 186 | 125 | 72% | 3.7 | 4.4 | 0.93 |
+
+Projected MVP: **lukxo** (LOUD, 1.09 rating). Projected top fragger: **tkzin** (41.5 kills).
 
 ### LOUD vs T1 (Bo3)
 
@@ -1382,6 +2606,23 @@ Map-by-map win chance for LOUD: Split 64.1%, Sunset 62.1%, Ascent 60.7%, Haven 6
 
 Map-by-map win chance for LOUD: Lotus 62.7%, Ascent 60.6%, Haven 60.6%, Split 60.6%, Sunset 60.6%, Summit 60.5%, Abyss 59.1%
 
+**Series projection** (expected totals over 2.48 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| lukxo | LOUD | Sentinel | 37.5 | 31.9 | 11.5 | 1.18 | 206 | 137 | 71% | 4.0 | 3.8 | 1.10 |
+| tkzin | LOUD | Duelist | 42.1 | 41.8 | 8.7 | 1.01 | 233 | 150 | 70% | 12.0 | 10.0 | 1.05 |
+| Darker | LOUD | Controller | 35.6 | 33.9 | 17.3 | 1.05 | 197 | 132 | 72% | 3.4 | 3.4 | 1.03 |
+| DaviH | LOUD | Initiator | 35.4 | 35.4 | 20.9 | 1.00 | 197 | 131 | 74% | 4.4 | 4.4 | 1.00 |
+| erde | LOUD | Flex | 33.4 | 36.1 | 20.9 | 0.92 | 187 | 126 | 72% | 4.2 | 4.5 | 0.94 |
+| BuZz | T1 | Duelist | 44.0 | 41.9 | 8.5 | 1.05 | 241 | 156 | 71% | 11.6 | 10.4 | 1.07 |
+| Meteor | T1 | Sentinel | 35.7 | 33.0 | 11.3 | 1.08 | 197 | 132 | 70% | 3.6 | 4.2 | 1.02 |
+| iZu | T1 | Flex | 36.3 | 35.7 | 20.5 | 1.02 | 201 | 134 | 73% | 4.2 | 4.6 | 1.01 |
+| Munchkin | T1 | Initiator | 33.0 | 36.9 | 20.5 | 0.89 | 185 | 124 | 72% | 3.9 | 4.9 | 0.90 |
+| stax | T1 | Controller | 30.1 | 36.6 | 17.0 | 0.82 | 171 | 116 | 69% | 2.8 | 4.0 | 0.84 |
+
+Projected MVP: **lukxo** (LOUD, 1.10 rating). Projected top fragger: **BuZz** (44.0 kills).
+
 ### LOUD vs Xi Lai Gaming (Bo3)
 
 **Prediction: LOUD wins 2-0** (series win 67.6%; this exact score 38.4%) — neutral venue
@@ -1398,6 +2639,23 @@ Map-by-map win chance for LOUD: Lotus 62.7%, Ascent 60.6%, Haven 60.6%, Split 60
 | 3 | Haven | decider | 62.0% | LOUD 13-9 | LOUD 13-9 XLG (7.9%) | 13.3% |
 
 Map-by-map win chance for LOUD: Sunset 65.3%, Split 63.3%, Ascent 62.6%, Haven 62.0%, Abyss 61.3%, Lotus 60.6%, Summit 57.7%
+
+**Series projection** (expected totals over 2.47 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| lukxo | LOUD | Sentinel | 36.3 | 30.8 | 13.2 | 1.18 | 201 | 134 | 72% | 3.4 | 3.3 | 1.09 |
+| tkzin | LOUD | Duelist | 40.7 | 40.4 | 9.9 | 1.01 | 226 | 147 | 71% | 10.0 | 8.5 | 1.04 |
+| Darker | LOUD | Controller | 34.5 | 32.7 | 19.8 | 1.05 | 192 | 129 | 73% | 2.8 | 2.9 | 1.03 |
+| DaviH | LOUD | Initiator | 34.3 | 34.2 | 24.0 | 1.00 | 192 | 128 | 75% | 3.7 | 3.7 | 1.00 |
+| erde | LOUD | Flex | 37.8 | 39.8 | 12.3 | 0.95 | 211 | 139 | 70% | 8.3 | 7.6 | 0.97 |
+| Lysoar | XLG | Flex | 40.3 | 39.8 | 12.0 | 1.01 | 222 | 146 | 71% | 8.0 | 7.9 | 1.02 |
+| NoMan | XLG | Duelist | 40.1 | 41.5 | 9.7 | 0.97 | 222 | 145 | 70% | 9.2 | 9.2 | 0.98 |
+| Rarga | XLG | Initiator | 33.8 | 35.1 | 23.4 | 0.96 | 189 | 127 | 73% | 3.4 | 4.0 | 0.96 |
+| WsLeo | XLG | Sentinel | 31.8 | 33.0 | 12.9 | 0.97 | 180 | 121 | 69% | 2.8 | 3.7 | 0.94 |
+| happywei | XLG | Controller | 32.1 | 34.3 | 19.4 | 0.94 | 180 | 122 | 71% | 2.5 | 3.2 | 0.93 |
+
+Projected MVP: **lukxo** (LOUD, 1.09 rating). Projected top fragger: **tkzin** (40.7 kills).
 
 ### LOUD vs JD Gaming (Bo3)
 
@@ -1416,6 +2674,23 @@ Map-by-map win chance for LOUD: Sunset 65.3%, Split 63.3%, Ascent 62.6%, Haven 6
 
 Map-by-map win chance for LOUD: Sunset 67.5%, Abyss 63.7%, Ascent 63.6%, Haven 63.6%, Split 63.6%, Lotus 62.9%, Summit 60.0%
 
+**Series projection** (expected totals over 2.46 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| lukxo | LOUD | Sentinel | 36.0 | 30.4 | 13.6 | 1.18 | 200 | 134 | 72% | 3.2 | 3.1 | 1.09 |
+| tkzin | LOUD | Duelist | 40.3 | 39.9 | 10.2 | 1.01 | 225 | 146 | 71% | 9.5 | 8.1 | 1.04 |
+| Darker | LOUD | Controller | 34.2 | 32.3 | 20.4 | 1.06 | 191 | 129 | 74% | 2.7 | 2.8 | 1.03 |
+| DaviH | LOUD | Initiator | 34.0 | 33.8 | 24.6 | 1.01 | 191 | 128 | 75% | 3.5 | 3.6 | 1.00 |
+| erde | LOUD | Flex | 38.8 | 40.5 | 10.2 | 0.96 | 217 | 142 | 70% | 9.2 | 8.2 | 0.99 |
+| zhe | JDG | Duelist | 41.6 | 40.4 | 9.9 | 1.03 | 230 | 150 | 71% | 9.0 | 8.6 | 1.04 |
+| jkuro | JDG | Sentinel | 32.4 | 32.3 | 13.2 | 1.00 | 183 | 123 | 69% | 2.7 | 3.5 | 0.96 |
+| BerLIN | JDG | Initiator | 33.1 | 34.9 | 24.0 | 0.95 | 186 | 125 | 73% | 3.2 | 3.9 | 0.95 |
+| crownfisher | JDG | Flex | 38.5 | 41.5 | 9.9 | 0.93 | 215 | 141 | 69% | 8.5 | 8.9 | 0.94 |
+| Yuicaw | JDG | Controller | 31.4 | 34.1 | 19.9 | 0.92 | 178 | 121 | 71% | 2.3 | 3.1 | 0.92 |
+
+Projected MVP: **lukxo** (LOUD, 1.09 rating). Projected top fragger: **zhe** (41.6 kills).
+
 ### Team Vitality vs G2 Esports (Bo3)
 
 **Prediction: Team Vitality wins 2-1** (series win 50.5%; this exact score 26.0%) — neutral venue
@@ -1432,6 +2707,23 @@ Map-by-map win chance for LOUD: Sunset 67.5%, Abyss 63.7%, Ascent 63.6%, Haven 6
 | 3 | Lotus | decider | 51.9% | VIT 13-11 | VIT 13-11 G2 (7.2%) | 13.9% |
 
 Map-by-map win chance for Team Vitality: Haven 53.4%, Summit 52.6%, Ascent 52.2%, Lotus 51.9%, Abyss 51.6%, Sunset 46.5%, Split 45.9%
+
+**Series projection** (expected totals over 2.50 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Derke | VIT | Duelist | 46.2 | 41.3 | 9.0 | 1.12 | 249 | 160 | 72% | 11.9 | 9.7 | 1.14 |
+| Jamppi | VIT | Sentinel | 34.1 | 33.6 | 12.0 | 1.02 | 188 | 126 | 69% | 3.5 | 4.1 | 0.98 |
+| Sayonara | VIT | Flex | 36.2 | 37.5 | 18.9 | 0.96 | 198 | 132 | 72% | 5.2 | 5.5 | 0.97 |
+| PROFEK | VIT | Controller | 33.6 | 35.2 | 18.0 | 0.96 | 185 | 125 | 71% | 3.0 | 3.6 | 0.95 |
+| Chronicle | VIT | Flex | 34.1 | 36.6 | 21.8 | 0.93 | 188 | 126 | 73% | 4.0 | 4.6 | 0.94 |
+| jawgemo | G2 | Duelist | 44.4 | 41.8 | 9.0 | 1.06 | 240 | 155 | 71% | 11.6 | 9.9 | 1.09 |
+| leaf | G2 | Sentinel | 37.3 | 32.5 | 12.0 | 1.15 | 203 | 135 | 71% | 3.7 | 3.9 | 1.07 |
+| BABYBAY | G2 | Flex | 37.4 | 37.1 | 18.9 | 1.01 | 204 | 136 | 73% | 5.3 | 5.4 | 1.01 |
+| trent | G2 | Initiator | 34.0 | 36.6 | 21.8 | 0.93 | 187 | 126 | 73% | 4.0 | 4.6 | 0.94 |
+| valyn | G2 | Controller | 31.0 | 36.2 | 18.0 | 0.86 | 173 | 117 | 70% | 2.9 | 3.7 | 0.87 |
+
+Projected MVP: **Derke** (VIT, 1.14 rating). Projected top fragger: **Derke** (46.2 kills).
 
 ### Team Vitality vs Global Esports (Bo3)
 
@@ -1451,6 +2743,23 @@ Map-by-map win chance for Team Vitality: Haven 53.4%, Summit 52.6%, Ascent 52.2%
 
 Map-by-map win chance for Team Vitality: Split 59.1%, Ascent 55.3%, Sunset 54.9%, Summit 54.3%, Abyss 50.8%, Haven 50.4%, Lotus 49.0%
 
+**Series projection** (expected totals over 2.50 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Derke | VIT | Duelist | 46.7 | 41.3 | 8.7 | 1.13 | 252 | 162 | 72% | 12.5 | 10.0 | 1.16 |
+| Jamppi | VIT | Sentinel | 34.5 | 33.6 | 11.6 | 1.02 | 190 | 127 | 69% | 3.7 | 4.2 | 0.98 |
+| Sayonara | VIT | Flex | 35.1 | 36.4 | 21.1 | 0.97 | 193 | 129 | 73% | 4.2 | 4.6 | 0.97 |
+| PROFEK | VIT | Controller | 34.0 | 35.3 | 17.4 | 0.96 | 187 | 126 | 71% | 3.2 | 3.7 | 0.96 |
+| Chronicle | VIT | Flex | 34.5 | 36.6 | 21.1 | 0.94 | 190 | 127 | 73% | 4.2 | 4.7 | 0.95 |
+| UdoTan | GE | Duelist | 44.5 | 42.6 | 9.4 | 1.04 | 242 | 156 | 71% | 12.1 | 10.4 | 1.08 |
+| Kr1stal | GE | Flex | 36.1 | 34.8 | 16.2 | 1.04 | 197 | 132 | 72% | 4.0 | 4.4 | 1.01 |
+| xavi8k | GE | Sentinel | 34.1 | 34.3 | 12.5 | 0.99 | 188 | 126 | 69% | 3.6 | 4.3 | 0.96 |
+| PatMen | GE | Initiator | 34.8 | 37.1 | 22.6 | 0.94 | 191 | 128 | 73% | 4.2 | 4.8 | 0.95 |
+| Autumn | GE | Controller | 33.7 | 35.9 | 18.7 | 0.94 | 186 | 125 | 71% | 3.2 | 3.8 | 0.94 |
+
+Projected MVP: **Derke** (VIT, 1.16 rating). Projected top fragger: **Derke** (46.7 kills).
+
 ### Team Vitality vs FUT Esports (Bo3)
 
 **Prediction: Team Vitality wins 2-0** (series win 52.8%; this exact score 27.0%) — neutral venue
@@ -1467,6 +2776,23 @@ Map-by-map win chance for Team Vitality: Split 59.1%, Ascent 55.3%, Sunset 54.9%
 | 3 | Lotus | decider | 51.6% | VIT 13-11 | VIT 13-11 FUT (7.2%) | 13.9% |
 
 Map-by-map win chance for Team Vitality: Summit 55.4%, Ascent 53.1%, Abyss 51.9%, Lotus 51.6%, Haven 50.9%, Sunset 50.9%, Split 50.2%
+
+**Series projection** (expected totals over 2.50 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Derke | VIT | Duelist | 46.2 | 41.1 | 9.0 | 1.12 | 249 | 160 | 72% | 11.9 | 9.6 | 1.15 |
+| Jamppi | VIT | Sentinel | 34.1 | 33.5 | 12.0 | 1.02 | 188 | 126 | 69% | 3.5 | 4.1 | 0.98 |
+| Sayonara | VIT | Flex | 36.2 | 37.4 | 18.9 | 0.97 | 199 | 132 | 72% | 5.2 | 5.5 | 0.97 |
+| PROFEK | VIT | Controller | 33.7 | 35.1 | 18.0 | 0.96 | 186 | 125 | 71% | 3.0 | 3.6 | 0.95 |
+| Chronicle | VIT | Flex | 34.1 | 36.4 | 21.8 | 0.94 | 188 | 126 | 73% | 4.0 | 4.5 | 0.95 |
+| xeus | FUT | Duelist | 43.2 | 40.7 | 10.3 | 1.06 | 234 | 152 | 71% | 9.6 | 8.4 | 1.08 |
+| KROSTALY | FUT | Sentinel | 35.0 | 32.0 | 13.7 | 1.09 | 191 | 129 | 71% | 3.0 | 3.4 | 1.03 |
+| sociablEE | FUT | Initiator | 34.3 | 35.1 | 24.8 | 0.98 | 189 | 127 | 74% | 3.4 | 3.8 | 0.98 |
+| yetujey | FUT | Controller | 32.6 | 34.3 | 20.5 | 0.95 | 180 | 122 | 72% | 2.5 | 3.1 | 0.95 |
+| s0pp | FUT | Duelist | 38.4 | 42.4 | 10.3 | 0.91 | 211 | 138 | 69% | 8.8 | 8.9 | 0.92 |
+
+Projected MVP: **Derke** (VIT, 1.15 rating). Projected top fragger: **Derke** (46.2 kills).
 
 ### Team Vitality vs Team Liquid (Bo3)
 
@@ -1485,6 +2811,23 @@ Map-by-map win chance for Team Vitality: Summit 55.4%, Ascent 53.1%, Abyss 51.9%
 
 Map-by-map win chance for Team Vitality: Ascent 58.5%, Summit 57.6%, Sunset 56.0%, Abyss 54.0%, Split 52.8%, Haven 50.0%, Lotus 48.1%
 
+**Series projection** (expected totals over 2.50 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Derke | VIT | Duelist | 46.4 | 41.0 | 9.1 | 1.13 | 250 | 161 | 72% | 12.0 | 9.6 | 1.16 |
+| Jamppi | VIT | Sentinel | 34.2 | 33.4 | 12.2 | 1.03 | 189 | 127 | 69% | 3.5 | 4.1 | 0.98 |
+| Sayonara | VIT | Flex | 36.3 | 37.4 | 19.0 | 0.97 | 199 | 133 | 72% | 5.3 | 5.5 | 0.98 |
+| PROFEK | VIT | Controller | 33.8 | 35.0 | 18.3 | 0.97 | 186 | 125 | 71% | 3.1 | 3.6 | 0.96 |
+| Chronicle | VIT | Flex | 34.0 | 36.2 | 21.2 | 0.94 | 188 | 126 | 72% | 3.9 | 4.4 | 0.95 |
+| kamo | TL | Duelist | 45.0 | 41.7 | 9.0 | 1.08 | 243 | 157 | 71% | 11.6 | 9.9 | 1.10 |
+| nAts | TL | Sentinel | 34.4 | 33.5 | 12.0 | 1.03 | 189 | 127 | 69% | 3.5 | 4.1 | 0.98 |
+| trexx | TL | Flex | 36.5 | 37.5 | 18.8 | 0.97 | 200 | 133 | 72% | 5.2 | 5.5 | 0.98 |
+| GSR | TL | Controller | 33.3 | 35.4 | 17.9 | 0.94 | 184 | 124 | 71% | 3.0 | 3.6 | 0.94 |
+| Kicks | TL | Initiator | 33.7 | 36.7 | 21.7 | 0.92 | 187 | 125 | 72% | 3.9 | 4.6 | 0.93 |
+
+Projected MVP: **Derke** (VIT, 1.16 rating). Projected top fragger: **Derke** (46.4 kills).
+
 ### Team Vitality vs EDward Gaming (Bo3)
 
 **Prediction: Team Vitality wins 2-0** (series win 57.1%; this exact score 29.8%) — neutral venue
@@ -1501,6 +2844,23 @@ Map-by-map win chance for Team Vitality: Ascent 58.5%, Summit 57.6%, Sunset 56.0
 | 3 | Summit | decider | 55.0% | VIT 13-10 | VIT 13-10 EDG (7.4%) | 13.8% |
 
 Map-by-map win chance for Team Vitality: Abyss 56.1%, Ascent 55.6%, Split 55.6%, Summit 55.0%, Haven 53.5%, Lotus 53.5%, Sunset 53.5%
+
+**Series projection** (expected totals over 2.50 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Derke | VIT | Duelist | 45.9 | 40.6 | 9.3 | 1.13 | 248 | 160 | 72% | 11.5 | 9.2 | 1.15 |
+| Sayonara | VIT | Flex | 37.4 | 38.2 | 16.7 | 0.98 | 205 | 136 | 72% | 6.2 | 6.2 | 0.99 |
+| Jamppi | VIT | Sentinel | 33.9 | 33.1 | 12.5 | 1.03 | 187 | 126 | 70% | 3.4 | 3.9 | 0.98 |
+| PROFEK | VIT | Controller | 33.5 | 34.7 | 18.7 | 0.97 | 185 | 125 | 72% | 2.9 | 3.4 | 0.96 |
+| Chronicle | VIT | Flex | 33.9 | 36.0 | 22.6 | 0.94 | 188 | 126 | 73% | 3.8 | 4.3 | 0.95 |
+| ZmjjKK | EDG | Duelist | 46.7 | 40.7 | 9.3 | 1.15 | 251 | 162 | 73% | 11.3 | 9.3 | 1.16 |
+| stew | EDG | Sentinel | 33.2 | 33.6 | 12.4 | 0.99 | 184 | 124 | 69% | 3.2 | 4.0 | 0.95 |
+| Smoggy | EDG | Flex | 36.6 | 38.8 | 16.6 | 0.95 | 201 | 134 | 71% | 6.0 | 6.4 | 0.95 |
+| CHICHOO | EDG | Controller | 33.4 | 34.9 | 18.5 | 0.96 | 184 | 124 | 71% | 2.8 | 3.5 | 0.95 |
+| nobody | EDG | Initiator | 32.5 | 36.8 | 22.4 | 0.88 | 181 | 122 | 72% | 3.6 | 4.5 | 0.90 |
+
+Projected MVP: **Derke** (VIT, 1.15 rating). Projected top fragger: **ZmjjKK** (46.7 kills).
 
 ### Team Vitality vs TYLOO (Bo3)
 
@@ -1519,6 +2879,23 @@ Map-by-map win chance for Team Vitality: Abyss 56.1%, Ascent 55.6%, Split 55.6%,
 
 Map-by-map win chance for Team Vitality: Split 61.8%, Ascent 59.1%, Abyss 57.7%, Summit 57.7%, Haven 57.0%, Lotus 57.0%, Sunset 56.3%
 
+**Series projection** (expected totals over 2.49 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Derke | VIT | Duelist | 46.6 | 40.8 | 8.7 | 1.14 | 253 | 163 | 73% | 12.6 | 9.7 | 1.18 |
+| Jamppi | VIT | Sentinel | 34.4 | 33.2 | 11.6 | 1.04 | 191 | 128 | 70% | 3.7 | 4.1 | 0.99 |
+| Sayonara | VIT | Flex | 35.1 | 35.9 | 21.0 | 0.98 | 194 | 130 | 73% | 4.3 | 4.5 | 0.98 |
+| PROFEK | VIT | Controller | 34.0 | 34.8 | 17.4 | 0.98 | 188 | 127 | 71% | 3.2 | 3.6 | 0.97 |
+| Chronicle | VIT | Flex | 34.4 | 36.1 | 21.0 | 0.95 | 191 | 128 | 73% | 4.2 | 4.6 | 0.96 |
+| splash | TYL | Duelist | 41.9 | 42.9 | 8.6 | 0.98 | 231 | 149 | 70% | 11.4 | 10.6 | 1.00 |
+| Erv | TYL | Sentinel | 34.6 | 33.6 | 11.4 | 1.03 | 192 | 128 | 69% | 3.6 | 4.2 | 0.99 |
+| slowly | TYL | Controller | 34.9 | 35.0 | 17.1 | 1.00 | 192 | 129 | 71% | 3.2 | 3.7 | 0.98 |
+| SiuFatBB | TYL | Flex | 35.3 | 36.3 | 20.7 | 0.97 | 195 | 130 | 73% | 4.2 | 4.7 | 0.97 |
+| Scales | TYL | Initiator | 34.0 | 36.8 | 20.7 | 0.92 | 189 | 127 | 72% | 4.1 | 4.8 | 0.93 |
+
+Projected MVP: **Derke** (VIT, 1.18 rating). Projected top fragger: **Derke** (46.6 kills).
+
 ### Team Vitality vs T1 (Bo3)
 
 **Prediction: Team Vitality wins 2-0** (series win 62.9%; this exact score 34.4%) — neutral venue
@@ -1535,6 +2912,23 @@ Map-by-map win chance for Team Vitality: Split 61.8%, Ascent 59.1%, Abyss 57.7%,
 | 3 | Abyss | decider | 58.7% | VIT 13-10 | VIT 13-10 T1 (7.7%) | 13.6% |
 
 Map-by-map win chance for Team Vitality: Summit 63.0%, Lotus 60.4%, Ascent 59.0%, Abyss 58.7%, Split 58.3%, Haven 56.9%, Sunset 54.8%
+
+**Series projection** (expected totals over 2.49 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Derke | VIT | Duelist | 45.6 | 39.9 | 9.7 | 1.14 | 247 | 160 | 73% | 11.1 | 8.7 | 1.16 |
+| Sayonara | VIT | Flex | 38.6 | 38.7 | 14.7 | 1.00 | 212 | 140 | 72% | 7.3 | 6.9 | 1.01 |
+| Jamppi | VIT | Sentinel | 33.7 | 32.5 | 13.0 | 1.04 | 187 | 126 | 70% | 3.2 | 3.7 | 0.99 |
+| PROFEK | VIT | Controller | 33.2 | 34.1 | 19.5 | 0.98 | 185 | 125 | 72% | 2.8 | 3.2 | 0.97 |
+| Chronicle | VIT | Flex | 33.5 | 35.2 | 22.7 | 0.95 | 186 | 125 | 73% | 3.5 | 4.0 | 0.96 |
+| BuZz | T1 | Duelist | 43.2 | 41.2 | 9.5 | 1.05 | 236 | 153 | 71% | 10.2 | 9.3 | 1.07 |
+| iZu | T1 | Flex | 40.1 | 38.7 | 14.4 | 1.04 | 219 | 144 | 72% | 7.2 | 7.0 | 1.04 |
+| Meteor | T1 | Sentinel | 35.0 | 32.4 | 12.6 | 1.08 | 193 | 130 | 70% | 3.2 | 3.8 | 1.02 |
+| Munchkin | T1 | Initiator | 32.4 | 36.3 | 22.9 | 0.89 | 181 | 122 | 72% | 3.4 | 4.4 | 0.91 |
+| stax | T1 | Controller | 29.6 | 35.9 | 19.0 | 0.82 | 168 | 114 | 69% | 2.5 | 3.6 | 0.84 |
+
+Projected MVP: **Derke** (VIT, 1.16 rating). Projected top fragger: **Derke** (45.6 kills).
 
 ### Team Vitality vs Xi Lai Gaming (Bo3)
 
@@ -1553,6 +2947,23 @@ Map-by-map win chance for Team Vitality: Summit 63.0%, Lotus 60.4%, Ascent 59.0%
 
 Map-by-map win chance for Team Vitality: Ascent 61.1%, Split 61.1%, Abyss 60.9%, Summit 60.3%, Sunset 59.7%, Haven 58.3%, Lotus 58.3%
 
+**Series projection** (expected totals over 2.48 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Derke | VIT | Duelist | 45.1 | 39.4 | 9.9 | 1.14 | 245 | 159 | 73% | 10.5 | 8.3 | 1.16 |
+| Sayonara | VIT | Flex | 39.7 | 39.5 | 12.3 | 1.00 | 219 | 143 | 71% | 8.3 | 7.6 | 1.02 |
+| Jamppi | VIT | Sentinel | 33.3 | 32.1 | 13.3 | 1.04 | 186 | 125 | 70% | 3.1 | 3.5 | 0.99 |
+| PROFEK | VIT | Controller | 32.9 | 33.6 | 19.9 | 0.98 | 183 | 124 | 72% | 2.7 | 3.1 | 0.97 |
+| Chronicle | VIT | Flex | 33.3 | 34.9 | 24.0 | 0.95 | 186 | 125 | 74% | 3.5 | 3.9 | 0.96 |
+| Lysoar | XLG | Flex | 40.6 | 39.9 | 12.1 | 1.02 | 223 | 146 | 71% | 8.1 | 7.9 | 1.03 |
+| NoMan | XLG | Duelist | 40.5 | 41.7 | 9.8 | 0.97 | 223 | 145 | 70% | 9.3 | 9.2 | 0.99 |
+| Rarga | XLG | Initiator | 34.1 | 35.3 | 23.6 | 0.97 | 189 | 127 | 74% | 3.4 | 4.0 | 0.97 |
+| WsLeo | XLG | Sentinel | 32.1 | 33.1 | 13.0 | 0.97 | 180 | 122 | 69% | 2.9 | 3.7 | 0.94 |
+| happywei | XLG | Controller | 32.4 | 34.4 | 19.5 | 0.94 | 181 | 122 | 71% | 2.5 | 3.2 | 0.94 |
+
+Projected MVP: **Derke** (VIT, 1.16 rating). Projected top fragger: **Derke** (45.1 kills).
+
 ### Team Vitality vs JD Gaming (Bo3)
 
 **Prediction: Team Vitality wins 2-0** (series win 67.3%; this exact score 37.9%) — neutral venue
@@ -1569,6 +2980,23 @@ Map-by-map win chance for Team Vitality: Ascent 61.1%, Split 61.1%, Abyss 60.9%,
 | 3 | Sunset | decider | 62.0% | VIT 13-9 | VIT 13-9 JDG (7.9%) | 13.3% |
 
 Map-by-map win chance for Team Vitality: Abyss 63.4%, Summit 62.5%, Ascent 62.0%, Sunset 62.0%, Split 61.3%, Lotus 60.7%, Haven 60.0%
+
+**Series projection** (expected totals over 2.47 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Derke | VIT | Duelist | 45.7 | 39.7 | 9.3 | 1.15 | 250 | 161 | 73% | 11.6 | 8.8 | 1.18 |
+| Sayonara | VIT | Flex | 37.3 | 37.3 | 16.6 | 1.00 | 207 | 137 | 72% | 6.3 | 6.0 | 1.01 |
+| Jamppi | VIT | Sentinel | 33.8 | 32.3 | 12.4 | 1.05 | 189 | 127 | 70% | 3.4 | 3.7 | 1.00 |
+| PROFEK | VIT | Controller | 33.3 | 33.9 | 18.6 | 0.98 | 186 | 126 | 72% | 2.9 | 3.3 | 0.97 |
+| Chronicle | VIT | Flex | 33.8 | 35.2 | 22.4 | 0.96 | 189 | 127 | 73% | 3.9 | 4.2 | 0.97 |
+| zhe | JDG | Duelist | 42.9 | 41.4 | 9.1 | 1.04 | 236 | 153 | 71% | 10.5 | 9.7 | 1.05 |
+| jkuro | JDG | Sentinel | 33.4 | 33.1 | 12.1 | 1.01 | 187 | 126 | 69% | 3.2 | 4.0 | 0.97 |
+| BerLIN | JDG | Initiator | 34.1 | 35.8 | 21.9 | 0.95 | 190 | 128 | 73% | 3.7 | 4.4 | 0.96 |
+| crownfisher | JDG | Flex | 35.5 | 38.7 | 16.2 | 0.92 | 199 | 132 | 71% | 5.8 | 6.5 | 0.93 |
+| Yuicaw | JDG | Controller | 32.4 | 34.9 | 18.2 | 0.93 | 182 | 123 | 71% | 2.7 | 3.5 | 0.92 |
+
+Projected MVP: **Derke** (VIT, 1.18 rating). Projected top fragger: **Derke** (45.7 kills).
 
 ### G2 Esports vs Global Esports (Bo3)
 
@@ -1587,6 +3015,23 @@ Map-by-map win chance for Team Vitality: Abyss 63.4%, Summit 62.5%, Ascent 62.0%
 
 Map-by-map win chance for G2 Esports: Split 61.7%, Sunset 57.0%, Ascent 51.7%, Summit 50.3%, Abyss 47.8%, Lotus 45.7%, Haven 45.7%
 
+**Series projection** (expected totals over 2.51 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| jawgemo | G2 | Duelist | 44.1 | 41.5 | 9.3 | 1.06 | 239 | 154 | 71% | 11.1 | 9.5 | 1.09 |
+| leaf | G2 | Sentinel | 37.1 | 32.3 | 12.5 | 1.15 | 201 | 135 | 71% | 3.6 | 3.8 | 1.07 |
+| BABYBAY | G2 | Flex | 38.7 | 38.0 | 16.8 | 1.02 | 210 | 139 | 72% | 6.3 | 6.2 | 1.02 |
+| trent | G2 | Initiator | 33.8 | 36.3 | 22.6 | 0.93 | 186 | 125 | 73% | 3.8 | 4.4 | 0.94 |
+| valyn | G2 | Controller | 30.8 | 35.9 | 18.7 | 0.86 | 172 | 117 | 70% | 2.7 | 3.6 | 0.87 |
+| UdoTan | GE | Duelist | 44.0 | 41.8 | 9.6 | 1.05 | 238 | 154 | 71% | 11.1 | 9.6 | 1.08 |
+| Kr1stal | GE | Flex | 38.7 | 37.7 | 15.1 | 1.03 | 210 | 139 | 72% | 6.3 | 6.1 | 1.02 |
+| xavi8k | GE | Sentinel | 33.7 | 33.6 | 12.8 | 1.00 | 186 | 125 | 69% | 3.3 | 4.0 | 0.97 |
+| PatMen | GE | Initiator | 34.4 | 36.3 | 23.1 | 0.95 | 189 | 127 | 73% | 3.9 | 4.4 | 0.95 |
+| Autumn | GE | Controller | 33.3 | 35.2 | 19.1 | 0.94 | 183 | 124 | 71% | 2.9 | 3.5 | 0.94 |
+
+Projected MVP: **jawgemo** (G2, 1.09 rating). Projected top fragger: **jawgemo** (44.1 kills).
+
 ### G2 Esports vs FUT Esports (Bo3)
 
 **Prediction: G2 Esports wins 2-0** (series win 52.5%; this exact score 27.0%) — neutral venue
@@ -1603,6 +3048,23 @@ Map-by-map win chance for G2 Esports: Split 61.7%, Sunset 57.0%, Ascent 51.7%, S
 | 3 | Ascent | decider | 50.9% | G2 13-11 | G2 13-11 FUT (7.1%) | 13.9% |
 
 Map-by-map win chance for G2 Esports: Sunset 54.5%, Split 54.3%, Summit 52.8%, Ascent 50.9%, Abyss 50.3%, Lotus 49.8%, Haven 47.6%
+
+**Series projection** (expected totals over 2.50 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| jawgemo | G2 | Duelist | 43.4 | 40.8 | 10.0 | 1.06 | 235 | 152 | 71% | 10.1 | 8.8 | 1.08 |
+| leaf | G2 | Sentinel | 36.5 | 31.8 | 13.3 | 1.15 | 199 | 133 | 71% | 3.2 | 3.5 | 1.07 |
+| BABYBAY | G2 | Flex | 41.0 | 39.9 | 12.4 | 1.03 | 223 | 146 | 71% | 8.4 | 7.7 | 1.04 |
+| trent | G2 | Initiator | 33.2 | 35.8 | 24.1 | 0.93 | 184 | 124 | 73% | 3.5 | 4.1 | 0.94 |
+| valyn | G2 | Controller | 30.3 | 35.4 | 20.0 | 0.86 | 170 | 116 | 70% | 2.5 | 3.3 | 0.87 |
+| xeus | FUT | Duelist | 43.2 | 40.7 | 10.3 | 1.06 | 234 | 152 | 71% | 9.6 | 8.4 | 1.08 |
+| KROSTALY | FUT | Sentinel | 35.0 | 32.0 | 13.7 | 1.09 | 192 | 129 | 71% | 3.0 | 3.4 | 1.03 |
+| sociablEE | FUT | Initiator | 34.3 | 35.1 | 24.8 | 0.98 | 189 | 127 | 74% | 3.4 | 3.8 | 0.98 |
+| yetujey | FUT | Controller | 32.6 | 34.3 | 20.5 | 0.95 | 180 | 122 | 72% | 2.5 | 3.1 | 0.95 |
+| s0pp | FUT | Duelist | 38.4 | 42.4 | 10.3 | 0.91 | 211 | 138 | 69% | 8.8 | 8.9 | 0.93 |
+
+Projected MVP: **jawgemo** (G2, 1.08 rating). Projected top fragger: **jawgemo** (43.4 kills).
 
 ### G2 Esports vs Team Liquid (Bo3)
 
@@ -1621,6 +3083,23 @@ Map-by-map win chance for G2 Esports: Sunset 54.5%, Split 54.3%, Summit 52.8%, A
 
 Map-by-map win chance for G2 Esports: Sunset 59.5%, Split 56.9%, Ascent 56.3%, Summit 55.0%, Abyss 52.4%, Haven 46.6%, Lotus 46.2%
 
+**Series projection** (expected totals over 2.50 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| jawgemo | G2 | Duelist | 44.2 | 41.4 | 9.4 | 1.07 | 239 | 155 | 71% | 11.1 | 9.5 | 1.09 |
+| leaf | G2 | Sentinel | 37.2 | 32.2 | 12.5 | 1.15 | 202 | 135 | 71% | 3.6 | 3.8 | 1.07 |
+| BABYBAY | G2 | Flex | 38.8 | 37.9 | 16.8 | 1.02 | 211 | 139 | 72% | 6.4 | 6.1 | 1.03 |
+| trent | G2 | Initiator | 33.8 | 36.2 | 22.6 | 0.93 | 187 | 125 | 73% | 3.8 | 4.4 | 0.94 |
+| valyn | G2 | Controller | 30.9 | 35.9 | 18.7 | 0.86 | 172 | 117 | 70% | 2.7 | 3.6 | 0.87 |
+| kamo | TL | Duelist | 44.8 | 41.4 | 9.3 | 1.08 | 242 | 156 | 71% | 11.1 | 9.5 | 1.10 |
+| trexx | TL | Flex | 37.8 | 38.5 | 16.7 | 0.98 | 206 | 137 | 72% | 6.2 | 6.3 | 0.99 |
+| nAts | TL | Sentinel | 34.3 | 33.3 | 12.4 | 1.03 | 188 | 127 | 69% | 3.3 | 4.0 | 0.99 |
+| GSR | TL | Controller | 33.2 | 35.1 | 18.6 | 0.94 | 183 | 124 | 71% | 2.9 | 3.5 | 0.94 |
+| Kicks | TL | Initiator | 33.6 | 36.5 | 22.5 | 0.92 | 186 | 125 | 73% | 3.8 | 4.4 | 0.93 |
+
+Projected MVP: **jawgemo** (G2, 1.09 rating). Projected top fragger: **kamo** (44.8 kills).
+
 ### G2 Esports vs EDward Gaming (Bo3)
 
 **Prediction: G2 Esports wins 2-0** (series win 56.0%; this exact score 29.4%) — neutral venue
@@ -1637,6 +3116,23 @@ Map-by-map win chance for G2 Esports: Sunset 59.5%, Split 56.9%, Ascent 56.3%, S
 | 3 | Ascent | decider | 53.5% | G2 13-10 | G2 13-10 EDG (7.3%) | 13.8% |
 
 Map-by-map win chance for G2 Esports: Split 59.7%, Sunset 57.0%, Abyss 54.5%, Ascent 53.5%, Summit 52.5%, Lotus 51.6%, Haven 50.1%
+
+**Series projection** (expected totals over 2.50 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| jawgemo | G2 | Duelist | 44.2 | 41.2 | 9.3 | 1.07 | 239 | 155 | 71% | 11.2 | 9.4 | 1.10 |
+| leaf | G2 | Sentinel | 37.2 | 32.0 | 12.5 | 1.16 | 202 | 135 | 71% | 3.6 | 3.7 | 1.08 |
+| BABYBAY | G2 | Flex | 38.7 | 37.8 | 16.8 | 1.03 | 211 | 139 | 73% | 6.4 | 6.1 | 1.03 |
+| trent | G2 | Initiator | 33.8 | 36.1 | 22.6 | 0.94 | 187 | 126 | 73% | 3.8 | 4.3 | 0.95 |
+| valyn | G2 | Controller | 30.9 | 35.7 | 18.7 | 0.86 | 173 | 117 | 70% | 2.8 | 3.5 | 0.88 |
+| ZmjjKK | EDG | Duelist | 46.8 | 40.7 | 9.3 | 1.15 | 252 | 162 | 73% | 11.3 | 9.3 | 1.17 |
+| stew | EDG | Sentinel | 33.2 | 33.6 | 12.4 | 0.99 | 184 | 124 | 69% | 3.2 | 4.0 | 0.96 |
+| Smoggy | EDG | Flex | 36.7 | 38.8 | 16.6 | 0.95 | 202 | 134 | 71% | 6.0 | 6.4 | 0.96 |
+| CHICHOO | EDG | Controller | 33.5 | 34.9 | 18.6 | 0.96 | 185 | 125 | 71% | 2.8 | 3.5 | 0.95 |
+| nobody | EDG | Initiator | 32.6 | 36.8 | 22.4 | 0.89 | 181 | 122 | 72% | 3.6 | 4.5 | 0.90 |
+
+Projected MVP: **jawgemo** (G2, 1.10 rating). Projected top fragger: **ZmjjKK** (46.8 kills).
 
 ### G2 Esports vs TYLOO (Bo3)
 
@@ -1656,6 +3152,23 @@ Map-by-map win chance for G2 Esports: Split 59.7%, Sunset 57.0%, Abyss 54.5%, As
 
 Map-by-map win chance for G2 Esports: Split 66.9%, Sunset 61.1%, Ascent 58.3%, Abyss 57.5%, Summit 56.5%, Lotus 56.5%, Haven 55.1%
 
+**Series projection** (expected totals over 2.49 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| jawgemo | G2 | Duelist | 44.1 | 40.7 | 9.4 | 1.08 | 241 | 156 | 72% | 11.4 | 9.2 | 1.11 |
+| leaf | G2 | Sentinel | 37.2 | 31.7 | 12.5 | 1.17 | 203 | 136 | 71% | 3.7 | 3.7 | 1.09 |
+| BABYBAY | G2 | Flex | 38.5 | 37.1 | 16.1 | 1.04 | 211 | 140 | 73% | 6.3 | 5.8 | 1.04 |
+| trent | G2 | Initiator | 33.8 | 35.6 | 22.7 | 0.95 | 188 | 126 | 73% | 3.9 | 4.3 | 0.96 |
+| valyn | G2 | Controller | 30.8 | 35.3 | 18.8 | 0.87 | 174 | 118 | 70% | 2.8 | 3.5 | 0.89 |
+| SiuFatBB | TYL | Flex | 38.7 | 39.2 | 14.3 | 0.99 | 213 | 140 | 71% | 7.1 | 7.1 | 0.99 |
+| splash | TYL | Duelist | 40.9 | 42.0 | 9.5 | 0.97 | 225 | 146 | 70% | 9.9 | 9.5 | 0.99 |
+| Erv | TYL | Sentinel | 33.8 | 32.9 | 12.6 | 1.03 | 187 | 126 | 69% | 3.1 | 3.8 | 0.98 |
+| slowly | TYL | Controller | 34.0 | 34.3 | 19.0 | 0.99 | 188 | 127 | 72% | 2.8 | 3.3 | 0.98 |
+| Scales | TYL | Initiator | 33.1 | 36.1 | 22.9 | 0.92 | 185 | 124 | 73% | 3.5 | 4.3 | 0.93 |
+
+Projected MVP: **jawgemo** (G2, 1.11 rating). Projected top fragger: **jawgemo** (44.1 kills).
+
 ### G2 Esports vs T1 (Bo3)
 
 **Prediction: G2 Esports wins 2-0** (series win 62.7%; this exact score 34.4%) — neutral venue
@@ -1672,6 +3185,23 @@ Map-by-map win chance for G2 Esports: Split 66.9%, Sunset 61.1%, Ascent 58.3%, A
 | 3 | Sunset | decider | 58.3% | G2 13-10 | G2 13-10 T1 (7.6%) | 13.6% |
 
 Map-by-map win chance for G2 Esports: Split 62.3%, Summit 60.5%, Lotus 58.6%, Sunset 58.3%, Abyss 57.1%, Ascent 56.9%, Haven 53.6%
+
+**Series projection** (expected totals over 2.49 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| jawgemo | G2 | Duelist | 44.8 | 41.2 | 8.7 | 1.09 | 245 | 158 | 72% | 12.3 | 9.8 | 1.12 |
+| leaf | G2 | Sentinel | 37.7 | 32.0 | 11.6 | 1.18 | 206 | 137 | 71% | 4.0 | 3.9 | 1.09 |
+| BABYBAY | G2 | Flex | 36.3 | 35.4 | 21.0 | 1.03 | 200 | 133 | 74% | 4.4 | 4.4 | 1.02 |
+| trent | G2 | Initiator | 34.3 | 36.1 | 21.0 | 0.95 | 191 | 128 | 73% | 4.2 | 4.6 | 0.96 |
+| valyn | G2 | Controller | 31.3 | 35.7 | 17.4 | 0.88 | 176 | 119 | 70% | 3.0 | 3.7 | 0.89 |
+| BuZz | T1 | Duelist | 44.3 | 42.0 | 8.5 | 1.06 | 242 | 156 | 71% | 11.7 | 10.4 | 1.08 |
+| Meteor | T1 | Sentinel | 35.9 | 33.1 | 11.4 | 1.09 | 198 | 132 | 70% | 3.7 | 4.2 | 1.03 |
+| iZu | T1 | Flex | 36.6 | 35.8 | 20.6 | 1.02 | 201 | 134 | 73% | 4.3 | 4.6 | 1.01 |
+| Munchkin | T1 | Initiator | 33.2 | 37.0 | 20.6 | 0.90 | 185 | 125 | 72% | 4.0 | 4.8 | 0.91 |
+| stax | T1 | Controller | 30.3 | 36.6 | 17.1 | 0.83 | 171 | 116 | 69% | 2.8 | 4.0 | 0.84 |
+
+Projected MVP: **jawgemo** (G2, 1.12 rating). Projected top fragger: **jawgemo** (44.8 kills).
 
 ### G2 Esports vs Xi Lai Gaming (Bo3)
 
@@ -1690,6 +3220,23 @@ Map-by-map win chance for G2 Esports: Split 62.3%, Summit 60.5%, Lotus 58.6%, Su
 
 Map-by-map win chance for G2 Esports: Split 64.9%, Sunset 63.0%, Abyss 59.4%, Ascent 58.9%, Summit 57.7%, Lotus 56.4%, Haven 55.0%
 
+**Series projection** (expected totals over 2.48 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| jawgemo | G2 | Duelist | 44.1 | 40.5 | 9.3 | 1.09 | 241 | 156 | 72% | 11.3 | 9.1 | 1.12 |
+| leaf | G2 | Sentinel | 37.1 | 31.5 | 12.4 | 1.18 | 203 | 136 | 71% | 3.6 | 3.6 | 1.09 |
+| BABYBAY | G2 | Flex | 38.7 | 37.2 | 16.7 | 1.04 | 213 | 140 | 73% | 6.5 | 5.9 | 1.04 |
+| trent | G2 | Initiator | 33.7 | 35.5 | 22.5 | 0.95 | 188 | 126 | 73% | 3.9 | 4.2 | 0.96 |
+| valyn | G2 | Controller | 30.8 | 35.1 | 18.6 | 0.88 | 174 | 118 | 70% | 2.8 | 3.4 | 0.89 |
+| Lysoar | XLG | Flex | 38.3 | 37.9 | 16.3 | 1.01 | 211 | 139 | 72% | 6.2 | 6.2 | 1.01 |
+| NoMan | XLG | Duelist | 41.2 | 42.2 | 9.2 | 0.97 | 227 | 147 | 70% | 10.3 | 9.9 | 0.99 |
+| Rarga | XLG | Initiator | 34.7 | 35.7 | 22.1 | 0.97 | 192 | 129 | 73% | 3.8 | 4.4 | 0.97 |
+| WsLeo | XLG | Sentinel | 32.7 | 33.5 | 12.2 | 0.98 | 183 | 123 | 69% | 3.2 | 4.0 | 0.94 |
+| happywei | XLG | Controller | 32.9 | 34.9 | 18.3 | 0.94 | 184 | 124 | 71% | 2.8 | 3.5 | 0.94 |
+
+Projected MVP: **jawgemo** (G2, 1.12 rating). Projected top fragger: **jawgemo** (44.1 kills).
+
 ### G2 Esports vs JD Gaming (Bo3)
 
 **Prediction: G2 Esports wins 2-0** (series win 66.7%; this exact score 38.3%) — neutral venue
@@ -1706,6 +3253,23 @@ Map-by-map win chance for G2 Esports: Split 64.9%, Sunset 63.0%, Abyss 59.4%, As
 | 3 | Summit | decider | 60.0% | G2 13-10 | G2 13-10 JDG (7.7%) | 13.5% |
 
 Map-by-map win chance for G2 Esports: Sunset 65.3%, Split 65.2%, Abyss 61.8%, Summit 60.0%, Ascent 59.9%, Lotus 58.8%, Haven 56.7%
+
+**Series projection** (expected totals over 2.47 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| jawgemo | G2 | Duelist | 43.2 | 39.6 | 9.9 | 1.09 | 237 | 154 | 72% | 10.2 | 8.3 | 1.11 |
+| leaf | G2 | Sentinel | 36.4 | 30.8 | 13.2 | 1.18 | 201 | 134 | 72% | 3.3 | 3.3 | 1.09 |
+| BABYBAY | G2 | Flex | 40.9 | 38.7 | 12.3 | 1.06 | 226 | 147 | 72% | 8.6 | 7.4 | 1.07 |
+| trent | G2 | Initiator | 33.1 | 34.7 | 24.0 | 0.95 | 186 | 125 | 74% | 3.5 | 3.8 | 0.96 |
+| valyn | G2 | Controller | 30.2 | 34.3 | 19.8 | 0.88 | 172 | 117 | 71% | 2.5 | 3.1 | 0.89 |
+| zhe | JDG | Duelist | 42.2 | 40.8 | 9.7 | 1.03 | 232 | 151 | 71% | 9.5 | 8.9 | 1.05 |
+| jkuro | JDG | Sentinel | 32.9 | 32.6 | 12.9 | 1.01 | 184 | 124 | 69% | 2.9 | 3.7 | 0.97 |
+| BerLIN | JDG | Initiator | 33.6 | 35.2 | 23.4 | 0.95 | 188 | 126 | 73% | 3.4 | 4.1 | 0.96 |
+| crownfisher | JDG | Flex | 37.7 | 40.7 | 12.0 | 0.93 | 210 | 138 | 70% | 7.7 | 8.1 | 0.94 |
+| Yuicaw | JDG | Controller | 31.9 | 34.4 | 19.4 | 0.93 | 179 | 121 | 71% | 2.5 | 3.3 | 0.92 |
+
+Projected MVP: **jawgemo** (G2, 1.11 rating). Projected top fragger: **jawgemo** (43.2 kills).
 
 ### Global Esports vs FUT Esports (Bo3)
 
@@ -1724,6 +3288,23 @@ Map-by-map win chance for G2 Esports: Sunset 65.3%, Split 65.2%, Abyss 61.8%, Su
 
 Map-by-map win chance for Global Esports: Lotus 54.1%, Abyss 52.5%, Summit 52.5%, Haven 51.9%, Ascent 49.2%, Sunset 47.4%, Split 42.5%
 
+**Series projection** (expected totals over 2.50 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| UdoTan | GE | Duelist | 44.1 | 41.7 | 9.6 | 1.06 | 239 | 154 | 71% | 11.1 | 9.6 | 1.08 |
+| Kr1stal | GE | Flex | 38.7 | 37.6 | 15.1 | 1.03 | 210 | 139 | 72% | 6.3 | 6.1 | 1.03 |
+| xavi8k | GE | Sentinel | 33.7 | 33.5 | 12.8 | 1.01 | 186 | 125 | 69% | 3.3 | 4.0 | 0.97 |
+| PatMen | GE | Initiator | 34.4 | 36.2 | 23.1 | 0.95 | 189 | 127 | 73% | 3.9 | 4.4 | 0.96 |
+| Autumn | GE | Controller | 33.3 | 35.1 | 19.1 | 0.95 | 184 | 124 | 71% | 2.9 | 3.5 | 0.95 |
+| xeus | FUT | Duelist | 43.3 | 40.6 | 10.3 | 1.07 | 234 | 152 | 71% | 9.7 | 8.4 | 1.08 |
+| KROSTALY | FUT | Sentinel | 35.1 | 32.0 | 13.7 | 1.10 | 192 | 129 | 71% | 3.0 | 3.4 | 1.03 |
+| sociablEE | FUT | Initiator | 34.4 | 35.1 | 24.8 | 0.98 | 189 | 127 | 74% | 3.4 | 3.8 | 0.98 |
+| yetujey | FUT | Controller | 32.7 | 34.2 | 20.6 | 0.96 | 181 | 122 | 72% | 2.5 | 3.1 | 0.95 |
+| s0pp | FUT | Duelist | 38.5 | 42.3 | 10.3 | 0.91 | 212 | 139 | 69% | 8.8 | 8.9 | 0.93 |
+
+Projected MVP: **UdoTan** (GE, 1.08 rating). Projected top fragger: **UdoTan** (44.1 kills).
+
 ### Global Esports vs Team Liquid (Bo3)
 
 **Prediction: Global Esports wins 2-0** (series win 53.9%; this exact score 27.6%) — neutral venue
@@ -1740,6 +3321,23 @@ Map-by-map win chance for Global Esports: Lotus 54.1%, Abyss 52.5%, Summit 52.5%
 | 3 | Sunset | decider | 52.6% | GE 13-11 | GE 13-11 TL (7.2%) | 13.9% |
 
 Map-by-map win chance for Global Esports: Ascent 54.7%, Summit 54.7%, Abyss 54.5%, Sunset 52.6%, Haven 50.9%, Lotus 50.5%, Split 45.1%
+
+**Series projection** (expected totals over 2.50 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| UdoTan | GE | Duelist | 44.2 | 41.6 | 9.8 | 1.06 | 239 | 155 | 72% | 11.3 | 9.5 | 1.09 |
+| Kr1stal | GE | Flex | 38.7 | 37.0 | 13.6 | 1.05 | 211 | 139 | 71% | 6.2 | 6.0 | 1.04 |
+| xavi8k | GE | Sentinel | 33.8 | 33.5 | 13.1 | 1.01 | 186 | 125 | 70% | 3.4 | 3.9 | 0.97 |
+| PatMen | GE | Initiator | 34.5 | 36.2 | 23.7 | 0.95 | 190 | 127 | 74% | 3.9 | 4.4 | 0.96 |
+| Autumn | GE | Controller | 33.4 | 35.1 | 19.6 | 0.95 | 184 | 124 | 72% | 2.9 | 3.5 | 0.95 |
+| kamo | TL | Duelist | 44.7 | 41.4 | 9.3 | 1.08 | 242 | 156 | 71% | 11.1 | 9.5 | 1.10 |
+| trexx | TL | Flex | 37.8 | 38.4 | 16.7 | 0.98 | 206 | 137 | 72% | 6.2 | 6.3 | 0.99 |
+| nAts | TL | Sentinel | 34.2 | 33.3 | 12.4 | 1.03 | 188 | 127 | 69% | 3.3 | 4.0 | 0.98 |
+| GSR | TL | Controller | 33.1 | 35.1 | 18.6 | 0.94 | 183 | 124 | 71% | 2.9 | 3.5 | 0.94 |
+| Kicks | TL | Initiator | 33.6 | 36.5 | 22.5 | 0.92 | 185 | 125 | 73% | 3.8 | 4.4 | 0.93 |
+
+Projected MVP: **UdoTan** (GE, 1.09 rating). Projected top fragger: **kamo** (44.7 kills).
 
 ### Global Esports vs EDward Gaming (Bo3)
 
@@ -1758,6 +3356,23 @@ Map-by-map win chance for Global Esports: Ascent 54.7%, Summit 54.7%, Abyss 54.5
 
 Map-by-map win chance for Global Esports: Abyss 56.6%, Lotus 55.9%, Haven 54.5%, Summit 52.1%, Ascent 51.8%, Sunset 50.0%, Split 47.9%
 
+**Series projection** (expected totals over 2.50 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| UdoTan | GE | Duelist | 44.2 | 41.5 | 9.6 | 1.06 | 239 | 155 | 71% | 11.2 | 9.5 | 1.09 |
+| Kr1stal | GE | Flex | 38.8 | 37.4 | 15.2 | 1.04 | 211 | 139 | 72% | 6.3 | 6.0 | 1.03 |
+| xavi8k | GE | Sentinel | 33.8 | 33.4 | 12.8 | 1.01 | 186 | 125 | 69% | 3.4 | 3.9 | 0.98 |
+| PatMen | GE | Initiator | 34.5 | 36.1 | 23.2 | 0.96 | 190 | 127 | 73% | 3.9 | 4.3 | 0.96 |
+| Autumn | GE | Controller | 33.4 | 35.0 | 19.2 | 0.95 | 184 | 124 | 72% | 2.9 | 3.4 | 0.95 |
+| ZmjjKK | EDG | Duelist | 46.9 | 40.6 | 9.3 | 1.15 | 252 | 162 | 73% | 11.4 | 9.3 | 1.17 |
+| stew | EDG | Sentinel | 33.3 | 33.5 | 12.4 | 0.99 | 184 | 124 | 69% | 3.2 | 4.0 | 0.96 |
+| Smoggy | EDG | Flex | 36.8 | 38.7 | 16.7 | 0.95 | 202 | 134 | 71% | 6.0 | 6.4 | 0.96 |
+| CHICHOO | EDG | Controller | 33.6 | 34.9 | 18.6 | 0.96 | 185 | 125 | 71% | 2.9 | 3.5 | 0.95 |
+| nobody | EDG | Initiator | 32.7 | 36.8 | 22.5 | 0.89 | 181 | 122 | 72% | 3.7 | 4.5 | 0.90 |
+
+Projected MVP: **UdoTan** (GE, 1.09 rating). Projected top fragger: **ZmjjKK** (46.9 kills).
+
 ### Global Esports vs TYLOO (Bo3)
 
 **Prediction: Global Esports wins 2-0** (series win 58.9%; this exact score 31.6%) — neutral venue
@@ -1774,6 +3389,23 @@ Map-by-map win chance for Global Esports: Abyss 56.6%, Lotus 55.9%, Haven 54.5%,
 | 3 | Ascent | decider | 55.3% | GE 13-10 | GE 13-10 TYL (7.4%) | 13.8% |
 
 Map-by-map win chance for Global Esports: Lotus 59.4%, Abyss 58.2%, Haven 58.0%, Ascent 55.3%, Summit 54.8%, Split 54.3%, Sunset 52.8%
+
+**Series projection** (expected totals over 2.49 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| UdoTan | GE | Duelist | 43.5 | 40.5 | 10.0 | 1.07 | 236 | 153 | 72% | 10.2 | 8.6 | 1.09 |
+| Kr1stal | GE | Flex | 41.2 | 39.5 | 12.4 | 1.04 | 224 | 147 | 72% | 8.5 | 7.6 | 1.05 |
+| xavi8k | GE | Sentinel | 33.3 | 32.5 | 13.3 | 1.02 | 184 | 124 | 70% | 3.1 | 3.6 | 0.98 |
+| PatMen | GE | Initiator | 33.9 | 35.2 | 24.1 | 0.96 | 188 | 126 | 74% | 3.5 | 3.9 | 0.97 |
+| Autumn | GE | Controller | 32.9 | 34.1 | 20.0 | 0.96 | 182 | 123 | 72% | 2.7 | 3.1 | 0.96 |
+| SiuFatBB | TYL | Flex | 40.2 | 40.3 | 12.3 | 1.00 | 220 | 144 | 71% | 8.2 | 7.9 | 1.01 |
+| splash | TYL | Duelist | 40.8 | 41.8 | 9.9 | 0.98 | 224 | 146 | 70% | 9.5 | 9.1 | 1.00 |
+| Erv | TYL | Sentinel | 33.7 | 32.7 | 13.2 | 1.03 | 186 | 126 | 70% | 3.0 | 3.6 | 0.99 |
+| slowly | TYL | Controller | 34.0 | 34.1 | 19.7 | 1.00 | 187 | 126 | 72% | 2.7 | 3.2 | 0.98 |
+| Scales | TYL | Initiator | 33.1 | 35.9 | 23.8 | 0.92 | 184 | 124 | 73% | 3.4 | 4.1 | 0.93 |
+
+Projected MVP: **UdoTan** (GE, 1.09 rating). Projected top fragger: **UdoTan** (43.5 kills).
 
 ### Global Esports vs T1 (Bo3)
 
@@ -1792,6 +3424,23 @@ Map-by-map win chance for Global Esports: Lotus 59.4%, Abyss 58.2%, Haven 58.0%,
 
 Map-by-map win chance for Global Esports: Lotus 62.7%, Summit 60.2%, Abyss 59.3%, Haven 57.9%, Ascent 55.2%, Sunset 51.3%, Split 50.6%
 
+**Series projection** (expected totals over 2.50 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| UdoTan | GE | Duelist | 45.0 | 42.0 | 9.4 | 1.07 | 244 | 157 | 72% | 12.5 | 10.1 | 1.11 |
+| Kr1stal | GE | Flex | 36.5 | 34.3 | 16.3 | 1.06 | 199 | 133 | 72% | 4.1 | 4.3 | 1.03 |
+| xavi8k | GE | Sentinel | 34.4 | 33.8 | 12.6 | 1.02 | 190 | 127 | 70% | 3.7 | 4.2 | 0.98 |
+| PatMen | GE | Initiator | 35.1 | 36.5 | 22.8 | 0.96 | 193 | 129 | 74% | 4.3 | 4.6 | 0.97 |
+| Autumn | GE | Controller | 34.0 | 35.4 | 18.8 | 0.96 | 188 | 126 | 72% | 3.3 | 3.7 | 0.96 |
+| BuZz | T1 | Duelist | 44.7 | 42.1 | 8.6 | 1.06 | 243 | 157 | 71% | 11.9 | 10.4 | 1.09 |
+| Meteor | T1 | Sentinel | 36.2 | 33.2 | 11.5 | 1.09 | 198 | 133 | 70% | 3.7 | 4.2 | 1.03 |
+| iZu | T1 | Flex | 36.9 | 35.9 | 20.8 | 1.03 | 202 | 135 | 74% | 4.3 | 4.6 | 1.02 |
+| Munchkin | T1 | Initiator | 33.5 | 37.1 | 20.8 | 0.90 | 186 | 125 | 72% | 4.0 | 4.8 | 0.91 |
+| stax | T1 | Controller | 30.6 | 36.7 | 17.2 | 0.83 | 172 | 117 | 69% | 2.9 | 4.0 | 0.85 |
+
+Projected MVP: **UdoTan** (GE, 1.11 rating). Projected top fragger: **UdoTan** (45.0 kills).
+
 ### Global Esports vs Xi Lai Gaming (Bo3)
 
 **Prediction: Global Esports wins 2-0** (series win 62.1%; this exact score 34.1%) — neutral venue
@@ -1808,6 +3457,23 @@ Map-by-map win chance for Global Esports: Lotus 62.7%, Summit 60.2%, Abyss 59.3%
 | 3 | Summit | decider | 57.4% | GE 13-10 | GE 13-10 XLG (7.6%) | 13.7% |
 
 Map-by-map win chance for Global Esports: Abyss 61.5%, Lotus 60.6%, Haven 59.2%, Summit 57.4%, Ascent 57.3%, Sunset 56.3%, Split 53.4%
+
+**Series projection** (expected totals over 2.49 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| UdoTan | GE | Duelist | 44.1 | 40.9 | 9.6 | 1.08 | 241 | 156 | 72% | 11.3 | 9.2 | 1.11 |
+| Kr1stal | GE | Flex | 38.7 | 36.9 | 15.1 | 1.05 | 212 | 140 | 72% | 6.4 | 5.9 | 1.05 |
+| xavi8k | GE | Sentinel | 33.8 | 32.9 | 12.7 | 1.03 | 188 | 126 | 70% | 3.4 | 3.8 | 0.99 |
+| PatMen | GE | Initiator | 34.5 | 35.5 | 23.1 | 0.97 | 191 | 128 | 74% | 3.9 | 4.2 | 0.98 |
+| Autumn | GE | Controller | 33.4 | 34.4 | 19.1 | 0.97 | 185 | 125 | 72% | 3.0 | 3.4 | 0.96 |
+| Lysoar | XLG | Flex | 38.4 | 38.0 | 16.4 | 1.01 | 211 | 139 | 72% | 6.2 | 6.2 | 1.01 |
+| NoMan | XLG | Duelist | 41.4 | 42.3 | 9.2 | 0.98 | 227 | 148 | 70% | 10.4 | 9.9 | 1.00 |
+| Rarga | XLG | Initiator | 34.8 | 35.8 | 22.2 | 0.97 | 193 | 129 | 73% | 3.8 | 4.4 | 0.97 |
+| WsLeo | XLG | Sentinel | 32.8 | 33.5 | 12.2 | 0.98 | 183 | 123 | 69% | 3.2 | 4.0 | 0.95 |
+| happywei | XLG | Controller | 33.1 | 34.9 | 18.4 | 0.95 | 184 | 124 | 71% | 2.8 | 3.5 | 0.94 |
+
+Projected MVP: **UdoTan** (GE, 1.11 rating). Projected top fragger: **UdoTan** (44.1 kills).
 
 ### Global Esports vs JD Gaming (Bo3)
 
@@ -1826,6 +3492,23 @@ Map-by-map win chance for Global Esports: Abyss 61.5%, Lotus 60.6%, Haven 59.2%,
 
 Map-by-map win chance for Global Esports: Abyss 63.9%, Lotus 63.0%, Haven 60.9%, Summit 59.7%, Sunset 58.7%, Ascent 58.3%, Split 53.7%
 
+**Series projection** (expected totals over 2.48 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| UdoTan | GE | Duelist | 44.0 | 40.5 | 9.5 | 1.09 | 241 | 156 | 72% | 11.3 | 9.1 | 1.12 |
+| Kr1stal | GE | Flex | 38.7 | 36.6 | 15.1 | 1.06 | 213 | 141 | 72% | 6.4 | 5.8 | 1.05 |
+| xavi8k | GE | Sentinel | 33.7 | 32.6 | 12.7 | 1.03 | 188 | 126 | 70% | 3.4 | 3.8 | 0.99 |
+| PatMen | GE | Initiator | 34.4 | 35.2 | 23.0 | 0.98 | 191 | 128 | 74% | 3.9 | 4.2 | 0.98 |
+| Autumn | GE | Controller | 33.3 | 34.2 | 19.0 | 0.97 | 186 | 125 | 72% | 3.0 | 3.3 | 0.97 |
+| zhe | JDG | Duelist | 43.1 | 41.5 | 9.1 | 1.04 | 237 | 153 | 71% | 10.6 | 9.7 | 1.06 |
+| jkuro | JDG | Sentinel | 33.6 | 33.1 | 12.2 | 1.01 | 187 | 126 | 69% | 3.2 | 4.0 | 0.97 |
+| BerLIN | JDG | Initiator | 34.3 | 35.8 | 22.0 | 0.96 | 191 | 128 | 73% | 3.7 | 4.4 | 0.96 |
+| crownfisher | JDG | Flex | 35.7 | 38.8 | 16.3 | 0.92 | 199 | 132 | 71% | 5.8 | 6.5 | 0.93 |
+| Yuicaw | JDG | Controller | 32.5 | 34.9 | 18.2 | 0.93 | 182 | 123 | 71% | 2.8 | 3.5 | 0.93 |
+
+Projected MVP: **UdoTan** (GE, 1.12 rating). Projected top fragger: **UdoTan** (44.0 kills).
+
 ### FUT Esports vs Team Liquid (Bo3)
 
 **Prediction: FUT Esports wins 2-0** (series win 53.2%; this exact score 27.0%) — neutral venue
@@ -1842,6 +3525,23 @@ Map-by-map win chance for Global Esports: Abyss 63.9%, Lotus 63.0%, Haven 60.9%,
 | 3 | Summit | decider | 52.2% | FUT 13-11 | FUT 13-11 TL (7.2%) | 13.9% |
 
 Map-by-map win chance for FUT Esports: Ascent 55.5%, Sunset 55.1%, Split 52.6%, Summit 52.2%, Abyss 52.0%, Haven 49.0%, Lotus 46.4%
+
+**Series projection** (expected totals over 2.50 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| xeus | FUT | Duelist | 43.4 | 40.5 | 10.3 | 1.07 | 235 | 152 | 72% | 9.7 | 8.3 | 1.09 |
+| KROSTALY | FUT | Sentinel | 35.2 | 31.9 | 13.7 | 1.10 | 192 | 129 | 71% | 3.0 | 3.4 | 1.04 |
+| sociablEE | FUT | Initiator | 34.5 | 35.0 | 24.9 | 0.99 | 190 | 127 | 74% | 3.4 | 3.8 | 0.99 |
+| yetujey | FUT | Controller | 32.8 | 34.1 | 20.6 | 0.96 | 181 | 123 | 72% | 2.5 | 3.0 | 0.95 |
+| s0pp | FUT | Duelist | 38.6 | 42.2 | 10.3 | 0.92 | 212 | 139 | 69% | 8.9 | 8.8 | 0.94 |
+| kamo | TL | Duelist | 45.5 | 41.9 | 8.7 | 1.08 | 246 | 158 | 71% | 12.2 | 10.2 | 1.11 |
+| nAts | TL | Sentinel | 34.8 | 33.7 | 11.6 | 1.03 | 191 | 128 | 69% | 3.7 | 4.2 | 0.99 |
+| trexx | TL | Flex | 35.5 | 36.4 | 21.0 | 0.97 | 195 | 130 | 73% | 4.2 | 4.7 | 0.97 |
+| GSR | TL | Controller | 33.7 | 35.6 | 17.3 | 0.95 | 186 | 125 | 71% | 3.1 | 3.8 | 0.94 |
+| Kicks | TL | Initiator | 34.1 | 36.9 | 21.0 | 0.92 | 188 | 126 | 72% | 4.1 | 4.8 | 0.93 |
+
+Projected MVP: **xeus** (FUT, 1.09 rating). Projected top fragger: **kamo** (45.5 kills).
 
 ### FUT Esports vs EDward Gaming (Bo3)
 
@@ -1860,6 +3560,23 @@ Map-by-map win chance for FUT Esports: Ascent 55.5%, Sunset 55.1%, Split 52.6%, 
 
 Map-by-map win chance for FUT Esports: Split 55.4%, Abyss 54.2%, Ascent 52.6%, Haven 52.6%, Sunset 52.6%, Lotus 51.9%, Summit 49.6%
 
+**Series projection** (expected totals over 2.50 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| xeus | FUT | Duelist | 43.4 | 40.4 | 10.3 | 1.08 | 235 | 153 | 72% | 9.7 | 8.3 | 1.09 |
+| KROSTALY | FUT | Sentinel | 35.2 | 31.8 | 13.7 | 1.11 | 193 | 129 | 71% | 3.1 | 3.3 | 1.04 |
+| sociablEE | FUT | Initiator | 34.5 | 34.9 | 24.9 | 0.99 | 190 | 128 | 74% | 3.4 | 3.8 | 0.99 |
+| yetujey | FUT | Controller | 32.8 | 34.0 | 20.6 | 0.96 | 181 | 123 | 72% | 2.5 | 3.0 | 0.96 |
+| s0pp | FUT | Duelist | 38.6 | 42.1 | 10.3 | 0.92 | 213 | 139 | 69% | 8.9 | 8.8 | 0.94 |
+| ZmjjKK | EDG | Duelist | 46.2 | 40.1 | 9.9 | 1.15 | 248 | 160 | 73% | 10.4 | 8.6 | 1.16 |
+| Smoggy | EDG | Flex | 39.0 | 40.7 | 12.4 | 0.96 | 214 | 140 | 70% | 8.0 | 8.0 | 0.97 |
+| stew | EDG | Sentinel | 32.8 | 33.1 | 13.2 | 0.99 | 182 | 123 | 69% | 2.9 | 3.7 | 0.96 |
+| CHICHOO | EDG | Controller | 33.0 | 34.4 | 19.9 | 0.96 | 182 | 123 | 72% | 2.6 | 3.2 | 0.95 |
+| nobody | EDG | Initiator | 32.2 | 36.3 | 24.0 | 0.89 | 179 | 121 | 73% | 3.3 | 4.2 | 0.90 |
+
+Projected MVP: **xeus** (FUT, 1.09 rating). Projected top fragger: **ZmjjKK** (46.2 kills).
+
 ### FUT Esports vs TYLOO (Bo3)
 
 **Prediction: FUT Esports wins 2-0** (series win 58.6%; this exact score 31.1%) — neutral venue
@@ -1876,6 +3593,23 @@ Map-by-map win chance for FUT Esports: Split 55.4%, Abyss 54.2%, Ascent 52.6%, H
 | 3 | Abyss | decider | 55.8% | FUT 13-10 | FUT 13-10 TYL (7.5%) | 13.7% |
 
 Map-by-map win chance for FUT Esports: Split 61.7%, Ascent 56.1%, Haven 56.1%, Abyss 55.8%, Lotus 55.4%, Sunset 55.4%, Summit 52.3%
+
+**Series projection** (expected totals over 2.49 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| xeus | FUT | Duelist | 43.4 | 40.1 | 10.3 | 1.08 | 236 | 153 | 72% | 9.8 | 8.2 | 1.10 |
+| KROSTALY | FUT | Sentinel | 35.2 | 31.6 | 13.7 | 1.11 | 193 | 130 | 71% | 3.1 | 3.3 | 1.04 |
+| sociablEE | FUT | Initiator | 34.6 | 34.6 | 24.9 | 1.00 | 190 | 128 | 75% | 3.5 | 3.7 | 1.00 |
+| yetujey | FUT | Controller | 32.8 | 33.8 | 20.6 | 0.97 | 182 | 123 | 72% | 2.6 | 3.0 | 0.96 |
+| s0pp | FUT | Duelist | 38.7 | 41.8 | 10.3 | 0.93 | 213 | 140 | 69% | 9.0 | 8.7 | 0.95 |
+| SiuFatBB | TYL | Flex | 39.0 | 39.3 | 14.4 | 0.99 | 214 | 141 | 71% | 7.2 | 7.1 | 1.00 |
+| splash | TYL | Duelist | 41.2 | 42.1 | 9.6 | 0.98 | 226 | 147 | 70% | 10.0 | 9.5 | 1.00 |
+| Erv | TYL | Sentinel | 34.1 | 32.9 | 12.7 | 1.03 | 188 | 126 | 70% | 3.2 | 3.8 | 0.99 |
+| slowly | TYL | Controller | 34.3 | 34.3 | 19.1 | 1.00 | 189 | 127 | 72% | 2.8 | 3.3 | 0.98 |
+| Scales | TYL | Initiator | 33.4 | 36.1 | 23.1 | 0.92 | 185 | 125 | 73% | 3.6 | 4.3 | 0.93 |
+
+Projected MVP: **xeus** (FUT, 1.10 rating). Projected top fragger: **xeus** (43.4 kills).
 
 ### FUT Esports vs T1 (Bo3)
 
@@ -1894,6 +3628,23 @@ Map-by-map win chance for FUT Esports: Split 61.7%, Ascent 56.1%, Haven 56.1%, A
 
 Map-by-map win chance for FUT Esports: Lotus 58.8%, Split 58.1%, Summit 57.8%, Abyss 56.8%, Ascent 56.0%, Haven 56.0%, Sunset 53.9%
 
+**Series projection** (expected totals over 2.49 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| xeus | FUT | Duelist | 43.4 | 40.0 | 10.3 | 1.09 | 236 | 153 | 72% | 9.8 | 8.1 | 1.10 |
+| KROSTALY | FUT | Sentinel | 35.2 | 31.5 | 13.7 | 1.12 | 193 | 130 | 71% | 3.1 | 3.3 | 1.05 |
+| sociablEE | FUT | Initiator | 34.5 | 34.5 | 24.9 | 1.00 | 191 | 128 | 75% | 3.5 | 3.7 | 1.00 |
+| yetujey | FUT | Controller | 32.8 | 33.7 | 20.6 | 0.97 | 182 | 123 | 72% | 2.6 | 3.0 | 0.96 |
+| s0pp | FUT | Duelist | 38.7 | 41.6 | 10.3 | 0.93 | 214 | 140 | 69% | 9.0 | 8.6 | 0.95 |
+| BuZz | T1 | Duelist | 43.5 | 41.2 | 9.5 | 1.05 | 236 | 153 | 71% | 10.3 | 9.3 | 1.07 |
+| iZu | T1 | Flex | 40.3 | 38.7 | 14.4 | 1.04 | 220 | 144 | 72% | 7.2 | 7.0 | 1.04 |
+| Meteor | T1 | Sentinel | 35.2 | 32.5 | 12.7 | 1.09 | 194 | 130 | 70% | 3.2 | 3.8 | 1.02 |
+| Munchkin | T1 | Initiator | 32.6 | 36.3 | 23.0 | 0.90 | 182 | 122 | 72% | 3.5 | 4.3 | 0.91 |
+| stax | T1 | Controller | 29.7 | 36.0 | 19.0 | 0.83 | 168 | 114 | 70% | 2.5 | 3.6 | 0.84 |
+
+Projected MVP: **xeus** (FUT, 1.10 rating). Projected top fragger: **BuZz** (43.5 kills).
+
 ### FUT Esports vs Xi Lai Gaming (Bo3)
 
 **Prediction: FUT Esports wins 2-0** (series win 61.8%; this exact score 33.5%) — neutral venue
@@ -1910,6 +3661,23 @@ Map-by-map win chance for FUT Esports: Lotus 58.8%, Split 58.1%, Summit 57.8%, A
 | 3 | Ascent | decider | 58.1% | FUT 13-10 | FUT 13-10 XLG (7.6%) | 13.6% |
 
 Map-by-map win chance for FUT Esports: Split 60.9%, Abyss 59.1%, Sunset 58.8%, Ascent 58.1%, Haven 57.4%, Lotus 56.7%, Summit 55.0%
+
+**Series projection** (expected totals over 2.49 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| xeus | FUT | Duelist | 43.4 | 39.9 | 10.3 | 1.09 | 236 | 153 | 72% | 9.8 | 8.1 | 1.11 |
+| KROSTALY | FUT | Sentinel | 35.2 | 31.4 | 13.7 | 1.12 | 194 | 130 | 71% | 3.1 | 3.3 | 1.05 |
+| sociablEE | FUT | Initiator | 34.5 | 34.4 | 24.8 | 1.00 | 191 | 128 | 75% | 3.5 | 3.7 | 1.00 |
+| yetujey | FUT | Controller | 32.8 | 33.6 | 20.6 | 0.98 | 182 | 123 | 72% | 2.6 | 2.9 | 0.97 |
+| s0pp | FUT | Duelist | 38.6 | 41.5 | 10.3 | 0.93 | 214 | 140 | 69% | 9.0 | 8.6 | 0.95 |
+| Lysoar | XLG | Flex | 40.9 | 39.9 | 12.2 | 1.02 | 223 | 146 | 71% | 8.2 | 7.8 | 1.03 |
+| NoMan | XLG | Duelist | 40.7 | 41.7 | 9.8 | 0.98 | 224 | 146 | 70% | 9.4 | 9.1 | 0.99 |
+| Rarga | XLG | Initiator | 34.3 | 35.3 | 23.7 | 0.97 | 190 | 128 | 74% | 3.5 | 4.0 | 0.97 |
+| WsLeo | XLG | Sentinel | 32.3 | 33.1 | 13.1 | 0.98 | 180 | 122 | 69% | 2.9 | 3.7 | 0.95 |
+| happywei | XLG | Controller | 32.6 | 34.5 | 19.6 | 0.95 | 181 | 123 | 71% | 2.6 | 3.2 | 0.94 |
+
+Projected MVP: **xeus** (FUT, 1.11 rating). Projected top fragger: **xeus** (43.4 kills).
 
 ### FUT Esports vs JD Gaming (Bo3)
 
@@ -1929,6 +3697,23 @@ Map-by-map win chance for FUT Esports: Split 60.9%, Abyss 59.1%, Sunset 58.8%, A
 
 Map-by-map win chance for FUT Esports: Abyss 62.9%, Split 62.4%, Sunset 62.4%, Ascent 60.4%, Haven 60.4%, Lotus 60.4%, Summit 58.6%
 
+**Series projection** (expected totals over 2.47 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| xeus | FUT | Duelist | 43.2 | 39.4 | 10.2 | 1.10 | 237 | 154 | 72% | 9.9 | 7.9 | 1.12 |
+| KROSTALY | FUT | Sentinel | 35.1 | 31.0 | 13.6 | 1.13 | 194 | 130 | 71% | 3.1 | 3.2 | 1.06 |
+| sociablEE | FUT | Initiator | 34.4 | 34.0 | 24.7 | 1.01 | 192 | 129 | 75% | 3.5 | 3.6 | 1.01 |
+| yetujey | FUT | Controller | 32.7 | 33.2 | 20.5 | 0.98 | 183 | 124 | 73% | 2.6 | 2.9 | 0.97 |
+| s0pp | FUT | Duelist | 38.5 | 41.0 | 10.2 | 0.94 | 215 | 140 | 70% | 9.0 | 8.4 | 0.96 |
+| zhe | JDG | Duelist | 42.6 | 41.1 | 9.4 | 1.04 | 235 | 152 | 71% | 10.1 | 9.3 | 1.05 |
+| jkuro | JDG | Sentinel | 33.2 | 32.8 | 12.5 | 1.01 | 186 | 125 | 69% | 3.1 | 3.8 | 0.97 |
+| BerLIN | JDG | Initiator | 33.9 | 35.5 | 22.7 | 0.95 | 189 | 127 | 73% | 3.6 | 4.2 | 0.96 |
+| crownfisher | JDG | Flex | 36.6 | 39.7 | 14.2 | 0.92 | 204 | 135 | 70% | 6.7 | 7.3 | 0.93 |
+| Yuicaw | JDG | Controller | 32.2 | 34.7 | 18.8 | 0.93 | 181 | 122 | 71% | 2.6 | 3.4 | 0.93 |
+
+Projected MVP: **xeus** (FUT, 1.12 rating). Projected top fragger: **xeus** (43.2 kills).
+
 ### Team Liquid vs EDward Gaming (Bo3)
 
 **Prediction: Team Liquid wins 2-1** (series win 51.6%; this exact score 26.2%) — neutral venue
@@ -1945,6 +3730,23 @@ Map-by-map win chance for FUT Esports: Abyss 62.9%, Split 62.4%, Sunset 62.4%, A
 | 3 | Abyss | decider | 52.1% | TL 13-11 | TL 13-11 EDG (7.2%) | 13.9% |
 
 Map-by-map win chance for Team Liquid: Lotus 55.4%, Haven 53.6%, Split 52.8%, Abyss 52.1%, Summit 47.4%, Sunset 47.4%, Ascent 47.1%
+
+**Series projection** (expected totals over 2.50 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| kamo | TL | Duelist | 45.3 | 41.5 | 9.0 | 1.09 | 245 | 158 | 72% | 11.7 | 9.8 | 1.12 |
+| nAts | TL | Sentinel | 34.7 | 33.4 | 12.0 | 1.04 | 190 | 128 | 70% | 3.5 | 4.1 | 0.99 |
+| trexx | TL | Flex | 36.8 | 37.3 | 18.9 | 0.99 | 201 | 134 | 73% | 5.3 | 5.4 | 0.99 |
+| GSR | TL | Controller | 33.6 | 35.2 | 18.0 | 0.95 | 185 | 125 | 71% | 3.0 | 3.6 | 0.95 |
+| Kicks | TL | Initiator | 34.0 | 36.6 | 21.8 | 0.93 | 188 | 126 | 73% | 4.0 | 4.6 | 0.94 |
+| ZmjjKK | EDG | Duelist | 47.5 | 40.9 | 9.0 | 1.16 | 255 | 164 | 73% | 12.0 | 9.6 | 1.18 |
+| stew | EDG | Sentinel | 33.7 | 33.7 | 12.0 | 1.00 | 186 | 125 | 69% | 3.4 | 4.1 | 0.96 |
+| CHICHOO | EDG | Controller | 33.9 | 35.1 | 18.0 | 0.97 | 187 | 126 | 71% | 3.0 | 3.6 | 0.96 |
+| Smoggy | EDG | Flex | 35.8 | 37.7 | 18.8 | 0.95 | 196 | 131 | 72% | 5.1 | 5.5 | 0.96 |
+| nobody | EDG | Initiator | 33.1 | 37.0 | 21.8 | 0.89 | 183 | 123 | 72% | 3.8 | 4.7 | 0.91 |
+
+Projected MVP: **kamo** (TL, 1.12 rating). Projected top fragger: **ZmjjKK** (47.5 kills).
 
 ### Team Liquid vs TYLOO (Bo3)
 
@@ -1963,6 +3765,23 @@ Map-by-map win chance for Team Liquid: Lotus 55.4%, Haven 53.6%, Split 52.8%, Ab
 
 Map-by-map win chance for Team Liquid: Split 59.1%, Lotus 58.9%, Haven 57.0%, Abyss 53.8%, Ascent 50.6%, Sunset 50.2%, Summit 50.1%
 
+**Series projection** (expected totals over 2.50 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| kamo | TL | Duelist | 44.7 | 40.7 | 9.7 | 1.10 | 242 | 156 | 72% | 10.8 | 9.0 | 1.12 |
+| trexx | TL | Flex | 39.2 | 39.0 | 14.6 | 1.01 | 214 | 141 | 72% | 7.4 | 6.9 | 1.02 |
+| nAts | TL | Sentinel | 34.2 | 32.7 | 12.9 | 1.05 | 188 | 127 | 70% | 3.2 | 3.7 | 1.00 |
+| GSR | TL | Controller | 33.1 | 34.5 | 19.3 | 0.96 | 183 | 124 | 72% | 2.8 | 3.3 | 0.95 |
+| Kicks | TL | Initiator | 33.6 | 35.9 | 23.4 | 0.94 | 186 | 125 | 73% | 3.7 | 4.2 | 0.95 |
+| splash | TYL | Duelist | 41.4 | 42.1 | 9.6 | 0.98 | 226 | 147 | 70% | 10.1 | 9.4 | 1.00 |
+| SiuFatBB | TYL | Flex | 39.2 | 39.3 | 14.5 | 1.00 | 214 | 141 | 71% | 7.2 | 7.1 | 1.00 |
+| Erv | TYL | Sentinel | 34.2 | 33.0 | 12.8 | 1.04 | 188 | 127 | 70% | 3.2 | 3.8 | 0.99 |
+| slowly | TYL | Controller | 34.4 | 34.3 | 19.2 | 1.00 | 189 | 127 | 72% | 2.8 | 3.3 | 0.98 |
+| Scales | TYL | Initiator | 33.5 | 36.1 | 23.2 | 0.93 | 185 | 125 | 73% | 3.6 | 4.2 | 0.94 |
+
+Projected MVP: **kamo** (TL, 1.12 rating). Projected top fragger: **kamo** (44.7 kills).
+
 ### Team Liquid vs T1 (Bo3)
 
 **Prediction: Team Liquid wins 2-0** (series win 56.5%; this exact score 28.8%) — neutral venue
@@ -1979,6 +3798,23 @@ Map-by-map win chance for Team Liquid: Split 59.1%, Lotus 58.9%, Haven 57.0%, Ab
 | 3 | Split | decider | 55.5% | TL 13-10 | TL 13-10 T1 (7.5%) | 13.8% |
 
 Map-by-map win chance for Team Liquid: Lotus 62.2%, Haven 57.0%, Summit 55.6%, Split 55.5%, Abyss 54.8%, Ascent 50.5%, Sunset 48.7%
+
+**Series projection** (expected totals over 2.50 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| kamo | TL | Duelist | 45.4 | 41.3 | 9.0 | 1.10 | 246 | 158 | 72% | 11.9 | 9.7 | 1.13 |
+| nAts | TL | Sentinel | 34.8 | 33.2 | 12.0 | 1.05 | 191 | 128 | 70% | 3.6 | 4.0 | 1.00 |
+| trexx | TL | Flex | 36.9 | 37.1 | 18.9 | 0.99 | 202 | 134 | 73% | 5.3 | 5.4 | 1.00 |
+| GSR | TL | Controller | 33.7 | 35.0 | 18.1 | 0.96 | 186 | 125 | 71% | 3.1 | 3.5 | 0.95 |
+| Kicks | TL | Initiator | 34.1 | 36.4 | 21.8 | 0.94 | 188 | 126 | 73% | 4.0 | 4.5 | 0.95 |
+| BuZz | T1 | Duelist | 44.6 | 41.8 | 9.0 | 1.07 | 241 | 156 | 71% | 11.5 | 9.9 | 1.09 |
+| Meteor | T1 | Sentinel | 36.1 | 32.9 | 11.9 | 1.10 | 197 | 132 | 70% | 3.6 | 4.0 | 1.03 |
+| iZu | T1 | Flex | 38.3 | 36.8 | 18.8 | 1.04 | 208 | 138 | 73% | 5.4 | 5.4 | 1.03 |
+| Munchkin | T1 | Initiator | 33.4 | 36.8 | 21.7 | 0.91 | 185 | 124 | 72% | 3.9 | 4.6 | 0.92 |
+| stax | T1 | Controller | 30.5 | 36.5 | 17.9 | 0.84 | 171 | 116 | 69% | 2.8 | 3.8 | 0.85 |
+
+Projected MVP: **kamo** (TL, 1.13 rating). Projected top fragger: **kamo** (45.4 kills).
 
 ### Team Liquid vs Xi Lai Gaming (Bo3)
 
@@ -1997,6 +3833,23 @@ Map-by-map win chance for Team Liquid: Lotus 62.2%, Haven 57.0%, Summit 55.6%, S
 
 Map-by-map win chance for Team Liquid: Lotus 60.1%, Haven 58.3%, Split 58.3%, Abyss 57.1%, Sunset 53.7%, Summit 52.8%, Ascent 52.7%
 
+**Series projection** (expected totals over 2.50 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| kamo | TL | Duelist | 45.4 | 41.1 | 9.0 | 1.11 | 246 | 159 | 72% | 11.9 | 9.6 | 1.14 |
+| nAts | TL | Sentinel | 34.8 | 33.0 | 12.0 | 1.05 | 191 | 128 | 70% | 3.6 | 4.0 | 1.01 |
+| trexx | TL | Flex | 36.9 | 36.9 | 18.9 | 1.00 | 202 | 134 | 73% | 5.3 | 5.3 | 1.00 |
+| GSR | TL | Controller | 33.7 | 34.8 | 18.0 | 0.97 | 186 | 125 | 71% | 3.1 | 3.5 | 0.96 |
+| Kicks | TL | Initiator | 34.1 | 36.2 | 21.8 | 0.94 | 189 | 127 | 73% | 4.0 | 4.5 | 0.95 |
+| NoMan | XLG | Duelist | 42.0 | 42.6 | 8.9 | 0.99 | 230 | 149 | 70% | 11.0 | 10.2 | 1.01 |
+| Lysoar | XLG | Flex | 37.6 | 37.0 | 18.7 | 1.01 | 205 | 136 | 73% | 5.3 | 5.4 | 1.01 |
+| Rarga | XLG | Initiator | 35.4 | 36.1 | 21.6 | 0.98 | 195 | 130 | 73% | 4.1 | 4.5 | 0.98 |
+| WsLeo | XLG | Sentinel | 33.4 | 33.8 | 11.9 | 0.99 | 185 | 124 | 69% | 3.4 | 4.2 | 0.95 |
+| happywei | XLG | Controller | 33.6 | 35.2 | 17.9 | 0.95 | 186 | 125 | 71% | 3.0 | 3.6 | 0.95 |
+
+Projected MVP: **kamo** (TL, 1.14 rating). Projected top fragger: **kamo** (45.4 kills).
+
 ### Team Liquid vs JD Gaming (Bo3)
 
 **Prediction: Team Liquid wins 2-0** (series win 61.8%; this exact score 33.1%) — neutral venue
@@ -2013,6 +3866,23 @@ Map-by-map win chance for Team Liquid: Lotus 60.1%, Haven 58.3%, Split 58.3%, Ab
 | 3 | Split | decider | 58.6% | TL 13-10 | TL 13-10 JDG (7.7%) | 13.6% |
 
 Map-by-map win chance for Team Liquid: Lotus 62.5%, Haven 60.0%, Abyss 59.6%, Split 58.6%, Sunset 56.2%, Summit 55.1%, Ascent 53.7%
+
+**Series projection** (expected totals over 2.49 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| kamo | TL | Duelist | 45.4 | 40.8 | 9.0 | 1.11 | 247 | 159 | 72% | 11.9 | 9.5 | 1.14 |
+| nAts | TL | Sentinel | 34.7 | 32.8 | 12.0 | 1.06 | 192 | 129 | 70% | 3.6 | 3.9 | 1.01 |
+| trexx | TL | Flex | 36.8 | 36.7 | 18.9 | 1.00 | 203 | 135 | 73% | 5.3 | 5.3 | 1.01 |
+| GSR | TL | Controller | 33.6 | 34.6 | 18.0 | 0.97 | 186 | 126 | 71% | 3.1 | 3.5 | 0.96 |
+| Kicks | TL | Initiator | 34.1 | 36.0 | 21.8 | 0.95 | 189 | 127 | 73% | 4.0 | 4.4 | 0.96 |
+| zhe | JDG | Duelist | 43.9 | 41.9 | 8.9 | 1.05 | 239 | 155 | 71% | 11.3 | 10.0 | 1.07 |
+| jkuro | JDG | Sentinel | 34.2 | 33.4 | 11.8 | 1.02 | 189 | 127 | 69% | 3.4 | 4.1 | 0.98 |
+| BerLIN | JDG | Initiator | 34.9 | 36.2 | 21.5 | 0.96 | 193 | 129 | 73% | 4.0 | 4.6 | 0.97 |
+| Yuicaw | JDG | Controller | 33.1 | 35.3 | 17.8 | 0.94 | 184 | 124 | 71% | 2.9 | 3.7 | 0.93 |
+| crownfisher | JDG | Flex | 34.9 | 37.9 | 18.6 | 0.92 | 193 | 129 | 71% | 5.0 | 5.6 | 0.93 |
+
+Projected MVP: **kamo** (TL, 1.14 rating). Projected top fragger: **kamo** (45.4 kills).
 
 ### EDward Gaming vs TYLOO (Bo3)
 
@@ -2031,6 +3901,23 @@ Map-by-map win chance for Team Liquid: Lotus 62.5%, Haven 60.0%, Abyss 59.6%, Sp
 
 Map-by-map win chance for EDward Gaming: Split 56.4%, Ascent 53.5%, Haven 53.5%, Lotus 53.5%, Sunset 52.8%, Summit 52.7%, Abyss 51.7%
 
+**Series projection** (expected totals over 2.50 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| ZmjjKK | EDG | Duelist | 47.6 | 40.6 | 9.0 | 1.17 | 256 | 165 | 73% | 12.2 | 9.5 | 1.20 |
+| stew | EDG | Sentinel | 33.8 | 33.5 | 12.0 | 1.01 | 187 | 126 | 69% | 3.5 | 4.1 | 0.97 |
+| Smoggy | EDG | Flex | 35.9 | 37.4 | 18.9 | 0.96 | 197 | 131 | 72% | 5.2 | 5.5 | 0.97 |
+| CHICHOO | EDG | Controller | 34.1 | 34.9 | 18.0 | 0.98 | 187 | 126 | 71% | 3.0 | 3.5 | 0.97 |
+| nobody | EDG | Initiator | 33.2 | 36.7 | 21.8 | 0.90 | 184 | 124 | 72% | 3.9 | 4.6 | 0.92 |
+| splash | TYL | Duelist | 42.2 | 42.6 | 9.0 | 0.99 | 230 | 149 | 70% | 11.2 | 10.2 | 1.02 |
+| Erv | TYL | Sentinel | 34.8 | 33.4 | 12.0 | 1.04 | 191 | 128 | 70% | 3.6 | 4.1 | 1.00 |
+| SiuFatBB | TYL | Flex | 36.9 | 37.3 | 18.8 | 0.99 | 202 | 134 | 72% | 5.3 | 5.4 | 0.99 |
+| slowly | TYL | Controller | 35.0 | 34.7 | 17.9 | 1.01 | 192 | 129 | 72% | 3.1 | 3.5 | 0.99 |
+| Scales | TYL | Initiator | 34.1 | 36.6 | 21.7 | 0.93 | 188 | 126 | 73% | 4.0 | 4.6 | 0.94 |
+
+Projected MVP: **ZmjjKK** (EDG, 1.20 rating). Projected top fragger: **ZmjjKK** (47.6 kills).
+
 ### EDward Gaming vs T1 (Bo3)
 
 **Prediction: EDward Gaming wins 2-0** (series win 56.6%; this exact score 30.0%) — neutral venue
@@ -2047,6 +3934,23 @@ Map-by-map win chance for EDward Gaming: Split 56.4%, Ascent 53.5%, Haven 53.5%,
 | 3 | Haven | decider | 53.4% | EDG 13-10 | EDG 13-10 T1 (7.3%) | 13.8% |
 
 Map-by-map win chance for EDward Gaming: Summit 58.2%, Lotus 57.0%, Ascent 53.4%, Haven 53.4%, Abyss 52.7%, Split 52.7%, Sunset 51.3%
+
+**Series projection** (expected totals over 2.50 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| ZmjjKK | EDG | Duelist | 46.6 | 39.6 | 10.0 | 1.17 | 250 | 162 | 73% | 10.6 | 8.4 | 1.18 |
+| Smoggy | EDG | Flex | 39.4 | 40.3 | 12.4 | 0.98 | 215 | 141 | 71% | 8.1 | 7.8 | 0.99 |
+| stew | EDG | Sentinel | 33.1 | 32.7 | 13.3 | 1.01 | 183 | 124 | 70% | 3.0 | 3.6 | 0.97 |
+| CHICHOO | EDG | Controller | 33.3 | 34.1 | 20.0 | 0.98 | 184 | 124 | 72% | 2.7 | 3.1 | 0.97 |
+| nobody | EDG | Initiator | 32.4 | 35.9 | 24.1 | 0.90 | 180 | 122 | 73% | 3.4 | 4.1 | 0.92 |
+| BuZz | T1 | Duelist | 43.4 | 40.9 | 9.9 | 1.06 | 235 | 153 | 71% | 9.9 | 8.9 | 1.07 |
+| iZu | T1 | Flex | 41.8 | 39.7 | 12.3 | 1.05 | 227 | 148 | 72% | 8.3 | 7.8 | 1.06 |
+| Meteor | T1 | Sentinel | 35.2 | 32.2 | 13.2 | 1.09 | 193 | 129 | 70% | 3.1 | 3.6 | 1.03 |
+| Munchkin | T1 | Initiator | 32.5 | 36.1 | 23.9 | 0.90 | 181 | 122 | 73% | 3.3 | 4.2 | 0.92 |
+| stax | T1 | Controller | 29.7 | 35.7 | 19.8 | 0.83 | 167 | 114 | 70% | 2.4 | 3.4 | 0.85 |
+
+Projected MVP: **ZmjjKK** (EDG, 1.18 rating). Projected top fragger: **ZmjjKK** (46.6 kills).
 
 ### EDward Gaming vs Xi Lai Gaming (Bo3)
 
@@ -2065,6 +3969,23 @@ Map-by-map win chance for EDward Gaming: Summit 58.2%, Lotus 57.0%, Ascent 53.4%
 
 Map-by-map win chance for EDward Gaming: Sunset 56.3%, Ascent 55.5%, Split 55.5%, Summit 55.3%, Abyss 55.0%, Haven 54.8%, Lotus 54.8%
 
+**Series projection** (expected totals over 2.49 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| ZmjjKK | EDG | Duelist | 47.3 | 40.1 | 9.3 | 1.18 | 254 | 164 | 73% | 11.7 | 9.0 | 1.20 |
+| Smoggy | EDG | Flex | 37.1 | 38.2 | 16.7 | 0.97 | 204 | 135 | 72% | 6.2 | 6.2 | 0.98 |
+| stew | EDG | Sentinel | 33.6 | 33.1 | 12.5 | 1.01 | 186 | 125 | 69% | 3.3 | 3.9 | 0.98 |
+| CHICHOO | EDG | Controller | 33.8 | 34.5 | 18.7 | 0.98 | 187 | 126 | 72% | 2.9 | 3.4 | 0.97 |
+| nobody | EDG | Initiator | 32.9 | 36.3 | 22.6 | 0.91 | 183 | 123 | 73% | 3.7 | 4.4 | 0.92 |
+| Lysoar | XLG | Flex | 38.8 | 38.0 | 16.6 | 1.02 | 212 | 140 | 72% | 6.3 | 6.2 | 1.02 |
+| NoMan | XLG | Duelist | 41.7 | 42.3 | 9.3 | 0.99 | 228 | 148 | 70% | 10.6 | 9.8 | 1.01 |
+| Rarga | XLG | Initiator | 35.2 | 35.8 | 22.4 | 0.98 | 193 | 130 | 73% | 3.9 | 4.3 | 0.98 |
+| WsLeo | XLG | Sentinel | 33.1 | 33.6 | 12.3 | 0.99 | 184 | 124 | 69% | 3.3 | 4.0 | 0.95 |
+| happywei | XLG | Controller | 33.4 | 35.0 | 18.5 | 0.96 | 185 | 125 | 71% | 2.9 | 3.5 | 0.95 |
+
+Projected MVP: **ZmjjKK** (EDG, 1.20 rating). Projected top fragger: **ZmjjKK** (47.3 kills).
+
 ### EDward Gaming vs JD Gaming (Bo3)
 
 **Prediction: EDward Gaming wins 2-0** (series win 60.6%; this exact score 32.6%) — neutral venue
@@ -2081,6 +4002,23 @@ Map-by-map win chance for EDward Gaming: Sunset 56.3%, Ascent 55.5%, Split 55.5%
 | 3 | Lotus | decider | 57.3% | EDG 13-10 | EDG 13-10 JDG (7.6%) | 13.7% |
 
 Map-by-map win chance for EDward Gaming: Sunset 58.7%, Summit 57.6%, Abyss 57.5%, Lotus 57.3%, Ascent 56.5%, Haven 56.5%, Split 55.8%
+
+**Series projection** (expected totals over 2.49 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| ZmjjKK | EDG | Duelist | 47.6 | 40.2 | 9.0 | 1.19 | 257 | 165 | 73% | 12.3 | 9.3 | 1.21 |
+| stew | EDG | Sentinel | 33.8 | 33.2 | 12.0 | 1.02 | 187 | 126 | 69% | 3.5 | 4.0 | 0.98 |
+| Smoggy | EDG | Flex | 35.9 | 37.0 | 18.9 | 0.97 | 198 | 132 | 72% | 5.2 | 5.4 | 0.98 |
+| CHICHOO | EDG | Controller | 34.1 | 34.5 | 18.0 | 0.99 | 188 | 127 | 72% | 3.1 | 3.5 | 0.97 |
+| nobody | EDG | Initiator | 33.2 | 36.4 | 21.8 | 0.91 | 185 | 124 | 72% | 3.9 | 4.5 | 0.93 |
+| zhe | JDG | Duelist | 44.0 | 41.9 | 8.9 | 1.05 | 239 | 155 | 71% | 11.3 | 10.0 | 1.07 |
+| jkuro | JDG | Sentinel | 34.3 | 33.4 | 11.9 | 1.02 | 189 | 127 | 69% | 3.4 | 4.1 | 0.98 |
+| BerLIN | JDG | Initiator | 34.9 | 36.2 | 21.5 | 0.97 | 193 | 129 | 73% | 4.0 | 4.5 | 0.97 |
+| Yuicaw | JDG | Controller | 33.2 | 35.3 | 17.8 | 0.94 | 184 | 124 | 71% | 3.0 | 3.6 | 0.94 |
+| crownfisher | JDG | Flex | 34.9 | 37.9 | 18.7 | 0.92 | 194 | 129 | 71% | 5.0 | 5.6 | 0.93 |
+
+Projected MVP: **ZmjjKK** (EDG, 1.21 rating). Projected top fragger: **ZmjjKK** (47.6 kills).
 
 ### TYLOO vs T1 (Bo3)
 
@@ -2099,6 +4037,23 @@ Map-by-map win chance for EDward Gaming: Sunset 58.7%, Summit 57.6%, Abyss 57.5%
 
 Map-by-map win chance for TYLOO: Summit 55.5%, Lotus 53.5%, Abyss 51.1%, Ascent 49.9%, Haven 49.9%, Sunset 48.5%, Split 46.3%
 
+**Series projection** (expected totals over 2.50 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| splash | TYL | Duelist | 42.1 | 42.2 | 9.3 | 1.00 | 229 | 149 | 70% | 10.8 | 9.7 | 1.02 |
+| SiuFatBB | TYL | Flex | 38.4 | 38.1 | 16.7 | 1.01 | 209 | 138 | 72% | 6.4 | 6.1 | 1.01 |
+| Erv | TYL | Sentinel | 34.8 | 33.0 | 12.4 | 1.05 | 191 | 128 | 70% | 3.4 | 3.9 | 1.00 |
+| slowly | TYL | Controller | 35.0 | 34.4 | 18.7 | 1.02 | 191 | 129 | 72% | 3.0 | 3.4 | 1.00 |
+| Scales | TYL | Initiator | 34.1 | 36.2 | 22.6 | 0.94 | 188 | 126 | 73% | 3.9 | 4.4 | 0.95 |
+| BuZz | T1 | Duelist | 44.4 | 41.4 | 9.3 | 1.07 | 240 | 155 | 71% | 11.1 | 9.5 | 1.10 |
+| iZu | T1 | Flex | 39.7 | 37.7 | 16.7 | 1.05 | 215 | 142 | 73% | 6.4 | 6.1 | 1.05 |
+| Meteor | T1 | Sentinel | 36.0 | 32.6 | 12.4 | 1.10 | 196 | 132 | 70% | 3.5 | 3.8 | 1.04 |
+| Munchkin | T1 | Initiator | 33.3 | 36.5 | 22.5 | 0.91 | 184 | 124 | 73% | 3.7 | 4.4 | 0.93 |
+| stax | T1 | Controller | 30.4 | 36.1 | 18.6 | 0.84 | 170 | 116 | 70% | 2.7 | 3.6 | 0.86 |
+
+Projected MVP: **splash** (TYL, 1.02 rating). Projected top fragger: **BuZz** (44.4 kills).
+
 ### TYLOO vs Xi Lai Gaming (Bo3)
 
 **Prediction: TYLOO wins 2-0** (series win 53.3%; this exact score 27.4%) — neutral venue
@@ -2115,6 +4070,23 @@ Map-by-map win chance for TYLOO: Summit 55.5%, Lotus 53.5%, Abyss 51.1%, Ascent 
 | 3 | Ascent | decider | 52.0% | TYL 13-11 | TYL 13-11 XLG (7.2%) | 13.9% |
 
 Map-by-map win chance for TYLOO: Sunset 53.5%, Abyss 53.3%, Summit 52.6%, Ascent 52.0%, Haven 51.3%, Lotus 51.3%, Split 49.2%
+
+**Series projection** (expected totals over 2.50 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| splash | TYL | Duelist | 42.1 | 42.1 | 9.3 | 1.00 | 230 | 149 | 70% | 10.9 | 9.6 | 1.03 |
+| SiuFatBB | TYL | Flex | 38.4 | 38.0 | 16.7 | 1.01 | 210 | 138 | 72% | 6.4 | 6.1 | 1.02 |
+| Erv | TYL | Sentinel | 34.8 | 32.9 | 12.5 | 1.06 | 191 | 128 | 70% | 3.5 | 3.9 | 1.01 |
+| slowly | TYL | Controller | 35.0 | 34.3 | 18.7 | 1.02 | 192 | 129 | 72% | 3.0 | 3.3 | 1.00 |
+| Scales | TYL | Initiator | 34.1 | 36.1 | 22.6 | 0.95 | 188 | 126 | 73% | 3.9 | 4.3 | 0.95 |
+| Lysoar | XLG | Flex | 39.0 | 38.0 | 16.7 | 1.03 | 212 | 140 | 72% | 6.4 | 6.2 | 1.03 |
+| NoMan | XLG | Duelist | 42.0 | 42.3 | 9.3 | 0.99 | 229 | 149 | 70% | 10.7 | 9.8 | 1.02 |
+| Rarga | XLG | Initiator | 35.4 | 35.8 | 22.5 | 0.99 | 194 | 130 | 74% | 3.9 | 4.3 | 0.99 |
+| WsLeo | XLG | Sentinel | 33.4 | 33.6 | 12.4 | 0.99 | 184 | 124 | 69% | 3.3 | 4.0 | 0.96 |
+| happywei | XLG | Controller | 33.6 | 34.9 | 18.6 | 0.96 | 185 | 125 | 71% | 2.9 | 3.5 | 0.95 |
+
+Projected MVP: **splash** (TYL, 1.03 rating). Projected top fragger: **splash** (42.1 kills).
 
 ### TYLOO vs JD Gaming (Bo3)
 
@@ -2134,6 +4106,23 @@ Map-by-map win chance for TYLOO: Sunset 53.5%, Abyss 53.3%, Summit 52.6%, Ascent
 
 Map-by-map win chance for TYLOO: Abyss 57.1%, Sunset 57.1%, Summit 56.2%, Lotus 55.0%, Ascent 54.3%, Haven 54.3%, Split 50.7%
 
+**Series projection** (expected totals over 2.49 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| splash | TYL | Duelist | 42.5 | 42.0 | 9.0 | 1.01 | 233 | 150 | 70% | 11.5 | 9.8 | 1.04 |
+| Erv | TYL | Sentinel | 35.1 | 32.9 | 12.0 | 1.07 | 193 | 129 | 70% | 3.6 | 3.9 | 1.02 |
+| SiuFatBB | TYL | Flex | 37.3 | 36.8 | 18.9 | 1.01 | 204 | 135 | 73% | 5.4 | 5.3 | 1.01 |
+| slowly | TYL | Controller | 35.4 | 34.3 | 18.0 | 1.03 | 194 | 130 | 72% | 3.2 | 3.4 | 1.01 |
+| Scales | TYL | Initiator | 34.4 | 36.1 | 21.8 | 0.95 | 190 | 128 | 73% | 4.1 | 4.4 | 0.96 |
+| zhe | JDG | Duelist | 44.1 | 41.9 | 8.9 | 1.05 | 240 | 155 | 71% | 11.4 | 10.0 | 1.08 |
+| jkuro | JDG | Sentinel | 34.4 | 33.4 | 11.9 | 1.03 | 190 | 127 | 69% | 3.5 | 4.1 | 0.99 |
+| BerLIN | JDG | Initiator | 35.1 | 36.2 | 21.6 | 0.97 | 193 | 129 | 73% | 4.0 | 4.5 | 0.97 |
+| Yuicaw | JDG | Controller | 33.3 | 35.3 | 17.9 | 0.94 | 184 | 124 | 71% | 3.0 | 3.6 | 0.94 |
+| crownfisher | JDG | Flex | 35.1 | 37.9 | 18.7 | 0.93 | 194 | 129 | 72% | 5.0 | 5.6 | 0.94 |
+
+Projected MVP: **splash** (TYL, 1.04 rating). Projected top fragger: **zhe** (44.1 kills).
+
 ### T1 vs Xi Lai Gaming (Bo3)
 
 **Prediction: T1 wins 2-1** (series win 51.4%; this exact score 26.1%) — neutral venue
@@ -2150,6 +4139,23 @@ Map-by-map win chance for TYLOO: Abyss 57.1%, Sunset 57.1%, Summit 56.2%, Lotus 
 | 3 | Ascent | decider | 52.1% | T1 13-11 | T1 13-11 XLG (7.2%) | 13.9% |
 
 Map-by-map win chance for T1: Sunset 55.0%, Split 52.8%, Abyss 52.3%, Ascent 52.1%, Haven 51.4%, Lotus 47.8%, Summit 47.1%
+
+**Series projection** (expected totals over 2.50 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| BuZz | T1 | Duelist | 43.8 | 40.8 | 10.0 | 1.07 | 237 | 153 | 72% | 10.1 | 8.8 | 1.09 |
+| iZu | T1 | Flex | 42.2 | 39.5 | 12.4 | 1.07 | 228 | 149 | 72% | 8.5 | 7.6 | 1.07 |
+| Meteor | T1 | Sentinel | 35.5 | 32.1 | 13.3 | 1.10 | 194 | 130 | 71% | 3.2 | 3.5 | 1.04 |
+| Munchkin | T1 | Initiator | 32.8 | 35.9 | 24.1 | 0.91 | 182 | 123 | 73% | 3.4 | 4.1 | 0.93 |
+| stax | T1 | Controller | 29.9 | 35.6 | 19.9 | 0.84 | 168 | 114 | 70% | 2.4 | 3.4 | 0.86 |
+| Lysoar | XLG | Flex | 41.5 | 39.9 | 12.4 | 1.04 | 225 | 147 | 72% | 8.5 | 7.7 | 1.05 |
+| NoMan | XLG | Duelist | 41.4 | 41.7 | 10.0 | 0.99 | 226 | 147 | 70% | 9.7 | 9.0 | 1.01 |
+| Rarga | XLG | Initiator | 34.9 | 35.3 | 24.1 | 0.99 | 191 | 128 | 74% | 3.6 | 4.0 | 0.99 |
+| WsLeo | XLG | Sentinel | 32.9 | 33.1 | 13.3 | 1.00 | 182 | 123 | 69% | 3.0 | 3.7 | 0.96 |
+| happywei | XLG | Controller | 33.2 | 34.4 | 19.9 | 0.96 | 183 | 124 | 72% | 2.7 | 3.2 | 0.96 |
+
+Projected MVP: **BuZz** (T1, 1.09 rating). Projected top fragger: **BuZz** (43.8 kills).
 
 ### T1 vs JD Gaming (Bo3)
 
@@ -2168,6 +4174,23 @@ Map-by-map win chance for T1: Sunset 55.0%, Split 52.8%, Abyss 52.3%, Ascent 52.
 
 Map-by-map win chance for T1: Sunset 57.4%, Abyss 54.9%, Ascent 53.1%, Haven 53.1%, Split 53.1%, Lotus 50.3%, Summit 49.5%
 
+**Series projection** (expected totals over 2.50 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| BuZz | T1 | Duelist | 43.5 | 40.4 | 10.3 | 1.08 | 235 | 153 | 72% | 9.6 | 8.4 | 1.09 |
+| iZu | T1 | Flex | 43.5 | 40.4 | 10.3 | 1.08 | 235 | 153 | 72% | 9.6 | 8.4 | 1.09 |
+| Meteor | T1 | Sentinel | 35.3 | 31.8 | 13.7 | 1.11 | 193 | 130 | 71% | 3.0 | 3.4 | 1.04 |
+| Munchkin | T1 | Initiator | 32.6 | 35.6 | 24.9 | 0.92 | 181 | 122 | 73% | 3.2 | 3.9 | 0.93 |
+| stax | T1 | Controller | 29.7 | 35.2 | 20.6 | 0.84 | 167 | 114 | 70% | 2.3 | 3.2 | 0.86 |
+| zhe | JDG | Duelist | 43.1 | 40.7 | 10.2 | 1.06 | 233 | 152 | 71% | 9.5 | 8.5 | 1.07 |
+| jkuro | JDG | Sentinel | 33.6 | 32.5 | 13.7 | 1.03 | 185 | 125 | 70% | 2.9 | 3.5 | 0.99 |
+| BerLIN | JDG | Initiator | 34.3 | 35.2 | 24.8 | 0.97 | 188 | 127 | 74% | 3.4 | 3.8 | 0.97 |
+| crownfisher | JDG | Flex | 39.9 | 41.8 | 10.2 | 0.95 | 218 | 143 | 70% | 9.0 | 8.8 | 0.97 |
+| Yuicaw | JDG | Controller | 32.5 | 34.3 | 20.5 | 0.95 | 180 | 122 | 72% | 2.5 | 3.1 | 0.94 |
+
+Projected MVP: **BuZz** (T1, 1.09 rating). Projected top fragger: **BuZz** (43.5 kills).
+
 ### Xi Lai Gaming vs JD Gaming (Bo3)
 
 **Prediction: Xi Lai Gaming wins 2-0** (series win 52.9%; this exact score 26.8%) — neutral venue
@@ -2184,3 +4207,20 @@ Map-by-map win chance for T1: Sunset 57.4%, Abyss 54.9%, Ascent 53.1%, Haven 53.
 | 3 | Summit | decider | 52.3% | XLG 13-11 | XLG 13-11 JDG (7.2%) | 13.9% |
 
 Map-by-map win chance for Xi Lai Gaming: Abyss 52.6%, Lotus 52.5%, Sunset 52.5%, Summit 52.3%, Haven 51.7%, Ascent 51.0%, Split 50.3%
+
+**Series projection** (expected totals over 2.50 maps, weighted by the chance each map is played)
+
+| Player | Team | Role | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Lysoar | XLG | Flex | 39.3 | 37.8 | 16.7 | 1.04 | 213 | 141 | 73% | 6.5 | 6.1 | 1.04 |
+| NoMan | XLG | Duelist | 42.3 | 42.1 | 9.3 | 1.00 | 230 | 149 | 70% | 10.8 | 9.6 | 1.03 |
+| Rarga | XLG | Initiator | 35.6 | 35.6 | 22.6 | 1.00 | 195 | 130 | 74% | 4.0 | 4.2 | 1.00 |
+| WsLeo | XLG | Sentinel | 33.5 | 33.4 | 12.5 | 1.00 | 185 | 125 | 69% | 3.3 | 3.9 | 0.97 |
+| happywei | XLG | Controller | 33.8 | 34.8 | 18.7 | 0.97 | 186 | 125 | 72% | 3.0 | 3.4 | 0.96 |
+| zhe | JDG | Duelist | 44.2 | 41.5 | 9.3 | 1.06 | 239 | 155 | 71% | 11.1 | 9.5 | 1.09 |
+| jkuro | JDG | Sentinel | 34.4 | 33.2 | 12.4 | 1.04 | 189 | 127 | 70% | 3.4 | 3.9 | 0.99 |
+| BerLIN | JDG | Initiator | 35.1 | 35.9 | 22.5 | 0.98 | 193 | 129 | 73% | 3.9 | 4.3 | 0.98 |
+| crownfisher | JDG | Flex | 36.5 | 38.8 | 16.7 | 0.94 | 201 | 133 | 71% | 6.1 | 6.4 | 0.95 |
+| Yuicaw | JDG | Controller | 33.3 | 35.0 | 18.6 | 0.95 | 184 | 124 | 71% | 2.9 | 3.5 | 0.95 |
+
+Projected MVP: **Lysoar** (XLG, 1.04 rating). Projected top fragger: **zhe** (44.2 kills).

@@ -2,6 +2,7 @@ import unittest
 from itertools import permutations
 
 from vct_predictor.data import load_dataset
+from vct_predictor.players import PlayerModel, map_played_probs
 from vct_predictor.ratings import RatingModel
 from vct_predictor.scores import scoreline_distribution
 from vct_predictor.series import predict_series, series_score_distribution
@@ -72,6 +73,21 @@ class ModelTests(unittest.TestCase):
         self.assertEqual(sims["teams"]["Paper Rex"]["playoffs"], 1.0)
         for v in sims["teams"].values():
             self.assertAlmostEqual(sum(v["placements"][p] for p in PLACEMENTS), 1.0)
+
+    def test_player_projections_balance(self):
+        pm = PlayerModel(self.ds)
+        for team in self.ds.teams:
+            for m in self.model.pool:
+                agents = pm.assign_agents(team, m)
+                self.assertEqual(len(set(agents.values())), 5, f"{team} {m} duplicate agents")
+        pred = predict_series(self.model, "Paper Rex", "NRG", 3)
+        proj = pm.project_series(pred)
+        for mp in proj["maps"]:
+            self.assertAlmostEqual(sum(l.kills for l in mp["a"]), sum(l.deaths for l in mp["b"]), places=6)
+            self.assertAlmostEqual(sum(l.kills for l in mp["b"]), sum(l.deaths for l in mp["a"]), places=6)
+        self.assertEqual(len(proj["series"]), 10)
+        self.assertEqual(proj["mvp"].team, pred.favourite)
+        self.assertEqual(map_played_probs([0.5, 0.5, 0.5], 3), [1.0, 1.0, 0.5])
 
 
 if __name__ == "__main__":

@@ -109,6 +109,17 @@ details.match .body { padding: 0 14px 14px; }
 .roster span i { font-style: normal; color: var(--muted); font-family: var(--font-mono); font-size: 0.78rem; }
 .oddsbar { height: 10px; background: var(--sunken); border-radius: 3px; overflow: hidden; min-width: 60px; }
 .oddsbar span { display: block; height: 100%; background: var(--team-a); }
+.pstats td, .pstats th { padding: 6px 8px; }
+.pstats td.pl { font-weight: 600; white-space: nowrap; }
+.pstats tr.teamrow td { font: 600 0.72rem var(--font-mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); background: var(--sunken); }
+.pstats .ag { color: var(--muted); white-space: nowrap; }
+.mapseg { display: flex; flex-wrap: wrap; gap: 4px; margin: 10px 0; }
+.mapseg button { font: 600 0.8rem var(--font-body); padding: 6px 10px; border-radius: 4px; border: 1px solid var(--line); background: var(--surface); color: var(--muted); cursor: pointer; }
+.mapseg button[aria-pressed="true"] { background: var(--fg); color: var(--bg); border-color: var(--fg); }
+.mvp { display: flex; flex-wrap: wrap; gap: 8px 20px; font-size: 0.9rem; }
+.mvp strong { font-family: var(--font-display); font-size: 1.05rem; }
+.rtable td, .rtable th { padding: 5px 6px; font-size: 0.8rem; }
+.src { font: 500 0.66rem var(--font-mono); text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
 @media (max-width: 560px) {
   .verdict .score { font-size: 2rem; }
   details.match summary { grid-template-columns: 1fr auto; }
@@ -125,7 +136,7 @@ details.match .body { padding: 0 14px 14px; }
     <div>
       <div class="eyebrow" id="ev-eyebrow">Model</div>
       <h1>VCT Match Lab</h1>
-      <p id="ev-sub">Map-by-map predictions, vetoes and exact scores for the 16 Champions 2026 rosters.</p>
+      <p id="ev-sub">Map vetoes, exact scores, agent picks and projected player stats for the 16 Champions 2026 rosters.</p>
     </div>
     <div class="eyebrow" id="ev-asof"></div>
   </header>
@@ -163,7 +174,7 @@ details.match .body { padding: 0 14px 14px; }
   </section>
 
   <section id="view-teams" hidden>
-    <p class="note">Rating = season prior + roster adjustment + form from logged results. Map cells are Elo offsets: orange means a comfort pick, blue means a likely ban. Player numbers are analyst estimates on a VLR-rating-like scale.</p>
+    <p class="note">Rating = season prior + roster adjustment + form from logged results. Map cells are Elo offsets: orange means a comfort pick, blue means a likely ban. Player impact numbers are analyst estimates on a VLR-rating-like scale. Roles marked "reported" come from 2026 roster coverage; "estimated" roles are best guesses.</p>
     <div class="cards" id="teams-out"></div>
   </section>
 </div>
@@ -244,7 +255,46 @@ function renderSeries(d, opts = {}) {
     <div class="panel"><h3>Head-to-head</h3>
       <p class="note" style="margin:6px 0 0">Rating edge from H2H: <span class="num">${h2h >= 0 ? "+" : ""}${h2h}</span> Elo for ${esc(a)}. Ratings ${T[a] ? T[a].elo.toFixed(0) : "?"} vs ${T[b] ? T[b].elo.toFixed(0) : "?"}.</p>
       ${recs}</div>
+  </div>
+  ${renderPlayers(d, "pl-" + Math.random().toString(36).slice(2))}`;
+}
+
+function statRows(rows, team, label) {
+  return `<tr class="teamrow"><td colspan="12">${esc(label)}</td></tr>` + rows.slice().sort((x, y) => y[10] - x[10]).map(r =>
+    `<tr><td class="pl">${esc(r[0])}</td><td class="ag">${esc(r[1])}</td><td class="num">${r[2].toFixed(1)}</td><td class="num">${r[3].toFixed(1)}</td><td class="num">${r[4].toFixed(1)}</td>
+     <td class="num">${(r[2] / Math.max(r[3], 0.01)).toFixed(2)}</td><td class="num">${r[5]}</td><td class="num">${r[6]}</td><td class="num">${r[7]}%</td>
+     <td class="num">${r[8].toFixed(1)}</td><td class="num">${r[9].toFixed(1)}</td><td class="num"><strong>${r[10].toFixed(2)}</strong></td></tr>`).join("");
+}
+const STAT_HEAD = (second) => `<thead><tr><th>Player</th><th>${second}</th><th class="num">K</th><th class="num">D</th><th class="num">A</th><th class="num">K/D</th><th class="num">ACS</th><th class="num">ADR</th><th class="num">KAST</th><th class="num">FK</th><th class="num">FD</th><th class="num">Rating</th></tr></thead>`;
+
+function renderPlayers(d, uid) {
+  const P = d.players;
+  if (!P) return "";
+  const a = d.a, b = d.b;
+  const tabs = [`<button type="button" data-k="series" aria-pressed="true">Series projection</button>`]
+    .concat(P.maps.map((m, i) => `<button type="button" data-k="${i}" aria-pressed="false">${esc(m.map)} <span class="src">${pct(m.p)}</span></button>`)).join("");
+  const seriesA = P.series.filter(r => r[0]).map(r => [r[2], r[1]].concat(r.slice(4)));
+  const seriesB = P.series.filter(r => !r[0]).map(r => [r[2], r[1]].concat(r.slice(4)));
+  const views = [`<div data-v="series"><div class="tablewrap"><table class="pstats">${STAT_HEAD("Role")}<tbody>${statRows(seriesA, a, a)}${statRows(seriesB, b, b)}</tbody></table></div>
+      <p class="note" style="margin:8px 0 0">Expected totals over ${P.expMaps} maps, weighted by the chance each map is played.</p></div>`]
+    .concat(P.maps.map((m, i) => `<div data-v="${i}" hidden><div class="tablewrap"><table class="pstats">${STAT_HEAD("Agent")}<tbody>${statRows(m.a, a, a)}${statRows(m.b, b, b)}</tbody></table></div>
+      <p class="note" style="margin:8px 0 0">Projected box score if ${esc(m.map)} is played (${pct(m.p)} chance).</p></div>`)).join("");
+  const top = P.series.find(r => r[2] === P.top);
+  return `<div class="panel" style="margin-top:16px" id="${uid}">
+    <h3>Projected player stats</h3>
+    <div class="mvp" style="margin-top:6px"><span>MVP pick <strong>${esc(P.mvp)}</strong></span><span>Top fragger <strong>${esc(P.top)}</strong> <span class="note">${top ? top[4].toFixed(1) + " kills" : ""}</span></span></div>
+    <div class="mapseg" role="group" aria-label="Choose map">${tabs}</div>
+    ${views}
   </div>`;
+}
+function wirePlayers(root) {
+  root.querySelectorAll(".mapseg").forEach(seg => {
+    const panel = seg.parentElement;
+    seg.querySelectorAll("button").forEach(btn => btn.addEventListener("click", () => {
+      seg.querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", String(x === btn)));
+      panel.querySelectorAll("[data-v]").forEach(v => { v.hidden = v.dataset.v !== btn.dataset.k; });
+    }));
+  });
 }
 
 /* ---------- Match lab ---------- */
@@ -263,7 +313,9 @@ function renderLab() {
   }
   document.querySelectorAll("#bo-seg button").forEach(btn => btn.setAttribute("aria-pressed", String(+btn.dataset.bo === bo)));
   const d = DATA.matchups[`${selA.value}|${selB.value}|${bo}`];
-  document.getElementById("lab-out").innerHTML = renderSeries(d);
+  const out = document.getElementById("lab-out");
+  out.innerHTML = renderSeries(d);
+  wirePlayers(out);
   storeSet("vct-lab", {a: selA.value, b: selB.value, bo});
 }
 selA.addEventListener("change", renderLab);
@@ -293,7 +345,9 @@ renderLab();
     });
     html += `</div>`;
   }
-  document.getElementById("bracket-out").innerHTML = html;
+  const bo = document.getElementById("bracket-out");
+  bo.innerHTML = html;
+  wirePlayers(bo);
 })();
 
 /* ---------- Odds ---------- */
@@ -322,7 +376,14 @@ renderLab();
     return `<article class="card">
       <div class="head"><div><div class="eyebrow">#${i + 1} · ${esc(t.seed)}</div><h3>${esc(t.name)}</h3></div><div class="elo">${t.elo.toFixed(0)}</div></div>
       <div class="note mono">prior ${t.prior.toFixed(0)} · roster ${t.roster >= 0 ? "+" : ""}${t.roster.toFixed(0)} · form ${t.form >= 0 ? "+" : ""}${t.form.toFixed(0)}</div>
-      <div class="roster">${t.players.map(([n, v]) => `<span>${esc(n)} <i>${v.toFixed(2)}</i></span>`).join("")}</div>
+      <div class="tablewrap"><table class="rtable">
+        <thead><tr><th>Player</th><th>Role</th><th class="num">Impact</th><th>Agent pool</th></tr></thead>
+        <tbody>${t.players.map(([n, v, role, igl, agents, src]) => `<tr><td><strong>${esc(n)}</strong>${igl ? ' <span class="chip pred">IGL</span>' : ""}</td><td>${esc(role)} <span class="src">${esc(src)}</span></td><td class="num">${v.toFixed(2)}</td><td>${agents.map(esc).join(", ")}</td></tr>`).join("")}</tbody>
+      </table></div>
+      <details><summary class="note" style="cursor:pointer">Projected agents by map</summary>
+        <div class="tablewrap"><table class="rtable"><thead><tr><th>Player</th>${pool.map(m => `<th>${esc(m.slice(0, 3))}</th>`).join("")}</tr></thead>
+        <tbody>${t.players.map(p => `<tr><td>${esc(p[0])}</td>${p[6].map(ag => `<td>${esc(ag)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>
+      </details>
       <div class="maps7">${cells}</div>
       ${t.resume.length ? `<div class="note">${t.resume.map(esc).join(" · ")}</div>` : ""}
     </article>`;

@@ -7,6 +7,7 @@ from itertools import combinations, permutations
 from pathlib import Path
 
 from .data import Dataset
+from .players import PlayerModel, StatLine
 from .ratings import RatingModel
 from .series import SeriesPrediction, predict_series
 from .tournament import PLACEMENTS, Tournament, stage_label
@@ -20,7 +21,43 @@ def score_str(s: tuple[int, int]) -> str:
     return f"{s[0]}-{s[1]}"
 
 
-def format_series(pred: SeriesPrediction, model: RatingModel, title: str | None = None, show_pool: bool = True) -> str:
+STAT_HEADER = "| Player | Team | Agent | K | D | A | K/D | ACS | ADR | KAST | FK | FD | Rating |"
+STAT_RULE = "|---|---|---|---|---|---|---|---|---|---|---|---|---|"
+
+
+def _stat_row(ln: StatLine, tag: str, agent: str | None = None) -> str:
+    return (f"| {ln.player} | {tag} | {agent if agent is not None else ln.agent} | {ln.kills:.1f} | {ln.deaths:.1f} "
+            f"| {ln.assists:.1f} | {ln.kd:.2f} | {ln.acs:.0f} | {ln.adr:.0f} | {100 * ln.kast:.0f}% "
+            f"| {ln.fk:.1f} | {ln.fd:.1f} | {ln.rating:.2f} |")
+
+
+def format_players(pred: SeriesPrediction, players: PlayerModel, model: RatingModel, per_map: bool = True) -> str:
+    tag = lambda n: model.ratings[n].team.tag if n in model.ratings else n  # noqa: E731
+    proj = players.project_series(pred)
+    out = []
+    if per_map:
+        for mp in proj["maps"]:
+            out.append(f"**{mp['map']}: projected box score** (chance this map is played: {pct(mp['p_played'])})")
+            out.append("")
+            out += [STAT_HEADER, STAT_RULE]
+            for ln in sorted(mp["a"], key=lambda x: -x.rating) + sorted(mp["b"], key=lambda x: -x.rating):
+                out.append(_stat_row(ln, tag(ln.team)))
+            out.append("")
+    out.append(f"**Series projection** (expected totals over {proj['expected_maps']:.2f} maps, weighted by the chance each map is played)")
+    out.append("")
+    out += [STAT_HEADER.replace("| Agent ", "| Role "), STAT_RULE]
+    for ln in sorted(proj["series"], key=lambda x: (x.team != pred.team_a, -x.rating)):
+        out.append(_stat_row(ln, tag(ln.team), ln.role))
+    out.append("")
+    mvp, top = proj["mvp"], proj["top_fragger"]
+    out.append(f"Projected MVP: **{mvp.player}** ({tag(mvp.team)}, {mvp.rating:.2f} rating). "
+               f"Projected top fragger: **{top.player}** ({top.kills:.1f} kills).")
+    out.append("")
+    return "\n".join(out)
+
+
+def format_series(pred: SeriesPrediction, model: RatingModel, title: str | None = None, show_pool: bool = True,
+                  players: PlayerModel | None = None, player_detail: str = "full") -> str:
     a, b = pred.team_a, pred.team_b
     ta, tb = model.ratings.get(a), model.ratings.get(b)
     tag = lambda n: model.ratings[n].team.tag if n in model.ratings else n  # noqa: E731
@@ -61,6 +98,8 @@ def format_series(pred: SeriesPrediction, model: RatingModel, title: str | None 
         lines.append("Map-by-map win chance for " + a + ": " + ", ".join(
             f"{m} {pct(p)}" for m, p in sorted(pred.all_map_probs.items(), key=lambda kv: -kv[1])))
     lines.append("")
+    if players is not None and player_detail != "none":
+        lines.append(format_players(pred, players, model, per_map=player_detail == "full"))
     return "\n".join(lines)
 
 
@@ -76,7 +115,7 @@ def power_rankings_md(model: RatingModel) -> str:
     return "\n".join(lines)
 
 
-def team_profiles_md(ds: Dataset, model: RatingModel) -> str:
+def team_profiles_md(ds: Dataset, model: RatingModel, players: PlayerModel | None = None) -> str:
     out = ["# Team profiles", "",
            "Player impact values are analyst estimates on a VLR-rating-like scale (1.00 = average VCT starter). "
            "Map ratings are Elo offsets (positive = comfort map).", ""]
@@ -87,12 +126,31 @@ def team_profiles_md(ds: Dataset, model: RatingModel) -> str:
         out.append("")
         out.append(f"Rating **{r.elo:.0f}** (prior {r.prior:.0f}, roster {r.roster_adj:+.1f}, form {r.form:+.1f})")
         out.append("")
-        out.append("Roster: " + ", ".join(f"{p.name} ({p.impact:.2f})" for p in t.players)
-                   + (f" — bench: {', '.join(t.bench)}" if t.bench else ""))
+        if players is None:
+            out.append("Roster: " + ", ".join(f"{p.name} ({p.impact:.2f})" for p in t.players))
+        else:
+            out.append("| Player | Role | IGL | Impact | Agent pool | Role info |")
+            out.append("|---|---|---|---|---|---|")
+            for p in players.roster(t.name):
+                out.append(f"| {p.name} | {p.role} | {'yes' if p.igl else ''} | {p.impact:.2f} "
+                           f"| {', '.join(p.agents)} | {p.source} |")
+            out.append("")
+            out.append("Projected agents by map:")
+            out.append("")
+            out.append("| Player | " + " | ".join(pool) + " |")
+            out.append("|---|" + "---|" * len(pool))
+            by_map = {m: players.assign_agents(t.name, m) for m in pool}
+            for p in players.roster(t.name):
+                out.append(f"| {p.name} | " + " | ".join(by_map[m][p.name] for m in pool) + " |")
+        if t.bench:
+            out.append("")
+            out.append(f"Bench: {', '.join(t.bench)}")
         out.append("")
         if t.resume_2026:
             out.append("2026 résumé: " + "; ".join(t.resume_2026))
             out.append("")
+        out.append("Map ratings (Elo offset):")
+        out.append("")
         out.append("| " + " | ".join(pool) + " |")
         out.append("|" + "---|" * len(pool))
         out.append("| " + " | ".join(f"{r.map_ratings[m]:+.0f}" for m in pool) + " |")
@@ -103,7 +161,8 @@ def team_profiles_md(ds: Dataset, model: RatingModel) -> str:
     return "\n".join(out)
 
 
-def tournament_md(ds: Dataset, model: RatingModel, tour: Tournament, sims: dict) -> str:
+def tournament_md(ds: Dataset, model: RatingModel, tour: Tournament, sims: dict,
+                  players: PlayerModel | None = None) -> str:
     ev = ds.event
     log, placement = tour.chalk()
     out = [f"# {ev['name']} forecast — {ev['location']}", "",
@@ -148,11 +207,12 @@ def tournament_md(ds: Dataset, model: RatingModel, tour: Tournament, sims: dict)
             continue
         pred = tour.prediction(rec.team_a, rec.team_b, rec.bo)
         out.append(format_series(pred, model, f"{rec.match_id} — {stage_label(rec.match_id)}: "
-                                              f"{rec.team_a} vs {rec.team_b}"))
+                                              f"{rec.team_a} vs {rec.team_b}", players=players))
     return "\n".join(out)
 
 
-def all_matchups_md(ds: Dataset, model: RatingModel, bo: int, home_region: str | None = None) -> str:
+def all_matchups_md(ds: Dataset, model: RatingModel, bo: int, home_region: str | None = None,
+                    players: PlayerModel | None = None) -> str:
     teams = [r.team.name for r in model.power_rankings()]
     out = [f"# Every possible matchup — Bo{bo}", "",
            f"{len(teams) * (len(teams) - 1) // 2} pairings. Venue: "
@@ -171,7 +231,7 @@ def all_matchups_md(ds: Dataset, model: RatingModel, bo: int, home_region: str |
                    f"| {', '.join(m.map for m in p.maps)} |")
     out += ["", "## Full breakdowns", ""]
     for p in preds:
-        out.append(format_series(p, model))
+        out.append(format_series(p, model, players=players, player_detail="series"))
     return "\n".join(out)
 
 
@@ -196,9 +256,20 @@ def write_map_csv(model: RatingModel, path: Path, home_region: str | None = None
             w.writerow([a, b] + [f"{100 * model.map_win_prob(a, b, m, home_region):.1f}" for m in model.pool])
 
 
-def series_json(pred: SeriesPrediction) -> dict:
-    ps, pp = pred.predicted_score()
+def players_json(pred: SeriesPrediction, players: PlayerModel) -> dict:
+    proj = players.project_series(pred)
     return {
+        "maps": [{"map": m["map"], "p": round(m["p_played"], 3),
+                  "a": [ln.as_list() for ln in m["a"]], "b": [ln.as_list() for ln in m["b"]]} for m in proj["maps"]],
+        "series": [[ln.team == pred.team_a, ln.role] + ln.as_list() for ln in proj["series"]],
+        "mvp": proj["mvp"].player, "top": proj["top_fragger"].player, "expMaps": round(proj["expected_maps"], 2),
+    }
+
+
+def series_json(pred: SeriesPrediction, players: PlayerModel | None = None) -> dict:
+    ps, pp = pred.predicted_score()
+    extra = {"players": players_json(pred, players)} if players is not None else {}
+    return {**extra,
         "a": pred.team_a, "b": pred.team_b, "bo": pred.bo, "pA": round(pred.p_a, 4),
         "pred": list(ps), "predP": round(pp, 4), "h2h": round(pred.h2h_adj, 1), "records": pred.h2h_records,
         "dist": [[k[0], k[1], round(v, 4)] for k, v in sorted(pred.score_dist.items(), key=lambda kv: kv[0][1] - kv[0][0])],
@@ -210,27 +281,30 @@ def series_json(pred: SeriesPrediction) -> dict:
     }
 
 
-def dashboard_data(ds: Dataset, model: RatingModel, tour: Tournament, sims: dict) -> dict:
+def dashboard_data(ds: Dataset, model: RatingModel, tour: Tournament, sims: dict, players: PlayerModel) -> dict:
     """Everything the HTML dashboard needs: team profiles, all matchups (neutral), tournament forecast."""
     teams = [r.team.name for r in model.power_rankings()]
     matchups = {}
     for bo in (1, 3, 5):
         for a, b in permutations(teams, 2):
-            matchups[f"{a}|{b}|{bo}"] = series_json(predict_series(model, a, b, bo))
+            matchups[f"{a}|{b}|{bo}"] = series_json(predict_series(model, a, b, bo), players)
     log, placement = tour.chalk()
     bracket = []
     for rec in log:
         entry = {"id": rec.match_id, "stage": stage_label(rec.match_id), "a": rec.team_a, "b": rec.team_b,
                  "bo": rec.bo, "winner": rec.winner, "score": list(rec.score), "locked": rec.locked}
         if not rec.locked:
-            entry["detail"] = series_json(tour.prediction(rec.team_a, rec.team_b, rec.bo))
+            entry["detail"] = series_json(tour.prediction(rec.team_a, rec.team_b, rec.bo), players)
         bracket.append(entry)
     return {
         "event": {k: ds.event[k] for k in ("name", "location", "data_as_of", "map_pool", "host_region", "dates")},
         "teams": [{
             "name": r.team.name, "tag": r.team.tag, "region": r.team.region, "seed": r.team.seed,
             "elo": round(r.elo, 1), "prior": r.prior, "roster": round(r.roster_adj, 1), "form": round(r.form, 1),
-            "players": [[p.name, p.impact] for p in r.team.players], "resume": r.team.resume_2026,
+            "players": [[p.name, p.impact, p.role, p.igl, p.agents, p.source,
+                         [players.assign_agents(r.team.name, m)[p.name] for m in model.pool]]
+                        for p in players.roster(r.team.name)],
+            "resume": r.team.resume_2026,
             "maps": {m: round(v, 1) for m, v in r.map_ratings.items()},
         } for r in model.power_rankings()],
         "matchups": matchups,
@@ -245,6 +319,7 @@ def write_reports(ds: Dataset, model: RatingModel, out_dir: Path, sims_n: int = 
     out_dir.mkdir(parents=True, exist_ok=True)
     tour = Tournament(ds, model)
     sims = tour.simulate(sims_n)
+    players = PlayerModel(ds)
     written = []
 
     def w(name: str, text: str) -> None:
@@ -252,15 +327,15 @@ def write_reports(ds: Dataset, model: RatingModel, out_dir: Path, sims_n: int = 
         p.write_text(text, encoding="utf-8")
         written.append(p)
 
-    w("tournament_forecast.md", tournament_md(ds, model, tour, sims))
-    w("team_profiles.md", team_profiles_md(ds, model))
+    w("tournament_forecast.md", tournament_md(ds, model, tour, sims, players))
+    w("team_profiles.md", team_profiles_md(ds, model, players))
     for bo in (1, 3, 5):
-        w(f"all_matchups_bo{bo}.md", all_matchups_md(ds, model, bo))
+        w(f"all_matchups_bo{bo}.md", all_matchups_md(ds, model, bo, players=players))
         write_matrix_csv(model, bo, out_dir / f"matchup_matrix_bo{bo}.csv")
         written.append(out_dir / f"matchup_matrix_bo{bo}.csv")
     write_map_csv(model, out_dir / "map_win_probabilities.csv")
     written.append(out_dir / "map_win_probabilities.csv")
     template = (Path(__file__).parent / "dashboard_template.html").read_text(encoding="utf-8")
-    payload = json.dumps(dashboard_data(ds, model, tour, sims), separators=(",", ":")).replace("</", "<\\/")
+    payload = json.dumps(dashboard_data(ds, model, tour, sims, players), separators=(",", ":")).replace("</", "<\\/")
     w("dashboard.html", template.replace("/*__DATA__*/null", payload))
     return written

@@ -6,9 +6,27 @@ Player impact values are analyst estimates on a VLR-rating-like scale (1.00 = av
 
 Rating **1882** (prior 1850, roster +18.2, form +13.9)
 
-Roster: Asuna (1.18), bang (1.02), Cryocells (1.14), vora (1.03), Timotino (1.05)
+| Player | Role | IGL | Impact | Agent pool | Role info |
+|---|---|---|---|---|---|
+| Asuna | Flex |  | 1.18 | Raze, Neon, Breach, Fade, Yoru | reported |
+| bang | Controller |  | 1.02 | Omen, Viper, Astra, Clove, Sova | reported |
+| Cryocells | Sentinel |  | 1.14 | Chamber, Cypher, Killjoy, Jett | reported |
+| vora | Initiator | yes | 1.03 | Sova, Fade, KAY/O, Gekko | reported |
+| Timotino | Duelist |  | 1.05 | Jett, Raze, Neon, Yoru, Waylay | reported |
+
+Projected agents by map:
+
+| Player | Abyss | Ascent | Haven | Lotus | Split | Summit | Sunset |
+|---|---|---|---|---|---|---|---|
+| Asuna | Yoru | KAY/O | Breach | Raze | Raze | KAY/O | Fade |
+| bang | Viper | Omen | Omen | Omen | Viper | Clove | Clove |
+| Cryocells | Astra | Killjoy | Chamber | Viper | Astra | Chamber | Cypher |
+| vora | Sova | Sova | Sova | Fade | Fade | Sova | Gekko |
+| Timotino | Jett | Jett | Jett | Yoru | Yoru | Jett | Neon |
 
 2026 résumé: Esports World Cup 2026 champion (3-1 vs NRG); VCT Americas Stage 2 champion (3-2 vs LOUD)
+
+Map ratings (Elo offset):
 
 | Abyss | Ascent | Haven | Lotus | Split | Summit | Sunset |
 |---|---|---|---|---|---|---|
@@ -20,9 +38,27 @@ Logged series: 2026-07-12 Esports World Cup 2026 - Grand Final: 100 Thieves 3-1 
 
 Rating **1880** (prior 1860, roster +26.4, form -6.4)
 
-Roster: something (1.22), f0rsakeN (1.10), Jinggg (1.08), d4v41 (1.04), invy (1.05)
+| Player | Role | IGL | Impact | Agent pool | Role info |
+|---|---|---|---|---|---|
+| something | Duelist |  | 1.22 | Jett, Raze, Neon, Yoru, Chamber | reported |
+| f0rsakeN | Controller |  | 1.10 | Omen, Yoru, Viper, Astra, Clove | reported |
+| Jinggg | Flex |  | 1.08 | Raze, Yoru, Neon, Omen, Sage | reported |
+| d4v41 | Sentinel |  | 1.04 | Killjoy, Cypher, Vyse, Chamber, Fade | reported |
+| invy | Initiator |  | 1.05 | Sova, Fade, KAY/O, Breach, Cypher | reported |
+
+Projected agents by map:
+
+| Player | Abyss | Ascent | Haven | Lotus | Split | Summit | Sunset |
+|---|---|---|---|---|---|---|---|
+| something | Jett | Jett | Jett | Raze | Raze | Jett | Neon |
+| f0rsakeN | Viper | Omen | Omen | Omen | Viper | Clove | Clove |
+| Jinggg | Yoru | KAY/O | Breach | Yoru | Yoru | KAY/O | Gekko |
+| d4v41 | Astra | Killjoy | Chamber | Viper | Astra | Chamber | Cypher |
+| invy | Sova | Sova | Sova | Fade | Fade | Sova | Fade |
 
 2026 résumé: Masters Santiago runner-up; Masters London runner-up (2-3 vs Leviatan); Top-ranked player at Champions (something)
+
+Map ratings (Elo offset):
 
 | Abyss | Ascent | Haven | Lotus | Split | Summit | Sunset |
 |---|---|---|---|---|---|---|
@@ -34,9 +70,27 @@ Logged series: 2026-03-15 Masters Santiago - Grand Final: Nongshim RedForce 3-0 
 
 Rating **1865** (prior 1845, roster +8.0, form +12.1)
 
-Roster: brawk (1.07), mada (1.12), skuba (1.05), Ethan (1.03), keiko (1.08)
+| Player | Role | IGL | Impact | Agent pool | Role info |
+|---|---|---|---|---|---|
+| Ethan | Initiator | yes | 1.03 | Sova, Fade, Breach, KAY/O, Gekko | reported |
+| mada | Duelist |  | 1.12 | Jett, Raze, Neon, Yoru | estimated |
+| keiko | Flex |  | 1.08 | Raze, Yoru, Neon, Chamber, Jett | estimated |
+| skuba | Sentinel |  | 1.05 | Cypher, Killjoy, Viper, Vyse, Chamber | reported |
+| brawk | Controller |  | 1.07 | Omen, Viper, Astra, Clove, Breach | estimated |
+
+Projected agents by map:
+
+| Player | Abyss | Ascent | Haven | Lotus | Split | Summit | Sunset |
+|---|---|---|---|---|---|---|---|
+| Ethan | Sova | Sova | Sova | Fade | Fade | Sova | Fade |
+| mada | Jett | Jett | Jett | Raze | Raze | Jett | Neon |
+| keiko | Yoru | KAY/O | Breach | Yoru | Yoru | KAY/O | Gekko |
+| skuba | Viper | Killjoy | Chamber | Viper | Viper | Chamber | Cypher |
+| brawk | Astra | Omen | Omen | Omen | Astra | Clove | Clove |
 
 2026 résumé: Reigning world champions (Champions 2025); Esports World Cup 2026 runner-up; Masters London 9-10th
+
+Map ratings (Elo offset):
 
 | Abyss | Ascent | Haven | Lotus | Split | Summit | Sunset |
 |---|---|---|---|---|---|---|
@@ -48,9 +102,27 @@ Logged series: 2026-07-12 Esports World Cup 2026 - Grand Final: 100 Thieves 3-1 
 
 Rating **1825** (prior 1810, roster +1.8, form +13.4)
 
-Roster: SUYGETSU (1.07), Avez (1.04), dos9 (1.03), LewN (1.06), N4RRATE (1.08)
+| Player | Role | IGL | Impact | Agent pool | Role info |
+|---|---|---|---|---|---|
+| SUYGETSU | Sentinel |  | 1.07 | Killjoy, Cypher, Chamber, Vyse | reported |
+| Avez | Initiator |  | 1.04 | Sova, Fade, KAY/O, Breach, Gekko | reported |
+| dos9 | Controller |  | 1.03 | Omen, Viper, Astra, Clove | reported |
+| LewN | Duelist |  | 1.06 | Jett, Raze, Neon, Yoru | reported |
+| N4RRATE | Flex |  | 1.08 | Yoru, Raze, Gekko, Viper, Neon | estimated |
+
+Projected agents by map:
+
+| Player | Abyss | Ascent | Haven | Lotus | Split | Summit | Sunset |
+|---|---|---|---|---|---|---|---|
+| SUYGETSU | Astra | Killjoy | Chamber | Viper | Astra | Chamber | Cypher |
+| Avez | Sova | Sova | Sova | Fade | Fade | Sova | Fade |
+| dos9 | Viper | Omen | Omen | Omen | Viper | Clove | Clove |
+| LewN | Jett | Jett | Jett | Raze | Raze | Jett | Neon |
+| N4RRATE | Yoru | KAY/O | Breach | Yoru | Yoru | KAY/O | Gekko |
 
 2026 résumé: VCT EMEA Stage 2 champion (3-1 vs Team Liquid) - first VCT trophy in org history
+
+Map ratings (Elo offset):
 
 | Abyss | Ascent | Haven | Lotus | Split | Summit | Sunset |
 |---|---|---|---|---|---|---|
@@ -62,9 +134,27 @@ Logged series: 2026-08-30 VCT EMEA Stage 2 - Grand Final: Karmine Corp 3-1 Team 
 
 Rating **1822** (prior 1835, roster +4.2, form -17.5)
 
-Roster: Rb (1.06), Dambi (1.09), Francis (1.05), Ivy (1.07), Xross (1.05)
+| Player | Role | IGL | Impact | Agent pool | Role info |
+|---|---|---|---|---|---|
+| Dambi | Duelist |  | 1.09 | Jett, Raze, Neon, Yoru | estimated |
+| Rb | Initiator |  | 1.06 | Fade, Sova, KAY/O, Gekko | estimated |
+| Francis | Controller | yes | 1.05 | Omen, Astra, Viper, Clove | estimated |
+| Ivy | Flex |  | 1.07 | Yoru, Raze, Breach, Viper, Neon | estimated |
+| Xross | Sentinel |  | 1.05 | Killjoy, Cypher, Chamber, Vyse | estimated |
+
+Projected agents by map:
+
+| Player | Abyss | Ascent | Haven | Lotus | Split | Summit | Sunset |
+|---|---|---|---|---|---|---|---|
+| Dambi | Jett | Jett | Jett | Raze | Raze | Jett | Neon |
+| Rb | Sova | Sova | Sova | Fade | Fade | Sova | Fade |
+| Francis | Astra | Omen | Omen | Omen | Astra | Clove | Clove |
+| Ivy | Yoru | KAY/O | Breach | Yoru | Yoru | KAY/O | Gekko |
+| Xross | Viper | Killjoy | Chamber | Viper | Viper | Chamber | Cypher |
 
 2026 résumé: Masters Santiago champion (3-0 vs PRX); VCT Pacific Stage 2 runner-up (2-3 vs GE)
+
+Map ratings (Elo offset):
 
 | Abyss | Ascent | Haven | Lotus | Split | Summit | Sunset |
 |---|---|---|---|---|---|---|
@@ -76,9 +166,27 @@ Logged series: 2026-03-15 Masters Santiago - Grand Final: Nongshim RedForce 3-0 
 
 Rating **1816** (prior 1805, roster -2.4, form +13.1)
 
-Roster: Darker (1.06), DaviH (1.04), lukxo (1.07), erde (1.01), tkzin (1.03)
+| Player | Role | IGL | Impact | Agent pool | Role info |
+|---|---|---|---|---|---|
+| tkzin | Duelist |  | 1.03 | Jett, Raze, Neon, Yoru | reported |
+| erde | Flex | yes | 1.01 | KAY/O, Breach, Viper, Yoru, Sova | reported |
+| DaviH | Initiator |  | 1.04 | Sova, Fade, Gekko, KAY/O | reported |
+| Darker | Controller |  | 1.06 | Omen, Astra, Viper, Clove | reported |
+| lukxo | Sentinel |  | 1.07 | Killjoy, Cypher, Chamber, Vyse | reported |
+
+Projected agents by map:
+
+| Player | Abyss | Ascent | Haven | Lotus | Split | Summit | Sunset |
+|---|---|---|---|---|---|---|---|
+| tkzin | Jett | Jett | Jett | Raze | Raze | Jett | Neon |
+| erde | Yoru | KAY/O | Breach | Yoru | Yoru | KAY/O | Gekko |
+| DaviH | Sova | Sova | Sova | Fade | Fade | Sova | Fade |
+| Darker | Astra | Omen | Omen | Omen | Astra | Clove | Clove |
+| lukxo | Viper | Killjoy | Chamber | Viper | Viper | Chamber | Cypher |
 
 2026 résumé: VCT Americas Stage 2 runner-up (2-3 vs 100T)
+
+Map ratings (Elo offset):
 
 | Abyss | Ascent | Haven | Lotus | Split | Summit | Sunset |
 |---|---|---|---|---|---|---|
@@ -90,9 +198,27 @@ Logged series: 2026-09-06 VCT Americas Stage 2 - Grand Final: 100 Thieves 3-2 LO
 
 Rating **1804** (prior 1795, roster +1.8, form +7.2)
 
-Roster: Chronicle (1.04), Derke (1.10), PROFEK (1.05), Jamppi (1.04), Sayonara (1.05)
+| Player | Role | IGL | Impact | Agent pool | Role info |
+|---|---|---|---|---|---|
+| Derke | Duelist |  | 1.10 | Jett, Raze, Neon, Yoru | estimated |
+| Chronicle | Flex |  | 1.04 | Fade, KAY/O, Viper, Breach, Sova | estimated |
+| PROFEK | Controller |  | 1.05 | Omen, Astra, Viper, Clove | reported |
+| Jamppi | Sentinel | yes | 1.04 | Killjoy, Cypher, Chamber, Sova | reported |
+| Sayonara | Flex |  | 1.05 | Yoru, Raze, Gekko, Sova, Neon | estimated |
+
+Projected agents by map:
+
+| Player | Abyss | Ascent | Haven | Lotus | Split | Summit | Sunset |
+|---|---|---|---|---|---|---|---|
+| Derke | Jett | Jett | Jett | Raze | Raze | Jett | Neon |
+| Chronicle | Viper | KAY/O | Breach | Fade | Fade | KAY/O | Fade |
+| PROFEK | Astra | Omen | Omen | Omen | Astra | Clove | Clove |
+| Jamppi | Sova | Killjoy | Chamber | Viper | Viper | Chamber | Cypher |
+| Sayonara | Yoru | Sova | Sova | Yoru | Yoru | Sova | Gekko |
 
 2026 résumé: Masters London 4th
+
+Map ratings (Elo offset):
 
 | Abyss | Ascent | Haven | Lotus | Split | Summit | Sunset |
 |---|---|---|---|---|---|---|
@@ -104,9 +230,27 @@ Logged series: 2026-09-25 B-opener1: Global Esports 1-2 Team Vitality
 
 Rating **1799** (prior 1790, roster -0.6, form +9.3)
 
-Roster: BABYBAY (1.06), valyn (1.00), jawgemo (1.07), leaf (1.08), trent (1.03)
+| Player | Role | IGL | Impact | Agent pool | Role info |
+|---|---|---|---|---|---|
+| valyn | Controller | yes | 1.00 | Omen, Astra, Viper, Clove | estimated |
+| trent | Initiator |  | 1.03 | Sova, Fade, KAY/O, Breach, Gekko | reported |
+| leaf | Sentinel |  | 1.08 | Chamber, Killjoy, Cypher, Jett | reported |
+| jawgemo | Duelist |  | 1.07 | Raze, Neon, Yoru, Jett | estimated |
+| BABYBAY | Flex |  | 1.06 | Jett, Chamber, Vyse, Yoru, Viper | estimated |
+
+Projected agents by map:
+
+| Player | Abyss | Ascent | Haven | Lotus | Split | Summit | Sunset |
+|---|---|---|---|---|---|---|---|
+| valyn | Astra | Omen | Omen | Omen | Astra | Clove | Clove |
+| trent | Sova | Sova | Sova | Fade | Fade | Sova | Fade |
+| leaf | Jett | Killjoy | Chamber | Viper | Viper | Chamber | Cypher |
+| jawgemo | Yoru | Jett | Jett | Raze | Raze | Jett | Neon |
+| BABYBAY | Viper | KAY/O | Breach | Yoru | Yoru | KAY/O | Gekko |
 
 2026 résumé: Masters London 7-8th
+
+Map ratings (Elo offset):
 
 | Abyss | Ascent | Haven | Lotus | Split | Summit | Sunset |
 |---|---|---|---|---|---|---|
@@ -118,9 +262,27 @@ Logged series: 2026-09-26 C-opener1: TYLOO 0-2 G2 Esports; 2026-09-29 C-winners:
 
 Rating **1792** (prior 1790, roster -0.6, form +2.6)
 
-Roster: Autumn (1.04), UdoTan (1.07), Kr1stal (1.06), xavi8k (1.03), PatMen (1.04)
+| Player | Role | IGL | Impact | Agent pool | Role info |
+|---|---|---|---|---|---|
+| xavi8k | Sentinel | yes | 1.03 | Cypher, Killjoy, Vyse, Sova | reported |
+| PatMen | Initiator |  | 1.04 | Sova, Fade, KAY/O, Breach | reported |
+| Autumn | Controller |  | 1.04 | Omen, Viper, Astra, Clove | estimated |
+| UdoTan | Duelist |  | 1.07 | Jett, Raze, Neon, Yoru | estimated |
+| Kr1stal | Flex |  | 1.06 | Yoru, Raze, Chamber, Gekko, Jett | estimated |
+
+Projected agents by map:
+
+| Player | Abyss | Ascent | Haven | Lotus | Split | Summit | Sunset |
+|---|---|---|---|---|---|---|---|
+| xavi8k | Astra | Killjoy | Sova | Viper | Astra | Sova | Cypher |
+| PatMen | Sova | Sova | Breach | Fade | Fade | KAY/O | Fade |
+| Autumn | Viper | Omen | Omen | Omen | Viper | Clove | Clove |
+| UdoTan | Jett | Jett | Jett | Raze | Raze | Jett | Neon |
+| Kr1stal | Yoru | KAY/O | Chamber | Yoru | Yoru | Chamber | Gekko |
 
 2026 résumé: VCT Pacific Stage 2 champion (3-2 reverse sweep vs NS); Masters London 9-10th
+
+Map ratings (Elo offset):
 
 | Abyss | Ascent | Haven | Lotus | Split | Summit | Sunset |
 |---|---|---|---|---|---|---|
@@ -132,9 +294,27 @@ Logged series: 2026-09-06 VCT Pacific Stage 2 - Grand Final: Global Esports 3-2 
 
 Rating **1788** (prior 1780, roster -4.2, form +11.7)
 
-Roster: sociablEE (1.04), yetujey (1.03), xeus (1.06), KROSTALY (1.05), s0pp (1.00)
+| Player | Role | IGL | Impact | Agent pool | Role info |
+|---|---|---|---|---|---|
+| sociablEE | Initiator | yes | 1.04 | Sova, Fade, Breach, KAY/O | estimated |
+| s0pp | Duelist |  | 1.00 | Jett, Chamber, Neon, Raze | reported |
+| xeus | Duelist |  | 1.06 | Raze, Yoru, Neon, Jett | reported |
+| yetujey | Controller |  | 1.03 | Omen, Viper, Astra, Clove | estimated |
+| KROSTALY | Sentinel |  | 1.05 | Killjoy, Cypher, Vyse, Chamber, Gekko | estimated |
+
+Projected agents by map:
+
+| Player | Abyss | Ascent | Haven | Lotus | Split | Summit | Sunset |
+|---|---|---|---|---|---|---|---|
+| sociablEE | Sova | Sova | Sova | Fade | Fade | Sova | Fade |
+| s0pp | Jett | Jett | Jett | Raze | Raze | Jett | Neon |
+| xeus | Yoru | KAY/O | Breach | Yoru | Yoru | KAY/O | Gekko |
+| yetujey | Viper | Omen | Omen | Omen | Viper | Clove | Clove |
+| KROSTALY | Astra | Killjoy | Chamber | Viper | Astra | Chamber | Cypher |
 
 2026 résumé: Masters London 5-6th
+
+Map ratings (Elo offset):
 
 | Abyss | Ascent | Haven | Lotus | Split | Summit | Sunset |
 |---|---|---|---|---|---|---|
@@ -146,9 +326,27 @@ Logged series: 2026-09-24 A-opener2: JD Gaming 0-2 FUT Esports
 
 Rating **1779** (prior 1790, roster -3.6, form -7.1)
 
-Roster: nAts (1.03), trexx (1.04), Kicks (1.02), kamo (1.07), GSR (1.03)
+| Player | Role | IGL | Impact | Agent pool | Role info |
+|---|---|---|---|---|---|
+| nAts | Sentinel |  | 1.03 | Cypher, Viper, Killjoy, Astra | estimated |
+| kamo | Duelist |  | 1.07 | Jett, Raze, Neon, Yoru | estimated |
+| trexx | Flex |  | 1.04 | Yoru, Neon, Breach, KAY/O, Raze | estimated |
+| Kicks | Initiator |  | 1.02 | Fade, Sova, Gekko, KAY/O | estimated |
+| GSR | Controller |  | 1.03 | Omen, Astra, Clove, Viper | estimated |
+
+Projected agents by map:
+
+| Player | Abyss | Ascent | Haven | Lotus | Split | Summit | Sunset |
+|---|---|---|---|---|---|---|---|
+| nAts | Viper | Killjoy | Chamber | Viper | Viper | Chamber | Cypher |
+| kamo | Jett | Jett | Jett | Raze | Raze | Jett | Neon |
+| trexx | Yoru | KAY/O | Breach | Yoru | Yoru | KAY/O | Gekko |
+| Kicks | Sova | Sova | Sova | Fade | Fade | Sova | Fade |
+| GSR | Astra | Omen | Omen | Omen | Astra | Clove | Clove |
 
 2026 résumé: VCT EMEA Stage 2 runner-up (1-3 vs KC)
+
+Map ratings (Elo offset):
 
 | Abyss | Ascent | Haven | Lotus | Split | Summit | Sunset |
 |---|---|---|---|---|---|---|
@@ -160,9 +358,29 @@ Logged series: 2026-08-30 VCT EMEA Stage 2 - Grand Final: Karmine Corp 3-1 Team 
 
 Rating **1765** (prior 1780, roster -3.0, form -12.4)
 
-Roster: ZmjjKK (1.10), nobody (1.01), Smoggy (1.03), CHICHOO (1.04), stew (1.02) — bench: Jieni7
+| Player | Role | IGL | Impact | Agent pool | Role info |
+|---|---|---|---|---|---|
+| ZmjjKK | Duelist |  | 1.10 | Jett, Raze, Neon, Chamber | estimated |
+| CHICHOO | Controller |  | 1.04 | Omen, Viper, Astra, Clove | estimated |
+| nobody | Initiator |  | 1.01 | Sova, Fade, KAY/O, Breach | estimated |
+| Smoggy | Flex |  | 1.03 | Yoru, Raze, Gekko, Neon, Viper | estimated |
+| stew | Sentinel |  | 1.02 | Killjoy, Cypher, Vyse, Chamber | estimated |
+
+Projected agents by map:
+
+| Player | Abyss | Ascent | Haven | Lotus | Split | Summit | Sunset |
+|---|---|---|---|---|---|---|---|
+| ZmjjKK | Jett | Jett | Jett | Raze | Raze | Jett | Neon |
+| CHICHOO | Viper | Omen | Omen | Omen | Viper | Clove | Clove |
+| nobody | Sova | Sova | Sova | Fade | Fade | Sova | Fade |
+| Smoggy | Yoru | KAY/O | Breach | Yoru | Yoru | KAY/O | Gekko |
+| stew | Astra | Killjoy | Chamber | Viper | Astra | Chamber | Cypher |
+
+Bench: Jieni7
 
 2026 résumé: Masters London 3rd
+
+Map ratings (Elo offset):
 
 | Abyss | Ascent | Haven | Lotus | Split | Summit | Sunset |
 |---|---|---|---|---|---|---|
@@ -174,9 +392,27 @@ Logged series: 2026-09-26 B-opener2: LOUD 2-0 EDward Gaming
 
 Rating **1750** (prior 1760, roster -4.8, form -5.1)
 
-Roster: SiuFatBB (1.04), splash (1.03), Scales (1.02), slowly (1.05), Erv (1.03)
+| Player | Role | IGL | Impact | Agent pool | Role info |
+|---|---|---|---|---|---|
+| splash | Duelist |  | 1.03 | Jett, Raze, Neon, Yoru | estimated |
+| SiuFatBB | Flex |  | 1.04 | Yoru, Raze, Chamber, Neon, Gekko | estimated |
+| Scales | Initiator |  | 1.02 | Sova, Fade, KAY/O, Breach | estimated |
+| slowly | Controller |  | 1.05 | Omen, Viper, Astra, Clove | estimated |
+| Erv | Sentinel |  | 1.03 | Killjoy, Cypher, Vyse, Chamber | estimated |
+
+Projected agents by map:
+
+| Player | Abyss | Ascent | Haven | Lotus | Split | Summit | Sunset |
+|---|---|---|---|---|---|---|---|
+| splash | Jett | Jett | Jett | Raze | Raze | Jett | Neon |
+| SiuFatBB | Yoru | KAY/O | Breach | Yoru | Yoru | KAY/O | Gekko |
+| Scales | Sova | Sova | Sova | Fade | Fade | Sova | Fade |
+| slowly | Viper | Omen | Omen | Omen | Viper | Clove | Clove |
+| Erv | Astra | Killjoy | Chamber | Viper | Astra | Chamber | Cypher |
 
 2026 résumé: VCT China Stage 2 champion (3-1 vs JDG)
+
+Map ratings (Elo offset):
 
 | Abyss | Ascent | Haven | Lotus | Split | Summit | Sunset |
 |---|---|---|---|---|---|---|
@@ -188,9 +424,27 @@ Logged series: 2026-08-31 VCT China Stage 2 - Grand Final: TYLOO 3-1 JD Gaming; 
 
 Rating **1746** (prior 1760, roster -5.4, form -8.9)
 
-Roster: stax (0.98), BuZz (1.06), Munchkin (1.01), Meteor (1.05), iZu (1.06)
+| Player | Role | IGL | Impact | Agent pool | Role info |
+|---|---|---|---|---|---|
+| Munchkin | Initiator | yes | 1.01 | Sova, Fade, KAY/O, Breach | reported |
+| stax | Controller |  | 0.98 | Omen, Breach, Viper, Astra | estimated |
+| Meteor | Sentinel |  | 1.05 | Killjoy, Cypher, Chamber, Vyse | estimated |
+| BuZz | Duelist |  | 1.06 | Jett, Raze, Neon, Chamber | estimated |
+| iZu | Flex |  | 1.06 | Yoru, Raze, Gekko, Neon, Viper | estimated |
+
+Projected agents by map:
+
+| Player | Abyss | Ascent | Haven | Lotus | Split | Summit | Sunset |
+|---|---|---|---|---|---|---|---|
+| Munchkin | Sova | Sova | Sova | Fade | Fade | Sova | Fade |
+| stax | Viper | Omen | Omen | Omen | Viper | Clove | Clove |
+| Meteor | Astra | Killjoy | Chamber | Viper | Astra | Chamber | Cypher |
+| BuZz | Jett | Jett | Jett | Raze | Raze | Jett | Neon |
+| iZu | Yoru | KAY/O | Breach | Yoru | Yoru | KAY/O | Gekko |
 
 2026 résumé: Qualified via Championship Points
+
+Map ratings (Elo offset):
 
 | Abyss | Ascent | Haven | Lotus | Split | Summit | Sunset |
 |---|---|---|---|---|---|---|
@@ -202,9 +456,27 @@ Logged series: 2026-09-24 A-opener1: 100 Thieves 2-0 T1
 
 Rating **1736** (prior 1755, roster -8.4, form -10.7)
 
-Roster: NoMan (1.02), Rarga (1.03), WsLeo (1.00), Lysoar (1.04), happywei (1.02)
+| Player | Role | IGL | Impact | Agent pool | Role info |
+|---|---|---|---|---|---|
+| happywei | Controller |  | 1.02 | Omen, Viper, Astra, Clove | reported |
+| NoMan | Duelist |  | 1.02 | Jett, Raze, Neon, Yoru | estimated |
+| Rarga | Initiator |  | 1.03 | Sova, Fade, KAY/O, Breach | estimated |
+| Lysoar | Flex |  | 1.04 | Yoru, Raze, Gekko, Viper, Neon | estimated |
+| WsLeo | Sentinel |  | 1.00 | Killjoy, Cypher, Chamber, Vyse | estimated |
+
+Projected agents by map:
+
+| Player | Abyss | Ascent | Haven | Lotus | Split | Summit | Sunset |
+|---|---|---|---|---|---|---|---|
+| happywei | Viper | Omen | Omen | Omen | Viper | Clove | Clove |
+| NoMan | Jett | Jett | Jett | Raze | Raze | Jett | Neon |
+| Rarga | Sova | Sova | Sova | Fade | Fade | Sova | Fade |
+| Lysoar | Yoru | KAY/O | Breach | Yoru | Yoru | KAY/O | Gekko |
+| WsLeo | Astra | Killjoy | Chamber | Viper | Astra | Chamber | Cypher |
 
 2026 résumé: Masters London 5-6th
+
+Map ratings (Elo offset):
 
 | Abyss | Ascent | Haven | Lotus | Split | Summit | Sunset |
 |---|---|---|---|---|---|---|
@@ -216,9 +488,27 @@ Logged series: 2026-09-27 D-opener1: Karmine Corp 2-0 Xi Lai Gaming
 
 Rating **1724** (prior 1750, roster -7.2, form -19.0)
 
-Roster: jkuro (1.02), BerLIN (1.03), Yuicaw (1.02), zhe (1.05), crownfisher (1.01)
+| Player | Role | IGL | Impact | Agent pool | Role info |
+|---|---|---|---|---|---|
+| zhe | Duelist |  | 1.05 | Jett, Raze, Neon, Yoru | estimated |
+| BerLIN | Initiator |  | 1.03 | Sova, Fade, KAY/O, Gekko | estimated |
+| Yuicaw | Controller |  | 1.02 | Omen, Viper, Astra, Clove | estimated |
+| jkuro | Sentinel |  | 1.02 | Killjoy, Cypher, Chamber, Vyse | estimated |
+| crownfisher | Flex |  | 1.01 | Yoru, Raze, Breach, Viper, Neon | estimated |
+
+Projected agents by map:
+
+| Player | Abyss | Ascent | Haven | Lotus | Split | Summit | Sunset |
+|---|---|---|---|---|---|---|---|
+| zhe | Jett | Jett | Jett | Raze | Raze | Jett | Neon |
+| BerLIN | Sova | Sova | Sova | Fade | Fade | Sova | Fade |
+| Yuicaw | Viper | Omen | Omen | Omen | Viper | Clove | Clove |
+| jkuro | Astra | Killjoy | Chamber | Viper | Astra | Chamber | Cypher |
+| crownfisher | Yoru | KAY/O | Breach | Yoru | Yoru | KAY/O | Gekko |
 
 2026 résumé: VCT China Stage 2 runner-up (1-3 vs TYLOO)
+
+Map ratings (Elo offset):
 
 | Abyss | Ascent | Haven | Lotus | Split | Summit | Sunset |
 |---|---|---|---|---|---|---|

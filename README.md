@@ -10,6 +10,9 @@ For every match it produces:
 - **Map-by-map win probability** and the **predicted exact map score** (e.g. `PRX 13-10`), expected rounds and overtime chance
 - **Series correct score**, with the full probability of every scoreline (2-0 / 2-1 / 1-2 / 0-2, or the Bo5 equivalents)
 - **Head-to-head** records that fed into the prediction
+- **Every current player**: role, IGL, agent pool, the agent each player is projected to play on each map, and a
+  **projected box score** for every map and the whole series (K / D / A, K/D, ACS, ADR, KAST, first kills, first deaths,
+  rating), plus a projected MVP and top fragger
 - For the event: the **full predicted bracket** (every remaining group and playoff match with correct score), **Monte Carlo title odds**, and the **probability of every possible pairing**
 
 No dependencies: pure Python 3.10+.
@@ -22,10 +25,11 @@ python -m vct_predictor match PRX NRG --bo 5
 python -m vct_predictor match "Team Liquid" KC --bo 3 --pool Ascent Haven Lotus Split Sunset
 python -m vct_predictor match EDG T1 --bo 1 --home China      # Chinese crowd advantage
 python -m vct_predictor match G2 PRX --no-h2h                 # ignore head-to-head history
+python -m vct_predictor match VIT FUT --players series        # series-level player stats only (or: none)
 
 # Teams
 python -m vct_predictor rankings
-python -m vct_predictor team "Paper Rex"
+python -m vct_predictor team "Paper Rex"      # roster, roles, agent pools, agents by map, map ratings
 
 # Every pairing at once (120 matchups)
 python -m vct_predictor matrix --bo 3
@@ -47,12 +51,12 @@ Team names accept the full name, the tag (`PRX`, `100T`, `KC`, `NS`, `XLG`…), 
 
 | File | What's in it |
 |---|---|
-| `dashboard.html` | Interactive dashboard: match lab (all 240 ordered pairings × Bo1/Bo3/Bo5), predicted bracket, title odds, team sheets |
-| `tournament_forecast.md` | Title odds, power rankings, predicted bracket with correct scores, possible opponents, full breakdown of each predicted match |
-| `all_matchups_bo1.md` / `bo3` / `bo5` | Every one of the 120 matchups with veto, map scores and series score odds |
+| `dashboard.html` | Interactive dashboard: match lab (all 240 ordered pairings × Bo1/Bo3/Bo5, with player box scores per map), predicted bracket, title odds, team sheets |
+| `tournament_forecast.md` | Title odds, power rankings, predicted bracket with correct scores, possible opponents, full breakdown of each predicted match including per-map player box scores |
+| `all_matchups_bo1.md` / `bo3` / `bo5` | Every one of the 120 matchups with veto, map scores, series score odds and series-level player projections |
 | `matchup_matrix_bo*.csv` | Row-team win % against column team |
 | `map_win_probabilities.csv` | Map-level win % for every ordered pair on all 7 maps |
-| `team_profiles.md` | Rosters, rating breakdown, map ratings, logged series |
+| `team_profiles.md` | Rosters with roles, IGLs, agent pools, projected agents on every map, rating breakdown, map ratings, logged series |
 
 ## How the model works
 
@@ -74,7 +78,13 @@ Team names accept the full name, the tag (`PRX`, `100T`, `KC`, `NS`, `XLG`…), 
    reproduces the map win probability. It varies from map to map (momentum and economy swings), which gives realistic blowout and
    overtime frequencies (~13% OT on even maps).
 8. **Series score.** Exact distribution from the map probabilities in veto order.
-9. **Tournament.** GSL groups, then an 8-team double-elimination playoff (Bo3; lower final and grand final Bo5). Real results are locked.
+9. **Players.** `data/players.json` holds each player's role, IGL flag and agent pool, plus a standard composition for every map.
+   Agents are assigned per map by matching the comp to each player's pool (flex players take the role of the agent they are on).
+   Box scores come from the expected rounds. Team kills per round rise with the share of rounds won, and one team's kills equal the
+   other's deaths, so box scores always balance. Kills, deaths, assists and first kills/deaths are shared out by role × player impact.
+   ACS, ADR, KAST and rating are derived from those per-round rates. The series projection weights each map by the chance it is played.
+   The MVP is the highest-rated player on the predicted winner.
+10. **Tournament.** GSL groups, then an 8-team double-elimination playoff (Bo3; lower final and grand final Bo5). Real results are locked.
    The chalk bracket always advances the favourite with its most likely score. The Monte Carlo run (20,000 simulations) gives placement odds.
 
 ## Keeping it up to date
@@ -82,7 +92,8 @@ Team names accept the full name, the tag (`PRX`, `100T`, `KC`, `NS`, `XLG`…), 
 - **New Champions result:** add it to `data/champions_results.json` (match id such as `A-winners`, `UBQF2`, `GF`) with
   the series score and, optionally, map scores. Then run `python -m vct_predictor report`.
 - **Results from other events:** add them to `data/history.json`. They update form, map ratings and head-to-head.
-- **Roster change:** edit `players` in `data/teams.json`.
+- **Roster change:** edit `players` in `data/teams.json` (impact) and the matching entry in `data/players.json` (role, agents).
+- **Meta shift:** edit `map_comps` in `data/players.json`.
 - **Playoff seeding:** the exact quarterfinal cross-over wasn't confirmed at data time. The default is A1-C2, B1-D2, C1-A2, D1-B2;
   change it in `data/event.json` → `playoff_upper_quarterfinals`.
 
@@ -93,7 +104,8 @@ had won their winners' matches to qualify for playoffs.
 
 - Teams, groups, rosters, map pool, 2026 event results and Champions results were collected from public coverage
   (VLR.gg, Liquipedia, THESPIKE, Sheep Esports, esports.gg, Red Bull, GosuGamers).
-- **Player impact numbers, season priors and map offsets are analyst estimates, not scraped stats.** Stat sites could not be
+- **Player impact numbers, season priors, map offsets, agent pools and projected player stats are model estimates, not scraped stats.**
+  Roles marked `reported` come from 2026 roster coverage; `estimated` roles are best guesses. Stat sites could not be
   reached from the build environment. They are calibrated to known 2026 results and map picks, and are meant to be edited.
 - Some logged dates are approximate (e.g. Masters Santiago and China Stage 2 finals). This only affects recency weighting slightly.
 - Esports is high-variance: treat outputs as probabilities, not certainties.

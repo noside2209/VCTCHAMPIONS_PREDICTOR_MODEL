@@ -17,6 +17,7 @@ from itertools import combinations
 from pathlib import Path
 
 from .data import load_dataset
+from .players import PlayerModel
 from .ratings import RatingModel
 from .report import (format_series, pct, power_rankings_md, team_profiles_md, tournament_md,
                      write_reports)
@@ -39,6 +40,8 @@ def main(argv: list[str] | None = None) -> None:
     m.add_argument("--pool", nargs="+", default=None, help="custom map pool (default: current 7-map pool)")
     m.add_argument("--home", default=None, help="region with crowd advantage, e.g. China / EMEA (default: neutral)")
     m.add_argument("--no-h2h", action="store_true", help="ignore head-to-head adjustment")
+    m.add_argument("--players", choices=("full", "series", "none"), default="full",
+                   help="player projections: per-map box scores + series (full), series only, or none")
 
     sub.add_parser("rankings", help="power rankings")
     t = sub.add_parser("team", help="team profile")
@@ -66,17 +69,17 @@ def main(argv: list[str] | None = None) -> None:
             known = {x.lower(): x for x in model.pool}
             pool = [known.get(p.lower(), p.title()) for p in pool]
         pred = predict_series(model, a, b, args.bo, pool, args.home, not args.no_h2h)
-        print(format_series(pred, model))
+        print(format_series(pred, model, players=PlayerModel(ds), player_detail=args.players))
     elif args.cmd == "rankings":
         print(power_rankings_md(model))
     elif args.cmd == "team":
         name = ds.find_team(args.name).name
-        full = team_profiles_md(ds, model)
+        full = team_profiles_md(ds, model, PlayerModel(ds))
         section = full.split(f"## {name} (")[1].split("\n## ")[0]
         print(f"## {name} (" + section)
     elif args.cmd == "tournament":
         tour = Tournament(ds, model)
-        print(tournament_md(ds, model, tour, tour.simulate(args.sims)))
+        print(tournament_md(ds, model, tour, tour.simulate(args.sims), PlayerModel(ds)))
     elif args.cmd == "matrix":
         teams = [r.team.name for r in model.power_rankings()]
         for x, y in combinations(teams, 2):
