@@ -109,6 +109,31 @@ class ModelTests(unittest.TestCase):
         for m in self.model.pool:
             self.assertIn(pm.assign_agents("LOUD", m)["tkzin"], ("Neon", "Waylay"))
 
+    def test_simulations_vary_and_stay_valid(self):
+        import random
+        from collections import Counter
+        from vct_predictor.simulate import simulate_series, simulate_tournament
+        pm = PlayerModel(self.ds)
+        rng = random.Random(11)
+        results, blowouts, maps_played = Counter(), 0, 0
+        for _ in range(200):
+            s = simulate_series(self.model, "Paper Rex", "NRG", 3, rng=rng, players=pm)
+            results[s.score] += 1
+            for m in s.maps:
+                maps_played += 1
+                a, b = m.score
+                self.assertTrue(max(a, b) >= 13 and abs(a - b) >= 2)
+                self.assertTrue(max(a, b) == 13 or abs(a - b) == 2)
+                blowouts += min(a, b) <= 5
+                rounds = a + b
+                self.assertEqual(sum(x.kills for x in m.lines_a), sum(x.deaths for x in m.lines_b))
+                self.assertTrue(all(x.deaths <= rounds for x in m.lines_a + m.lines_b))
+        self.assertEqual(len(results), 4)  # 2-0, 2-1, 1-2 and 0-2 all happen
+        self.assertGreater(blowouts / maps_played, 0.12)
+        log, placement, _ = simulate_tournament(Tournament(self.ds, self.model), random.Random(5))
+        self.assertEqual(sorted(placement), sorted(self.ds.teams))
+        self.assertEqual({r.match_id: r.winner for r in log}["C-winners"], "Paper Rex")
+
 
 if __name__ == "__main__":
     unittest.main()

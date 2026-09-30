@@ -148,34 +148,65 @@ class PlayerModel:
         return self.agent_roles.get(agent, player.role) if player.role == "Flex" else player.role
 
     # ------------------------------------------------------------ stats
-    def project_map(self, team: str, opp: str, map_name: str, rounds_for: float, rounds_against: float) -> list[StatLine]:
-        rounds = rounds_for + rounds_against
-        share = rounds_for / rounds
-        team_k = 3.35 + 1.6 * (share - 0.5)
-        team_d = 3.35 + 1.6 * (0.5 - share)
-        team_a = 1.45 + 0.5 * (share - 0.5)
-        team_fk = 0.5 + 0.6 * (share - 0.5)
-        team_fd = 1.0 - team_fk
+    def weights(self, team: str, map_name: str) -> list[dict]:
+        """Each player's agent, role and share of the team's kills/deaths/assists/first kills/first deaths."""
         roster = self.players[team]
         agents = self.assign_agents(team, map_name)
         roles = {p.name: self.effective_role(p, agents[p.name]) for p in roster}
         rates = {p.name: self.base_rates(p, roles[p.name]) for p in roster}
-        norm = lambda key: {k: v[key] / sum(r[key] for r in rates.values()) for k, v in rates.items()}  # noqa: E731
-        kw, dw, aw, ew, fdw = norm("kpr"), norm("dpr"), norm("apr"), norm("fkpr"), norm("fdpr")
+        tot = {k: sum(r[k] for r in rates.values()) for k in ("kpr", "dpr", "apr", "fkpr", "fdpr")}
+        return [{"name": p.name, "agent": agents[p.name], "role": roles[p.name],
+                 **{k: rates[p.name][k] / tot[k] for k in tot}} for p in roster]
+
+    def project_map(self, team: str, opp: str, map_name: str, rounds_for: float, rounds_against: float) -> list[StatLine]:
+        rounds = rounds_for + rounds_against
+        share = rounds_for / rounds
+        tk, td, ta, tfk, tfd = team_rates(share)
         out = []
-        for p in roster:
-            kpr = team_k * kw[p.name]
-            dpr = team_d * dw[p.name]
-            apr = team_a * aw[p.name]
-            fkpr = team_fk * ew[p.name]
-            fdpr = team_fd * fdw[p.name]
-            adr = 30 + 155 * kpr
-            acs = 30 + 250 * kpr + 40 * fkpr
-            kast = min(0.92, max(0.5, 0.55 + 0.25 * kpr + 0.22 * apr - 0.10 * dpr + 0.08 * (share - 0.5)))
-            rating = 1.0 + 1.1 * (kpr - 0.68) - 0.9 * (dpr - 0.68) + 0.4 * (kast - 0.72) + 0.8 * (fkpr - fdpr)
-            out.append(StatLine(p.name, team, roles[p.name], agents[p.name], rounds, kpr * rounds, dpr * rounds,
+        for w in self.weights(team, map_name):
+            kpr, dpr, apr, fkpr, fdpr = tk * w["kpr"], td * w["dpr"], ta * w["apr"], tfk * w["fkpr"], tfd * w["fdpr"]
+            acs, adr, kast, rating = derived_stats(kpr, dpr, apr, fkpr, fdpr, share)
+            out.append(StatLine(w["name"], team, w["role"], w["agent"], rounds, kpr * rounds, dpr * rounds,
                                 apr * rounds, fkpr * rounds, fdpr * rounds, acs, adr, kast, rating))
         return out
+
+    def sample_map(self, team_a: str, team_b: str, map_name: str, ra: int, rb: int, rng) -> tuple[list[StatLine], list[StatLine]]:
+        """One random box score for a played map with final score ra-rb (whole numbers, both sides balance)."""
+        rounds = ra + rb
+        share_a = ra / rounds
+        wa, wb = self.weights(team_a, map_name), self.weights(team_b, map_name)
+
+        def noisy_total(per_round: float) -> int:
+            # At most 5 deaths per round per team; real maps top out well below that.
+            mean = per_round * rounds
+            return min(round(4.6 * rounds), max(0, round(rng.gauss(mean, 1.2 * mean ** 0.5))))
+
+        kills_a = noisy_total(team_rates(share_a)[0])
+        kills_b = noisy_total(team_rates(1 - share_a)[0])
+        assists_a = noisy_total(team_rates(share_a)[2])
+        assists_b = noisy_total(team_rates(1 - share_a)[2])
+        fk_a = min(rounds, max(0, round(rng.gauss(rounds * team_rates(share_a)[3], 0.5 * rounds ** 0.5))))
+        fk_b = rounds - fk_a
+        side = []
+        for team, w, k, d, a, fk, fd, rf in ((team_a, wa, kills_a, kills_b, assists_a, fk_a, fk_b, ra),
+                                               (team_b, wb, kills_b, kills_a, assists_b, fk_b, fk_a, rb)):
+            ks = split_total(k, [x["kpr"] for x in w], rng, 2 * rounds)
+            ds = split_total(d, [x["dpr"] for x in w], rng, rounds)
+            as_ = split_total(a, [x["apr"] for x in w], rng, 2 * rounds)
+            fks = split_total(fk, [x["fkpr"] for x in w], rng, rounds)
+            fds = split_total(fd, [x["fdpr"] for x in w], rng, rounds)
+            share = rf / rounds
+            lines = []
+            for i, x in enumerate(w):
+                kpr, dpr, apr, fkpr, fdpr = (ks[i] / rounds, ds[i] / rounds, as_[i] / rounds,
+                                             fks[i] / rounds, fds[i] / rounds)
+                acs, adr, kast, rating = derived_stats(kpr, dpr, apr, fkpr, fdpr, share)
+                adr *= rng.gauss(1.0, 0.05)
+                kast = min(0.95, max(0.4, kast + rng.gauss(0, 0.03)))
+                lines.append(StatLine(x["name"], team, x["role"], x["agent"], rounds, ks[i], ds[i], as_[i],
+                                      fks[i], fds[i], acs, adr, kast, rating))
+            side.append(lines)
+        return side[0], side[1]
 
     def project_series(self, pred: SeriesPrediction) -> dict:
         """Per-map stat lines for both teams plus a series projection weighted by P(map is played)."""
@@ -215,6 +246,43 @@ class PlayerModel:
 
     def roster(self, team: str) -> list[PlayerInfo]:
         return self.players[team]
+
+
+def team_rates(share: float) -> tuple[float, float, float, float, float]:
+    """Team kills, deaths, assists, first kills and first deaths per round for a given share of rounds won."""
+    fk = 0.5 + 0.6 * (share - 0.5)
+    return 3.35 + 1.6 * (share - 0.5), 3.35 + 1.6 * (0.5 - share), 1.45 + 0.5 * (share - 0.5), fk, 1.0 - fk
+
+
+def derived_stats(kpr: float, dpr: float, apr: float, fkpr: float, fdpr: float, share: float):
+    """ACS, ADR, KAST and rating from per-round rates (calibrated to typical VCT box scores)."""
+    adr = 30 + 155 * kpr
+    acs = 30 + 250 * kpr + 40 * fkpr
+    kast = min(0.92, max(0.5, 0.55 + 0.25 * kpr + 0.22 * apr - 0.10 * dpr + 0.08 * (share - 0.5)))
+    rating = 1.0 + 1.1 * (kpr - 0.68) - 0.9 * (dpr - 0.68) + 0.4 * (kast - 0.72) + 0.8 * (fkpr - fdpr)
+    return acs, adr, kast, rating
+
+
+def split_total(total: int, weights: list[float], rng, cap: int | None = None, spread: float = 0.3) -> list[int]:
+    """Share a whole-number team total between players: weight x random form, rounded so it sums exactly.
+
+    ``cap`` limits any one player (e.g. deaths can't exceed rounds played); the excess goes to teammates."""
+    noisy = [w * rng.lognormvariate(0, spread) for w in weights]
+    s = sum(noisy)
+    raw = [total * n / s for n in noisy]
+    out = [int(x) for x in raw]
+    for i in sorted(range(len(raw)), key=lambda i: raw[i] - out[i], reverse=True)[: total - sum(out)]:
+        out[i] += 1
+    if cap is not None:
+        excess = sum(max(0, v - cap) for v in out)
+        out = [min(v, cap) for v in out]
+        while excess > 0:
+            open_ = [i for i, v in enumerate(out) if v < cap]
+            if not open_:
+                break
+            out[max(open_, key=lambda i: noisy[i])] += 1
+            excess -= 1
+    return out
 
 
 def map_played_probs(map_probs: list[float], bo: int) -> list[float]:

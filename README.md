@@ -47,6 +47,25 @@ python -m unittest discover -s tests -t .
 Team names accept the full name, the tag (`PRX`, `100T`, `KC`, `NS`, `XLG`…), or an unambiguous fragment.
 **Team A** (the first team you name) starts the veto.
 
+## Simulate: random play-outs
+
+The prediction shows the single most likely result. To see the range of what can happen, simulate:
+
+```bash
+python -m vct_predictor simulate PRX NRG --bo 5              # one random play-out with box scores
+python -m vct_predictor simulate PRX NRG --bo 3 --runs 10    # ten runs + a tally of the results
+python -m vct_predictor simulate PRX NRG --seed 42           # same seed = same run, for sharing
+python -m vct_predictor simulate-tournament --runs 3         # the rest of Champions played out at random
+```
+
+Each run samples the veto, since teams don't always make the textbook call when two maps are close. It plays every map
+round by round, and each map gets its own form swing, which is where blowouts and comebacks come from. It then draws
+each player's whole-number box score from their role and impact, with random form. Upsets, 13-2s and double-overtime
+maps turn up about as often as the model thinks they should.
+
+The dashboard has the same engine behind the **Simulate match** / **Run 100** buttons (match lab) and
+**Simulate tournament** / **Run 100** (bracket tab). Tallies show how the runs compare to the model's odds.
+
 ## Generated reports (`reports/`)
 
 | File | What's in it |
@@ -75,8 +94,8 @@ Team names accept the full name, the tag (`PRX`, `100T`, `KC`, `NS`, `XLG`…), 
 6. **Veto.** Official VCT formats (Bo3: ban-ban-pick-pick-ban-ban-decider; Bo5: ban-ban-pick-pick-pick-pick-decider;
    Bo1: six bans). Each team bans its worst remaining map and picks its best.
 7. **Exact map scores.** A round-level model: first to 13, win-by-two overtime. The per-round win rate is solved so the model
-   reproduces the map win probability. It varies from map to map (momentum and economy swings), which gives realistic blowout and
-   overtime frequencies (~13% OT on even maps).
+   reproduces the map win probability. It swings from map to map (sd 0.11, for momentum, economy and form), which gives
+   realistic frequencies: roughly 25–35% of maps are blowouts (loser on 5 or fewer rounds) and ~10% go to overtime.
 8. **Series score.** Exact distribution from the map probabilities in veto order.
 9. **Players.** `data/players.json` holds each player's role, IGL flag and agent pool, plus a standard composition for every map.
    Agents are assigned per map by matching the comp to each player's pool (flex players take the role of the agent they are on).

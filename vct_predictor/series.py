@@ -4,7 +4,7 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 
 from .ratings import RatingModel
-from .scores import expected_rounds, most_likely_score, overtime_prob
+from .scores import blowout_prob, expected_rounds, most_likely_score, overtime_prob
 from .veto import VetoStep, run_veto
 
 
@@ -19,6 +19,7 @@ class MapPrediction:
     fav_score: tuple[int, int]  # most likely score given the map favourite wins
     expected_rounds: tuple[float, float]
     p_overtime: float
+    p_blowout: float = 0.0
 
 
 @dataclass
@@ -88,7 +89,7 @@ def predict_series(
         p = probs[m]
         (ls, lp) = most_likely_score(p)
         fav, _ = most_likely_score(p, winner_is_a=p >= 0.5)
-        maps.append(MapPrediction(i, m, by, p, ls, lp, fav, expected_rounds(p), overtime_prob(p)))
+        maps.append(MapPrediction(i, m, by, p, ls, lp, fav, expected_rounds(p), overtime_prob(p), blowout_prob(p)))
     dist = series_score_distribution([mp.p_a for mp in maps], bo)
     p_a = sum(v for (a, b), v in dist.items() if a > b)
     return SeriesPrediction(

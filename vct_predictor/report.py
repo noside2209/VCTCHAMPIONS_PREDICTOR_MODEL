@@ -25,10 +25,14 @@ STAT_HEADER = "| Player | Team | Agent | K | D | A | K/D | ACS | ADR | KAST | FK
 STAT_RULE = "|---|---|---|---|---|---|---|---|---|---|---|---|---|"
 
 
+def _n(v: float) -> str:
+    return str(v) if isinstance(v, int) else f"{v:.1f}"
+
+
 def _stat_row(ln: StatLine, tag: str, agent: str | None = None) -> str:
-    return (f"| {ln.player} | {tag} | {agent if agent is not None else ln.agent} | {ln.kills:.1f} | {ln.deaths:.1f} "
-            f"| {ln.assists:.1f} | {ln.kd:.2f} | {ln.acs:.0f} | {ln.adr:.0f} | {100 * ln.kast:.0f}% "
-            f"| {ln.fk:.1f} | {ln.fd:.1f} | {ln.rating:.2f} |")
+    return (f"| {ln.player} | {tag} | {agent if agent is not None else ln.agent} | {_n(ln.kills)} | {_n(ln.deaths)} "
+            f"| {_n(ln.assists)} | {ln.kd:.2f} | {ln.acs:.0f} | {ln.adr:.0f} | {100 * ln.kast:.0f}% "
+            f"| {_n(ln.fk)} | {_n(ln.fd)} | {ln.rating:.2f} |")
 
 
 def format_players(pred: SeriesPrediction, players: PlayerModel, model: RatingModel, per_map: bool = True) -> str:
@@ -84,15 +88,15 @@ def format_series(pred: SeriesPrediction, model: RatingModel, title: str | None 
         f"{tag(s.team)} {s.action} {s.map}" if s.action != "decider" else f"{s.map} decider"
         for s in pred.veto))
     lines.append("")
-    lines.append(f"| # | Map | Picked by | {tag(a)} win | Predicted score | Most likely exact | OT chance |")
-    lines.append("|---|-----|-----------|------|-----------------|-------------------|-----------|")
+    lines.append(f"| # | Map | Picked by | {tag(a)} win | Predicted score | Most likely exact | Blowout | OT chance |")
+    lines.append("|---|-----|-----------|------|-----------------|-------------------|---------|-----------|")
     for mp in pred.maps:
         fav_m = a if mp.p_a >= 0.5 else b
         fs = mp.fav_score if fav_m == a else (mp.fav_score[1], mp.fav_score[0])
         lines.append(f"| {mp.order} | {mp.map} | {tag(mp.picked_by) if mp.picked_by != 'decider' else 'decider'} "
                      f"| {pct(mp.p_a)} | {tag(fav_m)} {score_str(fs)} "
                      f"| {tag(a)} {score_str(mp.likely_score)} {tag(b)} ({pct(mp.likely_score_prob)}) "
-                     f"| {pct(mp.p_overtime)} |")
+                     f"| {pct(mp.p_blowout)} | {pct(mp.p_overtime)} |")
     if show_pool:
         lines.append("")
         lines.append("Map-by-map win chance for " + a + ": " + ", ".join(
@@ -100,6 +104,37 @@ def format_series(pred: SeriesPrediction, model: RatingModel, title: str | None 
     lines.append("")
     if players is not None and player_detail != "none":
         lines.append(format_players(pred, players, model, per_map=player_detail == "full"))
+    return "\n".join(lines)
+
+
+def format_sim_series(sim, model: RatingModel, title: str | None = None, box_scores: bool = True) -> str:
+    tag = lambda n: model.ratings[n].team.tag if n in model.ratings else n  # noqa: E731
+    a, b = sim.team_a, sim.team_b
+    sw = sim.score if sim.winner == a else sim.score[::-1]
+    lines = [f"### {title or f'{a} vs {b}'} (Bo{sim.bo})", "",
+             f"**{sim.winner} wins {sw[0]}-{sw[1]}**", "",
+             "Veto: " + " → ".join(f"{tag(s.team)} {s.action} {s.map}" if s.action != "decider"
+                                   else f"{s.map} decider" for s in sim.veto), ""]
+    for i, m in enumerate(sim.maps, 1):
+        w = a if m.score[0] > m.score[1] else b
+        flavour = " (overtime)" if max(m.score) > 13 else " (blowout)" if min(m.score) <= 5 else ""
+        by = "decider" if m.picked_by == "decider" else f"{tag(m.picked_by)} pick"
+        lines.append(f"- Map {i} {m.map} ({by}): {tag(a)} {m.score[0]}-{m.score[1]} {tag(b)} → {tag(w)}{flavour}")
+    if sim.unplayed:
+        lines.append(f"- Not played: {', '.join(sim.unplayed)}")
+    lines.append("")
+    if box_scores and sim.maps and sim.maps[0].lines_a:
+        for m in sim.maps:
+            lines.append(f"**{m.map} box score** ({tag(a)} {m.score[0]}-{m.score[1]} {tag(b)})")
+            lines.append("")
+            lines += [STAT_HEADER, STAT_RULE]
+            for ln in sorted(m.lines_a, key=lambda x: -x.rating) + sorted(m.lines_b, key=lambda x: -x.rating):
+                lines.append(_stat_row(ln, tag(ln.team)))
+            lines.append("")
+        mvp = sim.mvp()
+        if mvp:
+            lines.append(f"Series MVP: **{mvp.player}** ({tag(mvp.team)})")
+            lines.append("")
     return "\n".join(lines)
 
 
@@ -276,6 +311,7 @@ def series_json(pred: SeriesPrediction, players: PlayerModel | None = None) -> d
         "veto": [[s.team, s.action, s.map] for s in pred.veto],
         "maps": [{"map": m.map, "by": m.picked_by, "pA": round(m.p_a, 4), "likely": list(m.likely_score),
                   "likelyP": round(m.likely_score_prob, 4), "fav": list(m.fav_score), "ot": round(m.p_overtime, 4),
+                  "blow": round(m.p_blowout, 4),
                   "exp": [round(m.expected_rounds[0], 1), round(m.expected_rounds[1], 1)]} for m in pred.maps],
         "pool": {k: round(v, 4) for k, v in pred.all_map_probs.items()},
     }
@@ -296,7 +332,24 @@ def dashboard_data(ds: Dataset, model: RatingModel, tour: Tournament, sims: dict
         if not rec.locked:
             entry["detail"] = series_json(tour.prediction(rec.team_a, rec.team_b, rec.bo), players)
         bracket.append(entry)
+    from .scores import ROUND_SD, r0_for_p
+    from .veto import VETO_TEMPERATURE, veto_sequence
+    pool = model.pool
+    sim = {
+        "sd": ROUND_SD, "temp": VETO_TEMPERATURE,
+        "r0": [round(r0_for_p(i / 100), 5) for i in range(0, 101)],
+        "veto": {bo: veto_sequence(bo, len(pool)) for bo in (1, 3, 5)},
+        "weights": {t: {m: [[w["name"], w["agent"], w["role"]] + [round(w[k], 4) for k in ("kpr", "dpr", "apr", "fkpr", "fdpr")]
+                            for w in players.weights(t, m)] for m in pool} for t in teams},
+        "tourP": {f"{a}|{b}": [round(model.map_win_prob(a, b, m, tour.host), 4) for m in pool]
+                  for a, b in permutations(teams, 2)},
+        "openers": ds.event["group_openers"],
+        "qf": ds.event["playoff_upper_quarterfinals"],
+        "locked": {r["match"]: [r["team_a"], r["team_b"], r["score"][0], r["score"][1]]
+                   for r in ds.results.get("series", [])},
+    }
     return {
+        "sim": sim,
         "event": {k: ds.event[k] for k in ("name", "location", "data_as_of", "map_pool", "host_region", "dates")},
         "teams": [{
             "name": r.team.name, "tag": r.team.tag, "region": r.team.region, "seed": r.team.seed,

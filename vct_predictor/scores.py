@@ -12,7 +12,7 @@ from __future__ import annotations
 import math
 from functools import lru_cache
 
-ROUND_SD = 0.06
+ROUND_SD = 0.11  # calibrated so ~25-35% of maps are blowouts (loser <= 5) and ~10% go to OT
 MAX_OT_PAIRS = 6  # 14-12 ... 19-17; longer OTs are lumped into the last bucket
 # Discretised standard normal (17 nodes on [-3, 3]) used to integrate over r.
 _Z_NODES = [-3.0 + 6.0 * i / 16 for i in range(17)]
@@ -75,7 +75,7 @@ def _win_prob(dist: dict[tuple[int, int], float]) -> float:
 
 
 @lru_cache(maxsize=4096)
-def _dist_for_p(p_rounded: float) -> tuple[tuple[tuple[int, int], float], ...]:
+def _r0_for_p(p_rounded: float) -> float:
     lo, hi = 0.02, 0.98
     for _ in range(40):
         mid = (lo + hi) / 2
@@ -83,8 +83,30 @@ def _dist_for_p(p_rounded: float) -> tuple[tuple[tuple[int, int], float], ...]:
             lo = mid
         else:
             hi = mid
-    dist = _mixture((lo + hi) / 2)
-    return tuple(sorted(dist.items()))
+    return (lo + hi) / 2
+
+
+def r0_for_p(p_map: float) -> float:
+    """Mean per-round win rate that reproduces a map win probability."""
+    return _r0_for_p(round(min(max(p_map, 0.02), 0.98), 3))
+
+
+@lru_cache(maxsize=4096)
+def _dist_for_p(p_rounded: float) -> tuple[tuple[tuple[int, int], float], ...]:
+    return tuple(sorted(_mixture(_r0_for_p(p_rounded)).items()))
+
+
+def sample_score(p_map: float, rng) -> tuple[int, int]:
+    """Play one map round by round: draw this map's round win rate, then play to 13 (win by 2 in OT)."""
+    r = min(max(r0_for_p(p_map) + ROUND_SD * rng.gauss(0, 1), 0.02), 0.98)
+    a = b = 0
+    while True:
+        if rng.random() < r:
+            a += 1
+        else:
+            b += 1
+        if max(a, b) >= 13 and abs(a - b) >= 2:
+            return a, b
 
 
 def scoreline_distribution(p_map: float) -> dict[tuple[int, int], float]:
@@ -107,6 +129,11 @@ def most_likely_score(p_map: float, winner_is_a: bool | None = None) -> tuple[tu
 def expected_rounds(p_map: float) -> tuple[float, float]:
     dist = scoreline_distribution(p_map)
     return (sum(a * v for (a, _), v in dist.items()), sum(b * v for (_, b), v in dist.items()))
+
+
+def blowout_prob(p_map: float) -> float:
+    """Chance the loser finishes on 5 rounds or fewer."""
+    return sum(v for (a, b), v in scoreline_distribution(p_map).items() if min(a, b) <= 5)
 
 
 def overtime_prob(p_map: float) -> float:

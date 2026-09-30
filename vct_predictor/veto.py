@@ -10,8 +10,13 @@ The decider is whatever map is left.
 """
 from __future__ import annotations
 
+import math
 from dataclasses import dataclass
 from typing import Callable
+
+# In simulations a team does not always make the "optimal" call: choices are sampled with
+# weight exp(value / VETO_TEMPERATURE), so near-equal maps swap often and clear calls rarely change.
+VETO_TEMPERATURE = 0.03
 
 
 @dataclass
@@ -71,10 +76,12 @@ def run_veto(
     pool: list[str],
     bo: int,
     p_a: Callable[[str], float],
+    rng=None,
 ) -> tuple[list[VetoStep], list[tuple[str, str]]]:
     """Simulate the veto.
 
-    ``p_a(map)`` returns team A's win probability on that map.
+    ``p_a(map)`` returns team A's win probability on that map. With ``rng`` the calls are
+    sampled (see VETO_TEMPERATURE) instead of always taking the best option.
     Returns (veto steps, maps to be played as [(map, picked_by)]).
     """
     remaining = list(pool)
@@ -90,8 +97,13 @@ def run_veto(
         side, kind = action.split("_")
         team = team_a if side == "A" else team_b
         own = (lambda m: probs[m]) if side == "A" else (lambda m: 1.0 - probs[m])
+        if rng is not None:
+            sign = -1.0 if kind == "ban" else 1.0
+            vals = [sign * own(x) for x in remaining]
+            top = max(vals)
+            m = rng.choices(remaining, [math.exp((v - top) / VETO_TEMPERATURE) for v in vals])[0]
         # Stable tie-break by pool order.
-        if kind == "ban":
+        elif kind == "ban":
             m = min(remaining, key=lambda x: (own(x), pool.index(x)))
         else:
             m = max(remaining, key=lambda x: (own(x), -pool.index(x)))
