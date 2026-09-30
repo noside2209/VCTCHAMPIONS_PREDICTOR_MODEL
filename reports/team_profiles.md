@@ -18,7 +18,7 @@ Projected agents by map:
 
 | Player | Abyss | Ascent | Haven | Lotus | Split | Summit | Sunset |
 |---|---|---|---|---|---|---|---|
-| Asuna | Yoru | KAY/O | Breach | Raze | Raze | KAY/O | Fade |
+| Asuna | Yoru | Breach | Breach | Raze | Raze | Breach | Fade |
 | bang | Viper | Omen | Omen | Omen | Viper | Clove | Clove |
 | Cryocells | Astra | Killjoy | Chamber | Viper | Astra | Chamber | Cypher |
 | vora | Sova | Sova | Sova | Fade | Fade | Sova | Gekko |
@@ -118,7 +118,7 @@ Projected agents by map:
 | Avez | Sova | Sova | Sova | Fade | Fade | Sova | Fade |
 | dos9 | Viper | Omen | Omen | Omen | Viper | Clove | Clove |
 | LewN | Jett | Jett | Jett | Raze | Raze | Jett | Neon |
-| N4RRATE | Yoru | KAY/O | Breach | Yoru | Yoru | KAY/O | Gekko |
+| N4RRATE | Yoru | Gekko | Gekko | Yoru | Yoru | Gekko | Gekko |
 
 2026 résumé: VCT EMEA Stage 2 champion (3-1 vs Team Liquid) - first VCT trophy in org history
 
@@ -149,7 +149,7 @@ Projected agents by map:
 | Dambi | Jett | Jett | Jett | Raze | Raze | Jett | Neon |
 | Rb | Sova | Sova | Sova | Fade | Fade | Sova | Fade |
 | Francis | Astra | Omen | Omen | Omen | Astra | Clove | Clove |
-| Ivy | Yoru | KAY/O | Breach | Yoru | Yoru | KAY/O | Gekko |
+| Ivy | Yoru | Breach | Breach | Yoru | Yoru | Breach | Breach |
 | Xross | Viper | Killjoy | Chamber | Viper | Viper | Chamber | Cypher |
 
 2026 résumé: Masters Santiago champion (3-0 vs PRX); VCT Pacific Stage 2 runner-up (2-3 vs GE)
@@ -168,7 +168,7 @@ Rating **1816** (prior 1805, roster -2.4, form +13.1)
 
 | Player | Role | IGL | Impact | Agent pool | Role info |
 |---|---|---|---|---|---|
-| tkzin | Duelist |  | 1.03 | Jett, Raze, Neon, Yoru | reported |
+| tkzin | Duelist |  | 1.03 | Neon, Waylay | user-verified |
 | erde | Flex | yes | 1.01 | KAY/O, Breach, Viper, Yoru, Sova | reported |
 | DaviH | Initiator |  | 1.04 | Sova, Fade, Gekko, KAY/O | reported |
 | Darker | Controller |  | 1.06 | Omen, Astra, Viper, Clove | reported |
@@ -178,8 +178,8 @@ Projected agents by map:
 
 | Player | Abyss | Ascent | Haven | Lotus | Split | Summit | Sunset |
 |---|---|---|---|---|---|---|---|
-| tkzin | Jett | Jett | Jett | Raze | Raze | Jett | Neon |
-| erde | Yoru | KAY/O | Breach | Yoru | Yoru | KAY/O | Gekko |
+| tkzin | Neon | Neon | Neon | Neon | Neon | Neon | Neon |
+| erde | Yoru | KAY/O | Breach | Yoru | Yoru | KAY/O | KAY/O |
 | DaviH | Sova | Sova | Sova | Fade | Fade | Sova | Fade |
 | Darker | Astra | Omen | Omen | Omen | Astra | Clove | Clove |
 | lukxo | Viper | Killjoy | Chamber | Viper | Viper | Chamber | Cypher |
@@ -278,7 +278,7 @@ Projected agents by map:
 | PatMen | Sova | Sova | Breach | Fade | Fade | KAY/O | Fade |
 | Autumn | Viper | Omen | Omen | Omen | Viper | Clove | Clove |
 | UdoTan | Jett | Jett | Jett | Raze | Raze | Jett | Neon |
-| Kr1stal | Yoru | KAY/O | Chamber | Yoru | Yoru | Chamber | Gekko |
+| Kr1stal | Yoru | Gekko | Chamber | Yoru | Yoru | Chamber | Gekko |
 
 2026 résumé: VCT Pacific Stage 2 champion (3-2 reverse sweep vs NS); Masters London 9-10th
 
@@ -338,9 +338,9 @@ Projected agents by map:
 
 | Player | Abyss | Ascent | Haven | Lotus | Split | Summit | Sunset |
 |---|---|---|---|---|---|---|---|
-| nAts | Viper | Killjoy | Chamber | Viper | Viper | Chamber | Cypher |
+| nAts | Viper | Killjoy | Cypher | Viper | Viper | Cypher | Cypher |
 | kamo | Jett | Jett | Jett | Raze | Raze | Jett | Neon |
-| trexx | Yoru | KAY/O | Breach | Yoru | Yoru | KAY/O | Gekko |
+| trexx | Yoru | KAY/O | Breach | Yoru | Yoru | KAY/O | Breach |
 | Kicks | Sova | Sova | Sova | Fade | Fade | Sova | Fade |
 | GSR | Astra | Omen | Omen | Omen | Astra | Clove | Clove |
 
@@ -373,7 +373,7 @@ Projected agents by map:
 | ZmjjKK | Jett | Jett | Jett | Raze | Raze | Jett | Neon |
 | CHICHOO | Viper | Omen | Omen | Omen | Viper | Clove | Clove |
 | nobody | Sova | Sova | Sova | Fade | Fade | Sova | Fade |
-| Smoggy | Yoru | KAY/O | Breach | Yoru | Yoru | KAY/O | Gekko |
+| Smoggy | Yoru | Gekko | Gekko | Yoru | Yoru | Gekko | Gekko |
 | stew | Astra | Killjoy | Chamber | Viper | Astra | Chamber | Cypher |
 
 Bench: Jieni7
@@ -405,7 +405,7 @@ Projected agents by map:
 | Player | Abyss | Ascent | Haven | Lotus | Split | Summit | Sunset |
 |---|---|---|---|---|---|---|---|
 | splash | Jett | Jett | Jett | Raze | Raze | Jett | Neon |
-| SiuFatBB | Yoru | KAY/O | Breach | Yoru | Yoru | KAY/O | Gekko |
+| SiuFatBB | Yoru | Gekko | Gekko | Yoru | Yoru | Gekko | Gekko |
 | Scales | Sova | Sova | Sova | Fade | Fade | Sova | Fade |
 | slowly | Viper | Omen | Omen | Omen | Viper | Clove | Clove |
 | Erv | Astra | Killjoy | Chamber | Viper | Astra | Chamber | Cypher |
@@ -437,10 +437,10 @@ Projected agents by map:
 | Player | Abyss | Ascent | Haven | Lotus | Split | Summit | Sunset |
 |---|---|---|---|---|---|---|---|
 | Munchkin | Sova | Sova | Sova | Fade | Fade | Sova | Fade |
-| stax | Viper | Omen | Omen | Omen | Viper | Clove | Clove |
+| stax | Viper | Omen | Omen | Omen | Viper | Omen | Omen |
 | Meteor | Astra | Killjoy | Chamber | Viper | Astra | Chamber | Cypher |
 | BuZz | Jett | Jett | Jett | Raze | Raze | Jett | Neon |
-| iZu | Yoru | KAY/O | Breach | Yoru | Yoru | KAY/O | Gekko |
+| iZu | Yoru | Gekko | Gekko | Yoru | Yoru | Gekko | Gekko |
 
 2026 résumé: Qualified via Championship Points
 
@@ -471,7 +471,7 @@ Projected agents by map:
 | happywei | Viper | Omen | Omen | Omen | Viper | Clove | Clove |
 | NoMan | Jett | Jett | Jett | Raze | Raze | Jett | Neon |
 | Rarga | Sova | Sova | Sova | Fade | Fade | Sova | Fade |
-| Lysoar | Yoru | KAY/O | Breach | Yoru | Yoru | KAY/O | Gekko |
+| Lysoar | Yoru | Gekko | Gekko | Yoru | Yoru | Gekko | Gekko |
 | WsLeo | Astra | Killjoy | Chamber | Viper | Astra | Chamber | Cypher |
 
 2026 résumé: Masters London 5-6th
@@ -504,7 +504,7 @@ Projected agents by map:
 | BerLIN | Sova | Sova | Sova | Fade | Fade | Sova | Fade |
 | Yuicaw | Viper | Omen | Omen | Omen | Viper | Clove | Clove |
 | jkuro | Astra | Killjoy | Chamber | Viper | Astra | Chamber | Cypher |
-| crownfisher | Yoru | KAY/O | Breach | Yoru | Yoru | KAY/O | Gekko |
+| crownfisher | Yoru | Breach | Breach | Yoru | Yoru | Breach | Breach |
 
 2026 résumé: VCT China Stage 2 runner-up (1-3 vs TYLOO)
 

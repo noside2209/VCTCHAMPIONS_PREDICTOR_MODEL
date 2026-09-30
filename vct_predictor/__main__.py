@@ -9,6 +9,7 @@ Examples:
     python -m vct_predictor tournament --sims 20000
     python -m vct_predictor matrix --bo 3
     python -m vct_predictor report
+    python -m vct_predictor sync-vlr            # refresh agent pools + stats from VLR.gg
 """
 from __future__ import annotations
 
@@ -54,6 +55,12 @@ def main(argv: list[str] | None = None) -> None:
     mx.add_argument("--bo", type=int, default=3, choices=(1, 3, 5))
     mx.add_argument("--home", default=None)
 
+    sv = sub.add_parser("sync-vlr", help="pull agent pools + stats from VLR.gg player pages (needs internet)")
+    sv.add_argument("--team", default=None, help="only this team (name or tag)")
+    sv.add_argument("--timespan", default="90d", choices=("30d", "60d", "90d", "all"))
+    sv.add_argument("--keep-impact", action="store_true", help="don't overwrite impact with the VLR rating")
+    sv.add_argument("--overwrite-verified", action="store_true", help="also overwrite user-verified agent pools")
+
     rp = sub.add_parser("report", help="write all reports to ./reports")
     rp.add_argument("--out", default=str(ROOT / "reports"))
     rp.add_argument("--sims", type=int, default=20000)
@@ -87,6 +94,12 @@ def main(argv: list[str] | None = None) -> None:
             s, _ = p.predicted_score()
             fs = s if p.favourite == x else s[::-1]
             print(f"{x:>18} vs {y:<18} -> {p.favourite} {fs[0]}-{fs[1]} ({pct(p.p_favourite)})")
+    elif args.cmd == "sync-vlr":
+        from .vlr import sync
+        team = ds.find_team(args.team).name if args.team else None
+        sync(team, args.timespan, args.keep_impact, args.overwrite_verified,
+             data_dir=Path(args.data) if args.data else ROOT / "data")
+        print("Now run: python -m vct_predictor report")
     elif args.cmd == "report":
         for p in write_reports(ds, model, Path(args.out), args.sims):
             print(f"wrote {p}")

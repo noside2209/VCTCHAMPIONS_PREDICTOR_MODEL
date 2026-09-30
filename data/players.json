@@ -2,135 +2,1108 @@
   "_notes": [
     "Per-player role, IGL flag and agent pool (most-played first). 'source' = reported (role confirmed in 2026 roster coverage) or estimated (analyst estimate, please correct).",
     "Player impact (rating scale) lives in teams.json. Map compositions used to assign agents live in map_comps below.",
-    "Roles: Duelist, Initiator, Controller, Sentinel, Flex."
+    "Roles: Duelist, Initiator, Controller, Sentinel, Flex.",
+    "source values: vlr (synced from the player's VLR profile via `python -m vct_predictor sync-vlr`), user-verified, reported, estimated."
   ],
   "map_comps": {
-    "Abyss":  ["Jett", "Yoru", "Astra", "Viper", "Sova"],
-    "Ascent": ["Jett", "Omen", "Sova", "KAY/O", "Killjoy"],
-    "Haven":  ["Jett", "Omen", "Sova", "Breach", "Chamber"],
-    "Lotus":  ["Raze", "Yoru", "Omen", "Viper", "Fade"],
-    "Split":  ["Raze", "Yoru", "Astra", "Viper", "Fade"],
-    "Summit": ["Jett", "Clove", "Sova", "KAY/O", "Chamber"],
-    "Sunset": ["Neon", "Clove", "Gekko", "Fade", "Cypher"]
+    "Abyss": [
+      "Jett",
+      "Yoru",
+      "Astra",
+      "Viper",
+      "Sova"
+    ],
+    "Ascent": [
+      "Jett",
+      "Omen",
+      "Sova",
+      "KAY/O",
+      "Killjoy"
+    ],
+    "Haven": [
+      "Jett",
+      "Omen",
+      "Sova",
+      "Breach",
+      "Chamber"
+    ],
+    "Lotus": [
+      "Raze",
+      "Yoru",
+      "Omen",
+      "Viper",
+      "Fade"
+    ],
+    "Split": [
+      "Raze",
+      "Yoru",
+      "Astra",
+      "Viper",
+      "Fade"
+    ],
+    "Summit": [
+      "Jett",
+      "Clove",
+      "Sova",
+      "KAY/O",
+      "Chamber"
+    ],
+    "Sunset": [
+      "Neon",
+      "Clove",
+      "Gekko",
+      "Fade",
+      "Cypher"
+    ]
   },
   "agent_roles": {
-    "Jett": "Duelist", "Raze": "Duelist", "Neon": "Duelist", "Yoru": "Duelist", "Reyna": "Duelist", "Waylay": "Duelist", "Iso": "Duelist", "Phoenix": "Duelist",
-    "Sova": "Initiator", "Fade": "Initiator", "KAY/O": "Initiator", "Breach": "Initiator", "Gekko": "Initiator", "Skye": "Initiator", "Tejo": "Initiator",
-    "Omen": "Controller", "Viper": "Controller", "Astra": "Controller", "Clove": "Controller", "Harbor": "Controller", "Brimstone": "Controller",
-    "Killjoy": "Sentinel", "Cypher": "Sentinel", "Chamber": "Sentinel", "Vyse": "Sentinel", "Sage": "Sentinel", "Deadlock": "Sentinel"
+    "Jett": "Duelist",
+    "Raze": "Duelist",
+    "Neon": "Duelist",
+    "Yoru": "Duelist",
+    "Reyna": "Duelist",
+    "Waylay": "Duelist",
+    "Iso": "Duelist",
+    "Phoenix": "Duelist",
+    "Sova": "Initiator",
+    "Fade": "Initiator",
+    "KAY/O": "Initiator",
+    "Breach": "Initiator",
+    "Gekko": "Initiator",
+    "Skye": "Initiator",
+    "Tejo": "Initiator",
+    "Omen": "Controller",
+    "Viper": "Controller",
+    "Astra": "Controller",
+    "Clove": "Controller",
+    "Harbor": "Controller",
+    "Brimstone": "Controller",
+    "Killjoy": "Sentinel",
+    "Cypher": "Sentinel",
+    "Chamber": "Sentinel",
+    "Vyse": "Sentinel",
+    "Sage": "Sentinel",
+    "Deadlock": "Sentinel"
   },
   "teams": {
     "100 Thieves": [
-      {"name": "Asuna", "role": "Flex", "igl": false, "agents": ["Raze", "Neon", "Breach", "Fade", "Yoru"], "source": "reported"},
-      {"name": "bang", "role": "Controller", "igl": false, "agents": ["Omen", "Viper", "Astra", "Clove", "Sova"], "source": "reported"},
-      {"name": "Cryocells", "role": "Sentinel", "igl": false, "agents": ["Chamber", "Cypher", "Killjoy", "Jett"], "source": "reported"},
-      {"name": "vora", "role": "Initiator", "igl": true, "agents": ["Sova", "Fade", "KAY/O", "Gekko"], "source": "reported"},
-      {"name": "Timotino", "role": "Duelist", "igl": false, "agents": ["Jett", "Raze", "Neon", "Yoru", "Waylay"], "source": "reported"}
+      {
+        "name": "Asuna",
+        "role": "Flex",
+        "igl": false,
+        "agents": [
+          "Raze",
+          "Neon",
+          "Breach",
+          "Fade",
+          "Yoru"
+        ],
+        "source": "reported"
+      },
+      {
+        "name": "bang",
+        "role": "Controller",
+        "igl": false,
+        "agents": [
+          "Omen",
+          "Viper",
+          "Astra",
+          "Clove",
+          "Sova"
+        ],
+        "source": "reported"
+      },
+      {
+        "name": "Cryocells",
+        "role": "Sentinel",
+        "igl": false,
+        "agents": [
+          "Chamber",
+          "Cypher",
+          "Killjoy",
+          "Jett"
+        ],
+        "source": "reported"
+      },
+      {
+        "name": "vora",
+        "role": "Initiator",
+        "igl": true,
+        "agents": [
+          "Sova",
+          "Fade",
+          "KAY/O",
+          "Gekko"
+        ],
+        "source": "reported"
+      },
+      {
+        "name": "Timotino",
+        "role": "Duelist",
+        "igl": false,
+        "agents": [
+          "Jett",
+          "Raze",
+          "Neon",
+          "Yoru",
+          "Waylay"
+        ],
+        "source": "reported"
+      }
     ],
     "LOUD": [
-      {"name": "tkzin", "role": "Duelist", "igl": false, "agents": ["Jett", "Raze", "Neon", "Yoru"], "source": "reported"},
-      {"name": "erde", "role": "Flex", "igl": true, "agents": ["KAY/O", "Breach", "Viper", "Yoru", "Sova"], "source": "reported"},
-      {"name": "DaviH", "role": "Initiator", "igl": false, "agents": ["Sova", "Fade", "Gekko", "KAY/O"], "source": "reported"},
-      {"name": "Darker", "role": "Controller", "igl": false, "agents": ["Omen", "Astra", "Viper", "Clove"], "source": "reported"},
-      {"name": "lukxo", "role": "Sentinel", "igl": false, "agents": ["Killjoy", "Cypher", "Chamber", "Vyse"], "source": "reported"}
+      {
+        "name": "tkzin",
+        "role": "Duelist",
+        "igl": false,
+        "agents": [
+          "Neon",
+          "Waylay"
+        ],
+        "source": "user-verified",
+        "vlr_id": 41224
+      },
+      {
+        "name": "erde",
+        "role": "Flex",
+        "igl": true,
+        "agents": [
+          "KAY/O",
+          "Breach",
+          "Viper",
+          "Yoru",
+          "Sova"
+        ],
+        "source": "reported"
+      },
+      {
+        "name": "DaviH",
+        "role": "Initiator",
+        "igl": false,
+        "agents": [
+          "Sova",
+          "Fade",
+          "Gekko",
+          "KAY/O"
+        ],
+        "source": "reported"
+      },
+      {
+        "name": "Darker",
+        "role": "Controller",
+        "igl": false,
+        "agents": [
+          "Omen",
+          "Astra",
+          "Viper",
+          "Clove"
+        ],
+        "source": "reported"
+      },
+      {
+        "name": "lukxo",
+        "role": "Sentinel",
+        "igl": false,
+        "agents": [
+          "Killjoy",
+          "Cypher",
+          "Chamber",
+          "Vyse"
+        ],
+        "source": "reported"
+      }
     ],
     "NRG": [
-      {"name": "Ethan", "role": "Initiator", "igl": true, "agents": ["Sova", "Fade", "Breach", "KAY/O", "Gekko"], "source": "reported"},
-      {"name": "mada", "role": "Duelist", "igl": false, "agents": ["Jett", "Raze", "Neon", "Yoru"], "source": "estimated"},
-      {"name": "keiko", "role": "Flex", "igl": false, "agents": ["Raze", "Yoru", "Neon", "Chamber", "Jett"], "source": "estimated"},
-      {"name": "skuba", "role": "Sentinel", "igl": false, "agents": ["Cypher", "Killjoy", "Viper", "Vyse", "Chamber"], "source": "reported"},
-      {"name": "brawk", "role": "Controller", "igl": false, "agents": ["Omen", "Viper", "Astra", "Clove", "Breach"], "source": "estimated"}
+      {
+        "name": "Ethan",
+        "role": "Initiator",
+        "igl": true,
+        "agents": [
+          "Sova",
+          "Fade",
+          "Breach",
+          "KAY/O",
+          "Gekko"
+        ],
+        "source": "reported"
+      },
+      {
+        "name": "mada",
+        "role": "Duelist",
+        "igl": false,
+        "agents": [
+          "Jett",
+          "Raze",
+          "Neon",
+          "Yoru"
+        ],
+        "source": "estimated"
+      },
+      {
+        "name": "keiko",
+        "role": "Flex",
+        "igl": false,
+        "agents": [
+          "Raze",
+          "Yoru",
+          "Neon",
+          "Chamber",
+          "Jett"
+        ],
+        "source": "estimated"
+      },
+      {
+        "name": "skuba",
+        "role": "Sentinel",
+        "igl": false,
+        "agents": [
+          "Cypher",
+          "Killjoy",
+          "Viper",
+          "Vyse",
+          "Chamber"
+        ],
+        "source": "reported"
+      },
+      {
+        "name": "brawk",
+        "role": "Controller",
+        "igl": false,
+        "agents": [
+          "Omen",
+          "Viper",
+          "Astra",
+          "Clove",
+          "Breach"
+        ],
+        "source": "estimated"
+      }
     ],
     "G2 Esports": [
-      {"name": "valyn", "role": "Controller", "igl": true, "agents": ["Omen", "Astra", "Viper", "Clove"], "source": "estimated"},
-      {"name": "trent", "role": "Initiator", "igl": false, "agents": ["Sova", "Fade", "KAY/O", "Breach", "Gekko"], "source": "reported"},
-      {"name": "leaf", "role": "Sentinel", "igl": false, "agents": ["Chamber", "Killjoy", "Cypher", "Jett"], "source": "reported"},
-      {"name": "jawgemo", "role": "Duelist", "igl": false, "agents": ["Raze", "Neon", "Yoru", "Jett"], "source": "estimated"},
-      {"name": "BABYBAY", "role": "Flex", "igl": false, "agents": ["Jett", "Chamber", "Vyse", "Yoru", "Viper"], "source": "estimated"}
+      {
+        "name": "valyn",
+        "role": "Controller",
+        "igl": true,
+        "agents": [
+          "Omen",
+          "Astra",
+          "Viper",
+          "Clove"
+        ],
+        "source": "estimated"
+      },
+      {
+        "name": "trent",
+        "role": "Initiator",
+        "igl": false,
+        "agents": [
+          "Sova",
+          "Fade",
+          "KAY/O",
+          "Breach",
+          "Gekko"
+        ],
+        "source": "reported"
+      },
+      {
+        "name": "leaf",
+        "role": "Sentinel",
+        "igl": false,
+        "agents": [
+          "Chamber",
+          "Killjoy",
+          "Cypher",
+          "Jett"
+        ],
+        "source": "reported"
+      },
+      {
+        "name": "jawgemo",
+        "role": "Duelist",
+        "igl": false,
+        "agents": [
+          "Raze",
+          "Neon",
+          "Yoru",
+          "Jett"
+        ],
+        "source": "estimated"
+      },
+      {
+        "name": "BABYBAY",
+        "role": "Flex",
+        "igl": false,
+        "agents": [
+          "Jett",
+          "Chamber",
+          "Vyse",
+          "Yoru",
+          "Viper"
+        ],
+        "source": "estimated"
+      }
     ],
     "Karmine Corp": [
-      {"name": "SUYGETSU", "role": "Sentinel", "igl": false, "agents": ["Killjoy", "Cypher", "Chamber", "Vyse"], "source": "reported"},
-      {"name": "Avez", "role": "Initiator", "igl": false, "agents": ["Sova", "Fade", "KAY/O", "Breach", "Gekko"], "source": "reported"},
-      {"name": "dos9", "role": "Controller", "igl": false, "agents": ["Omen", "Viper", "Astra", "Clove"], "source": "reported"},
-      {"name": "LewN", "role": "Duelist", "igl": false, "agents": ["Jett", "Raze", "Neon", "Yoru"], "source": "reported"},
-      {"name": "N4RRATE", "role": "Flex", "igl": false, "agents": ["Yoru", "Raze", "Gekko", "Viper", "Neon"], "source": "estimated"}
+      {
+        "name": "SUYGETSU",
+        "role": "Sentinel",
+        "igl": false,
+        "agents": [
+          "Killjoy",
+          "Cypher",
+          "Chamber",
+          "Vyse"
+        ],
+        "source": "reported"
+      },
+      {
+        "name": "Avez",
+        "role": "Initiator",
+        "igl": false,
+        "agents": [
+          "Sova",
+          "Fade",
+          "KAY/O",
+          "Breach",
+          "Gekko"
+        ],
+        "source": "reported"
+      },
+      {
+        "name": "dos9",
+        "role": "Controller",
+        "igl": false,
+        "agents": [
+          "Omen",
+          "Viper",
+          "Astra",
+          "Clove"
+        ],
+        "source": "reported"
+      },
+      {
+        "name": "LewN",
+        "role": "Duelist",
+        "igl": false,
+        "agents": [
+          "Jett",
+          "Raze",
+          "Neon",
+          "Yoru"
+        ],
+        "source": "reported"
+      },
+      {
+        "name": "N4RRATE",
+        "role": "Flex",
+        "igl": false,
+        "agents": [
+          "Yoru",
+          "Raze",
+          "Gekko",
+          "Viper",
+          "Neon"
+        ],
+        "source": "estimated"
+      }
     ],
     "Team Liquid": [
-      {"name": "nAts", "role": "Sentinel", "igl": false, "agents": ["Cypher", "Viper", "Killjoy", "Astra"], "source": "estimated"},
-      {"name": "kamo", "role": "Duelist", "igl": false, "agents": ["Jett", "Raze", "Neon", "Yoru"], "source": "estimated"},
-      {"name": "trexx", "role": "Flex", "igl": false, "agents": ["Yoru", "Neon", "Breach", "KAY/O", "Raze"], "source": "estimated"},
-      {"name": "Kicks", "role": "Initiator", "igl": false, "agents": ["Fade", "Sova", "Gekko", "KAY/O"], "source": "estimated"},
-      {"name": "GSR", "role": "Controller", "igl": false, "agents": ["Omen", "Astra", "Clove", "Viper"], "source": "estimated"}
+      {
+        "name": "nAts",
+        "role": "Sentinel",
+        "igl": false,
+        "agents": [
+          "Cypher",
+          "Viper",
+          "Killjoy",
+          "Astra"
+        ],
+        "source": "estimated"
+      },
+      {
+        "name": "kamo",
+        "role": "Duelist",
+        "igl": false,
+        "agents": [
+          "Jett",
+          "Raze",
+          "Neon",
+          "Yoru"
+        ],
+        "source": "estimated"
+      },
+      {
+        "name": "trexx",
+        "role": "Flex",
+        "igl": false,
+        "agents": [
+          "Yoru",
+          "Neon",
+          "Breach",
+          "KAY/O",
+          "Raze"
+        ],
+        "source": "estimated"
+      },
+      {
+        "name": "Kicks",
+        "role": "Initiator",
+        "igl": false,
+        "agents": [
+          "Fade",
+          "Sova",
+          "Gekko",
+          "KAY/O"
+        ],
+        "source": "estimated"
+      },
+      {
+        "name": "GSR",
+        "role": "Controller",
+        "igl": false,
+        "agents": [
+          "Omen",
+          "Astra",
+          "Clove",
+          "Viper"
+        ],
+        "source": "estimated"
+      }
     ],
     "FUT Esports": [
-      {"name": "sociablEE", "role": "Initiator", "igl": true, "agents": ["Sova", "Fade", "Breach", "KAY/O"], "source": "estimated"},
-      {"name": "s0pp", "role": "Duelist", "igl": false, "agents": ["Jett", "Chamber", "Neon", "Raze"], "source": "reported"},
-      {"name": "xeus", "role": "Duelist", "igl": false, "agents": ["Raze", "Yoru", "Neon", "Jett"], "source": "reported"},
-      {"name": "yetujey", "role": "Controller", "igl": false, "agents": ["Omen", "Viper", "Astra", "Clove"], "source": "estimated"},
-      {"name": "KROSTALY", "role": "Sentinel", "igl": false, "agents": ["Killjoy", "Cypher", "Vyse", "Chamber", "Gekko"], "source": "estimated"}
+      {
+        "name": "sociablEE",
+        "role": "Initiator",
+        "igl": true,
+        "agents": [
+          "Sova",
+          "Fade",
+          "Breach",
+          "KAY/O"
+        ],
+        "source": "estimated"
+      },
+      {
+        "name": "s0pp",
+        "role": "Duelist",
+        "igl": false,
+        "agents": [
+          "Jett",
+          "Chamber",
+          "Neon",
+          "Raze"
+        ],
+        "source": "reported"
+      },
+      {
+        "name": "xeus",
+        "role": "Duelist",
+        "igl": false,
+        "agents": [
+          "Raze",
+          "Yoru",
+          "Neon",
+          "Jett"
+        ],
+        "source": "reported"
+      },
+      {
+        "name": "yetujey",
+        "role": "Controller",
+        "igl": false,
+        "agents": [
+          "Omen",
+          "Viper",
+          "Astra",
+          "Clove"
+        ],
+        "source": "estimated"
+      },
+      {
+        "name": "KROSTALY",
+        "role": "Sentinel",
+        "igl": false,
+        "agents": [
+          "Killjoy",
+          "Cypher",
+          "Vyse",
+          "Chamber",
+          "Gekko"
+        ],
+        "source": "estimated"
+      }
     ],
     "Team Vitality": [
-      {"name": "Derke", "role": "Duelist", "igl": false, "agents": ["Jett", "Raze", "Neon", "Yoru"], "source": "estimated"},
-      {"name": "Chronicle", "role": "Flex", "igl": false, "agents": ["Fade", "KAY/O", "Viper", "Breach", "Sova"], "source": "estimated"},
-      {"name": "PROFEK", "role": "Controller", "igl": false, "agents": ["Omen", "Astra", "Viper", "Clove"], "source": "reported"},
-      {"name": "Jamppi", "role": "Sentinel", "igl": true, "agents": ["Killjoy", "Cypher", "Chamber", "Sova"], "source": "reported"},
-      {"name": "Sayonara", "role": "Flex", "igl": false, "agents": ["Yoru", "Raze", "Gekko", "Sova", "Neon"], "source": "estimated"}
+      {
+        "name": "Derke",
+        "role": "Duelist",
+        "igl": false,
+        "agents": [
+          "Jett",
+          "Raze",
+          "Neon",
+          "Yoru"
+        ],
+        "source": "estimated"
+      },
+      {
+        "name": "Chronicle",
+        "role": "Flex",
+        "igl": false,
+        "agents": [
+          "Fade",
+          "KAY/O",
+          "Viper",
+          "Breach",
+          "Sova"
+        ],
+        "source": "estimated"
+      },
+      {
+        "name": "PROFEK",
+        "role": "Controller",
+        "igl": false,
+        "agents": [
+          "Omen",
+          "Astra",
+          "Viper",
+          "Clove"
+        ],
+        "source": "reported"
+      },
+      {
+        "name": "Jamppi",
+        "role": "Sentinel",
+        "igl": true,
+        "agents": [
+          "Killjoy",
+          "Cypher",
+          "Chamber",
+          "Sova"
+        ],
+        "source": "reported"
+      },
+      {
+        "name": "Sayonara",
+        "role": "Flex",
+        "igl": false,
+        "agents": [
+          "Yoru",
+          "Raze",
+          "Gekko",
+          "Sova",
+          "Neon"
+        ],
+        "source": "estimated"
+      }
     ],
     "Global Esports": [
-      {"name": "xavi8k", "role": "Sentinel", "igl": true, "agents": ["Cypher", "Killjoy", "Vyse", "Sova"], "source": "reported"},
-      {"name": "PatMen", "role": "Initiator", "igl": false, "agents": ["Sova", "Fade", "KAY/O", "Breach"], "source": "reported"},
-      {"name": "Autumn", "role": "Controller", "igl": false, "agents": ["Omen", "Viper", "Astra", "Clove"], "source": "estimated"},
-      {"name": "UdoTan", "role": "Duelist", "igl": false, "agents": ["Jett", "Raze", "Neon", "Yoru"], "source": "estimated"},
-      {"name": "Kr1stal", "role": "Flex", "igl": false, "agents": ["Yoru", "Raze", "Chamber", "Gekko", "Jett"], "source": "estimated"}
+      {
+        "name": "xavi8k",
+        "role": "Sentinel",
+        "igl": true,
+        "agents": [
+          "Cypher",
+          "Killjoy",
+          "Vyse",
+          "Sova"
+        ],
+        "source": "reported"
+      },
+      {
+        "name": "PatMen",
+        "role": "Initiator",
+        "igl": false,
+        "agents": [
+          "Sova",
+          "Fade",
+          "KAY/O",
+          "Breach"
+        ],
+        "source": "reported"
+      },
+      {
+        "name": "Autumn",
+        "role": "Controller",
+        "igl": false,
+        "agents": [
+          "Omen",
+          "Viper",
+          "Astra",
+          "Clove"
+        ],
+        "source": "estimated"
+      },
+      {
+        "name": "UdoTan",
+        "role": "Duelist",
+        "igl": false,
+        "agents": [
+          "Jett",
+          "Raze",
+          "Neon",
+          "Yoru"
+        ],
+        "source": "estimated"
+      },
+      {
+        "name": "Kr1stal",
+        "role": "Flex",
+        "igl": false,
+        "agents": [
+          "Yoru",
+          "Raze",
+          "Chamber",
+          "Gekko",
+          "Jett"
+        ],
+        "source": "estimated"
+      }
     ],
     "Nongshim RedForce": [
-      {"name": "Dambi", "role": "Duelist", "igl": false, "agents": ["Jett", "Raze", "Neon", "Yoru"], "source": "estimated"},
-      {"name": "Rb", "role": "Initiator", "igl": false, "agents": ["Fade", "Sova", "KAY/O", "Gekko"], "source": "estimated"},
-      {"name": "Francis", "role": "Controller", "igl": true, "agents": ["Omen", "Astra", "Viper", "Clove"], "source": "estimated"},
-      {"name": "Ivy", "role": "Flex", "igl": false, "agents": ["Yoru", "Raze", "Breach", "Viper", "Neon"], "source": "estimated"},
-      {"name": "Xross", "role": "Sentinel", "igl": false, "agents": ["Killjoy", "Cypher", "Chamber", "Vyse"], "source": "estimated"}
+      {
+        "name": "Dambi",
+        "role": "Duelist",
+        "igl": false,
+        "agents": [
+          "Jett",
+          "Raze",
+          "Neon",
+          "Yoru"
+        ],
+        "source": "estimated"
+      },
+      {
+        "name": "Rb",
+        "role": "Initiator",
+        "igl": false,
+        "agents": [
+          "Fade",
+          "Sova",
+          "KAY/O",
+          "Gekko"
+        ],
+        "source": "estimated"
+      },
+      {
+        "name": "Francis",
+        "role": "Controller",
+        "igl": true,
+        "agents": [
+          "Omen",
+          "Astra",
+          "Viper",
+          "Clove"
+        ],
+        "source": "estimated"
+      },
+      {
+        "name": "Ivy",
+        "role": "Flex",
+        "igl": false,
+        "agents": [
+          "Yoru",
+          "Raze",
+          "Breach",
+          "Viper",
+          "Neon"
+        ],
+        "source": "estimated"
+      },
+      {
+        "name": "Xross",
+        "role": "Sentinel",
+        "igl": false,
+        "agents": [
+          "Killjoy",
+          "Cypher",
+          "Chamber",
+          "Vyse"
+        ],
+        "source": "estimated"
+      }
     ],
     "Paper Rex": [
-      {"name": "something", "role": "Duelist", "igl": false, "agents": ["Jett", "Raze", "Neon", "Yoru", "Chamber"], "source": "reported"},
-      {"name": "f0rsakeN", "role": "Controller", "igl": false, "agents": ["Omen", "Yoru", "Viper", "Astra", "Clove"], "source": "reported"},
-      {"name": "Jinggg", "role": "Flex", "igl": false, "agents": ["Raze", "Yoru", "Neon", "Omen", "Sage"], "source": "reported"},
-      {"name": "d4v41", "role": "Sentinel", "igl": false, "agents": ["Killjoy", "Cypher", "Vyse", "Chamber", "Fade"], "source": "reported"},
-      {"name": "invy", "role": "Initiator", "igl": false, "agents": ["Sova", "Fade", "KAY/O", "Breach", "Cypher"], "source": "reported"}
+      {
+        "name": "something",
+        "role": "Duelist",
+        "igl": false,
+        "agents": [
+          "Jett",
+          "Raze",
+          "Neon",
+          "Yoru",
+          "Chamber"
+        ],
+        "source": "reported"
+      },
+      {
+        "name": "f0rsakeN",
+        "role": "Controller",
+        "igl": false,
+        "agents": [
+          "Omen",
+          "Yoru",
+          "Viper",
+          "Astra",
+          "Clove"
+        ],
+        "source": "reported"
+      },
+      {
+        "name": "Jinggg",
+        "role": "Flex",
+        "igl": false,
+        "agents": [
+          "Raze",
+          "Yoru",
+          "Neon",
+          "Omen",
+          "Sage"
+        ],
+        "source": "reported"
+      },
+      {
+        "name": "d4v41",
+        "role": "Sentinel",
+        "igl": false,
+        "agents": [
+          "Killjoy",
+          "Cypher",
+          "Vyse",
+          "Chamber",
+          "Fade"
+        ],
+        "source": "reported"
+      },
+      {
+        "name": "invy",
+        "role": "Initiator",
+        "igl": false,
+        "agents": [
+          "Sova",
+          "Fade",
+          "KAY/O",
+          "Breach",
+          "Cypher"
+        ],
+        "source": "reported"
+      }
     ],
     "T1": [
-      {"name": "Munchkin", "role": "Initiator", "igl": true, "agents": ["Sova", "Fade", "KAY/O", "Breach"], "source": "reported"},
-      {"name": "stax", "role": "Controller", "igl": false, "agents": ["Omen", "Breach", "Viper", "Astra"], "source": "estimated"},
-      {"name": "Meteor", "role": "Sentinel", "igl": false, "agents": ["Killjoy", "Cypher", "Chamber", "Vyse"], "source": "estimated"},
-      {"name": "BuZz", "role": "Duelist", "igl": false, "agents": ["Jett", "Raze", "Neon", "Chamber"], "source": "estimated"},
-      {"name": "iZu", "role": "Flex", "igl": false, "agents": ["Yoru", "Raze", "Gekko", "Neon", "Viper"], "source": "estimated"}
+      {
+        "name": "Munchkin",
+        "role": "Initiator",
+        "igl": true,
+        "agents": [
+          "Sova",
+          "Fade",
+          "KAY/O",
+          "Breach"
+        ],
+        "source": "reported"
+      },
+      {
+        "name": "stax",
+        "role": "Controller",
+        "igl": false,
+        "agents": [
+          "Omen",
+          "Breach",
+          "Viper",
+          "Astra"
+        ],
+        "source": "estimated"
+      },
+      {
+        "name": "Meteor",
+        "role": "Sentinel",
+        "igl": false,
+        "agents": [
+          "Killjoy",
+          "Cypher",
+          "Chamber",
+          "Vyse"
+        ],
+        "source": "estimated"
+      },
+      {
+        "name": "BuZz",
+        "role": "Duelist",
+        "igl": false,
+        "agents": [
+          "Jett",
+          "Raze",
+          "Neon",
+          "Chamber"
+        ],
+        "source": "estimated"
+      },
+      {
+        "name": "iZu",
+        "role": "Flex",
+        "igl": false,
+        "agents": [
+          "Yoru",
+          "Raze",
+          "Gekko",
+          "Neon",
+          "Viper"
+        ],
+        "source": "estimated"
+      }
     ],
     "TYLOO": [
-      {"name": "splash", "role": "Duelist", "igl": false, "agents": ["Jett", "Raze", "Neon", "Yoru"], "source": "estimated"},
-      {"name": "SiuFatBB", "role": "Flex", "igl": false, "agents": ["Yoru", "Raze", "Chamber", "Neon", "Gekko"], "source": "estimated"},
-      {"name": "Scales", "role": "Initiator", "igl": false, "agents": ["Sova", "Fade", "KAY/O", "Breach"], "source": "estimated"},
-      {"name": "slowly", "role": "Controller", "igl": false, "agents": ["Omen", "Viper", "Astra", "Clove"], "source": "estimated"},
-      {"name": "Erv", "role": "Sentinel", "igl": false, "agents": ["Killjoy", "Cypher", "Vyse", "Chamber"], "source": "estimated"}
+      {
+        "name": "splash",
+        "role": "Duelist",
+        "igl": false,
+        "agents": [
+          "Jett",
+          "Raze",
+          "Neon",
+          "Yoru"
+        ],
+        "source": "estimated"
+      },
+      {
+        "name": "SiuFatBB",
+        "role": "Flex",
+        "igl": false,
+        "agents": [
+          "Yoru",
+          "Raze",
+          "Chamber",
+          "Neon",
+          "Gekko"
+        ],
+        "source": "estimated"
+      },
+      {
+        "name": "Scales",
+        "role": "Initiator",
+        "igl": false,
+        "agents": [
+          "Sova",
+          "Fade",
+          "KAY/O",
+          "Breach"
+        ],
+        "source": "estimated"
+      },
+      {
+        "name": "slowly",
+        "role": "Controller",
+        "igl": false,
+        "agents": [
+          "Omen",
+          "Viper",
+          "Astra",
+          "Clove"
+        ],
+        "source": "estimated"
+      },
+      {
+        "name": "Erv",
+        "role": "Sentinel",
+        "igl": false,
+        "agents": [
+          "Killjoy",
+          "Cypher",
+          "Vyse",
+          "Chamber"
+        ],
+        "source": "estimated"
+      }
     ],
     "JD Gaming": [
-      {"name": "zhe", "role": "Duelist", "igl": false, "agents": ["Jett", "Raze", "Neon", "Yoru"], "source": "estimated"},
-      {"name": "BerLIN", "role": "Initiator", "igl": false, "agents": ["Sova", "Fade", "KAY/O", "Gekko"], "source": "estimated"},
-      {"name": "Yuicaw", "role": "Controller", "igl": false, "agents": ["Omen", "Viper", "Astra", "Clove"], "source": "estimated"},
-      {"name": "jkuro", "role": "Sentinel", "igl": false, "agents": ["Killjoy", "Cypher", "Chamber", "Vyse"], "source": "estimated"},
-      {"name": "crownfisher", "role": "Flex", "igl": false, "agents": ["Yoru", "Raze", "Breach", "Viper", "Neon"], "source": "estimated"}
+      {
+        "name": "zhe",
+        "role": "Duelist",
+        "igl": false,
+        "agents": [
+          "Jett",
+          "Raze",
+          "Neon",
+          "Yoru"
+        ],
+        "source": "estimated"
+      },
+      {
+        "name": "BerLIN",
+        "role": "Initiator",
+        "igl": false,
+        "agents": [
+          "Sova",
+          "Fade",
+          "KAY/O",
+          "Gekko"
+        ],
+        "source": "estimated"
+      },
+      {
+        "name": "Yuicaw",
+        "role": "Controller",
+        "igl": false,
+        "agents": [
+          "Omen",
+          "Viper",
+          "Astra",
+          "Clove"
+        ],
+        "source": "estimated"
+      },
+      {
+        "name": "jkuro",
+        "role": "Sentinel",
+        "igl": false,
+        "agents": [
+          "Killjoy",
+          "Cypher",
+          "Chamber",
+          "Vyse"
+        ],
+        "source": "estimated"
+      },
+      {
+        "name": "crownfisher",
+        "role": "Flex",
+        "igl": false,
+        "agents": [
+          "Yoru",
+          "Raze",
+          "Breach",
+          "Viper",
+          "Neon"
+        ],
+        "source": "estimated"
+      }
     ],
     "EDward Gaming": [
-      {"name": "ZmjjKK", "role": "Duelist", "igl": false, "agents": ["Jett", "Raze", "Neon", "Chamber"], "source": "estimated"},
-      {"name": "CHICHOO", "role": "Controller", "igl": false, "agents": ["Omen", "Viper", "Astra", "Clove"], "source": "estimated"},
-      {"name": "nobody", "role": "Initiator", "igl": false, "agents": ["Sova", "Fade", "KAY/O", "Breach"], "source": "estimated"},
-      {"name": "Smoggy", "role": "Flex", "igl": false, "agents": ["Yoru", "Raze", "Gekko", "Neon", "Viper"], "source": "estimated"},
-      {"name": "stew", "role": "Sentinel", "igl": false, "agents": ["Killjoy", "Cypher", "Vyse", "Chamber"], "source": "estimated"}
+      {
+        "name": "ZmjjKK",
+        "role": "Duelist",
+        "igl": false,
+        "agents": [
+          "Jett",
+          "Raze",
+          "Neon",
+          "Chamber"
+        ],
+        "source": "estimated"
+      },
+      {
+        "name": "CHICHOO",
+        "role": "Controller",
+        "igl": false,
+        "agents": [
+          "Omen",
+          "Viper",
+          "Astra",
+          "Clove"
+        ],
+        "source": "estimated"
+      },
+      {
+        "name": "nobody",
+        "role": "Initiator",
+        "igl": false,
+        "agents": [
+          "Sova",
+          "Fade",
+          "KAY/O",
+          "Breach"
+        ],
+        "source": "estimated"
+      },
+      {
+        "name": "Smoggy",
+        "role": "Flex",
+        "igl": false,
+        "agents": [
+          "Yoru",
+          "Raze",
+          "Gekko",
+          "Neon",
+          "Viper"
+        ],
+        "source": "estimated"
+      },
+      {
+        "name": "stew",
+        "role": "Sentinel",
+        "igl": false,
+        "agents": [
+          "Killjoy",
+          "Cypher",
+          "Vyse",
+          "Chamber"
+        ],
+        "source": "estimated"
+      }
     ],
     "Xi Lai Gaming": [
-      {"name": "happywei", "role": "Controller", "igl": false, "agents": ["Omen", "Viper", "Astra", "Clove"], "source": "reported"},
-      {"name": "NoMan", "role": "Duelist", "igl": false, "agents": ["Jett", "Raze", "Neon", "Yoru"], "source": "estimated"},
-      {"name": "Rarga", "role": "Initiator", "igl": false, "agents": ["Sova", "Fade", "KAY/O", "Breach"], "source": "estimated"},
-      {"name": "Lysoar", "role": "Flex", "igl": false, "agents": ["Yoru", "Raze", "Gekko", "Viper", "Neon"], "source": "estimated"},
-      {"name": "WsLeo", "role": "Sentinel", "igl": false, "agents": ["Killjoy", "Cypher", "Chamber", "Vyse"], "source": "estimated"}
+      {
+        "name": "happywei",
+        "role": "Controller",
+        "igl": false,
+        "agents": [
+          "Omen",
+          "Viper",
+          "Astra",
+          "Clove"
+        ],
+        "source": "reported"
+      },
+      {
+        "name": "NoMan",
+        "role": "Duelist",
+        "igl": false,
+        "agents": [
+          "Jett",
+          "Raze",
+          "Neon",
+          "Yoru"
+        ],
+        "source": "estimated"
+      },
+      {
+        "name": "Rarga",
+        "role": "Initiator",
+        "igl": false,
+        "agents": [
+          "Sova",
+          "Fade",
+          "KAY/O",
+          "Breach"
+        ],
+        "source": "estimated"
+      },
+      {
+        "name": "Lysoar",
+        "role": "Flex",
+        "igl": false,
+        "agents": [
+          "Yoru",
+          "Raze",
+          "Gekko",
+          "Viper",
+          "Neon"
+        ],
+        "source": "estimated"
+      },
+      {
+        "name": "WsLeo",
+        "role": "Sentinel",
+        "igl": false,
+        "agents": [
+          "Killjoy",
+          "Cypher",
+          "Chamber",
+          "Vyse"
+        ],
+        "source": "estimated"
+      }
     ]
   }
 }

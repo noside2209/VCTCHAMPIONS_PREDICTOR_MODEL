@@ -34,6 +34,7 @@ class Dataset:
     external: dict[str, float]
     history: dict
     results: dict
+    data_dir: Path = DATA_DIR
 
     @property
     def map_pool(self) -> list[str]:
@@ -81,4 +82,5 @@ def load_dataset(data_dir: Path | str = DATA_DIR) -> Dataset:
         external={k: float(v) for k, v in raw_teams.get("external_teams", {}).items()},
         history=_read(data_dir / "history.json"),
         results=_read(data_dir / "champions_results.json"),
+        data_dir=data_dir,
     )

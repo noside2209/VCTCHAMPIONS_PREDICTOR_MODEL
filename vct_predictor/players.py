@@ -18,7 +18,7 @@ from functools import lru_cache
 from itertools import permutations
 from pathlib import Path
 
-from .data import DATA_DIR, Dataset
+from .data import Dataset
 from .series import SeriesPrediction
 
 KILL_W = {"Duelist": 1.15, "Flex": 1.03, "Initiator": 0.95, "Controller": 0.92, "Sentinel": 0.95}
@@ -39,6 +39,7 @@ class PlayerInfo:
     agents: list[str]
     source: str
     impact: float
+    vlr: dict | None = None  # per-round stats synced from VLR (kpr, dpr, apr, fkpr, fdpr, rating, ...)
 
 
 @dataclass
@@ -70,7 +71,7 @@ class StatLine:
 
 class PlayerModel:
     def __init__(self, ds: Dataset, path: Path | str | None = None):
-        raw = json.loads(Path(path or DATA_DIR / "players.json").read_text(encoding="utf-8"))
+        raw = json.loads(Path(path or ds.data_dir / "players.json").read_text(encoding="utf-8"))
         self.map_comps: dict[str, list[str]] = raw["map_comps"]
         self.agent_roles: dict[str, str] = raw["agent_roles"]
         self.players: dict[str, list[PlayerInfo]] = {}
@@ -83,7 +84,7 @@ class PlayerModel:
                 raise ValueError(f"players.json roster for {team_name} does not match teams.json")
             self.players[team_name] = [
                 PlayerInfo(r["name"], team_name, r["role"], r.get("igl", False), r["agents"],
-                           r.get("source", "estimated"), impacts[r["name"]]) for r in rows]
+                           r.get("source", "estimated"), impacts[r["name"]], r.get("vlr_stats")) for r in rows]
 
     # ------------------------------------------------------------ agents
     def assign_agents(self, team: str, map_name: str) -> dict[str, str]:
@@ -112,7 +113,35 @@ class PlayerModel:
                         cost += 10
             if best_cost is None or cost < best_cost:
                 best, best_cost = perm, cost
-        return tuple((p.name, comp[slot]) for p, slot in zip(roster, best))
+        assigned = {p.name: comp[slot] for p, slot in zip(roster, best)}
+        # A player never shows up on an agent outside his pool when he has an agent of the
+        # same role: e.g. a Neon/Waylay duelist replaces the comp's Jett with his own Neon.
+        for p in roster:
+            agent = assigned[p.name]
+            if agent in p.agents:
+                continue
+            role = self.agent_roles.get(agent)
+            taken = set(assigned.values())
+            swap = next((a for a in p.agents if self.agent_roles.get(a) == role and a not in taken), None)
+            if swap:
+                assigned[p.name] = swap
+        return tuple((p.name, assigned[p.name]) for p in roster)
+
+    @staticmethod
+    def base_rates(p: PlayerInfo, role: str) -> dict[str, float]:
+        """Per-round rates used to share out team totals: real VLR numbers when synced, else role x impact."""
+        est = {
+            "kpr": 0.70 * KILL_W[role] * p.impact ** 2,
+            "dpr": 0.68 * DEATH_W[role] / p.impact ** 0.7,
+            "apr": 0.29 * ASSIST_W[role],
+            "fkpr": 0.10 * ENTRY_W[role] * p.impact ** 1.5,
+            "fdpr": 0.10 * ENTRY_W[role] ** 0.8 / p.impact,
+        }
+        if p.vlr and p.vlr.get("rounds", 0) >= 100:
+            for k in est:
+                if p.vlr.get(k):
+                    est[k] = float(p.vlr[k])
+        return est
 
     def effective_role(self, player: PlayerInfo, agent: str) -> str:
         """A flex player takes the role of the agent he is on for this map."""
@@ -130,14 +159,9 @@ class PlayerModel:
         roster = self.players[team]
         agents = self.assign_agents(team, map_name)
         roles = {p.name: self.effective_role(p, agents[p.name]) for p in roster}
-        kw = {p.name: KILL_W[roles[p.name]] * p.impact ** 2 for p in roster}
-        dw = {p.name: DEATH_W[roles[p.name]] / p.impact ** 0.7 for p in roster}
-        aw = {p.name: ASSIST_W[roles[p.name]] for p in roster}
-        ew = {p.name: ENTRY_W[roles[p.name]] * p.impact ** 1.5 for p in roster}
-        norm = lambda w: {k: v / sum(w.values()) for k, v in w.items()}  # noqa: E731
-        kw, dw, aw, ew = norm(kw), norm(dw), norm(aw), norm(ew)
-        # First deaths lean the same way as deaths but duelists take more of them.
-        fdw = norm({p.name: (ENTRY_W[roles[p.name]] ** 0.8) / p.impact for p in roster})
+        rates = {p.name: self.base_rates(p, roles[p.name]) for p in roster}
+        norm = lambda key: {k: v[key] / sum(r[key] for r in rates.values()) for k, v in rates.items()}  # noqa: E731
+        kw, dw, aw, ew, fdw = norm("kpr"), norm("dpr"), norm("apr"), norm("fkpr"), norm("fdpr")
         out = []
         for p in roster:
             kpr = team_k * kw[p.name]

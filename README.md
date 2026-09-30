@@ -87,6 +87,32 @@ Team names accept the full name, the tag (`PRX`, `100T`, `KC`, `NS`, `XLG`…), 
 10. **Tournament.** GSL groups, then an 8-team double-elimination playoff (Bo3; lower final and grand final Bo5). Real results are locked.
    The chalk bracket always advances the favourite with its most likely score. The Monte Carlo run (20,000 simulations) gives placement odds.
 
+## Syncing real player data from VLR.gg
+
+Run this on your own computer (it needs internet access to vlr.gg):
+
+```bash
+python -m vct_predictor sync-vlr                 # all 80 players, last 90 days (~3-4 minutes)
+python -m vct_predictor sync-vlr --team LOUD     # just one team
+python -m vct_predictor sync-vlr --timespan all  # career numbers instead of last 90 days
+python -m vct_predictor report                   # rebuild the reports + dashboard with the new data
+```
+
+For each player it reads the agent table on their VLR profile and updates `data/players.json` with:
+- the agent pool, ordered by rounds played (agents under 5% of rounds are dropped)
+- the role those agents imply
+- the VLR id
+- round-weighted stats (rating, ACS, ADR, KAST, KPR, DPR, APR, FKPR, FDPR)
+
+It also sets each player's impact in `data/teams.json` to their VLR rating (skip this with `--keep-impact`).
+Once synced, projected box scores use each player's real per-round rates instead of role estimates.
+
+- Pools marked `user-verified` (e.g. tkzin: Neon, Waylay) are kept unless you pass `--overwrite-verified`.
+- If a player can't be matched (common names), the command says so. Add `"vlr_id": <number from the VLR profile URL>`
+  to that player in `data/players.json` and run it again.
+- Agent assignment never puts a player on an agent outside his pool when he has one of the same role. A Neon/Waylay
+  duelist plays Neon even on maps where the meta comp lists Jett.
+
 ## Keeping it up to date
 
 - **New Champions result:** add it to `data/champions_results.json` (match id such as `A-winners`, `UBQF2`, `GF`) with
@@ -105,7 +131,8 @@ had won their winners' matches to qualify for playoffs.
 - Teams, groups, rosters, map pool, 2026 event results and Champions results were collected from public coverage
   (VLR.gg, Liquipedia, THESPIKE, Sheep Esports, esports.gg, Red Bull, GosuGamers).
 - **Player impact numbers, season priors, map offsets, agent pools and projected player stats are model estimates, not scraped stats.**
-  Roles marked `reported` come from 2026 roster coverage; `estimated` roles are best guesses. Stat sites could not be
+  Roles marked `reported` come from 2026 roster coverage, `user-verified` pools were corrected by hand, and `estimated`
+  roles are best guesses. Run `sync-vlr` to replace them with real VLR data. Stat sites could not be
   reached from the build environment. They are calibrated to known 2026 results and map picks, and are meant to be edited.
 - Some logged dates are approximate (e.g. Masters Santiago and China Stage 2 finals). This only affects recency weighting slightly.
 - Esports is high-variance: treat outputs as probabilities, not certainties.

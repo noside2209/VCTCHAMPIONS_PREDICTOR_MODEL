@@ -89,6 +89,26 @@ class ModelTests(unittest.TestCase):
         self.assertEqual(proj["mvp"].team, pred.favourite)
         self.assertEqual(map_played_probs([0.5, 0.5, 0.5], 3), [1.0, 1.0, 0.5])
 
+    def test_vlr_agent_table_parser(self):
+        from pathlib import Path
+        from vct_predictor.vlr import aggregate, parse_agent_table, role_from_agents
+        page = (Path(__file__).parent / "fixtures" / "vlr_player.html").read_text()
+        rows = parse_agent_table(page)
+        self.assertEqual([r["agent"] for r in rows], ["Neon", "Waylay", "Jett"])
+        self.assertEqual(rows[0]["use"], 24)
+        self.assertEqual(rows[0]["rounds"], 520)
+        agg = aggregate(rows)
+        self.assertEqual(agg["rounds"], 610)
+        self.assertAlmostEqual(agg["kpr"], round(478 / 610, 3))
+        self.assertAlmostEqual(agg["dpr"], round(477 / 610, 3))
+        self.assertTrue(0.6 < agg["kast"] < 0.75)
+        self.assertEqual(role_from_agents(rows, {"Neon": "Duelist", "Waylay": "Duelist", "Jett": "Duelist"}), "Duelist")
+
+    def test_players_stay_on_their_own_agents(self):
+        pm = PlayerModel(self.ds)
+        for m in self.model.pool:
+            self.assertIn(pm.assign_agents("LOUD", m)["tkzin"], ("Neon", "Waylay"))
+
 
 if __name__ == "__main__":
     unittest.main()
