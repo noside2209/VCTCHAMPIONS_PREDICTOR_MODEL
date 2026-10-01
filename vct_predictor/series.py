@@ -4,7 +4,7 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 
 from .ratings import RatingModel
-from .scores import blowout_prob, expected_rounds, most_likely_score, overtime_prob
+from .scores import MapContext, blowout_prob, expected_rounds, most_likely_score, overtime_prob, pistol_probs
 from .veto import VetoStep, run_veto
 
 
@@ -20,6 +20,10 @@ class MapPrediction:
     expected_rounds: tuple[float, float]
     p_overtime: float
     p_blowout: float = 0.0
+    p_pistol_atk: float = 0.5  # team A's chance to win the attack-side pistol
+    p_pistol_def: float = 0.5  # team A's chance to win the defence-side pistol
+    p_elo: float = 0.5         # map chance from ratings alone (before pistol/side info)
+    ctx: MapContext | None = None
 
 
 @dataclass
@@ -82,14 +86,18 @@ def predict_series(
     use_h2h: bool = True,
 ) -> SeriesPrediction:
     pool = list(pool or model.pool)
+    elo = {m: model.elo_map_prob(team_a, team_b, m, home_region, use_h2h) for m in pool}
+    ctxs = {m: model.map_context(team_a, team_b, m) for m in pool}
     probs = {m: model.map_win_prob(team_a, team_b, m, home_region, use_h2h) for m in pool}
     steps, played = run_veto(team_a, team_b, pool, bo, lambda m: probs[m])
     maps: list[MapPrediction] = []
     for i, (m, by) in enumerate(played, 1):
-        p = probs[m]
-        (ls, lp) = most_likely_score(p)
-        fav, _ = most_likely_score(p, winner_is_a=p >= 0.5)
-        maps.append(MapPrediction(i, m, by, p, ls, lp, fav, expected_rounds(p), overtime_prob(p), blowout_prob(p)))
+        p, pe, c = probs[m], elo[m], ctxs[m]
+        (ls, lp) = most_likely_score(pe, ctx=c)
+        fav, _ = most_likely_score(pe, winner_is_a=p >= 0.5, ctx=c)
+        pa, pd = pistol_probs(pe, c)
+        maps.append(MapPrediction(i, m, by, p, ls, lp, fav, expected_rounds(pe, c), overtime_prob(pe, c),
+                                  blowout_prob(pe, c), pa, pd, pe, c))
     dist = series_score_distribution([mp.p_a for mp in maps], bo)
     p_a = sum(v for (a, b), v in dist.items() if a > b)
     return SeriesPrediction(

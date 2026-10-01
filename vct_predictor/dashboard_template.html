@@ -176,6 +176,7 @@ details.match .body { padding: 0 14px 14px; }
     <button role="tab" id="tab-lab" aria-selected="true" data-view="lab">Match lab</button>
     <button role="tab" id="tab-bracket" aria-selected="false" data-view="bracket">Champions bracket</button>
     <button role="tab" id="tab-odds" aria-selected="false" data-view="odds">Title odds</button>
+    <button role="tab" id="tab-pistols" aria-selected="false" data-view="pistols">Pistols</button>
     <button role="tab" id="tab-teams" aria-selected="false" data-view="teams">Teams</button>
   </nav>
 
@@ -231,6 +232,19 @@ details.match .body { padding: 0 14px 14px; }
     <div class="tablewrap panel" style="padding:8px 12px"><table id="odds-table"></table></div>
   </section>
 
+  <section id="view-pistols" hidden>
+    <div class="controls">
+      <label for="sel-pmap">Map<select id="sel-pmap"></select></label>
+      <div class="seg" role="group" aria-label="Sort by" id="pist-sort">
+        <button type="button" data-k="both" aria-pressed="true">Both</button>
+        <button type="button" data-k="atk" aria-pressed="false">Attack</button>
+        <button type="button" data-k="def" aria-pressed="false">Defence</button>
+      </div>
+    </div>
+    <div id="pist-note"></div>
+    <div class="tablewrap panel" style="padding:8px 12px"><table id="pist-table"></table></div>
+  </section>
+
   <section id="view-teams" hidden>
     <p class="note">Rating = season prior + roster adjustment + form from logged results. Map cells are Elo offsets: orange means a comfort pick, blue means a likely ban. Player impact numbers are analyst estimates on a VLR-rating-like scale. Roles marked "reported" come from 2026 roster coverage; "estimated" roles are best guesses.</p>
     <div class="cards" id="teams-out"></div>
@@ -280,7 +294,8 @@ function renderSeries(d, opts = {}) {
       <td><span class="${favM === a ? "tagA" : "tagB"}">${esc(tag(favM))}</span> <span class="num">${fs[0]}-${fs[1]}</span></td>
       <td class="num">${m.exp[0].toFixed(1)}–${m.exp[1].toFixed(1)}</td>
       <td class="num">${pct(m.blow)}</td>
-      <td class="num">${pct(m.ot)}</td></tr>`;
+      <td class="num">${pct(m.ot)}</td>
+      <td class="num">${pct(m.pistA)}</td><td class="num">${pct(m.pistD)}</td></tr>`;
   }).join("");
   const pool = Object.entries(d.pool).sort((x, y) => y[1] - x[1]).map(([m, p]) =>
     `<tr><td>${esc(m)}</td><td style="width:60%"><div class="split"><span style="width:${(p * 100).toFixed(1)}%"></span></div></td><td class="num">${pct(p)}</td></tr>`).join("");
@@ -304,7 +319,7 @@ function renderSeries(d, opts = {}) {
       <ol class="veto">${veto}</ol>
     </div>
     <div class="tablewrap"><table>
-      <thead><tr><th class="num">#</th><th>Map</th><th>Pick</th><th>${esc(tag(a))} vs ${esc(tag(b))}</th><th class="num">${esc(tag(a))} win</th><th>Predicted score</th><th class="num">Avg rounds</th><th class="num">Blowout</th><th class="num">OT</th></tr></thead>
+      <thead><tr><th class="num">#</th><th>Map</th><th>Pick</th><th>${esc(tag(a))} vs ${esc(tag(b))}</th><th class="num">${esc(tag(a))} win</th><th>Predicted score</th><th class="num">Avg rounds</th><th class="num">Blowout</th><th class="num">OT</th><th class="num">${esc(tag(a))} atk pistol</th><th class="num">${esc(tag(a))} def pistol</th></tr></thead>
       <tbody>${maps}</tbody></table></div>
   </div>
   <div class="grid2">
@@ -391,11 +406,32 @@ const SIM = DATA.sim;
 const POOL = DATA.event.map_pool;
 function gauss() { let u = 0, v = 0; while (!u) u = Math.random(); while (!v) v = Math.random(); return Math.sqrt(-2 * Math.log(u)) * Math.cos(2 * Math.PI * v); }
 function r0For(p) { const x = Math.min(Math.max(p, 0), 1) * 100, i = Math.min(Math.floor(x), 99), f = x - i; return SIM.r0[i] * (1 - f) + SIM.r0[i + 1] * f; }
-function sampleScore(p) {
-  const z = Math.max(-SIM.zcap, Math.min(SIM.zcap, gauss()));
-  const r = Math.min(Math.max(r0For(p) + SIM.sd * z, 0.02), 0.98);
-  let a = 0, b = 0;
-  while (true) { if (Math.random() < r) a++; else b++; if (Math.max(a, b) >= 13 && Math.abs(a - b) >= 2) return [a, b]; }
+const clampP = x => Math.min(0.98, Math.max(0.02, x));
+// Play one map round by round: halves, pistols (rounds 1 and 13), anti-eco and bonus rounds, OT (mirrors scores.play_map).
+// ctx = [ratings-only map chance, A atk pistol | null, A def pistol | null, atk shift, def shift]
+function playMap(ctx) {
+  const [pElo, pistA, pistD, atkShift, defShift] = ctx;
+  const r0 = r0For(pElo), z = Math.max(-SIM.zcap, Math.min(SIM.zcap, gauss()));
+  const r = clampP(r0 + SIM.sd * z), form = SIM.pistolSkill * (r - r0);
+  const rAtk = clampP(r + atkShift), rDef = clampP(r + defShift);
+  const neutralPist = 0.5 + SIM.pistolSkill * (r - 0.5);
+  const pAtk = pistA === null ? neutralPist : clampP(pistA + form), pDef = pistD === null ? neutralPist : clampP(pistD + form);
+  const startAtk = Math.random() < 0.5;
+  let a = 0, b = 0, pw = 0, n = 0, half = null; const pistols = [];
+  while (true) {
+    n++;
+    let aAtk, p, k = -1;
+    if (n <= 24) {
+      aAtk = startAtk !== (n > 12); k = (n - 1) % 12;
+      const base = aAtk ? rAtk : rDef;
+      p = k === 0 ? (aAtk ? pAtk : pDef) : k === 1 ? clampP(base + SIM.conv[0] * pw) : k === 2 ? clampP(base + SIM.conv[1] * pw) : base;
+    } else { aAtk = (n % 2 === 1) === startAtk; p = aAtk ? rAtk : rDef; }
+    const win = Math.random() < p;
+    if (win) a++; else b++;
+    if (k === 0) { pw = win ? 1 : -1; pistols.push([n, win, aAtk ? "atk" : "def"]); }
+    if (n === 12) half = [a, b];
+    if (Math.max(a, b) >= 13 && Math.abs(a - b) >= 2) return {score: [a, b], half, pistols, startAtk};
+  }
 }
 function pickWeighted(items, weights) { const t = weights.reduce((x, y) => x + y, 0); let u = Math.random() * t; for (let i = 0; i < items.length; i++) { u -= weights[i]; if (u <= 0) return items[i]; } return items[items.length - 1]; }
 function simVeto(a, b, bo, probs) {
@@ -456,13 +492,14 @@ function sampleBox(a, b, map, sa, sb) {
   };
   return [side(a, kA, kB, aA, fkA, fkB, sa), side(b, kB, kA, aB, fkB, fkA, sb)];
 }
-function simSeries(a, b, bo, probs, withBox) {
+function simSeries(a, b, bo, probs, withBox, ctxs) {
   const {steps, played} = simVeto(a, b, bo, probs);
   const need = Math.floor(bo / 2) + 1; let wa = 0, wb = 0; const maps = [];
   for (const [m, by] of played) {
     if (wa === need || wb === need) break;
-    const [sa, sb] = sampleScore(probs[m]);
-    maps.push({map: m, by, p: probs[m], score: [sa, sb], box: withBox ? sampleBox(a, b, m, sa, sb) : null});
+    const play = playMap(ctxs[m]);
+    const [sa, sb] = play.score;
+    maps.push({map: m, by, p: probs[m], score: [sa, sb], half: play.half, pistols: play.pistols, box: withBox ? sampleBox(a, b, m, sa, sb) : null});
     if (sa > sb) wa++; else wb++;
   }
   const winner = wa > wb ? a : b;
@@ -482,7 +519,7 @@ function simTournament() {
     const L = SIM.locked[id];
     let w, l, score, sim = null;
     if (L) { const s = L[0] === a ? [L[2], L[3]] : [L[3], L[2]]; score = s; w = s[0] > s[1] ? a : b; l = w === a ? b : a; }
-    else { sim = simSeries(a, b, bo, tourProbs(a, b), false); score = sim.score; w = sim.winner; l = w === a ? b : a; }
+    else { sim = simSeries(a, b, bo, tourProbs(a, b), false, SIM.tourCtx[a + "|" + b]); score = sim.score; w = sim.winner; l = w === a ? b : a; }
     log.push({id, a, b, bo, w, score, locked: !!L, sim});
     return [w, l];
   };
@@ -530,7 +567,8 @@ function renderSimRun(run, n) {
     const clearFav = Math.abs(mp.p - 0.5) >= 0.1;
     const favWon = clearFav ? (mp.p >= 0.5) === (w === a) : null;
     return `<div class="maprow"><span class="num">${i + 1}</span><strong>${esc(mp.map)}</strong>
-      <span class="pk">${mp.by === "decider" ? "Decider" : esc(tag(mp.by)) + " pick"} · ${esc(tag(a))} had ${pct(mp.p)} ${mapBadges(mp.score, favWon)}</span>
+      <span class="pk">${mp.by === "decider" ? "Decider" : esc(tag(mp.by)) + " pick"} · ${esc(tag(a))} had ${pct(mp.p)} ${mapBadges(mp.score, favWon)}
+        <br>Half ${mp.half[0]}-${mp.half[1]} · Pistols: ${mp.pistols.map(([n, won, side]) => `R${n} <span class="${won ? "tagA" : "tagB"}">${esc(tag(won ? a : b))}</span> on ${(side === "atk") === won ? "attack" : "defence"}`).join(", ")}</span>
       <span class="sc"><span class="${w === a ? "tagA" : ""}">${mp.score[0]}</span>–<span class="${w === b ? "tagB" : ""}">${mp.score[1]}</span></span></div>`;
   }).join("") + (run.unplayed.length ? `<p class="note" style="margin:2px 0 0">Not played: ${run.unplayed.map(esc).join(", ")}</p>` : "");
   const tabs = run.maps.map((mp, i) => `<button type="button" data-k="${i}" aria-pressed="${i === 0}">${esc(mp.map)} <span class="src">${mp.score[0]}-${mp.score[1]}</span></button>`).join("");
@@ -557,6 +595,12 @@ function renderSimTally() {
   const blow = maps.filter(m => Math.min(...m.score) <= 5 && Math.max(...m.score) === 13).length;
   const ot = maps.filter(m => Math.max(...m.score) > 13).length;
   const winsA = runs.filter(r => r.winner === a).length;
+  let pistA = 0, pistT = 0, convHalf = 0;
+  maps.forEach(m => m.pistols.forEach(([n, won]) => {
+    pistT++; if (won) pistA++;
+    const h = n === 1 ? m.half : [m.score[0] - m.half[0], m.score[1] - m.half[1]];
+    if ((h[0] > h[1]) === won && h[0] !== h[1]) convHalf++;
+  }));
   const upsets = runs.filter(r => (d.pA >= 0.5) !== (r.winner === a)).length;
   const hist = runs.slice(-8).reverse().map((r, i) => {
     const sc = r.winner === a ? r.score : [r.score[1], r.score[0]];
@@ -570,16 +614,18 @@ function renderSimTally() {
       <span>Underdog series wins</span><span>${upsets}</span>
       <span>Maps played</span><span>${maps.length}</span>
       <span>Blowout maps (loser ≤ 5)</span><span>${blow} (${pct(blow / maps.length)})</span>
-      <span>Overtime maps</span><span>${ot} (${pct(ot / maps.length)})</span></div></div>
+      <span>Overtime maps</span><span>${ot} (${pct(ot / maps.length)})</span>
+      <span>${esc(a)} pistol wins</span><span>${pistA} / ${pistT} (${pct(pistA / Math.max(pistT, 1))})</span>
+      <span>Pistol winner took the half</span><span>${pct(convHalf / Math.max(pistT, 1))}</span></div></div>
     <div><h3>Latest runs</h3><ul class="history" style="margin-top:8px">${hist}</ul></div>
   </div>`;
 }
 function runSims(n) {
   const key = simKey();
   if (simState.key !== key) simState = {key, runs: []};
-  const probs = DATA.matchups[key].pool;
+  const probs = DATA.matchups[key].pool, ctxs = DATA.matchups[key].ctx;
   let last = null;
-  for (let i = 0; i < n; i++) { last = simSeries(selA.value, selB.value, bo, probs, true); simState.runs.push(last); }
+  for (let i = 0; i < n; i++) { last = simSeries(selA.value, selB.value, bo, probs, true, ctxs); simState.runs.push(last); }
   const box = document.getElementById("sim-last");
   box.innerHTML = renderSimRun(last, simState.runs.length);
   wirePlayers(box);
@@ -698,13 +744,48 @@ document.getElementById("tsim-clear").addEventListener("click", () => { tourRuns
   }).join("");
 })();
 
+/* ---------- Pistols ---------- */
+(function pistolsView() {
+  const sel = document.getElementById("sel-pmap");
+  sel.innerHTML = POOL.map(m => `<option value="${esc(m)}">${esc(m)}</option>`).join("");
+  sel.value = storeGet("vct-pmap", POOL[0]);
+  if (!POOL.includes(sel.value)) sel.value = POOL[0];
+  let sortKey = "both";
+  const rec = raw => raw ? ` <span class="note">(${raw[0]}/${raw[1]})</span>` : ` <span class="src">est.</span>`;
+  function render() {
+    const m = sel.value;
+    const rows = SIM.pistols[m].slice().sort((x, y) => sortKey === "atk" ? y[1] - x[1] : sortKey === "def" ? y[2] - x[2] : (y[1] + y[2]) - (x[1] + x[2]));
+    const max = Math.max(...rows.map(r => Math.max(r[1], r[2])));
+    const bar = v => `<div class="oddsbar" style="min-width:50px"><span style="width:${(v / max * 100).toFixed(1)}%"></span></div>`;
+    document.getElementById("pist-note").innerHTML = SIM.pistolData
+      ? `<p class="note">Pistol win rates on ${esc(m)}: attack = rounds 1/13 played on attack, defence = on defence. Small samples are pulled toward what the team's overall strength suggests; raw records in brackets. League attack round win rate here: ${pct(SIM.mapAtk[m])}.</p>`
+      : `<div class="panel" style="margin-bottom:12px;border-color:var(--team-a)"><strong>No real pistol data loaded yet.</strong>
+         <p class="note" style="margin:4px 0 0">These are model estimates from overall strength, so the order just follows the power rankings and attack equals defence.
+         Run <span class="mono">py -m vct_predictor sync-vlr-sides</span> on a computer that can reach vlr.gg to load every team's real 2026 pistol and side records.</p></div>`;
+    document.getElementById("pist-table").innerHTML = `<thead><tr><th class="num">#</th><th>Team</th><th class="num">Attack pistol</th><th></th><th class="num">Defence pistol</th><th></th><th>Side lean</th></tr></thead><tbody>` +
+      rows.map((r, i) => {
+        const lean = r[5], leanTxt = Math.abs(lean) < 0.005 ? "even" : lean > 0 ? `attack +${(100 * lean).toFixed(1)}` : `defence +${(-100 * lean).toFixed(1)}`;
+        return `<tr><td class="num">${i + 1}</td><td><strong>${esc(r[0])}</strong></td><td class="num">${pct(r[1])}${rec(r[3])}</td><td style="width:16%">${bar(r[1])}</td>
+          <td class="num">${pct(r[2])}${rec(r[4])}</td><td style="width:16%">${bar(r[2])}</td><td>${leanTxt}</td></tr>`;
+      }).join("") + `</tbody>`;
+    storeSet("vct-pmap", m);
+  }
+  sel.addEventListener("change", render);
+  document.querySelectorAll("#pist-sort button").forEach(btn => btn.addEventListener("click", () => {
+    sortKey = btn.dataset.k;
+    document.querySelectorAll("#pist-sort button").forEach(x => x.setAttribute("aria-pressed", String(x === btn)));
+    render();
+  }));
+  render();
+})();
+
 /* ---------- Tabs ---------- */
 function show(view) {
   document.querySelectorAll("nav.tabs button").forEach(b => b.setAttribute("aria-selected", String(b.dataset.view === view)));
-  ["lab", "bracket", "odds", "teams"].forEach(v => { document.getElementById("view-" + v).hidden = v !== view; });
+  ["lab", "bracket", "odds", "pistols", "teams"].forEach(v => { document.getElementById("view-" + v).hidden = v !== view; });
   storeSet("vct-tab", view);
 }
 document.querySelectorAll("nav.tabs button").forEach(b => b.addEventListener("click", () => show(b.dataset.view)));
 const hash = (location.hash || "").slice(1);
-show(["lab", "bracket", "odds", "teams"].includes(hash) ? hash : storeGet("vct-tab", "lab"));
+show(["lab", "bracket", "odds", "pistols", "teams"].includes(hash) ? hash : storeGet("vct-tab", "lab"));
 </script>

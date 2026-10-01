@@ -1,0 +1,10 @@
+{
+  "_notes": [
+    "Pistol rounds and attack/defence round records per team per map. Empty until synced: run `python -m vct_predictor sync-vlr-sides` on a machine that can reach vlr.gg, or fill it in by hand.",
+    "teams.<team>.<map>: atk_pistol / def_pistol / atk_rounds / def_rounds as [won, played].",
+    "map_atk_round_rate: league-wide attack round win rate per map (0.5 = balanced). Filled automatically by the sync."
+  ],
+  "source": "none",
+  "map_atk_round_rate": {},
+  "teams": {}
+}

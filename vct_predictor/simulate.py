@@ -11,7 +11,7 @@ from dataclasses import dataclass, field
 
 from .players import PlayerModel, StatLine
 from .ratings import RatingModel
-from .scores import sample_score
+from .scores import play_map
 from .tournament import MatchRecord, Tournament
 from .veto import VetoStep, run_veto
 
@@ -22,6 +22,9 @@ class SimMap:
     picked_by: str
     p_a: float
     score: tuple[int, int]
+    half: tuple[int, int] = (0, 0)
+    a_started_atk: bool = True
+    pistols: list[tuple[int, bool, str]] = field(default_factory=list)  # (round, A won?, A's side)
     lines_a: list[StatLine] = field(default_factory=list)
     lines_b: list[StatLine] = field(default_factory=list)
 
@@ -58,6 +61,7 @@ def simulate_series(model: RatingModel, a: str, b: str, bo: int = 3, pool: list[
     rng = rng or random.Random()
     pool = list(pool or model.pool)
     probs = {m: model.map_win_prob(a, b, m, home_region) for m in pool}
+    elo = {m: model.elo_map_prob(a, b, m, home_region) for m in pool}
     steps, played = run_veto(a, b, pool, bo, lambda m: probs[m], rng=rng)
     need = bo // 2 + 1
     wa = wb = 0
@@ -65,8 +69,9 @@ def simulate_series(model: RatingModel, a: str, b: str, bo: int = 3, pool: list[
     for m, by in played:
         if wa == need or wb == need:
             break
-        sa, sb = sample_score(probs[m], rng)
-        sm = SimMap(m, by, probs[m], (sa, sb))
+        play = play_map(elo[m], rng, model.map_context(a, b, m))
+        sa, sb = play.score
+        sm = SimMap(m, by, probs[m], (sa, sb), play.half, play.a_started_atk, play.pistols)
         if players is not None:
             sm.lines_a, sm.lines_b = players.sample_map(a, b, m, sa, sb, rng)
         maps.append(sm)

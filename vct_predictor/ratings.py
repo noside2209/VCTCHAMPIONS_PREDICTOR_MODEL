@@ -82,6 +82,8 @@ class RatingModel:
             net = (agg["a_wins"] - agg["b_wins"]) * H2H_AGGREGATE_WEIGHT
             self._add_h2h(agg["team_a"], agg["team_b"], net,
                           f"{agg['team_a']} {agg['a_wins']}-{agg['b_wins']} {agg['team_b']} ({agg['period']})")
+        from .sides import SideModel
+        self.sides = SideModel(ds.data_dir, self)
 
     # ------------------------------------------------------------------ helpers
     def _weight(self, when: str | None) -> float:
@@ -167,8 +169,21 @@ class RatingModel:
         h = self.h2h_adjustment(a, b) if use_h2h else 0.0
         return ea - eb + h
 
-    def map_win_prob(self, a: str, b: str, m: str, home_region: str | None = None, use_h2h: bool = True) -> float:
+    def elo_map_prob(self, a: str, b: str, m: str, home_region: str | None = None, use_h2h: bool = True) -> float:
+        """Map win chance from ratings alone (neutral pistols, no side data)."""
         return expected(self.map_edge(a, b, m, home_region, use_h2h))
+
+    def map_context(self, a: str, b: str, m: str):
+        """Pistol and attack/defence information for this matchup on this map (A's point of view)."""
+        if a not in self.ratings or b not in self.ratings:
+            from .scores import NEUTRAL
+            return NEUTRAL
+        return self.sides.context(a, b, m)
+
+    def map_win_prob(self, a: str, b: str, m: str, home_region: str | None = None, use_h2h: bool = True) -> float:
+        """Map win chance including pistol and side information when available."""
+        from .scores import map_win_prob
+        return map_win_prob(self.elo_map_prob(a, b, m, home_region, use_h2h), self.map_context(a, b, m))
 
     def power_rankings(self) -> list[TeamRating]:
         return sorted(self.ratings.values(), key=lambda r: r.elo, reverse=True)

@@ -224,3 +224,132 @@ def sync(team_filter: str | None = None, timespan: str = "90d", keep_impact: boo
     teams_path.write_text(json.dumps(tdata, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     log(f"\nUpdated {len(summary['updated'])} players; failed {len(summary['failed'])}: {', '.join(summary['failed']) or '-'}")
     return summary
+
+
+# --------------------------------------------------------------------------- sides & pistols
+# VLR team ids for the 16 modelled teams (from their vlr.gg/team/<id>/ URLs).
+TEAM_IDS = {
+    "100 Thieves": 120, "LOUD": 6961, "NRG": 1034, "G2 Esports": 11058,
+    "Karmine Corp": 8877, "Team Liquid": 474, "FUT Esports": 1184, "Team Vitality": 2059,
+    "Global Esports": 918, "Nongshim RedForce": 11060, "Paper Rex": 624, "T1": 14,
+    "TYLOO": 731, "JD Gaming": 13576, "EDward Gaming": 1120, "Xi Lai Gaming": 13581,
+}
+
+
+def list_team_matches(team_id: int, year: str = "2026", max_pages: int = 3) -> list[int]:
+    """Completed match ids for a team in a given year, newest first."""
+    ids: list[int] = []
+    for page in range(1, max_pages + 1):
+        html_ = fetch(f"{BASE}/team/matches/{team_id}/?group=completed&page={page}")
+        found = 0
+        for m in re.finditer(r'href="/(\d+)/([a-z0-9\-]+)"[^>]*class="[^"]*m-item', html_):
+            mid, slug = int(m.group(1)), m.group(2)
+            found += 1
+            if year in slug and mid not in ids:
+                ids.append(mid)
+        if not found:
+            break
+        time.sleep(1)
+    return ids
+
+
+def parse_match_rounds(page: str) -> list[dict]:
+    """Every map on a VLR match page with its round-by-round winners and sides.
+
+    Returns [{"map", "team1", "team2", "rounds": [(round_no, winner 1|2, winner_side "atk"|"def")]}]."""
+    games = []
+    blocks = re.split(r'<div class="vm-stats-game\s', page)[1:]
+    for blk in blocks:
+        gid = re.match(r'[^>]*data-game-id="([^"]+)"', blk)
+        if not gid or gid.group(1) == "all":
+            continue
+        mp = re.search(r'<div class="map">.*?<span[^>]*>\s*([A-Za-z]+)', blk, re.S)
+        names = [_text(x) for x in re.findall(r'<div class="team-name"[^>]*>(.*?)</div>', blk, re.S)]
+        rounds = []
+        for col in re.findall(r'<div class="vlr-rounds-row-col"[^>]*>(.*?</div>\s*</div>)', blk, re.S):
+            num = re.search(r'<div class="rnd-num"[^>]*>\s*(\d+)', col)
+            if not num:
+                continue
+            sqs = re.findall(r'<div class="rnd-sq([^"]*)"', col)
+            for idx, cls in enumerate(sqs[:2]):
+                if "mod-win" in cls:
+                    side = "atk" if "mod-t" in cls.split() else "def"
+                    rounds.append((int(num.group(1)), idx + 1, side))
+        if mp and len(names) >= 2 and rounds:
+            games.append({"map": mp.group(1).strip().title(), "team1": names[0], "team2": names[1], "rounds": rounds})
+    return games
+
+
+def _match_team(name: str, teams: dict[str, str]) -> str | None:
+    """Map a VLR display name or tag to a modelled team name."""
+    key = name.lower().strip()
+    for full, tag in teams.items():
+        if key in (full.lower(), tag.lower()) or key.startswith(full.lower()[:6]):
+            return full
+    return None
+
+
+def tally_sides(games: list[dict], teams: dict[str, str], pool: list[str]) -> dict:
+    """Pistol and side round records per team per map from parsed games (regulation rounds only)."""
+    out: dict[str, dict[str, dict[str, list[int]]]] = {}
+    league = {"atk": {}, "all": {}}
+    for g in games:
+        if g["map"] not in pool:
+            continue
+        sides_by_team = {1: g["team1"], 2: g["team2"]}
+        for rnd, winner, wside in g["rounds"]:
+            if rnd > 24:
+                continue
+            league["all"][g["map"]] = league["all"].get(g["map"], 0) + 1
+            league["atk"][g["map"]] = league["atk"].get(g["map"], 0) + (wside == "atk")
+            for idx in (1, 2):
+                team = _match_team(sides_by_team[idx], teams)
+                if not team:
+                    continue
+                won = idx == winner
+                side = wside if won else ("def" if wside == "atk" else "atk")
+                rec = out.setdefault(team, {}).setdefault(g["map"], {
+                    "atk_pistol": [0, 0], "def_pistol": [0, 0], "atk_rounds": [0, 0], "def_rounds": [0, 0]})
+                rec[f"{side}_rounds"][0] += won
+                rec[f"{side}_rounds"][1] += 1
+                if rnd in (1, 13):
+                    rec[f"{side}_pistol"][0] += won
+                    rec[f"{side}_pistol"][1] += 1
+    rates = {m: round(league["atk"][m] / league["all"][m], 3) for m in league["all"] if league["all"][m] >= 200}
+    return {"teams": out, "map_atk_round_rate": rates}
+
+
+def sync_sides(data_dir: Path = DATA_DIR, team_filter: str | None = None, max_matches: int = 40,
+               delay: float = 1.5, log=print) -> dict:
+    """Read every modelled team's 2026 match pages on VLR and rebuild data/side_stats.json."""
+    tdata = json.loads((data_dir / "teams.json").read_text(encoding="utf-8"))
+    teams = {t["name"]: t["tag"] for t in tdata["teams"]}
+    pool = json.loads((data_dir / "event.json").read_text(encoding="utf-8"))["map_pool"]
+    seen: set[int] = set()
+    games: list[dict] = []
+    for team, tid in TEAM_IDS.items():
+        if team_filter and team != team_filter:
+            continue
+        try:
+            ids = list_team_matches(tid)[:max_matches]
+        except Exception as exc:
+            log(f"! {team}: could not list matches ({exc})")
+            continue
+        new = [i for i in ids if i not in seen]
+        log(f"{team}: {len(ids)} matches in 2026, {len(new)} new to read")
+        for mid in new:
+            seen.add(mid)
+            try:
+                parsed = parse_match_rounds(fetch(f"{BASE}/{mid}"))
+                games += parsed
+            except Exception as exc:
+                log(f"  ! match {mid}: {exc}")
+            time.sleep(delay)
+    result = tally_sides(games, teams, pool)
+    path = data_dir / "side_stats.json"
+    old = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+    old.update({"source": f"vlr.gg match pages, {len(games)} maps", "teams": result["teams"],
+                "map_atk_round_rate": result["map_atk_round_rate"]})
+    path.write_text(json.dumps(old, indent=2) + "\n", encoding="utf-8")
+    log(f"\nRead {len(games)} maps. Pistol and side records written to {path}")
+    return result

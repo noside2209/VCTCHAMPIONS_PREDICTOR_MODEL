@@ -10,6 +10,7 @@ from .data import Dataset
 from .players import PlayerModel, StatLine
 from .ratings import RatingModel
 from .series import SeriesPrediction, predict_series
+from .sides import PISTOL_PRIOR_WEIGHT as PISTOL_W
 from .tournament import PLACEMENTS, Tournament, stage_label
 
 
@@ -88,15 +89,16 @@ def format_series(pred: SeriesPrediction, model: RatingModel, title: str | None 
         f"{tag(s.team)} {s.action} {s.map}" if s.action != "decider" else f"{s.map} decider"
         for s in pred.veto))
     lines.append("")
-    lines.append(f"| # | Map | Picked by | {tag(a)} win | Predicted score | Most likely exact | Blowout | OT chance |")
-    lines.append("|---|-----|-----------|------|-----------------|-------------------|---------|-----------|")
+    lines.append(f"| # | Map | Picked by | {tag(a)} win | Predicted score | Most likely exact | Blowout | OT chance "
+                 f"| {tag(a)} atk pistol | {tag(a)} def pistol |")
+    lines.append("|---|-----|-----------|------|-----------------|-------------------|---------|-----------|------|------|")
     for mp in pred.maps:
         fav_m = a if mp.p_a >= 0.5 else b
         fs = mp.fav_score if fav_m == a else (mp.fav_score[1], mp.fav_score[0])
         lines.append(f"| {mp.order} | {mp.map} | {tag(mp.picked_by) if mp.picked_by != 'decider' else 'decider'} "
                      f"| {pct(mp.p_a)} | {tag(fav_m)} {score_str(fs)} "
                      f"| {tag(a)} {score_str(mp.likely_score)} {tag(b)} ({pct(mp.likely_score_prob)}) "
-                     f"| {pct(mp.p_blowout)} | {pct(mp.p_overtime)} |")
+                     f"| {pct(mp.p_blowout)} | {pct(mp.p_overtime)} | {pct(mp.p_pistol_atk)} | {pct(mp.p_pistol_def)} |")
     if show_pool:
         lines.append("")
         lines.append("Map-by-map win chance for " + a + ": " + ", ".join(
@@ -119,7 +121,11 @@ def format_sim_series(sim, model: RatingModel, title: str | None = None, box_sco
         w = a if m.score[0] > m.score[1] else b
         flavour = " (overtime)" if max(m.score) > 13 else " (blowout)" if min(m.score) <= 5 else ""
         by = "decider" if m.picked_by == "decider" else f"{tag(m.picked_by)} pick"
-        lines.append(f"- Map {i} {m.map} ({by}): {tag(a)} {m.score[0]}-{m.score[1]} {tag(b)} → {tag(w)}{flavour}")
+        pist = ", ".join(f"R{n} {tag(a) if won else tag(b)} ({'atk' if (side == 'atk') == won else 'def'})"
+                         for n, won, side in m.pistols)
+        half = f", half {m.half[0]}-{m.half[1]}" if m.pistols else ""
+        lines.append(f"- Map {i} {m.map} ({by}): {tag(a)} {m.score[0]}-{m.score[1]} {tag(b)} → {tag(w)}{flavour}"
+                     + (f"  · pistols: {pist}{half}" if pist else ""))
     if sim.unplayed:
         lines.append(f"- Not played: {', '.join(sim.unplayed)}")
     lines.append("")
@@ -136,6 +142,46 @@ def format_sim_series(sim, model: RatingModel, title: str | None = None, box_sco
             lines.append(f"Series MVP: **{mvp.player}** ({tag(mvp.team)})")
             lines.append("")
     return "\n".join(lines)
+
+
+def pistol_rows(model: RatingModel, m: str) -> list[dict]:
+    """Every team's attack/defence pistol and round win rates on a map, best pistol team first."""
+    rows = []
+    for t in model.ratings:
+        r = model.sides.rates(t, m)
+        rows.append({"team": t, "tag": model.ratings[t].team.tag,
+                     "atk": r.pistol["atk"], "def": r.pistol["def"],
+                     "atk_raw": r.pistol_raw["atk"], "def_raw": r.pistol_raw["def"],
+                     "atk_rounds": r.rounds["atk"], "def_rounds": r.rounds["def"],
+                     "rounds_raw": (r.rounds_raw["atk"], r.rounds_raw["def"]),
+                     "lean": model.sides.lean(t, m), "data": r.has_data})
+    return sorted(rows, key=lambda x: -(x["atk"] + x["def"]))
+
+
+def pistols_md(model: RatingModel, maps: list[str] | None = None) -> str:
+    sm = model.sides
+    out = ["# Pistol rounds by map", ""]
+    if not sm.has_any_data:
+        out += ["> **No real pistol data loaded yet.** Every number below is a *model estimate* from overall team",
+                "> strength, so the order simply follows the power rankings. Run `python -m vct_predictor sync-vlr-sides`",
+                "> on a computer that can reach vlr.gg to load each team's actual 2026 pistol and side records.", ""]
+    else:
+        out += [f"Source: {sm.source}. Rates are shrunk toward each team's strength-based expectation when the sample is small "
+                f"(worth {PISTOL_W:.0f} pistols); raw records are shown as won/played.", ""]
+    fmt = lambda rate, raw: f"{pct(rate)}" + (f" ({raw[0]}/{raw[1]})" if raw else " (est.)")  # noqa: E731
+    for m in maps or model.pool:
+        bias = sm.map_atk_rate(m)
+        out += [f"## {m}", "", f"League attack round win rate on {m}: {pct(bias)}" + ("" if m in sm.map_atk else " (no data, assumed even)"), "",
+                "| # | Team | Attack pistol | Defence pistol | Both-pistol avg | Attack rounds | Defence rounds | Side lean |",
+                "|---|---|---|---|---|---|---|---|"]
+        for i, r in enumerate(pistol_rows(model, m), 1):
+            lean = r["lean"]
+            lean_s = "even" if abs(lean) < 0.005 else (f"attack +{100 * lean:.1f}" if lean > 0 else f"defence +{-100 * lean:.1f}")
+            ra, rd = r["rounds_raw"]
+            out.append(f"| {i} | {r['team']} | {fmt(r['atk'], r['atk_raw'])} | {fmt(r['def'], r['def_raw'])} "
+                       f"| {pct((r['atk'] + r['def']) / 2)} | {fmt(r['atk_rounds'], ra)} | {fmt(r['def_rounds'], rd)} | {lean_s} |")
+        out.append("")
+    return "\n".join(out)
 
 
 def power_rankings_md(model: RatingModel) -> str:
@@ -311,14 +357,33 @@ def series_json(pred: SeriesPrediction, players: PlayerModel | None = None) -> d
         "veto": [[s.team, s.action, s.map] for s in pred.veto],
         "maps": [{"map": m.map, "by": m.picked_by, "pA": round(m.p_a, 4), "likely": list(m.likely_score),
                   "likelyP": round(m.likely_score_prob, 4), "fav": list(m.fav_score), "ot": round(m.p_overtime, 4),
-                  "blow": round(m.p_blowout, 4),
+                  "blow": round(m.p_blowout, 4), "pistA": round(m.p_pistol_atk, 4), "pistD": round(m.p_pistol_def, 4),
                   "exp": [round(m.expected_rounds[0], 1), round(m.expected_rounds[1], 1)]} for m in pred.maps],
         "pool": {k: round(v, 4) for k, v in pred.all_map_probs.items()},
+        "ctx": ctx_json(pred.team_a, pred.team_b, pred.pool, _CTX_MODEL[0], pred.home_region) if _CTX_MODEL else {},
     }
+
+
+_CTX_MODEL: list = []
+
+
+def ctx_json(a: str, b: str, pool: list[str], model: RatingModel, home: str | None) -> dict:
+    """Per-map [ratings-only map chance, A atk pistol, A def pistol, atk shift, def shift] for the browser simulator.
+
+    Pistol entries are null when neutral (the simulator then derives them from strength)."""
+    out = {}
+    for m in pool:
+        c = model.map_context(a, b, m)
+        out[m] = [round(model.elo_map_prob(a, b, m, home), 4),
+                  None if c.pistol_atk is None else round(c.pistol_atk, 4),
+                  None if c.pistol_def is None else round(c.pistol_def, 4),
+                  round(c.atk_shift, 4), round(c.def_shift, 4)]
+    return out
 
 
 def dashboard_data(ds: Dataset, model: RatingModel, tour: Tournament, sims: dict, players: PlayerModel) -> dict:
     """Everything the HTML dashboard needs: team profiles, all matchups (neutral), tournament forecast."""
+    _CTX_MODEL[:] = [model]
     teams = [r.team.name for r in model.power_rankings()]
     matchups = {}
     for bo in (1, 3, 5):
@@ -332,7 +397,7 @@ def dashboard_data(ds: Dataset, model: RatingModel, tour: Tournament, sims: dict
         if not rec.locked:
             entry["detail"] = series_json(tour.prediction(rec.team_a, rec.team_b, rec.bo), players)
         bracket.append(entry)
-    from .scores import ROUND_SD, Z_CAP, r0_for_p
+    from .scores import CONV_ANTI_ECO, CONV_BONUS, PISTOL_SKILL, ROUND_SD, Z_CAP, r0_for_p
     from .veto import VETO_TEMPERATURE, veto_sequence
     pool = model.pool
     sim = {
@@ -343,6 +408,12 @@ def dashboard_data(ds: Dataset, model: RatingModel, tour: Tournament, sims: dict
                             for w in players.weights(t, m)] for m in pool} for t in teams},
         "tourP": {f"{a}|{b}": [round(model.map_win_prob(a, b, m, tour.host), 4) for m in pool]
                   for a, b in permutations(teams, 2)},
+        "tourCtx": {f"{a}|{b}": ctx_json(a, b, pool, model, tour.host) for a, b in permutations(teams, 2)},
+        "pistolSkill": PISTOL_SKILL, "conv": [CONV_ANTI_ECO, CONV_BONUS],
+        "pistols": {m: [[r["team"], round(r["atk"], 4), round(r["def"], 4), r["atk_raw"], r["def_raw"],
+                         round(r["lean"], 4), r["data"]] for r in pistol_rows(model, m)] for m in pool},
+        "pistolData": model.sides.has_any_data,
+        "mapAtk": {m: round(model.sides.map_atk_rate(m), 4) for m in pool},
         "openers": ds.event["group_openers"],
         "qf": ds.event["playoff_upper_quarterfinals"],
         "locked": {r["match"]: [r["team_a"], r["team_b"], r["score"][0], r["score"][1]]
@@ -382,6 +453,7 @@ def write_reports(ds: Dataset, model: RatingModel, out_dir: Path, sims_n: int = 
 
     w("tournament_forecast.md", tournament_md(ds, model, tour, sims, players))
     w("team_profiles.md", team_profiles_md(ds, model, players))
+    w("pistols.md", pistols_md(model))
     for bo in (1, 3, 5):
         w(f"all_matchups_bo{bo}.md", all_matchups_md(ds, model, bo, players=players))
         write_matrix_csv(model, bo, out_dir / f"matchup_matrix_bo{bo}.csv")

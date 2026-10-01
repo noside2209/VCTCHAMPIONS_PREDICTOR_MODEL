@@ -79,6 +79,33 @@ The dashboard has the same engine behind the **Simulate match** / **Run 100** bu
 | Extremes | rating 0.2–2.6, ACS ≤ ~430, deaths ≤ rounds | same |
 | Big upset: China #4 sweeps Americas #1 | ~6% of Bo3s | rare but happens |
 
+## Pistol rounds and sides
+
+Maps are played as two halves with a side swap at round 13:
+- **Pistols:** rounds 1 and 13 use each team's attack- or defence-side pistol win rate on that map.
+- **Anti-eco:** the pistol winner gets +30 points in round 2 / 14.
+- **Bonus round:** the pistol winner is 8 points worse than usual in round 3 / 15.
+- **Side lean:** each map's league-wide attack bias, plus each team's attack/defence imbalance on that map, shifts the
+  halves. Only the imbalance counts; overall strength is already in the rating.
+
+Predictions show each team's attack and defence pistol chance per map. Simulations show who won each pistol and the
+half-time score. The dashboard's **Pistols** tab ranks every team on every map by attack, defence or both.
+
+```bash
+python -m vct_predictor pistols --map Ascent   # ranking for one map (or omit --map for all 7)
+python -m vct_predictor sync-vlr-sides         # load real 2026 pistol + side records from VLR match pages
+python -m vct_predictor report                 # rebuild reports + dashboard with them
+```
+
+**No real pistol data is loaded yet** (`data/side_stats.json` is empty), because VLR is blocked in the environment the
+model was built in. Until you run `sync-vlr-sides`:
+- pistols follow overall team strength, pistols being more random than gun rounds,
+- both sides are treated as even,
+- all predictions are exactly what they were before pistols were added.
+
+Once synced, small samples are pulled toward a strength-based expectation (worth 10 pistols / 100 rounds), so a 3/3
+pistol record doesn't swing a prediction.
+
 ## Generated reports (`reports/`)
 
 | File | What's in it |
@@ -88,6 +115,7 @@ The dashboard has the same engine behind the **Simulate match** / **Run 100** bu
 | `all_matchups_bo1.md` / `bo3` / `bo5` | Every one of the 120 matchups with veto, map scores, series score odds and series-level player projections |
 | `matchup_matrix_bo*.csv` | Row-team win % against column team |
 | `map_win_probabilities.csv` | Map-level win % for every ordered pair on all 7 maps |
+| `pistols.md` | Attack/defence pistol and side rankings for every team on every map |
 | `team_profiles.md` | Rosters with roles, IGLs, agent pools, projected agents on every map, rating breakdown, map ratings, logged series |
 
 ## How the model works

@@ -12,6 +12,8 @@ Examples:
     python -m vct_predictor sync-vlr            # refresh agent pools + stats from VLR.gg
     python -m vct_predictor simulate PRX NRG --bo 5 --runs 5   # random play-outs, not just the favourite
     python -m vct_predictor simulate-tournament --runs 3
+    python -m vct_predictor pistols --map Ascent   # attack/defence pistol rankings
+    python -m vct_predictor sync-vlr-sides         # load real pistol + side records from VLR.gg
 """
 from __future__ import annotations
 
@@ -76,6 +78,13 @@ def main(argv: list[str] | None = None) -> None:
     sv.add_argument("--timespan", default="90d", choices=("30d", "60d", "90d", "all"))
     sv.add_argument("--keep-impact", action="store_true", help="don't overwrite impact with the VLR rating")
     sv.add_argument("--overwrite-verified", action="store_true", help="also overwrite user-verified agent pools")
+
+    pi = sub.add_parser("pistols", help="pistol round rankings by map (attack and defence)")
+    pi.add_argument("--map", default=None, help="one map only, e.g. Ascent")
+
+    ss = sub.add_parser("sync-vlr-sides", help="read 2026 VLR match pages: pistol + attack/defence records (needs internet)")
+    ss.add_argument("--team", default=None, help="only this team (name or tag)")
+    ss.add_argument("--max-matches", type=int, default=40)
 
     rp = sub.add_parser("report", help="write all reports to ./reports")
     rp.add_argument("--out", default=str(ROOT / "reports"))
@@ -159,6 +168,20 @@ def main(argv: list[str] | None = None) -> None:
         team = ds.find_team(args.team).name if args.team else None
         sync(team, args.timespan, args.keep_impact, args.overwrite_verified,
              data_dir=Path(args.data) if args.data else ROOT / "data")
+        print("Now run: python -m vct_predictor report")
+    elif args.cmd == "pistols":
+        from .report import pistols_md
+        maps = None
+        if args.map:
+            known = {x.lower(): x for x in model.pool}
+            if args.map.lower() not in known:
+                raise SystemExit(f"Unknown map '{args.map}'. Map pool: {', '.join(model.pool)}")
+            maps = [known[args.map.lower()]]
+        print(pistols_md(model, maps))
+    elif args.cmd == "sync-vlr-sides":
+        from .vlr import sync_sides
+        team = ds.find_team(args.team).name if args.team else None
+        sync_sides(Path(args.data) if args.data else ROOT / "data", team, args.max_matches)
         print("Now run: python -m vct_predictor report")
     elif args.cmd == "report":
         for p in write_reports(ds, model, Path(args.out), args.sims):
